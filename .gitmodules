@@ -1,4 +1,4 @@
-dsubmodule "slides"]
+[submodule "slides"]
 	path = slides
 	url = https://github.com/cdurden/slides.git
 [submodule "md"]
