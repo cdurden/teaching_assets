@@ -1,9 +1,9 @@
 [submodule "slides"]
 	path = slides
-	url = git@github.com:cdurden/slides.git
+	url = https://github.com/cdurden/slides.git
 [submodule "md"]
 	path = md
-	url = git@github.com:cdurden/md.git
+	url = https://github.com/cdurden/cdurden/md.git
 [submodule "tasks"]
 	path = tasks
-	url = git@github.com:cdurden/tasks.git
+	url = https://github.com/cdurden/cdurden/tasks.git
