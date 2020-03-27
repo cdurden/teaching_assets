@@ -1,4 +1,4 @@
-# Distance Learning Expectation for Algebra
+## Distance Learning Expectations for Algebra
 
 1. On each weekday, open the course schedule for Algebra on Schoology.
 2. Go to the date and read the tasks that you need to complete.
