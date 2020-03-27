@@ -1,5 +1,5 @@
 function mark(data) {
-    container = $('#snow_qm_'+data.collection+"_"+data.task');
+    container = $('#snow_qm_'+data.collection+"_"+data.task);
     for (let field of data.question.marked_correct) {
       $(container).find("input[name='"+field+"']").next("span.answer_marker").html('<i class="fas fa-check"></i>');
     }
