@@ -1,13 +1,27 @@
+jQuery.fn.extend({
+    mark: function(mark) {
+        return this.each(function() {
+            mark_container = this.next("div.mark_container"):
+            if (mark_container.length) {
+                return(mark_container);
+            } else {
+                mark_container = this.after("<div class='mark_container'>");
+                return(mark_container);
+            }
+            mark_container.html(mark)
+        });
+    }
+}
 function mark(data) {
     container = $('#snow_qm_'+data.collection+"_"+data.task);
     for (let field of data.question.marked_correct) {
-      $(container).find("input[name='"+field+"']").next("span.answer_marker").html('<i class="fas fa-check"></i>');
+      $(container).find("input[name='"+field+"']").mark('<i class="fas fa-check"></i>');
     }
     for (let field of data.question.submitted) {
-      $(container).find("input[name='"+field+"']").next("span.answer_marker").html('<i class="fas fa-check"></i>');
+      $(container).find("input[name='"+field+"']").mark('<i class="fas fa-check"></i>');
     }
     for (let field of data.question.marked_incorrect) {
-      $(container).find("input[name='"+field+"']").next("span.answer_marker").html('<i class="fas fa-times"></i>');
+      $(container).find("input[name='"+field+"']").mark('<i class="fas fa-times"></i>');
     }
 }
 angular.module('slides')
