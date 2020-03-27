@@ -11,7 +11,7 @@ jQuery.fn.extend({
             mark_container.html(mark)
         });
     }
-}
+});
 function mark(data) {
     container = $('#snow_qm_'+data.collection+"_"+data.task);
     for (let field of data.question.marked_correct) {
