@@ -66,7 +66,7 @@ angular.module('slides')
 //      var taskCtrl = ctrls[0];
       Sockets.on('output', function(data) {
           console.log("output received");
-          output(data);
+          mark(data);
       });
       scope.$watch("task_view", function() {
         $(element).find("form").on("submit", function (e) {
