@@ -43,6 +43,8 @@ angular.module('slides')
         function inject_questions() {
           console.log("injecting  questions");
           clearTimer();
+          // this has been moved to the main controller because it seems that every time it is called it binds another function call
+          /*
           Sockets.on('snow_qm_task_data', function (data) {
             console.log(data);
             if(data['collection']==collection && data['task']==task) {
@@ -52,6 +54,7 @@ angular.module('slides')
               //$($element).html(data.html);
             }
           });
+          */
           console.log("getting snow-qm task");
           console.log(collection);
           console.log(task);
@@ -63,11 +66,13 @@ angular.module('slides')
       }
     }],
     link: function (scope, element, attrs, ctrls) {
-//      var taskCtrl = ctrls[0];
+      // this has been moved to the main controller because it seems that every time it is called it binds another function call
+      /*
       Sockets.on('output', function(data) {
           console.log("output received");
           mark(data);
       });
+      */
       scope.$watch("task_view", function() {
         $(element).find("form").on("submit", function (e) {
           Sockets.emit('form_submit', data=getFormData( $(this) ));
