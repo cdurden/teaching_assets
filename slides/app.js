@@ -191,6 +191,7 @@ app.directive('slideshow', ['$compile', function($compile) {
                     steps[j] = steps[j]+".html";
                 }
                 if (steps[j].split('.').pop() === "md") {
+                  console.log("slide "+steps[j]+" has markdown");
                   subSection.attr("id", steps[j]);
                   subSection.attr("data-markdown", '');
                   subSection.attr("data-separator", '^---$');
@@ -212,6 +213,7 @@ app.directive('slideshow', ['$compile', function($compile) {
                   div.append(script);
                   subSection.append(div);
                 } else {
+                  console.log("slide "+steps[j]+" has html");
                   subSection.attr('ng-include', "'./slides/"+steps[j]+"'");
                   subSection.attr("id", steps[j]);
                 }
