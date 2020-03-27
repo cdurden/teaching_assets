@@ -2,7 +2,15 @@
     "slides": [
         [ 
             "Welcome",
-            "DistanceLearningExpectations.md"
+            "DistanceLearningExpectations.md",
+            "Assignments.md",
+            "SubmittingWork.md",
+            "ExampleTasksIntro.md",
+            "ExampleTask1.md",
+            "ExampleTask2",
+            "ExampleTask3.md",
+            "ExampleSubmittingWork.md",
+            "OfficeHours.md"
         ]
     ]
 }

@@ -41,5 +41,6 @@
   "q35": {"class": "Question.OpenEndedQuestion","Question": "Write some solutions to the inequality $y \\le 9.2$."},
   "q36": {"class": "Question.OpenEndedQuestion","Question": "Write one solution to the inequality $7(3-x)>14$."},
   "q37": {"class": "Question.CompleteTableQuestion","csv": "Operation,\"Position A\",\"Inequality Symbol\",\"Position B\"\n\"Starting Value\",2,[<],4,\"Add 2\",[4],[<],[6]\n\"Subtract 3\",[1],[<],[3]\n\"Add -2\",[-1],[<],[2]\n\"Subtract -4\",[3],[<],[6]\n\"Multiply by 2\",[6],[<],[12]","Question": "Complete the table","transpose_display": "False"},
-  "q38": {"class": "Question.OpenEndedQuestion","Question": "What types of operations caused the inequality symbol to change?"}
+  "q38": {"class": "Question.OpenEndedQuestion","Question": "What types of operations caused the inequality symbol to change?"},
+  "q39": {"class": "Question.OpenEndedQuestion","Question": "What is one number of magazine subscriptions Andre could have sold and still reached his goal?"}
 }
