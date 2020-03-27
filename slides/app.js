@@ -196,9 +196,10 @@ app.directive('slideshow', ['$compile', function($compile) {
                   subSection.attr("data-markdown", '');
                   subSection.attr("data-separator", '^---$');
                   div = angular.element("<div>");
-                  div.attr('ng-include', "'./slides/"+steps[j]+"'");
+                  //div.attr('ng-include', "'./slides/"+steps[j]+"'");
                   script = angular.element("<script>");
                   script.attr('type', 'text/template');
+                  script.attr('ng-include', "'./slides/"+steps[j]+"'");
                   //script.attr('ng-include', "'./slides/"+steps[j]+"'");
                     /*
                   script.attr('ng-include','');
