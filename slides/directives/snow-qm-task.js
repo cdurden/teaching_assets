@@ -1,7 +1,7 @@
 jQuery.fn.extend({
     mark: function(mark) {
         return this.each(function() {
-            mark_container = this.next("div.mark_container"):
+            mark_container = this.next("div.mark_container");
             if (mark_container.length) {
                 return(mark_container);
             } else {
