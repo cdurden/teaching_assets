@@ -60,7 +60,7 @@ function init_reveal() {
 }
 var app = angular.module('slides', [
     'btford.socket-io',
-    'slides.services.sockets',
+    'services.sockets',
     'ngRoute',
 ]);
 app.config([ '$locationProvider' , function ($locationProvider) {
@@ -115,7 +115,7 @@ app.config([ '$httpProvider' , function ($httpProvider) {
   delete $httpProvider.defaults.headers.common[ 'X-Requested-With' ];
 }]);
 */
-app.directive('slideshow', ['$compile', function($compile) {
+app.directive('slideshow', ['$compile', 'Sockets', function($compile, Sockets) {
   return {
       /*
     scope: {
@@ -145,6 +145,10 @@ app.directive('slideshow', ['$compile', function($compile) {
       });
     }],
     link: function(scope, elem, attrs) {
+      Sockets.on('output', function(data) {
+          console.log("output received");
+          output(data);
+      });
       elem.addClass('slides');
       scope.$watch('slides', function(slides) {
         console.log(slides);
@@ -237,5 +241,4 @@ app.directive('slideshow', ['$compile', function($compile) {
 }]);
 
 app.controller("myctrl", ["$scope", "$location", "$http", "$routeParams", function($scope, $location, $http, $routeParams) {
-    socket.on('output', output);
 }]);

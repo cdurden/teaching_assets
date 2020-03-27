@@ -1,4 +1,4 @@
-angular.module('slides.services.sockets', [])
+angular.module('services.sockets', [])
 .factory('Sockets', function (socketFactory) {
   var myIoSocket = io.connect({'path': '/socket.io'});
 
