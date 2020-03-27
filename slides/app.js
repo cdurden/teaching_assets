@@ -243,7 +243,7 @@ app.directive('slideshow', ['$compile', 'Sockets', function($compile, Sockets) {
   };
 }]);
 
-app.controller("myctrl", ["$scope", "$location", "$http", "$routeParams", function($scope, $location, $http, $routeParams) {
+app.controller("myctrl", ["$scope", "$location", "$http", "$routeParams","Sockets", function($scope, $location, $http, $routeParams, Sockets) {
       Sockets.on('snow_qm_task_data', function (data) {
         console.log(data);
         $('#snow_qm_'+data['collection']+'_'+data['task']).html(data.html)
