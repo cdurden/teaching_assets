@@ -237,21 +237,5 @@ app.directive('slideshow', ['$compile', function($compile) {
 }]);
 
 app.controller("myctrl", ["$scope", "$location", "$http", "$routeParams", function($scope, $location, $http, $routeParams) {
-  //$scope.deck = $location.hash();
-  /*console.log($routeParams.deck);
-    /*
-  $scope.slides = [];
-  deck = $location.search().deck;
-  console.log(deck);
-  $http({
-    method: 'GET',
-    url: "./decks/"+deck+".json?raw=true"
-  }).then(function success(response) {
-      console.log(response);
-      $scope.slides = response.data;
-      console.log($scope.slides);
-  }, function error(response) {
-      console.error(response);
-  });
-  */
+    socket.on('output', output);
 }]);
