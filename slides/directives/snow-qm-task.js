@@ -13,7 +13,8 @@ jQuery.fn.extend({
     }
 });
 function mark(data) {
-    container = $('#snow_qm_'+data.collection+"_"+data.task);
+    //container = $('#snow_qm_'+data.collection+"_"+data.task);
+    container = $('#question_'+data.question.id);
     for (let field of data.question.marked_correct) {
       $(container).find("input[name='"+field+"']").mark('<i class="fas fa-check"></i>');
     }
