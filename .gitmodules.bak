@@ -1,9 +1,0 @@
-[submodule "slides"]
-	path = slides
-	url = https://github.com/cdurden/slides.git
-[submodule "md"]
-	path = md
-	url = https://github.com/cdurden/md.git
-[submodule "tasks"]
-	path = tasks
-	url = https://github.com/cdurden/tasks.git
