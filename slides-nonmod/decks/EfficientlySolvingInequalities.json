@@ -1,0 +1,9 @@
+{
+"collection": "EfficientlySolvingInequalities",
+"slides": 
+ [
+    ["HereIsAnInequality1.html","MakeTable1.html","GraphTheInequality1.html"],
+    ["HereIsAnInequality2.html","MakeTable2.html","QuestionsAboutTheInequalityAndRelatedEquation2.html", "GraphTheInequality2.html"],
+    ["HereIsAnInequality3.html","MakeTable3.html","GraphTheInequality3.html"]
+ ]
+}

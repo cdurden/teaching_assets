@@ -1,0 +1,156 @@
+<!doctype html>
+<html ng-app='slides' class='reveal' ng-controller='MyController'>
+  <head>
+    <!--<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">-->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/algebra742live.css') }}">
+    <title>Algebra742Live</title>
+    <script type="text/javascript" src="/static/js/algebra742live.js"></script>
+    <script type="text/javascript" src="/static/js/socket.io.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> <!--the following script uses jquery to set up form submission via socket-->
+    <script type="text/javascript" src="/static/js/socket.io.wtforms.js"></script>
+<!--
+    added
+-->
+    <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.7.9/angular.min.js'></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-socket-io/0.7.0/socket.min.js"></script>
+<!--
+    done added
+-->
+    <script>
+      var socket = io.connect('https://' + document.domain + ':' + location.port);
+      socket.on('connect', function() {
+          console.log('Websocket connected!');
+      });
+      socket.on('reset_game', function(data) {
+          console.log(data);
+          reset_game(data)
+      });
+      socket.on('output', function(data) {
+          console.log(data);
+          output(data)
+      });
+      socket.on('update_game', function(data) {
+          console.log(data);
+          update_game(data)
+      });
+/*
+      document.onreadystatechange = function() {
+          if (document.readyState == "complete") {
+              function showMessage(message) {
+                  var i = document.createElement('li');
+                  i.textContent = message;
+                  document.getElementById('messages').appendChild(i);
+              }
+              if (!window.WebSocket) {
+                  if (window.MozWebSocket) {
+                      window.WebSocket = window.MozWebSocket;
+                  } else {
+                      showMessage("Your browser doesn't support WebSockets") 
+                  }
+              }
+          }
+      }
+*/
+    </script>
+        <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="/static/js/reveal.js/css/reset.css">
+		<link rel="stylesheet" href="/static/js/reveal.js/css/reveal.css">
+		<link rel="stylesheet" href="/static/js/reveal.js/css/theme/white.css">
+        <link rel="stylesheet" href="/static/js/literallycanvas-0.4.14/css/literallycanvas.css">
+        <link rel="stylesheet" href="/static/css/algebra742live.css">
+        <script src="https://kit.fontawesome.com/4cc21f3326.js" crossorigin="anonymous"></script>
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? '/static/js/reveal.js/css/print/pdf.css' : '/static/js/reveal.js/css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+            if (window.location.search.match( /print-pdf/gi )) {
+              $('.do_not_print').remove();
+            }
+		</script>
+  <script src="/static/js/games/reveal_game.js"></script>
+  <script>
+    var durden_broadcastid = "asdfjvahsduhqw68";
+    var ridpath_broadcastid = "asdfjvahsduhqw67";
+  </script>
+  <script>
+socket.on('question_data', update_question_data);
+socket.on('snow_qm_task_data', update_snow_qm_task_data);
+  </script>
+  </head>
+    <body>
+<!--
+    added
+-->
+<script type='text/javascript' src='./js/util.js'></script>
+<script type='text/javascript' src='./app.js'></script>
+<script type='text/javascript' src='./directives/wb-task.js'></script>
+<script type='text/javascript' src='./directives/snow-qm-task.js'></script>
+<script type='text/javascript' src='../services/sockets.js'></script>
+<!--
+    done added
+-->
+		<div class="reveal">
+            <div slideshow class="slides"> <!-- added slideshow directive -->
+<!--
+    added
+-->
+                <section><div snow-qm-task collection='inequalities' task='q20'></div></section>
+                <section data-markdown><div><script type="text/template">
+ # Header
+                </script></div></section>
+<!--
+    done added
+-->
+				<section>{{ snow_qm_task('inequalities', 'q20') }}</section>
+			</div>
+		</div>
+
+		<script src="/static/js/reveal.js/js/reveal.js"></script>
+
+        <!-- removed
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				dependencies: [
+                    { src: '/static/js/reveal.js-plugins/anything/anything.js' },
+					{ src: '/static/js/reveal.js/plugin/markdown/marked.js' },
+					{ src: '/static/js/reveal.js/plugin/markdown/markdown.js' },
+					{ src: '/static/js/reveal.js/plugin/highlight/highlight.js' },
+					{ src: '/static/js/reveal.js/plugin/notes/notes.js', async: true },
+				],
+				hash: true,
+            	anything: [ 
+                    {
+                      className: "digraph_question", 
+                      initialize: (function(container, options){ 
+                          // use setInterval to send the emit message, and then clearInterval once the response is received
+                          socket.emit('get_question_data', { graph: options.graph, node: options.node });
+                        }) 
+                    },
+                    {
+                      className: "snow-qm-task", 
+                      initialize: (function(container, options){ 
+                          // use setInterval to send the emit message, and then clearInterval once the response is received
+                          console.log("getting snow-qm task");
+                          socket.emit('get_snow_qm_task', { collection: options.collection, task: options.task });
+                        }) 
+                    },
+                ],
+
+			});
+		</script>
+        -->
+
+  </body>
+</html>

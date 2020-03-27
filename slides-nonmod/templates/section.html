@@ -1,0 +1,1 @@
+<section ng-repeat="slide in section" ng-init="src=srcl[$index]">{{srcl[$index]}} {{src}} {{$index}}<md-slide slide="slide" src="src" ng-if="src.split('.').pop()=='md'"></md-slide><html-slide slide="slide" src="src" ng-if="src.split('.').pop()!='md'"></html-slide></section>

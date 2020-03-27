@@ -1,0 +1,16 @@
+div.snow-qm-task {
+    display: inline-block;
+    vertical-align: top;
+    width: 95%;
+}
+.snow-qm-task textarea {
+    display: block;
+    width: 100%;
+}
+
+.reveal section table tbody tr td input .sm {
+    width: 2em;
+}
+.reveal section table tbody tr td input {
+    width: 2em;
+}

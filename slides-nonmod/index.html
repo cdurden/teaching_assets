@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <base href=".">
+        <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.7.9/angular.min.js'></script>
+        <script type='text/javascript' src='https://cdn.jsdelivr.net/npm/angular-route@1.7.9/angular-route.min.js'></script>
+        <!--
+        <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.7.9/angular-route.min.js'></script>
+        -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-socket-io/0.7.0/socket.min.js"></script>
+        <script type='text/javascript' src='./reveal.js/js/reveal.js'></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/css/reveal.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/css/theme/white.min.css">
+        <link rel="stylesheet" href="./styles/style.css">
+    </head>
+<body>
+<!--
+<script type='text/javascript' src='./js/socket.js'></script>
+-->
+<script type='text/javascript' src='./js/util.js'></script>
+<script type='text/javascript' src='./app.js'></script>
+<script type='text/javascript' src='./directives/wb-task.js'></script>
+<script type='text/javascript' src='./directives/snow-qm-task.js'></script>
+<script type='text/javascript' src='../services/sockets.js'></script>
+<div ng-app='slides' class='reveal' ng-controller='myctrl'>
+      <div class='slides' slideshow></div>
+</div>
+</body>
+</html>
