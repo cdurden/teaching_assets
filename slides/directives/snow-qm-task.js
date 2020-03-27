@@ -1,3 +1,15 @@
+function mark(data) {
+    container = $('div.question[source="digraph_question:'+data.graph+":"+data.node+'"]');
+    for (let field of data.question.marked_correct) {
+      $(container).find("input[name='"+field+"']").next("span.answer_marker").html('<i class="fas fa-check"></i>');
+    }
+    for (let field of data.question.submitted) {
+      $(container).find("input[name='"+field+"']").next("span.answer_marker").html('<i class="fas fa-check"></i>');
+    }
+    for (let field of data.question.marked_incorrect) {
+      $(container).find("input[name='"+field+"']").next("span.answer_marker").html('<i class="fas fa-times"></i>');
+    }
+}
 angular.module('slides')
 .directive('snowQmTask', ['Sockets', function (Sockets) {
   return {
@@ -52,6 +64,10 @@ angular.module('slides')
     }],
     link: function (scope, element, attrs, ctrls) {
 //      var taskCtrl = ctrls[0];
+      Sockets.on('output', function(data) {
+          console.log("output received");
+          output(data);
+      });
       scope.$watch("task_view", function() {
         $(element).find("form").on("submit", function (e) {
           Sockets.emit('form_submit', data=getFormData( $(this) ));

@@ -145,10 +145,13 @@ app.directive('slideshow', ['$compile', 'Sockets', function($compile, Sockets) {
       });
     }],
     link: function(scope, elem, attrs) {
+      // the following is handled by the snow-qm-task directive for now
+      /*
       Sockets.on('output', function(data) {
           console.log("output received");
           output(data);
       });
+      */
       elem.addClass('slides');
       scope.$watch('slides', function(slides) {
         console.log(slides);
