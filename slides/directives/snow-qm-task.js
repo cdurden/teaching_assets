@@ -17,7 +17,7 @@ function mark(data) {
       $(container).find("input[name='"+field+"']").mark('<i class="fas fa-check"></i>');
     }
     for (let field of data.question.submitted) {
-      $(container).find("input[name='"+field+"']").mark('<i class="fas fa-check"></i>');
+      $(container).find("input[name='"+field+"']").mark('<i class="fas fa-paper-plane"></i>');
     }
     for (let field of data.question.marked_incorrect) {
       $(container).find("input[name='"+field+"']").mark('<i class="fas fa-times"></i>');
