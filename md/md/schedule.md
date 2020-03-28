@@ -15,7 +15,7 @@ I can graph the solution to an inequality in one variable.
  * 8.2.4.5 Solve linear inequalities using properties of inequalities. Graph the solutions on a number line.
  * 8.2.4.6 Represent relationships in various contexts with equations and inequalities involving the absolute value of a linear expression. Solve such equations and inequalities and graph the solutions on a number line.
 
-[Distance Learning Expectations and Inequalities Review]: ../slides/#DistanceLearningExpectationsAndInequalitiesReview
+[Distance Learning Expectations and Inequalities Review]: ../slides/#DistanceLearningExpectationsAndInequalitiesReview?update
 [Efficiently Solving Inequalities]: ../slides/#EfficientlySolvingInequalities
 [Solutions to Inequalities in One Variable]: ../slides/#SolutionsToInequalitiesInOneVariable
 [Properties of Inequalities]: ../slides/#PropertiesOfInequalities
