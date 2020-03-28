@@ -1,5 +1,5 @@
 body {
-    touch-action: pan-left pan-right;
+    touch-action: pan-x pan-y;
 }
 .lock-screen {
     height: 100%;
