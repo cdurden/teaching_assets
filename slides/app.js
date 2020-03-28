@@ -169,6 +169,13 @@ app.directive('slideshow', ['$compile', 'Sockets', function($compile, Sockets) {
                   steps[0] = steps[0]+".html";
               }
               if (steps[0].split('.').pop() === "md") {
+                  console.log("slide "+steps[j]+" has markdown");
+                section.attr("id", steps[j]);
+                section.attr("data-markdown", '');
+                section.attr("data-separator", '^---$');
+                div = angular.element("<div>");
+                div.attr('my-include', "'./slides/"+steps[j]+"'");
+                  /*
                 section.attr("id", steps[0]);
                 section.attr("data-markdown", '');
                 section.attr("data-separator", '^---$');
@@ -176,6 +183,8 @@ app.directive('slideshow', ['$compile', 'Sockets', function($compile, Sockets) {
                 script.attr('type', 'text/template');
                 script.attr('my-include', "'./slides/"+steps[0]+"'");
                 section.append(script);
+                */
+                section.append(div);
               } else {
                 section.attr('my-include', "'./slides/"+steps[0]+"'");
                 section.attr("id", steps[0]);
