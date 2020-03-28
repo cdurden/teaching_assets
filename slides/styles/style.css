@@ -17,6 +17,9 @@ div.mark_container {
     margin-left: 5px;
 }
 
+.reveal section table tbody td {
+    vertical-align: top;
+}
 .reveal section table tbody tr td input .sm {
     width: 2em;
 }
