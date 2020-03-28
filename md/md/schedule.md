@@ -9,11 +9,11 @@
 | **Friday, April 3**<br/>    [Reasoning about Inequalities]     | <ul><li>I can solve one-variable inequalities and interpret the solutions in terms of the situation.</li></ul>
 
 
-[Distance Learning Expectations]: ../slides/#DistanceLearningExpectations?update
-[Solutions to Inequalities in One Variable]: ../slides/#SolutionsToInequalitiesInOneVariable?update
-[Efficiently Solving Inequalities]: ../slides/#EfficientlySolvingInequalities?update
-[Properties of Inequalities]: ../slides/#PropertiesOfInequalities?update
-[Reasoning about Inequalities]: ../slides/#ReasoningAboutInequalities?update
+[Distance Learning Expectations]: ../slides/?update#DistanceLearningExpectations
+[Solutions to Inequalities in One Variable]: ../slides/?update#SolutionsToInequalitiesInOneVariable
+[Efficiently Solving Inequalities]: ../slides/?update#EfficientlySolvingInequalities
+[Properties of Inequalities]: ../slides/?update#PropertiesOfInequalities
+[Reasoning about Inequalities]: ../slides/?update#ReasoningAboutInequalities
 
 <!--
 # Standards
