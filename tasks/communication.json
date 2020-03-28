@@ -1,0 +1,7 @@
+[
+    "q1": {"class": "OpenEndedQuestion","Question": "In the space below, please answer the following question. Who did you try to communicate with in task 2? How did you communicate with them (Say what medium, tool, or app you used)? Did you receive a response?"},
+    "q2": {"class": "OpenEndedQuestion","Question": "What are the expectations for Algebra during distance learning?"},
+    "q3": {"class": "OpenEndedQuestion","Question": "Where in Schoology can you find information about the Algebra tasks that are assigned each day?"},
+    "q4": {"class": "OpenEndedQuestion","Question": "How are you planning to communicate with your teacher if you need help in Algebra?"}
+    "q4": {"class": "OpenEndedQuestion","Question": "In the space provided, please write about what went well during this lesson and what did not go well."}
+]
