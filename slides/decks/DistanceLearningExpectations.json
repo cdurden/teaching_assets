@@ -9,13 +9,11 @@
         [ "Task2.html" ],
         [ "OfficeHours.html" ],
         [ "CompleteTask2.html" ],
-        [ "Task2Continued.html" ],
+        [ "CommunicatingAboutWellbeing.html" ],
         [ "Task3" ],
-        [ "ExampleTask4" ],
-        [ "ExampleTask5" ],
-        [ "ExampleSubmittingWork.md" ],
-        [ "Assignments.html" ],
-        [ "OfficeHours.md" ],
-        [ "SubmittingWork.html" ]
+        [ "Task4" ],
+        [ "Task5" ],
+        [ "SubmittingWork" ],
+        [ "Assignments.html" ]
     ]
 }
