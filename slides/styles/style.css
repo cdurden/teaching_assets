@@ -7,6 +7,11 @@ div.snow-qm-task {
     display: block;
     width: 100%;
 }
+.snow-qm-task input[type=submit] {
+    position: fixed;
+    right: 110px;
+    margin: 10px;
+}
 div.mark_container {
     display: inline-block;
     margin-left: 5px;
@@ -17,4 +22,14 @@ div.mark_container {
 }
 .reveal section table tbody tr td input {
     width: 2em;
+}
+
+.reveal section .sm-font {
+    font-size: 18pt;
+}
+.reveal section .md-font {
+    font-size: 24pt;
+}
+.reveal section .lg-font {
+    font-size: 36pt;
 }

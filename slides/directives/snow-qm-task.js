@@ -17,14 +17,14 @@ function mark(data) {
     //container = $('#snow_qm_'+data.collection+"_"+data.task);
     container = $('#question_'+data.question.id);
     for (let field of data.question.marked_correct) {
-      $(container).find(":input[name='"+field+"'][value='"+data.input_data[field]+"']").mark('<i class="fas fa-check"></i>');
+      $(container).find(":input[name='"+field+"'][value='"+data.input_data[field]+"']").mark('<i class="fas fa-check" aria-label="Correct!" title="Correct!"></i>');
     }
     for (let field of data.question.submitted) {
-      $(container).find(":input[name='"+field+"'][value='"+data.input_data[field]+"']").mark('<i class="fas fa-paper-plane"></i>');
+      $(container).find(":input[name='"+field+"'][value='"+data.input_data[field]+"']").mark('<i class="fas fa-paper-plane" aria-label="Correct!" title="This answer has been submitted."></i>');
       //$(container).find(":input[name='"+field+"']").mark('<i class="fas fa-paper-plane"></i>');
     }
     for (let field of data.question.marked_incorrect) {
-      $(container).find(":input[name='"+field+"'][value='"+data.input_data[field]+"']").mark('<i class="fas fa-times"></i>');
+      $(container).find(":input[name='"+field+"'][value='"+data.input_data[field]+"']").mark('<i class="fas fa-times" aria-label="Correct!" title="Incorrect"></i>');
       //$(container).find(":input[name='"+field+"']").mark('<i class="fas fa-times"></i>');
     }
 }
