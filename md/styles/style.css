@@ -18,3 +18,18 @@ body {
     touch-action: none;
     display: none;
 }
+
+tr:nth-child(even) {background-color: #f2f2f2;}
+th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+th, td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+div.content_container {
+    overflow-x: auto;
+}
