@@ -7,3 +7,12 @@ body {
     width: 100%;
     position: fixed;
 }
+#fixed_box {
+    width: 200px;
+    background-color: #999;
+    z-index: 10;
+    position: fixed;
+    right: 20px;
+    top: 300px;
+    height: 83px;
+}
