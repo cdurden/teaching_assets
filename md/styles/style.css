@@ -35,4 +35,5 @@ td ul {
 }
 div.content_container {
     overflow-x: auto;
+    padding: 4px;
 }
