@@ -1,6 +1,6 @@
 {   "collection": "DistanceLearningExpectationsAndInequalitiesReview",
     "slides": [
-        [ "Welcome",
+        [ "Welcome" ],
         [ "DistanceLearningExpectations.md" ],
         [ "DailyProcedure.md" ],
         [ "Assignments.md" ],
@@ -12,6 +12,6 @@
         [ "ExampleTask4" ],
         [ "ExampleTask5" ],
         [ "ExampleSubmittingWork.md" ],
-        [ "OfficeHours.md"]
+        [ "OfficeHours.md" ]
     ]
 }
