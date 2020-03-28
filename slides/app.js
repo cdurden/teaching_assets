@@ -174,10 +174,10 @@ app.directive('slideshow', ['$compile', 'Sockets', function($compile, Sockets) {
                 section.attr("data-separator", '^---$');
                 script = angular.element("<script>");
                 script.attr('type', 'text/template');
-                script.attr('ng-include', "'./slides/"+steps[0]+"'");
+                script.attr('my-include', "'./slides/"+steps[0]+"'");
                 section.append(script);
               } else {
-                section.attr('ng-include', "'./slides/"+steps[0]+"'");
+                section.attr('my-include', "'./slides/"+steps[0]+"'");
                 section.attr("id", steps[0]);
               }
                   /*
@@ -203,7 +203,7 @@ app.directive('slideshow', ['$compile', 'Sockets', function($compile, Sockets) {
                   subSection.attr("data-markdown", '');
                   subSection.attr("data-separator", '^---$');
                   div = angular.element("<div>");
-                  div.attr('ng-include', "'./slides/"+steps[j]+"'");
+                  div.attr('my-include', "'./slides/"+steps[j]+"'");
                   /*
                   script = angular.element("<script>");
                   script.attr('type', 'text/template');
@@ -214,7 +214,7 @@ app.directive('slideshow', ['$compile', 'Sockets', function($compile, Sockets) {
                   subSection.append(div);
                 } else {
                   console.log("slide "+steps[j]+" has html");
-                  subSection.attr('ng-include', "'./slides/"+steps[j]+"'");
+                  subSection.attr('my-include', "'./slides/"+steps[j]+"'");
                   subSection.attr("id", steps[j]);
                 }
                 //if (j < steps.length - 1)
