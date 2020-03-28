@@ -45,7 +45,8 @@
   "q39": {"class": "OpenEndedQuestion","Question": "What is one number of magazine subscriptions Andre could have sold and still reached his goal?"},
   "q40": {"class": "Question.SolutionQuestion","statement": "x<-4","Question": "What is one solution to the inequality $x < -4$?"},
   "q41": {"class": "MultiPartQuestion","context":"Andre has a summer job selling magazine subscriptions. He earns $25 per week plus $3 for every subscription he sells. Andre hopes to make at least enough money this week to buy a new pair of soccer cleats.","parts": [
-      {"class": "MultipleChoiceQuestion","Question": "The least expensive pair of cleats Andre wants costs $68. If Andre sold 16 magazine subscriptions this week, would he reach his goal?", "choices": ["A","B"], "answer":1},
+      {"class": "MultipleChoiceQuestion","Question": "The least expensive pair of cleats Andre wants costs $68. If Andre sold 16 magazine subscriptions this week, would he reach his goal?", "choices": ["Yes, he would reach his goal.","No, he would not reach his goal."], "answer":0},
       {"class": "OpenEndedQuestion","Question": "Explain your reasoning."}
-  ]}
+  ]},
+  "q42": {"class": "MultipleChoiceQuestion","Question": "The least expensive pair of cleats Andre wants costs $68. If Andre sold 16 magazine subscriptions this week, would he reach his goal?", "choices": ["Yes, he would reach his goal.","No, he would not reach his goal."], "answer":0}
 }
