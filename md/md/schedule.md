@@ -1,12 +1,12 @@
 # Algebra 1.1 Durden/Ridpath Schedule
 
-| Date         | Lesson Title                     | Learning Objectives                                                                    | Assignments |
-|==============|==================================|========================================================================================|=============|
-| Monday, March 30   | [Distance Learning Expectations and Inequalities Review] | I understand how to fulfill the distance learning expectations for my Algebra class. | 
-| Tuesday   | [Solutions to Inequalities in One Variable] | I understand that the solution to an inequality is a range of values (such as x>7) that make the inequality true. | 
-| Wednesday   | [Efficiently Solving Inequalities] | I can solve inequalities by solving a related equation and then checking which values are solutions to the original inequality. | |
-| Thursday   | [Properties of Inequalities] | I can solve inequalities using the addition and multiplication properties of inequalities. | |
-| Friday   | [Reasoning about Inequalities]     | I can solve one-variable inequalities and interpret the solutions in terms of the situation.
+| Date and Lesson Title                     | Learning Objectives                                                                    | Assignments |
+|================================================|========================================================================================|=============|
+| **Monday, March 30**    [Distance Learning Expectations and Inequalities Review] | I understand how to fulfill the distance learning expectations for my Algebra class. | 
+| **Tuesday, March 31**    [Solutions to Inequalities in One Variable] | I understand that the solution to an inequality is a range of values (such as x>7) that make the inequality true. | 
+| **Wednesday, April 1**    [Efficiently Solving Inequalities] | I can solve inequalities by solving a related equation and then checking which values are solutions to the original inequality. | |
+| **Thursday, April 2**    [Properties of Inequalities] | I can solve inequalities using the addition and multiplication properties of inequalities. | |
+| **Friday, April 3**    [Reasoning about Inequalities]     | I can solve one-variable inequalities and interpret the solutions in terms of the situation.
 
 I can graph the solution to an inequality in one variable.
 
