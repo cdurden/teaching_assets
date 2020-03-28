@@ -1,6 +1,6 @@
 # Algebra 1.1 Durden/Ridpath Schedule
 
-| Date and Lesson Link                     | Learning Objectives                                                                    | Assignments |
+| Date and Lesson Link                     | Learning Objectives                                                                    | Assigned Tasks |
 |================================================|========================================================================================|=============|
 | **Monday, March 30**<br/>[Distance Learning Expectations and Inequalities Review] | I understand how to fulfill the distance learning expectations for my Algebra class. | 
 | **Tuesday, March 31**<br/>    [Solutions to Inequalities in One Variable] | I understand that the solution to an inequality is a range of values (such as x>7) that make the inequality true. | 

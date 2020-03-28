@@ -23,7 +23,7 @@ app.controller("MyController", ["$scope", "$location", "$http", function($scope,
   md = hash_parts[0] ? hash_parts[0] : hash_parts[1];
   $http({
     method: 'GET',
-    url: "./md/"+md+".md"
+    url: "./md/"+md+".md?update"
   }).then(function success(response) {
       console.log(response);
       $scope.markdown = response.data;
