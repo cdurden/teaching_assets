@@ -75,6 +75,13 @@ app.config(['$routeProvider', function ($routeProvider) {
             controller: 'MyController'
             });
 }]);
+app.config( ['$provide', function ($provide){
+        $provide.decorator('$browser', ['$delegate', function ($delegate) {
+            $delegate.onUrlChange = function () {};
+            $delegate.url = function () { return ""};
+            return $delegate;
+        }]);
+    }]);
 /*
   app.directive('contentDirective', function() {
     return {
