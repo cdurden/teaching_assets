@@ -174,7 +174,7 @@ app.directive('slideshow', ['$compile', 'Sockets', function($compile, Sockets) {
                 section.attr("data-markdown", '');
                 section.attr("data-separator", '^---$');
                 div = angular.element("<div>");
-                div.attr('my-include', "'./slides/"+steps[j]+"'");
+                div.attr('my-include', "'./slides/"+steps[0]+"'");
                   /*
                 section.attr("id", steps[0]);
                 section.attr("data-markdown", '');
