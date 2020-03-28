@@ -7,6 +7,10 @@ div.snow-qm-task {
     display: block;
     width: 100%;
 }
+div.mark_container {
+    display: inline-block;
+    margin-left: 5px;
+}
 
 .reveal section table tbody tr td input .sm {
     width: 2em;
