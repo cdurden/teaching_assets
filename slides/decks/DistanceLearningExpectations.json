@@ -4,16 +4,16 @@
         [ "DistanceLearningExpectationsLearningGoal.html" ],
         [ "DistanceLearningExpectations.html" ],
         [ "DailyProcedure.html" ],
-        [ "Assignments.html" ],
-        [ "SubmittingWork.html" ],
-        [ "ExampleTasksIntro.html" ],
-        [ "ExampleTask1.html" ],
-        [ "ExampleTask2A.html" ],
+        [ "TasksIntro.html" ],
+        [ "Task1.html" ],
+        [ "OfficeHours.html" ],
         [ "ExampleTask2B.html" ],
         [ "ExampleTask3" ],
         [ "ExampleTask4" ],
         [ "ExampleTask5" ],
         [ "ExampleSubmittingWork.md" ],
-        [ "OfficeHours.md" ]
+        [ "Assignments.html" ],
+        [ "OfficeHours.md" ],
+        [ "SubmittingWork.html" ]
     ]
 }
