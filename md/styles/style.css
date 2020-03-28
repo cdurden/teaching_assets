@@ -30,6 +30,9 @@ th, td {
   text-align: left;
   border-bottom: 1px solid #ddd;
 }
+td ul {
+  padding-left: 0px;
+}
 div.content_container {
     overflow-x: auto;
 }

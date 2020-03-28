@@ -1,6 +1,7 @@
 {   "collection": "DistanceLearningExpectations",
     "slides": [
         [ "Welcome" ],
+        [ "DistanceLearningExpectationsLearningGoal.html" ],
         [ "DistanceLearningExpectations.html" ],
         [ "DailyProcedure.html" ],
         [ "Assignments.html" ],
