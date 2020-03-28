@@ -16,4 +16,5 @@ body {
     top: 300px;
     height: 83px;
     touch-action: none;
+    display: none;
 }
