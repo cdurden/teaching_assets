@@ -1,19 +1,17 @@
 {   "collection": "DistanceLearningExpectationsAndInequalitiesReview",
     "slides": [
-        [ 
-            "Welcome",
-            "DistanceLearningExpectations.md",
-            "DailyProcedure.md",
-            "Assignments.md",
-            "SubmittingWork.md",
-            "ExampleTasksIntro.md",
-            "ExampleTask1.md",
-            "ExampleTask2",
-            "ExampleTask3",
-            "ExampleTask4",
-            "ExampleTask5",
-            "ExampleSubmittingWork.md",
-            "OfficeHours.md"
-        ]
+        [ "Welcome",
+        [ "DistanceLearningExpectations.md" ],
+        [ "DailyProcedure.md" ],
+        [ "Assignments.md" ],
+        [ "SubmittingWork.md" ],
+        [ "ExampleTasksIntro.md" ],
+        [ "ExampleTask1.md" ],
+        [ "ExampleTask2" ],
+        [ "ExampleTask3" ],
+        [ "ExampleTask4" ],
+        [ "ExampleTask5" ],
+        [ "ExampleSubmittingWork.md" ],
+        [ "OfficeHours.md"]
     ]
 }
