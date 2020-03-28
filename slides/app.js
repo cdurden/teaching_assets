@@ -151,7 +151,7 @@ app.directive('slideshow', ['$compile', 'Sockets', function($compile, Sockets) {
       controller: ["$scope", "$location", "$http", "$routeParams", function($scope, $location, $http, $routeParams) {
       $scope.slides = [];
       //hash_parts = $location.hash().split("/");
-      hash_parts = window.location.hash.split("%2F").map(s => s.substr(1));
+      hash_parts = window.location.hash.substr(1).split("%2F");
       deck = hash_parts[0] ? hash_parts[0] : hash_parts[1];
       console.log(deck);
       $http({
