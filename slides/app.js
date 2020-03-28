@@ -1,3 +1,20 @@
+function loadFailedHtml(id) {
+   return('This slide failed to load. Tap <a href=\'javascript:reloadSlide("'+id+'")\'>here</a> to try reloading this slide. If the problem persists, please contact your teacher.');
+}
+function reload_slide(id) {
+      if (id.split('.').length == 1) {
+          steps[0] = steps[0]+".html";
+      }
+      $http({
+        method: 'GET',
+        url: "./slides/"+id+"?update"
+      }).then(function success(response) {
+          console.log(response);
+          $("#"+id).html(response.body);
+      }, function error(response) {
+          console.error(response);
+      });
+}
 function init_reveal() {
             Reveal.initialize({
               math: {
@@ -201,6 +218,7 @@ app.directive('slideshow', ['$compile', 'Sockets', function($compile, Sockets) {
                 section.attr("data-separator", '^---$');
                 div = angular.element("<div>");
                 div.attr('my-include', "'./slides/"+steps[0]+"'");
+                div.html(loadFailedHtml);
                   /*
                 section.attr("id", steps[0]);
                 section.attr("data-markdown", '');
@@ -214,6 +232,7 @@ app.directive('slideshow', ['$compile', 'Sockets', function($compile, Sockets) {
               } else {
                 section.attr('my-include', "'./slides/"+steps[0]+"'");
                 section.attr("id", steps[0]);
+                section.html(loadFailedHtml);
               }
                   /*
               section.attr('ng-include', "'./slides/"+steps[0]+".html?raw=true'");
@@ -239,6 +258,7 @@ app.directive('slideshow', ['$compile', 'Sockets', function($compile, Sockets) {
                   subSection.attr("data-separator", '^---$');
                   div = angular.element("<div>");
                   div.attr('my-include', "'./slides/"+steps[j]+"'");
+                  div.html(loadFailedHtml);
                   /*
                   script = angular.element("<script>");
                   script.attr('type', 'text/template');
@@ -250,7 +270,7 @@ app.directive('slideshow', ['$compile', 'Sockets', function($compile, Sockets) {
                 } else {
                   console.log("slide "+steps[j]+" has html");
                   subSection.attr('my-include', "'./slides/"+steps[j]+"'");
-                  subSection.html('This slide failed to load. Try reloading the page. If the problem persists, please contact your teacher.');
+                  subSection.html(loadFailedHtml);
                   subSection.attr("id", steps[j]);
                 }
                 //if (j < steps.length - 1)
