@@ -1,7 +1,7 @@
 var app = angular.module('md', [
     'btford.socket-io',
     'ng-showdown',
-    'slides.services.sockets',
+    'services.sockets',
 ]);
 app.run(function($rootScope) {
     $('[ng-app]').on('click', 'a', function() {

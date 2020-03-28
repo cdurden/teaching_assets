@@ -1,4 +1,4 @@
-## Distance Learning Expectations for Algebra
+## Daily procedure
 
 1. On each weekday, open the course schedule on Schoology.
 2. Go to the date and read what tasks you need to complete.
