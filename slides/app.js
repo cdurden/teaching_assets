@@ -169,8 +169,8 @@ app.directive('slideshow', ['$compile', 'Sockets', function($compile, Sockets) {
                   steps[0] = steps[0]+".html";
               }
               if (steps[0].split('.').pop() === "md") {
-                  console.log("slide "+steps[j]+" has markdown");
-                section.attr("id", steps[j]);
+                console.log("slide "+steps[0]+" has markdown");
+                section.attr("id", steps[0]);
                 section.attr("data-markdown", '');
                 section.attr("data-separator", '^---$');
                 div = angular.element("<div>");
