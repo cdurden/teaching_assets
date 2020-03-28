@@ -48,5 +48,6 @@
       {"class": "MultipleChoiceQuestion","Question": "The least expensive pair of cleats Andre wants costs $68. If Andre sold 16 magazine subscriptions this week, would he reach his goal?", "choices": ["Yes, he would reach his goal.","No, he would not reach his goal."], "answer":0},
       {"class": "OpenEndedQuestion","Question": "Explain your reasoning."}
   ]},
-  "q42": {"class": "MultipleChoiceQuestion","Question": "The least expensive pair of cleats Andre wants costs $68. If Andre sold 16 magazine subscriptions this week, would he reach his goal?", "choices": ["Yes, he would reach his goal.","No, he would not reach his goal."], "answer":0}
+  "q42": {"class": "MultipleChoiceQuestion","Question": "The least expensive pair of cleats Andre wants costs $68. If Andre sold 16 magazine subscriptions this week, would he reach his goal?", "choices": ["Yes, he would reach his goal.","No, he would not reach his goal."], "answer":0},
+  "q43": {"class": "OpenEndedQuestion","Question": "Explain your reasoning."}
 }
