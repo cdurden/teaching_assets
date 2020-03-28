@@ -215,6 +215,7 @@ app.directive('slideshow', ['$compile', 'Sockets', function($compile, Sockets) {
                 } else {
                   console.log("slide "+steps[j]+" has html");
                   subSection.attr('my-include', "'./slides/"+steps[j]+"'");
+                  subSection.html('This slide failed to load. Try reloading the page. If the problem persists, please contact your teacher.');
                   subSection.attr("id", steps[j]);
                 }
                 //if (j < steps.length - 1)
