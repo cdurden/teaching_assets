@@ -131,7 +131,7 @@ app.config(['$routeProvider', function ($routeProvider) {
 app.config(['$provide', function ($provide) {
     $provide.decorator('$browser', ['$delegate', '$window', function ($delegate, $window) {
         // normal anchors
-        let ignoredPattern = /^#[a-zA-Z0-9%2F].*/;
+        let ignoredPattern = /^#[a-zA-Z0-9%2F\/].*/;
         let originalOnUrlChange = $delegate.onUrlChange;
         $delegate.onUrlChange = function (...args) {
             if (ignoredPattern.test($window.location.hash)) return;
