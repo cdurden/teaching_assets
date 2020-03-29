@@ -61,12 +61,12 @@ function init_reveal() {
       },  // create broadcast when 's' is pressed
       65: function() {
         RevealBroadcast.connect( { id: 'aashjkxcvyiuqwbljdv' } );
+      },
       82: function() { Recorder.toggleRecording(); }, // press 'r' to start/stop recording
       90: function() { Recorder.downloadZip(); },     // press 'z' to download zip containing audio files
-      },
     },
     anything: [ 
-     {
+      {
         className: "question", 
       }
     ],
