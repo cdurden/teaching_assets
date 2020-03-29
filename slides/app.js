@@ -27,20 +27,20 @@ function reloadSlide(id) {
   });
 }
 function init_reveal() {
-            Reveal.initialize({
-              math: {
-                //mathjax: "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js",
-                mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js',
-                config: 'TeX-AMS_HTML-full', // See http://docs.mathjax.org/en/latest/config-files.html
-                // pass other options into `MathJax.Hub.Config()`
-                TeX: { Macros: { RR: "{\\bf R}" } },
-                tex2jax: {
-                  //inlineMath: [ ["\\(","\\)"] ],
-                  inlineMath: [ ['$','$'], ["\\(","\\)"] ],
-                  displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
-                  processEscapes: true
-                },
-              },
+  Reveal.initialize({
+    math: {
+      //mathjax: "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js",
+      mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js',
+      config: 'TeX-AMS_HTML-full', // See http://docs.mathjax.org/en/latest/config-files.html
+      // pass other options into `MathJax.Hub.Config()`
+      TeX: { Macros: { RR: "{\\bf R}" } },
+      tex2jax: {
+        //inlineMath: [ ["\\(","\\)"] ],
+        inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+        displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+        processEscapes: true
+      },
+    },
     broadcast: {
       secret: '$2a$05$hhgakVn1DWBfgfSwMihABeYToIBEiQGJ.ONa.HWEiNGNI6mxFCy8S',
       // Configure RTCMultiConnection
@@ -55,38 +55,45 @@ function init_reveal() {
     }, 
     countdown: { defaultTime: 300, autostart: "yes" },
     keyboard: {
-        83: function() {
-            var password = prompt("Please enter broadcast password", "");
-            RevealBroadcast.start( { id: 'aashjkxcvyiuqwbljdv', password: password } );
-        },  // create broadcast when 's' is pressed
-        65: function() {
-            RevealBroadcast.connect( { id: 'aashjkxcvyiuqwbljdv' } );
-        },  // connect to broadcast when 'a' is pressed
+      83: function() {
+        var password = prompt("Please enter broadcast password", "");
+        RevealBroadcast.start( { id: 'aashjkxcvyiuqwbljdv', password: password } );
+      },  // create broadcast when 's' is pressed
+      65: function() {
+        RevealBroadcast.connect( { id: 'aashjkxcvyiuqwbljdv' } );
+      82: function() { Recorder.toggleRecording(); }, // press 'r' to start/stop recording
+      90: function() { Recorder.downloadZip(); },     // press 'z' to download zip containing audio files
+      },
     },
     anything: [ 
-        {
-          className: "question", 
-        }],
-
-              dependencies: [
+     {
+        className: "question", 
+      }
+    ],
+    dependencies: [
 		        { src: './reveal.js/plugin/math/math.js', async: true },
-                { src: './reveal.js-plugins/anything/anything.js' },
-                { src: './reveal.js/plugin/markdown/marked.js' },
-                { src: './reveal.js/plugin/markdown/markdown.js' },
-                { src: './reveal_countdown/countdown.js' },
-                  /*
-                { src: './reveal.js-plugins/broadcast/RTCMultiConnection.min.js'},
-                { src: './reveal.js-plugins/broadcast/socket.io.js'},
-                { src: './reveal.js-plugins/broadcast/bCrypt.js'},
-                { src: './reveal.js-plugins/broadcast/broadcast.js'},
-                */
-                //{ src: './reveal.js/plugin/highlight/highlight.js' },
-                //{ src: '/static/js/reveal.js/plugin/notes/notes.js', async: true },
-              ],
-              hash: true,
-              loop: false,
-              //transition: Reveal.getQueryHash().transition || 'none',
-            });
+      { src: './reveal.js-plugins/anything/anything.js' },
+      { src: './reveal.js/plugin/markdown/marked.js' },
+      { src: './reveal.js/plugin/markdown/markdown.js' },
+      { src: './reveal_countdown/countdown.js' },
+      // audio recording
+  	  { src: 'plugin/audio-slideshow/RecordRTC.js', condition: function( ) { return !!document.body.classList; } },				
+  	  { src: 'plugin/audio-slideshow/slideshow-recorder.js', condition: function( ) { return !!document.body.classList; } },				
+  	  { src: 'plugin/audio-slideshow/audio-slideshow.js', condition: function( ) { return !!document.body.classList; } },
+      // broadcasting audio/video
+      /*
+      { src: './reveal.js-plugins/broadcast/RTCMultiConnection.min.js'},
+      { src: './reveal.js-plugins/broadcast/socket.io.js'},
+      { src: './reveal.js-plugins/broadcast/bCrypt.js'},
+      { src: './reveal.js-plugins/broadcast/broadcast.js'},
+      */
+      { src: './reveal.js/plugin/highlight/highlight.js' },
+      { src: '/static/js/reveal.js/plugin/notes/notes.js', async: true },
+    ],
+    hash: true,
+    loop: false,
+    //transition: Reveal.getQueryHash().transition || 'none',
+  });
 }
 var app = angular.module('slides', [
     'btford.socket-io',
