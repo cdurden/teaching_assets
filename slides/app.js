@@ -77,9 +77,9 @@ function init_reveal() {
       { src: './reveal.js/plugin/markdown/markdown.js' },
       { src: './reveal_countdown/countdown.js' },
       // audio recording
-  	  { src: './reveal.js/plugin/audio-slideshow/RecordRTC.js', condition: function( ) { return !!document.body.classList; } },				
-  	  { src: './reveal.js/plugin/audio-slideshow/slideshow-recorder.js', condition: function( ) { return !!document.body.classList; } },				
-  	  { src: './reveal.js/plugin/audio-slideshow/audio-slideshow.js', condition: function( ) { return !!document.body.classList; } },
+  	  { src: './reveal.js-plugins/audio-slideshow/RecordRTC.js', condition: function( ) { return !!document.body.classList; } },				
+  	  { src: './reveal.js-plugins/audio-slideshow/slideshow-recorder.js', condition: function( ) { return !!document.body.classList; } },				
+  	  { src: './reveal.js-plugins/audio-slideshow/audio-slideshow.js', condition: function( ) { return !!document.body.classList; } },
       // broadcasting audio/video
       /*
       { src: './reveal.js-plugins/broadcast/RTCMultiConnection.min.js'},
