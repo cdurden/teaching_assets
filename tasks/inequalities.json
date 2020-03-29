@@ -71,5 +71,6 @@
       "statement": "x<=81",
       "Question": "When Joe saw the soccer balls, he wrote the inequality $x+19 \\le 100$, where x represents the cost of the cleats. What is one solution to this inequality?"
   },
-  "q50": {"class": "DrawingQuestion","background_image_url": "/static/images/NumberLineNoLabels.png","Question": "Graph the solutions to the inequality $x \\geq -4$ on the number line:"}
+  "q50": {"class": "DrawingQuestion","background_image_url": "/static/images/NumberLineNoLabels.png","Question": "Graph the solutions to the inequality $x \\geq -4$ on the number line:"},
+  "q51": {"class": "CompleteTableDraggableQuestion","csv": "$x$,$-x$,True or false: $x \\geq 3$\n-2,[False]\n-1.5,[False]\n-1,[False]\n0,[False]\n2,[False]\n3,[True]\n,3.5,[True]","Question": "Complete the table","transpose_display": "True","blocks":["True","False"]}
 }
