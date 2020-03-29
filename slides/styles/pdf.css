@@ -8,6 +8,16 @@
 * {
 	-webkit-print-color-adjust: exact;
 }
+@media print
+{    
+    .no-print, .no-print *
+    {
+        display: none !important;
+    }
+    input [type=submit] {
+        display: none !important;
+    }
+}
 .reveal .section input [type=submit] {
     display: none !important;
 }
