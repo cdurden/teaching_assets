@@ -2,18 +2,28 @@ function slideLoadFailedHtml(id) {
    return('This slide failed to load. Tap <a href=\'javascript:reloadSlide("'+id+'")\'>here</a> to try reloading this slide. If the problem persists, please contact your teacher.');
 }
 function reloadSlide(id) {
-      if (id.split('.').length == 1) {
-          steps[0] = steps[0]+".html";
-      }
-      $http({
-        method: 'GET',
-        url: "./slides/"+id+"?update"
-      }).then(function success(response) {
-          console.log(response);
-          $("#"+id).html(response.body);
-      }, function error(response) {
-          console.error(response);
-      });
+  if (id.split('.').length == 1) {
+      steps[0] = steps[0]+".html";
+  }
+    /*
+  $http({
+    method: 'GET',
+    url: "./slides/"+id+"?update"
+  }).then(function success(response) {
+      console.log(response);
+      $("#"+id).html(response.body);
+  }, function error(response) {
+      console.error(response);
+  });
+  */
+  $.ajax({
+    method: 'GET',
+    url: "./slides/"+id+"?update",
+    dataType: "html",
+  }).success(function(response) {
+      console.log(response);
+      $("#"+id).html(response);
+  });
 }
 function init_reveal() {
             Reveal.initialize({
