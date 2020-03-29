@@ -1,5 +1,6 @@
 .reveal section div.inline-image {
     display: inline-block;
+    vertical-align: middle;
 }
 .reveal section div.inline-image img {
     border: 0px;
