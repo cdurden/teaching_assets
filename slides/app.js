@@ -26,7 +26,10 @@ function reloadSlide(id) {
     },
   });
 }
-function init_reveal(deck) {
+function init_reveal(deck, print) {
+  Reveal.isPrintingPDF = function() {
+      return(print)
+  }
   Reveal.initialize({
     math: {
       //mathjax: "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js",
@@ -204,6 +207,7 @@ app.directive('slideshow', ['$compile', 'Sockets', function($compile, Sockets) {
       controller: ["$scope", "$location", "$http", "$routeParams", function($scope, $location, $http, $routeParams) {
       $scope.slides = [];
       //hash_parts = $location.hash().split("/");
+      //return ( /print-pdf/gi ).test( window.location.search );
       hash_parts = window.location.hash.substr(1).split("%2F");
       deck = hash_parts[0] ? hash_parts[0] : hash_parts[1];
       console.log(deck);
@@ -327,7 +331,7 @@ app.directive('slideshow', ['$compile', 'Sockets', function($compile, Sockets) {
           if(Reveal.isReady()) {
             Reveal.sync();
           } else {
-            init_reveal(deck);
+            init_reveal(deck, true);
           }
         }
       });
