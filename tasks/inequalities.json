@@ -55,7 +55,7 @@
   "q46": {"class": "OpenEndedQuestion","Question": "How can an inequality be used to check whether a quantity is too big or too small."},
   "q47": {
       "class": "MultipleChoiceQuestion",
-      "Question": "Thomas sees a pair of cleats for \$89. Can he buy both a soccer ball and the cleats?",
+      "Question": "Thomas sees a pair of cleats for $89 (including tax). Can he buy both a soccer ball and the cleats?",
       "choices": ["Yes","No"],
       "answer":0
   },
@@ -65,4 +65,11 @@
       "statement": "x<=81",
       "Question": "What is one amount that he could spend on cleats?"
   },
+  "q49": {
+      "class":
+      "SolutionQuestion",
+      "statement": "x<=81",
+      "Question": "When Joe saw the soccer balls, he wrote the inequality $x+19 \le 100$, where x represents the cost of the cleats. What is one solution to this inequality?"
+  },
+  "q50": {"class": "DrawingQuestion","background_image_url": "/static/images/NumberLineNoLabels.png","Question": "Graph the solutions to the inequality $x \\geq -4$ on the number line:"}
 }
