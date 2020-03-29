@@ -1,6 +1,12 @@
+
 .reveal section div.inline-image {
     display: inline-block;
     vertical-align: middle;
+}
+.reveal section div.top-right {
+    position: absolute;
+    top: 0px;
+    right: 0px;
 }
 .reveal section div.inline-image img {
     border: 0px;
