@@ -1,7 +1,7 @@
 reveal section div.inline-image {
     display: inline-block;
 }
-reveal section div.inline-img img {
+reveal section div.inline-image img {
     border: 0px;
 }
 reveal section img.noborder {
