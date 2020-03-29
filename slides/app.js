@@ -26,7 +26,7 @@ function reloadSlide(id) {
     },
   });
 }
-function init_reveal() {
+function init_reveal(id) {
   Reveal.initialize({
     math: {
       //mathjax: "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js",
@@ -70,6 +70,10 @@ function init_reveal() {
         className: "question", 
       }
     ],
+	audio: {
+      prefix: './slides/'+id+'/audio/',
+      playerOpacity: 0.25,
+    }
     dependencies: [
 		        { src: './reveal.js/plugin/math/math.js', async: true },
       { src: './reveal.js-plugins/anything/anything.js' },
