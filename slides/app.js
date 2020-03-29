@@ -42,6 +42,7 @@ function init_reveal() {
         },
       },
     }, 
+    countdown: { defaultTime: 300, autostart: "yes" },
     keyboard: {
         83: function() {
             var password = prompt("Please enter broadcast password", "");
@@ -61,6 +62,7 @@ function init_reveal() {
                 { src: './reveal.js-plugins/anything/anything.js' },
                 { src: './reveal.js/plugin/markdown/marked.js' },
                 { src: './reveal.js/plugin/markdown/markdown.js' },
+                { src: '/static/js/reveal_countdown/countdown.js' },
                   /*
                 { src: './reveal.js-plugins/broadcast/RTCMultiConnection.min.js'},
                 { src: './reveal.js-plugins/broadcast/socket.io.js'},
