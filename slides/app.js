@@ -20,9 +20,10 @@ function reloadSlide(id) {
     method: 'GET',
     url: "./slides/"+id+"?update",
     dataType: "html",
-  }).success(function(response) {
+    success: function(response) {
       console.log(response);
       $("#"+id).html(response);
+    },
   });
 }
 function init_reveal() {
