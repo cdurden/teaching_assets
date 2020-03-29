@@ -2,7 +2,7 @@
 
 | Date and Lesson Link                     | Learning Objectives                                                                    | Assigned Tasks |
 |================================================|========================================================================================|=============|
-| **Monday, March 30**<br/>[Distance Learning Expectations] | <ul><li>I understand how I can meet the expectations for Algebra class during distance learning.</li></ul> | Watch a video and 4 tasks on the lesson slides
+| **Monday, March 30**<br/>[Distance Learning Expectations]<br/>[PDF for Notability](https://app.schoology.com/system/files/attachments/files/m/202003/course/2233201491/DistanceLearningExpectations_5e81313374213.pdf) | <ul><li>I understand how I can meet the expectations for Algebra class during distance learning.</li></ul> | Watch a video and 4 tasks on the lesson slides
 | **Tuesday, March 31**<br/>    [Solutions to Inequalities in One Variable] | <ul><li>I understand that the solution to an inequality is a range of values (such as x>7) that make the inequality true.</li><li>I can graph the solution to an inequality in one variable.</li></ul> | 
 | **Wednesday, April 1**<br/>    [Efficiently Solving Inequalities] | <ul><li>I can solve inequalities by solving a related equation and then checking which values are solutions to the original inequality.</li></ul> | |
 | **Thursday, April 2**<br/>    [Properties of Inequalities] | <ul><li>I can solve inequalities using the addition and multiplication properties of inequalities.</li></ul> | |
@@ -10,6 +10,9 @@
 
 
 [Distance Learning Expectations]: ../slides/?update#DistanceLearningExpectations
+<!--
+[PDF for Notability](https://app.schoology.com/system/files/attachments/files/m/202003/course/2233201491/DistanceLearningExpectations_5e81313374213.pdf)
+-->
 [Solutions to Inequalities in One Variable]: ../slides/?update#SolutionsToInequalitiesInOneVariable
 [Efficiently Solving Inequalities]: ../slides/?update#EfficientlySolvingInequalities
 [Properties of Inequalities]: ../slides/?update#PropertiesOfInequalities
