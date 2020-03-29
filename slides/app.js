@@ -26,7 +26,7 @@ function reloadSlide(id) {
     },
   });
 }
-function init_reveal(id) {
+function init_reveal(deck) {
   Reveal.initialize({
     math: {
       //mathjax: "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js",
@@ -71,9 +71,9 @@ function init_reveal(id) {
       }
     ],
 	audio: {
-      prefix: './slides/'+id+'/audio/',
+      prefix: './slides/'+deck+'/audio/',
       playerOpacity: 0.25,
-    }
+    },
     dependencies: [
 		        { src: './reveal.js/plugin/math/math.js', async: true },
       { src: './reveal.js-plugins/anything/anything.js' },
@@ -315,7 +315,7 @@ app.directive('slideshow', ['$compile', 'Sockets', function($compile, Sockets) {
           if(Reveal.isReady()) {
             Reveal.sync();
           } else {
-            init_reveal();
+            init_reveal(deck);
           }
         }
       });
