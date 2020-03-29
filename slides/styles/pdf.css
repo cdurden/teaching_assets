@@ -14,12 +14,9 @@
     {
         display: none !important;
     }
-    input [type=submit] {
+    .snow-qm-task input[type=submit] {
         display: none !important;
     }
-}
-.reveal .section input [type=submit] {
-    display: none !important;
 }
 body {
 	margin: 0 auto !important;
