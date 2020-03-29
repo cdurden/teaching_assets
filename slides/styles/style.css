@@ -1,10 +1,10 @@
-reveal section div.inline-image {
+.reveal section div.inline-image {
     display: inline-block;
 }
-reveal section div.inline-image img {
+.reveal section div.inline-image img {
     border: 0px;
 }
-reveal section img.noborder {
+.reveal section img.noborder {
     border: 0px;
 }
 div.snow-qm-task {
