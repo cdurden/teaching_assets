@@ -328,11 +328,13 @@ app.directive('slideshow', ['$compile', 'Sockets', function($compile, Sockets) {
             elem.append(section);
           }
           //$compile(elem)(scope);
+          setTimeout(function() {
           if(Reveal.isReady()) {
             Reveal.sync();
           } else {
             init_reveal(deck, true);
           }
+          },10000);
         }
       });
     }
