@@ -49,5 +49,20 @@
       {"class": "OpenEndedQuestion","Question": "Explain your reasoning."}
   ]},
   "q42": {"class": "MultipleChoiceQuestion","Question": "The least expensive pair of cleats Andre wants costs $68. If Andre sold 16 magazine subscriptions this week, would he reach his goal?", "choices": ["Yes, he would reach his goal.","No, he would not reach his goal."], "answer":0},
-  "q43": {"class": "OpenEndedQuestion","Question": "Explain your reasoning."}
+  "q43": {"class": "OpenEndedQuestion","Question": "Explain your reasoning."},
+  "q44": {"class": "MultipleChoiceQuestion","Question": "To figure out how many magazine subscriptions Andre would need to sell to reach his goal, Halimo wrote the inequality $25+3n \\ge 68$. Use the inequality to check whether he would reach his goal if he sold $14$ subscriptions.", "choices": ["Yes, he would reach his goal.","No, he would not reach his goal."], "answer":0},
+  "q45": {"class": "MultipleChoiceQuestion","Question": "Was the number of subscriptions he sold too big or too small?", "choices": ["Too big","Too small"], "answer":0},
+  "q46": {"class": "OpenEndedQuestion","Question": "How can an inequality be used to check whether a quantity is too big or too small."},
+  "q47": {
+      "class": "MultipleChoiceQuestion",
+      "Question": "Thomas sees a pair of cleats for \$89. Can he buy both a soccer ball and the cleats?",
+      "choices": ["Yes","No"],
+      "answer":0
+  },
+  "q48": {
+      "class":
+      "SolutionQuestion",
+      "statement": "x<=81",
+      "Question": "What is one amount that he could spend on cleats?"
+  },
 }
