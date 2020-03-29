@@ -31,7 +31,8 @@ div.snow-qm-task {
 }
 div.mark_container {
     display: inline-block;
-    margin-left: 5px;
+    margin: 5px;
+    float: left;
 }
 
 .reveal section table tbody td {
