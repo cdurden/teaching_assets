@@ -1,10 +1,10 @@
 div.inline-img {
     display: inline-block;
 }
-div.inline-img img {
+reveal section div.inline-img img {
     border: 0px;
 }
-img.noborder {
+reveal section img.noborder {
     border: 0px;
 }
 div.snow-qm-task {
