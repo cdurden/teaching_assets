@@ -1,5 +1,5 @@
 function slideLoadFailedHtml(id) {
-   return('This slide failed to load. Tap <a href=\'javascript:reloadSlide("'+id+'")\'>here</a> to try reloading this slide. If the problem persists, please contact your teacher.');
+   return('This slide failed to load. Tap <a href="#" onclick=\'javascript:reloadSlide("'+id+'"); return false;\'>here</a> to try reloading this slide. If the problem persists, please contact your teacher.');
 }
 function reloadSlide(id) {
   if (id.split('.').length == 1) {
