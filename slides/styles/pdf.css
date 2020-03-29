@@ -20,6 +20,9 @@
     div.audio-controls {
         display: none !important;
     }
+    iframe {
+        display: none !important;
+    }
 }
 body {
 	margin: 0 auto !important;
