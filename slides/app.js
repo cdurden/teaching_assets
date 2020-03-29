@@ -81,7 +81,7 @@ function init_reveal(deck) {
       prefix: './slides/'+deck+'/audio/',
       suffix: '.webm',
       advance: -1,
-      playerStyle: 'position: fixed; bottom: 4px; left: 25%; width: 50%; height:75px; z-index: 33;'
+      playerStyle: 'position: fixed; bottom: 4px; left: 25%; width: 50%; height:75px; z-index: 33;',
       playerOpacity: 0.25,
     },
     dependencies: [
