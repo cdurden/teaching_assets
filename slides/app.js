@@ -22,7 +22,7 @@ function reloadSlide(id) {
     dataType: "html",
     success: function(response) {
       console.log(response);
-      $("#"+id).html(response);
+      $("'#"+id+"'").html(response);
     },
   });
 }
