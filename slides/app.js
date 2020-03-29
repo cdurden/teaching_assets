@@ -26,10 +26,12 @@ function reloadSlide(id) {
     },
   });
 }
-function init_reveal(deck, print) {
+function init_reveal(deck) {
+    /*
   Reveal.isPrintingPDF = function() {
       return(print)
   }
+  */
   Reveal.initialize({
     math: {
       //mathjax: "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js",
@@ -328,13 +330,11 @@ app.directive('slideshow', ['$compile', 'Sockets', function($compile, Sockets) {
             elem.append(section);
           }
           //$compile(elem)(scope);
-          setTimeout(function() {
           if(Reveal.isReady()) {
             Reveal.sync();
           } else {
-            init_reveal(deck, true);
+            init_reveal(deck);
           }
-          },10000);
         }
       });
     }
