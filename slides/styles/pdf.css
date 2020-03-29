@@ -17,6 +17,9 @@
     .snow-qm-task input[type=submit] {
         display: none !important;
     }
+    div.audio-controls {
+        display: none !important;
+    }
 }
 body {
 	margin: 0 auto !important;
