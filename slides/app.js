@@ -1,7 +1,7 @@
-function loadFailedHtml(id) {
+function slideLoadFailedHtml(id) {
    return('This slide failed to load. Tap <a href=\'javascript:reloadSlide("'+id+'")\'>here</a> to try reloading this slide. If the problem persists, please contact your teacher.');
 }
-function reload_slide(id) {
+function reloadSlide(id) {
       if (id.split('.').length == 1) {
           steps[0] = steps[0]+".html";
       }
@@ -218,7 +218,7 @@ app.directive('slideshow', ['$compile', 'Sockets', function($compile, Sockets) {
                 section.attr("data-separator", '^---$');
                 div = angular.element("<div>");
                 div.attr('my-include', "'./slides/"+steps[0]+"'");
-                div.html(loadFailedHtml);
+                div.html(slideLoadFailedHtml(steps[0]));
                   /*
                 section.attr("id", steps[0]);
                 section.attr("data-markdown", '');
@@ -232,7 +232,7 @@ app.directive('slideshow', ['$compile', 'Sockets', function($compile, Sockets) {
               } else {
                 section.attr('my-include', "'./slides/"+steps[0]+"'");
                 section.attr("id", steps[0]);
-                section.html(loadFailedHtml);
+                section.html(slideLoadFailedHtml(steps[0]));
               }
                   /*
               section.attr('ng-include', "'./slides/"+steps[0]+".html?raw=true'");
@@ -258,7 +258,7 @@ app.directive('slideshow', ['$compile', 'Sockets', function($compile, Sockets) {
                   subSection.attr("data-separator", '^---$');
                   div = angular.element("<div>");
                   div.attr('my-include', "'./slides/"+steps[j]+"'");
-                  div.html(loadFailedHtml);
+                  div.html(slideLoadFailedHtml(steps[0]));
                   /*
                   script = angular.element("<script>");
                   script.attr('type', 'text/template');
@@ -270,7 +270,7 @@ app.directive('slideshow', ['$compile', 'Sockets', function($compile, Sockets) {
                 } else {
                   console.log("slide "+steps[j]+" has html");
                   subSection.attr('my-include', "'./slides/"+steps[j]+"'");
-                  subSection.html(loadFailedHtml);
+                  subSection.html(slideLoadFailedHtml(steps[0]));
                   subSection.attr("id", steps[j]);
                 }
                 //if (j < steps.length - 1)
