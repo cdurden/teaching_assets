@@ -55,6 +55,9 @@ function init_reveal(deck) {
     }, 
     countdown: { defaultTime: 300, autostart: "yes" },
     keyboard: {
+      8: function() { RevealChalkboard.reset() },    // reset chalkboard data on current slide when 'BACKSPACE' is pressed
+      67: function() { RevealChalkboard.toggleNotesCanvas() },    // toggle notes canvas when 'c' is pressed
+      68: function() { RevealChalkboard.download() }, // downlad recorded chalkboard drawing when 'd' is pressed
       83: function() {
         var password = prompt("Please enter broadcast password", "");
         RevealBroadcast.start( { id: 'aashjkxcvyiuqwbljdv', password: password } );
@@ -70,12 +73,16 @@ function init_reveal(deck) {
         className: "question", 
       }
     ],
+    chalkboard: {
+        src: './slides/'+deck+'/chalkboard.json',
+        readOnly: false,
+    },
 	audio: {
       prefix: './slides/'+deck+'/audio/',
       playerOpacity: 0.25,
     },
     dependencies: [
-		        { src: './reveal.js/plugin/math/math.js', async: true },
+      { src: './reveal.js/plugin/math/math.js', async: true },
       { src: './reveal.js-plugins/anything/anything.js' },
       { src: './reveal.js/plugin/markdown/marked.js' },
       { src: './reveal.js/plugin/markdown/markdown.js' },
@@ -84,6 +91,8 @@ function init_reveal(deck) {
   	  { src: './reveal.js-plugins/audio-slideshow/RecordRTC.js', condition: function( ) { return !!document.body.classList; } },				
   	  { src: './reveal.js-plugins/audio-slideshow/slideshow-recorder.js', condition: function( ) { return !!document.body.classList; } },				
   	  { src: './reveal.js-plugins/audio-slideshow/audio-slideshow.js', condition: function( ) { return !!document.body.classList; } },
+      // chalkboard
+      { src: './reveal.js-plugins/chalkboard/chalkboard.js' },
       // broadcasting audio/video
       /*
       { src: './reveal.js-plugins/broadcast/RTCMultiConnection.min.js'},
