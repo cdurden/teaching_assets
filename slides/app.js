@@ -98,7 +98,7 @@ function init_reveal(deck, print) {
   	  { src: './reveal.js-plugins/audio-slideshow/slideshow-recorder.js', condition: function( ) { return !!document.body.classList; } },				
   	  { src: './reveal.js-plugins/audio-slideshow/audio-slideshow.js', condition: function( ) { return !!document.body.classList; } },
       // chalkboard
-      { src: './reveal.js-plugins/chalkboard/chalkboard.js' },
+      //{ src: './reveal.js-plugins/chalkboard/chalkboard.js' },
       // broadcasting audio/video
       /*
       { src: './reveal.js-plugins/broadcast/RTCMultiConnection.min.js'},
