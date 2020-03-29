@@ -8,9 +8,8 @@
 * {
 	-webkit-print-color-adjust: exact;
 }
-
 .reveal .section input [type=submit] {
-    display: none;
+    display: none !important;
 }
 body {
 	margin: 0 auto !important;
