@@ -6,8 +6,11 @@ function updateScroll(){
     }
 }
 $(document).ready(function() {
+    document.getElementById("messages").addEventListener("scroll", function(){
+    if (scrollTop == scrollHeight) { scrolled = false; } else { scrolled=true; }
+  });
   $("#messages").scroll(function(){
-      if (scrollTop == scrollHeight) { scrolled = false; } else { scrolled=true; }
+    if (scrollTop == scrollHeight) { scrolled = false; } else { scrolled=true; }
   });
 });
 function openChatForm() {
