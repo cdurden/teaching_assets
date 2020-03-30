@@ -18,6 +18,9 @@
 }
 .chat-container textarea {
     font-size: 18pt;
+    resize: none;
+    width: 100%;
+    overflow: hidden;
 }
 
 .chat-popup {
