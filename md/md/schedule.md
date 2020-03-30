@@ -2,7 +2,7 @@
 
 | Date and Lesson Link                     | Learning Objectives                                                                    | Assigned Tasks |
 |================================================|========================================================================================|=============|
-| **Monday, March 30**<br/>[Distance Learning Expectations]<br/><br/>or [Use Notability](https://app.schoology.com/assignment/2428336775) | <ul><li>I understand how I can meet the expectations for Algebra class during distance learning.</li></ul> | Watch a video and 4 tasks on the lesson slides
+| **Monday, March 30**<br/>[Distance Learning Expectations]<br/><br/>or <a href="https://app.schoology.com/assignment/2428336775" target="_parent">Use Notability</a> | <ul><li>I understand how I can meet the expectations for Algebra class during distance learning.</li></ul> | Watch a video and 4 tasks on the lesson slides
 | **Tuesday, March 31**<br/>    Solutions to Inequalities in One Variable | <ul><li>I understand that the solution to an inequality is a range of values (such as x>7) that make the inequality true.</li><li>I can graph the solution to an inequality in one variable.</li></ul> | 
 | **Wednesday, April 1**<br/>    Efficiently Solving Inequalities | <ul><li>I can solve inequalities by solving a related equation and then checking which values are solutions to the original inequality.</li></ul> | |
 | **Thursday, April 2**<br/>    Properties of Inequalities | <ul><li>I can solve inequalities using the addition and multiplication properties of inequalities.</li></ul> | |
