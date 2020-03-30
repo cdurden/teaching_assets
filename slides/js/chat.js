@@ -5,8 +5,10 @@ function updateScroll(){
         element.scrollTop = element.scrollHeight;
     }
 }
-$("#messages").on('scroll', function(){
-    if (scrollTop == scrollHeight) { scrolled = false; } else { scrolled=true; }
+$(document).ready(function() {
+  $("#messages").on('scroll', function(){
+      if (scrollTop == scrollHeight) { scrolled = false; } else { scrolled=true; }
+  });
 });
 function openChatForm() {
     document.getElementById("chat-popup").style.display = "block";
