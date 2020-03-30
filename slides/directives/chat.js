@@ -8,7 +8,7 @@ angular.module('slides')
     controller: function () {
       this.sendMessage = function (ev) {
         ev.preventDefault(); // prevents page reloading
-        Sockets.emit(ChatData.getInputMessage());
+        Sockets.emit('chat-message', ChatData.getInputMessage());
         console.log(ChatData.getInputMessage());
         ChatData.getInput().val('');
         return false;
@@ -19,7 +19,7 @@ angular.module('slides')
       ChatData.createChat(element);
       ChatData.getForm().bind("submit",chatCtrl.sendMessage);
 
-      Sockets.on('chat message', function (msg) {
+      Sockets.on('chat-message', function (msg) {
         ChatData.displayMessage(msg);
       })
     }
