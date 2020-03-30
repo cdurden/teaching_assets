@@ -13,7 +13,7 @@
 */
 #chat-toggle-button {
     position: absolute;
-    z-index: 30;
+    z-index: 1;
     font-size: 24px;
     left: 110px;
     bottom: 30px;
@@ -23,6 +23,10 @@
 .chat-container ul {
     list-style-type: none;
     margin: 0;
+    font-size: 18pt;
+}
+.chat-container textarea {
+    font-size: 18pt;
 }
 
 {box-sizing: border-box;}
