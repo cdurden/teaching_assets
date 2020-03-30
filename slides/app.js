@@ -27,11 +27,6 @@ function reloadSlide(id) {
   });
 }
 function init_reveal(deck) {
-    /*
-  Reveal.isPrintingPDF = function() {
-      return(print)
-  }
-  */
   Reveal.initialize({
     math: {
       //mathjax: "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js",
@@ -100,9 +95,9 @@ function init_reveal(deck) {
       { src: './reveal.js-plugins/broadcast/socket.io.js'},
       { src: './reveal.js-plugins/broadcast/bCrypt.js'},
       { src: './reveal.js-plugins/broadcast/broadcast.js'},
-      */
       { src: './reveal.js/plugin/highlight/highlight.js' },
       { src: '/static/js/reveal.js/plugin/notes/notes.js', async: true },
+      */
     ],
     hash: true,
     loop: false,
