@@ -66,12 +66,24 @@
       "Question": "What is one amount that he could spend on cleats?"
   },
   "q49": {
-      "class":
-      "SolutionQuestion",
+      "class": "SolutionQuestion",
       "statement": "x<=81",
-      "Question": "When Joe saw the soccer balls, he wrote the inequality $x+19 \\le 100$, where x represents the cost of the cleats. What is one solution to this inequality?"
+      "Question": "When Thomas saw the soccer balls, he wrote the inequality $x+19 \\le 100$ on his notepad and then went to find a pair of cleats. He said that $x$ represents the cost of a pair of cleats that he could buy. What is one solution to this inequality?"
   },
   "q50": {"class": "DrawingQuestion","background_image_url": "/static/images/NumberLineNoLabels.png","Question": "Graph the solutions to the inequality $x \\geq -4$ on the number line:"},
   "q51": {"class": "CompleteTableDraggableQuestion","csv": "$x$,$-x$,True or false: $x \\geq 3$\n-2,[False]\n-1.5,[False]\n-1,[False]\n0,[False]\n2,[False]\n3,[True]\n,3.5,[True]","Question": "Complete the table","transpose_display": "True","blocks":["True","False"]},
-  "q52": {"class": "DrawingQuestion","background_image_url": "/static/images/NumberLineNoLabels.png","Question": "Graph the solutions to the inequality $x \\geq 3$ on the number line:"}
+  "q52": {"class": "DrawingQuestion","background_image_url": "/static/images/NumberLineNoLabels.png","Question": "Graph the solutions to the inequality $x \\geq 3$ on the number line:"},
+  "q53": {
+      "class": "MultipleChoiceQuestion",
+      "Question": "Sometimes Joe streams videos when he does not have a wifi connection (every hour of streaming video takes about 1GB of data). Can Joe stream 10GB of video?",
+      "choices": ["Yes","No"],
+      "answer":0
+  },
+  "q53": {
+      "class": "SolutionQuestion",
+      "statement": "21+3x<=30",
+      "Question": "To figure out how much video he can stream, Joe wrote the inequality $21 + 3g \\le 30$. What is one solution to this inequality?",
+      "choices": ["Yes","No"],
+      "answer":0
+  }
 }

@@ -29,6 +29,10 @@ div.snow-qm-task {
     right: 110px;
     margin: 10px;
 }
+.snow-qm-task ul {
+    list-style-type: none;
+    display: block;
+}
 div.mark_container {
     display: inline-block;
     margin: 5px;
