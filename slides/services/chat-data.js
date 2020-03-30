@@ -1,4 +1,4 @@
-angular.module('whiteboard.services.chatdata', [])
+angular.module('slides.services.chatdata', [])
 .factory('ChatData', function () {
   var chat;
   var form;

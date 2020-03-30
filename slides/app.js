@@ -119,6 +119,7 @@ function init_reveal(deck) {
 var app = angular.module('slides', [
     'btford.socket-io',
     'services.sockets',
+    'slides.services.chatdata',
     'ngRoute',
 ]);
 app.config([ '$locationProvider' , function ($locationProvider) {
