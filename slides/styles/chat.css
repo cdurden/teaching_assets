@@ -11,6 +11,15 @@
     width: 90%;
 }
 */
+#chat-toggle-button {
+    position: absolute;
+    z-index: 30;
+    font-size: 24px;
+    left: 110px;
+    bottom: 30px;
+    top: auto;
+    right: auto;
+}
 .chat-container ul {
     list-style-type: none;
     margin: 0;
@@ -35,12 +44,15 @@
   font-size: 18pt;
 }
 
+/*
 #chat-toggle-button {
+
     float: right;
     position: absolute;
     bottom: 0px;
     right: 0px;
 }
+*/
 
 /* Button used to open the chat form - fixed at the bottom of the page */
 .open-button {
