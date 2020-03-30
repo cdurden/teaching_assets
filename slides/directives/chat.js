@@ -18,6 +18,12 @@ angular.module('slides')
       var chatCtrl = ctrls[0];
       ChatData.createChat(element);
       ChatData.getForm().bind("submit",chatCtrl.sendMessage);
+      ChatData.getInput().on("keypress",function(e) {
+          var key = e.keyCode;
+          if (key == 13) {
+              ChatData.getForm().submit();
+          }
+      });
 
       Sockets.on('chat-message', function (msg) {
         ChatData.displayMessage(msg);
