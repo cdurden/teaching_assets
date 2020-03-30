@@ -7,14 +7,17 @@
     top: auto;
     right: auto;
 }
-.chat-container ul {
-    list-style-type: none;
-    margin: 0;
-    font-size: 18pt;
+#messages {
     overflow-y: scroll;
     background-color: eee;
     width: 100%;
     max-height: 5em;
+}
+#messages ul {
+    list-style-type: none;
+    margin: 0;
+    font-size: 18pt;
+    background-color: eee;
 }
 .chat-container textarea {
     font-size: 18pt;
