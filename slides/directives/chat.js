@@ -34,6 +34,7 @@ angular.module('slides')
       });
 
       Sockets.on('chat-message', function (msg) {
+        console.log("got message");
         ChatData.displayMessage(msg);
         if (!ChatData.isScrolled()) {
           ChatData.scrollDown();
