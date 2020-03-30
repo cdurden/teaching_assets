@@ -2,7 +2,7 @@ angular.module('slides')
 .directive('slidesChat', ['Sockets','ChatData', function (Sockets, ChatData) {
   return {
     restrict: 'A',
-    require: ['wbChat'],
+    require: ['slidesChat'],
     replace: true,
     templateUrl: './templates/chat.html',
     controller: function () {
