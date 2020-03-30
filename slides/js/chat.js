@@ -6,7 +6,7 @@ function updateScroll(){
     }
 }
 $(document).ready(function() {
-  $("#messages").on('scroll', function(){
+  $("#messages").scroll(function(){
       if (scrollTop == scrollHeight) { scrolled = false; } else { scrolled=true; }
   });
 });

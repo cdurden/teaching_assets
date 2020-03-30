@@ -11,6 +11,7 @@
     overflow-y: scroll;
     background-color: eee;
     width: 100%;
+    font-size: 18pt;
     max-height: 5em;
 }
 #messages ul {
