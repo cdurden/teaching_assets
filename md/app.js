@@ -8,6 +8,23 @@ app.run(function($rootScope) {
         window.location.href = $(this).attr('href');
     });
 });
+app.config(['$provide', function ($provide) {
+    $provide.decorator('$browser', ['$delegate', '$window', function ($delegate, $window) {
+        // normal anchors
+        let ignoredPattern = /^#[a-zA-Z0-9%2F\/\?].*/;
+        let originalOnUrlChange = $delegate.onUrlChange;
+        $delegate.onUrlChange = function (...args) {
+            if (ignoredPattern.test($window.location.hash)) return;
+            originalOnUrlChange.apply($delegate, args);
+        };
+        let originalUrl = $delegate.url;
+        $delegate.url = function (...args) {
+            if (ignoredPattern.test($window.location.hash)) return $window.location.href;
+            return originalUrl.apply($delegate, args);
+        };
+        return $delegate;
+    }]);
+}]);
 app.config([ '$showdownProvider' , function ($showdownProvider) {
     $showdownProvider.setOption('tables', true);
 }]);
