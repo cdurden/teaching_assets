@@ -24,6 +24,8 @@
     list-style-type: none;
     margin: 0;
     font-size: 18pt;
+    overflow-y: scroll;
+    background-color: eee;
 }
 .chat-container textarea {
     font-size: 18pt;
