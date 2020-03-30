@@ -25,6 +25,7 @@ angular.module('slides')
           var key = e.keyCode;
           if (key == 13) {
               chatCtrl.sendMessage();
+              ChatData.getInput().val('');
           }
       });
 
