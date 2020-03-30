@@ -23,6 +23,13 @@
     iframe {
         display: none !important;
     }
+    .chat-container {
+        display: none !important;
+    }
+    #chat-toggle-button {
+        display: none !important;
+    }
+
 }
 body {
 	margin: 0 auto !important;
