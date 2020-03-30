@@ -1,5 +1,5 @@
-angular.module('whiteboard')
-.directive('wbChat', ['ChatData', 'Sockets', function (ChatData, Sockets) {
+angular.module('slides')
+.directive('slidesChat', ['Sockets', function (Sockets) {
   return {
     restrict: 'A',
     require: ['wbChat'],
