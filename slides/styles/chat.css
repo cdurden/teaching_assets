@@ -8,17 +8,13 @@
     right: auto;
 }
 #messages {
+    list-style-type: none;
+    margin: 0;
     overflow-y: scroll;
     background-color: eee;
     width: 100%;
     font-size: 18pt;
     max-height: 5em;
-}
-#messages ul {
-    list-style-type: none;
-    margin: 0;
-    font-size: 18pt;
-    background-color: eee;
 }
 .chat-container textarea {
     font-size: 18pt;
