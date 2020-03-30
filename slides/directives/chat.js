@@ -17,7 +17,7 @@ angular.module('slides')
     link: function (scope, element, attrs, ctrls) {
       var chatCtrl = ctrls[0];
       ChatData.createChat(element);
-      ChatData.getForm.bind("submit",chatCtrl.sendMessage);
+      ChatData.getForm().bind("submit",chatCtrl.sendMessage);
 
       Sockets.on('chat message', function (msg) {
         ChatData.displayMessage(msg);
