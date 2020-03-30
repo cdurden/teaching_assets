@@ -17,10 +17,10 @@ angular.module('slides.services.chatdata', [])
       return scrolled;
   }
   function updateScrolled(){
-    if (getMessageContainer().scrollTop == getMessageContainer().scrollHeight) { scrolled = false; } else { scrolled=true; }
+    if (getChat().scrollTop == getChat().scrollHeight) { scrolled = false; } else { scrolled=true; }
   }  
   function scrollDown() {
-    element = getMessageContainer();
+    element = getChat();
     element.scrollTop = element.scrollHeight;
     scrolled = false;
   }
