@@ -28,9 +28,15 @@ angular.module('slides')
               ChatData.getInput().val('');
           }
       });
+      ChatData.getMessageContainer().scroll(function() {
+          ChatData.updateScrolled();
+      });
 
       Sockets.on('chat-message', function (msg) {
         ChatData.displayMessage(msg);
+        if (!ChatData.isScrolled()) {
+          ChatData.scrollDown();
+        }
       })
     }
   }

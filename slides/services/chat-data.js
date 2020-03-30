@@ -4,17 +4,33 @@ angular.module('slides.services.chatdata', [])
   var form;
   var input;
   var send_button;
+  var scrolled = false;
   function createChat (element) {
+    msg_container = element.find('div');
     chat = element.find('ul');
     form = element.find('form');
     input = element.find('textarea');
     send_button = element.find('button');
+  }
+  function isScrolled() {
+      return scrolled;
+  }
+  function updateScrolled(){
+    if (getMessageContainer().scrollTop == getMessageContainer().scrollHeight) { scrolled = false; } else { scrolled=true; }
+  }  
+  function scrollDown() {
+    element = getMessageContainer();
+    element.scrollTop = element.scrollHeight;
+    scrolled = false;
   }
   function getForm() {
     return form;
   }
   function getChat() {
     return chat;
+  }
+  function getMessageContainer() {
+    return msg_container;
   }
   function getInput() {
     return input;
@@ -49,6 +65,9 @@ angular.module('slides.services.chatdata', [])
     setSocketId: setSocketId,
     getSocketId: getSocketId,
     */
+    isScrolled: isScrolled,
+    updateScrolled: updateScrolled,
+    scrollDown: scrollDown,
     getChat: getChat,
     getForm: getForm,
     getInput: getInput,
