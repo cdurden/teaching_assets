@@ -50,9 +50,11 @@
   width: 100%;
   padding-left: 55px;
   font-size: 18pt;
-  display: none;
 }
 
+#chat-popup {
+  display: none;
+}
 /*
 #chat-toggle-button {
 
