@@ -21,8 +21,7 @@ angular.module('slides')
       ChatData.getInput().on("keypress",function(e) {
           var key = e.keyCode;
           if (key == 13) {
-              document.getElementById("chat-form").submit();
-              ChatData.getForm().submit();
+              chatCtrl.sendMessage();
           }
       });
 
