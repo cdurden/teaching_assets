@@ -6,7 +6,7 @@ angular.module('slides.services.chatdata', [])
   var send_button;
   var scrolled = false;
   function createChat (element) {
-    msg_container = element.find('div');
+    msg_container = element.find('#messages');
     chat = element.find('ul');
     form = element.find('form');
     input = element.find('textarea');
