@@ -86,6 +86,6 @@
       "choices": ["Yes","No"],
       "answer":0
   },
-  "q55": {"class": "CompleteTableDraggableQuestion","csv": "$c$,$c+19$,True or false: $c+19 \\leq 100$\n50,[39],[True]\n60,[69],[True]\n71,[90],[True]\n76,[95],[True]\n86,[105],[False]\n90,[109],[False]\n","Question": "Complete the table to identify the solutions to Thomas's inequality","transpose_display": "True","blocks":["True","False"]},
-  "q56": {"class": "CompleteTableDraggableQuestion","csv": "$g$,$21+3g$,True or false: $21+3g \\leq 30$\n-1,[18],[True]\n0,[21],[True]\n1,[24],[True]\n2,[27],[True]\n3,[30],[True]\n4,[33],[False]\n10,[51],[False]\n","Question": "Complete the table to identify the solutions to Joe's inequality","transpose_display": "True","blocks":["True","False"]}
+  "q55": {"class": "CompleteTableDraggableQuestion","csv": "$c$,$c+19$,True or false: $c+19 \\leq 100$\n40,[59],[True]\n60,[69],[True]\n71,[90],[True]\n76,[95],[True]\n86,[105],[False]\n90,[109],[False]\n","Question": "Complete the table to identify cleats that Thomas can afford","transpose_display": "True","blocks":["True","False"]},
+  "q56": {"class": "CompleteTableDraggableQuestion","csv": "$g$,$21+3g$,True or false: $21+3g \\leq 30$\n-1,[18],[True]\n0,[21],[True]\n1,[24],[True]\n2,[27],[True]\n3,[30],[True]\n4,[33],[False]\n10,[51],[False]\n","Question": "Complete the table to identify how many GB of data Joe can afford.","transpose_display": "True","blocks":["True","False"]}
 }
