@@ -1,33 +1,27 @@
 angular.module('slides')
-.directive('slidesChat', ['Sockets', function (Sockets) {
+.directive('slidesChat', ['Sockets','ChatData', function (Sockets, ChatData) {
   return {
     restrict: 'A',
     require: ['wbChat'],
     replace: true,
     templateUrl: './templates/chat.html',
-    controller: function (MessageHandler) {
-      this.handleEvent = function (ev) {
-        MessageHandler['chat'](ev);
+    controller: function () {
+      this.sendMessage = function (ev) {
+        ev.preventDefault(); // prevents page reloading
+        Sockets.emit(ChatData.getInputMessage());
+        console.log(ChatData.getInputMessage());
+        ChatData.getInput().val('');
+        return false;
       }
     },
     link: function (scope, element, attrs, ctrls) {
       var chatCtrl = ctrls[0];
       ChatData.createChat(element);
-      //ChatData.getInput().bind('keypress', chatCtrl.handleEvent);
-      //ChatData.getSendButton().bind('click', chatCtrl.handleEvent);
-      ChatData.getForm().bind("submit",chatCtrl.handleEvent);
+      ChatData.getForm.bind("submit",chatCtrl.sendMessage);
 
-        /*
-      $('body').on('keypress', function (ev) {
-        boardCtrl.handleEvent(ev);
-      });
-      */
-
-  Sockets.on('chat message', function (msg) {
-    ChatData.displayMessage(msg);
-  })
-
-
+      Sockets.on('chat message', function (msg) {
+        ChatData.displayMessage(msg);
+      })
     }
   }
 }]);
