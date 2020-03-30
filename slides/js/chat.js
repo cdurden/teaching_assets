@@ -1,18 +1,3 @@
-var scrolled = false;
-function updateScroll(){
-    if(!scrolled){
-        var element = document.getElementById("messages");
-        element.scrollTop = element.scrollHeight;
-    }
-}
-$(document).ready(function() {
-    document.getElementById("messages").addEventListener("scroll", function(){
-    if (scrollTop == scrollHeight) { scrolled = false; } else { scrolled=true; }
-  });
-  $("#messages").scroll(function(){
-    if (scrollTop == scrollHeight) { scrolled = false; } else { scrolled=true; }
-  });
-});
 function openChatForm() {
     document.getElementById("chat-popup").style.display = "block";
 }

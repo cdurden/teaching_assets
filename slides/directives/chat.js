@@ -28,7 +28,7 @@ angular.module('slides')
               ChatData.getInput().val('');
           }
       });
-      ChatData.getMessageContainer().scroll(function() {
+      ChatData.getMessageContainer().onscroll(function() {
           ChatData.updateScrolled();
       });
 
