@@ -26,6 +26,8 @@
     font-size: 18pt;
     overflow-y: scroll;
     background-color: eee;
+    width: 100%;
+    max-height: 5em;
 }
 .chat-container textarea {
     font-size: 18pt;
