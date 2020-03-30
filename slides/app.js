@@ -63,13 +63,6 @@ function init_reveal(deck) {
       8: function() { RevealChalkboard.reset() },    // reset chalkboard data on current slide when 'BACKSPACE' is pressed
       67: function() { RevealChalkboard.toggleNotesCanvas() },    // toggle notes canvas when 'c' is pressed
       68: function() { RevealChalkboard.download() }, // downlad recorded chalkboard drawing when 'd' is pressed
-      83: function() {
-        var password = prompt("Please enter broadcast password", "");
-        RevealBroadcast.start( { id: 'aashjkxcvyiuqwbljdv', password: password } );
-      },  // create broadcast when 's' is pressed
-      65: function() {
-        RevealBroadcast.connect( { id: 'aashjkxcvyiuqwbljdv' } );
-      },
       82: function() { Recorder.toggleRecording(); }, // press 'r' to start/stop recording
       90: function() { Recorder.downloadZip(); },     // press 'z' to download zip containing audio files
     },
