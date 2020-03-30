@@ -29,7 +29,7 @@ angular.module('slides')
           }
       });
       var msg_container = ChatData.getChat();
-      ChatData.getChat().onscroll(function() {
+      ChatData.getChat().on('scroll',function() {
           ChatData.updateScrolled();
       });
 
