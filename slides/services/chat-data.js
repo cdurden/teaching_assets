@@ -68,6 +68,7 @@ angular.module('slides.services.chatdata', [])
     isScrolled: isScrolled,
     updateScrolled: updateScrolled,
     scrollDown: scrollDown,
+    getMessageContainer: getMessageContainer,
     getChat: getChat,
     getForm: getForm,
     getInput: getInput,
