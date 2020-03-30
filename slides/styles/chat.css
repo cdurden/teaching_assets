@@ -11,10 +11,10 @@
     width: 90%;
 }
 */
-#chat-container ul {
-    list-style-type: none
+.chat-container ul {
+    list-style-type: none;
+    margin: 0;
 }
-
 
 {box-sizing: border-box;}
 .chat-popup {
@@ -32,6 +32,7 @@
   left: 0;
   width: 100%;
   padding-left: 55px;
+  font-size: 18pt;
 }
 
 #chat-toggle-button {
