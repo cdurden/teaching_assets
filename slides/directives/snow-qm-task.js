@@ -4,9 +4,9 @@ jQuery.fn.extend({
 
         }
         return this.each(function() {
-            $(this).wrap("<div class='input_container'></div>");
             var mark_container = $(this).next("div.mark_container");
             if (mark_container.length < 1) {
+                $(this).wrap("<div class='input_container'></div>");
                 $(this).after("<div class='mark_container'>");
                 mark_container = $(this).next("div.mark_container");
             }
