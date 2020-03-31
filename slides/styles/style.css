@@ -31,7 +31,7 @@ div.snow-qm-task {
     width: 95%;
 }
 .reveal section div.snow-qm-task table {
-    background-color: eee
+    background-color: eee;
     border: solid;
 }
 .reveal section div.snow-qm-task table tbody tr th {
