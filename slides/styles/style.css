@@ -9,7 +9,7 @@
     width: fit-content;
 }
 */
-.item {
+div.item {
     /*
     border: 1px solid #000;
     padding: 10px;
@@ -17,11 +17,14 @@
     cursor: pointer;
     */
     z-index: 40;
+    border: solid;
+    height: 2em;
+    width: 9em;
 }
-.green {
+div.green {
     background-color: #00FF7F;
 }
-.red {
+div.red {
     background-color: #FF0000;
 }
 
