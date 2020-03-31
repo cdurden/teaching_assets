@@ -51,6 +51,9 @@ div.mark_container {
     position: absolute;
     right: 0;
 }
+div.mark_container {
+    position: relative;
+}
 
 .reveal section table tbody td {
     vertical-align: top;
