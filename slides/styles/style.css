@@ -35,7 +35,7 @@ div.snow-qm-task {
     width: 100%;
 }
 .snow-qm-task input[type=submit] {
-    position: fixed;
+/*    position: fixed;*/
     right: 110px;
     margin: 10px;
 }
