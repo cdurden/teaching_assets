@@ -339,14 +339,13 @@ app.controller("myctrl", ["$scope", "$location", "$http", "$routeParams","Socket
                 return result;
             });
         })).then(function(results) {
-            // results is an array of names
-            $('#snow_qm_'+data['collection']+'_'+data['task']).html(data.html)
-            $('#snow_qm_'+data['collection']+'_'+data['task']).find('form').submit(function (e) {
-              Sockets.emit('form_submit', data=getFormData( $(this) ));   
-              e.preventDefault(); // block the traditional submission of the form.
-            });
+          // results is an array of names
+          $('#snow_qm_'+data['collection']+'_'+data['task']).html(data.html)
+          $('#snow_qm_'+data['collection']+'_'+data['task']).find('form').submit(function (e) {
+            Sockets.emit('form_submit', data=getFormData( $(this) ));   
+            e.preventDefault(); // block the traditional submission of the form.
           });
-        })
+        });
       });
       Sockets.on('output', function(data) {
           console.log("output received");
