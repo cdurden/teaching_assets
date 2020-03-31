@@ -15,14 +15,13 @@
     ["MakeTableForThomas.html"],
     ["MakeTableForJoe.html"],
     ["NoticePattern.html"],
+    ["GraphTheInequalities.html"],
     ["LetsInvestigateInequalityA.html"],
     ["MakeTableA.html"],
-    ["QuestionsAboutTheInequalityA.html"],
+    ["QuestionsAboutInequalityA.html"],
     ["GraphInequalityA.html"],
     ["HereIsAnInequality3.html"],
     ["MakeTable3.html"],
-    ["GraphTheInequality3.html"],
-    ["FindSolutionsToInequality1.html"],
-    ["FindSolutionToInequality2.html"]
+    ["GraphInequalityB.html"]
  ]
 }

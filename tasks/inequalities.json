@@ -17,7 +17,6 @@
   "q16": {"class": "AsyGraphicsQuestion","template": "NumberLine.asy", "min":"-3", "max":"10", "Question": ""},
   "q17": {"class": "DrawingQuestion","background_image_url": "/static/images/NumberLineNoLabels.png","Question": "Graph the solutions to the inequality $-x \\geq -4$ on the number line:"},
   "q18": {"class": "CompleteTableQuestion","csv": "a,b,c\n1,[2],3\n4,[5],6\n","Question": "Complete the table","transpose_display": "True"},
-  "q19": {"class": "CompleteTableDraggableQuestion","csv": "$x$,$-x$,True or false: $-x \\geq -4$\n3,[-3],[True]\n-3,[3],[True]\n4,[-4],[True]\n-4,[4],[True]\n4.001,[-4.001],[False]\n-4.001,[4.001],[True]\n","Question": "Complete the table","transpose_display": "True","blocks":[3,4,-3,-4,4.001,-4.001,"True","False"]},
   "q20": {"class": "CompleteTableQuestion","csv": "$x$,$x-3$\n-4,-7\n-3,[-6]\n-2,-5\n-1,[-4]\n0,[-3]\n1,[-2]\n2,-1\n3,[0]\n4,1","Question": "Complete the table","transpose_display": "True"},
   "q21": {"class": "CompleteTableQuestion","csv": "$x$,$2x$\n-4,[-8]\n-3,[-6]\n-2,[-4]\n-1,[-2]\n0,[0]\n1,[2]\n2,[4]\n3,[6]\n4,[8]","Question": "Complete the table","transpose_display": "True"},
   "q22": {"class": "OpenEndedQuestion","Question": "For which values of $x$ is it true that $x - 3 = -2$?"},
@@ -55,7 +54,7 @@
   "q46": {"class": "OpenEndedQuestion","Question": "How can an inequality be used to check whether a quantity is too big or too small."},
   "q47": {
       "class": "MultipleChoiceQuestion",
-      "Question": "Thomas saw a pair of cleats for $89 (including tax). Could he buy both a soccer ball and these cleats?",
+      "Question": "Thomas saw a pair of cleats for $89 (including tax). Could he buy the soccer ball <i>and</i> these cleats?",
       "choices": ["Yes","No"],
       "answer":1
   },
@@ -72,7 +71,6 @@
       "Question": "What is one solution to this inequality?"
   },
   "q50": {"class": "DrawingQuestion","background_image_url": "/static/images/NumberLineNoLabels.png","Question": "Graph the solutions to the inequality $x \\geq -4$ on the number line:"},
-  "q51": {"class": "CompleteTableDraggableQuestion","csv": "$x$,$-x$,True or false: $x \\geq 3$\n-2,[False]\n-1.5,[False]\n-1,[False]\n0,[False]\n2,[False]\n3,[True]\n,3.5,[True]","Question": "Complete the table","transpose_display": "True","blocks":["True","False"]},
   "q52": {"class": "DrawingQuestion","background_image_url": "/static/images/NumberLineNoLabels.png","Question": "Graph the solutions to the inequality $x \\geq 3$ on the number line:"},
   "q53": {
       "class": "MultipleChoiceQuestion",
@@ -87,8 +85,6 @@
       "choices": ["Yes","No"],
       "answer":0
   },
-  "q55": {"class": "CompleteTableDraggableQuestion","csv": "$c$,$c+19$,True or false: $c+19 \\leq 100$\n40,[59],[True]\n60,[69],[True]\n71,[90],[True]\n76,[95],[True]\n86,[105],[False]\n90,[109],[False]\n","Question": "Complete the table to identify cleats that Thomas can afford","transpose_display": "True","blocks":["True","False"]},
-  "q56": {"class": "CompleteTableDraggableQuestion","csv": "$g$,$21+3g$,True or false: $21+3g \\leq 30$\n-1,[18],[True]\n0,[21],[True]\n1,[24],[True]\n2,[27],[True]\n3,[30],[True]\n4,[33],[False]\n10,[51],[False]\n","Question": "Complete the table to identify how many GB of data Joe can afford.","transpose_display": "True","blocks":["True","False"]},
   "q57": {"class": "OpenEndedQuestion","Question": "<u><b>Fill in the blank</b></u><br/>In algebra, $c$ is called a:","context": "After Thomas saw the soccer balls, he wrote an inequality on his notepad: $c+19 \\le 100$. He said that cc represents the cost of a pair of cleats that he could buy."},
   "q58": {"class": "OpenEndedQuestion","Question": "If he <i>must</i> meet his budget, how many GB of data <i>could</i> Joe use? (Find one solution.)","context": "After Thomas saw the soccer balls, he wrote an inequality on his notepad: $c+19 \\le 100$. He said that cc represents the cost of a pair of cleats that he could buy."},
   "q59": {"class": "OpenEndedQuestion","Question": "Interpret the solution in this context (Say what it means to Thomas).","context": "After Thomas saw the soccer balls, he wrote an inequality on his notepad: $c+19 \\le 100$. He said that cc represents the cost of a pair of cleats that he could buy."},
@@ -110,5 +106,49 @@
         "Question": "What is one solution to this inequality?"
     },
     {   "class": "OpenEndedQuestion","Question": "Interpret the solution in this context (Say what it means to Thomas).","context": "After Thomas saw the soccer balls, he wrote an inequality on his notepad: $c+19 \\le 100$. He said that cc represents the cost of a pair of cleats that he could buy."}
-  ]}
+  ]},
+  "q19": {"class": "CompleteTableDraggableQuestion","csv": "$x$,$-x$,<div class='sm-font'>Solution or not a solution?</div>\n3,[-3],[Solution]\n-3,[3],[Solution]\n4,[-4],[Solution]\n-4,[4],[Solution]\n4.001,[-4.001],[Not a solution]\n-4.001,[4.001],[Solution]\n","Question": "Complete the table","transpose_display": "True","blocks":[3,4,-3,-4,4.001,-4.001,"Solution","Not a solution"]},
+  "q51": {"class": "CompleteTableDraggableQuestion","csv": "$x$,$-x$,<div class='sm-font'>Solution or not a solution?</div>\n-2,[Not a solution]\n-1.5,[Not a solution]\n-1,[Not a solution]\n0,[Not a solution]\n2,[Not a solution]\n3,[Solution]\n,3.5,[Solution]","Question": "Complete the table","transpose_display": "True","blocks":["Solution","Not a solution"]},
+  "q55": {
+      "class": "CompleteTableDraggableQuestion",
+      "csv": "$c$,$c+19$,<div class='sm-font'>Solution or not a solution?</div>\n40,[59],[Solution]\n60,[69],[Solution]\n71,[90],[Solution]\n76,[95],[Solution]\n86,[105],[Not a solution]\n90,[109],[Not a solution]\n",
+      "Question": "Complete the table to identify cleats that Thomas can afford",
+      "transpose_display": "True",
+      "blocks":["Solution","Not a solution"],
+      "render_blocks": 0,
+      "dropzone": [6,7,8,9,10,11],
+      "block_container": "inequalities_q55_block_container"
+  },
+  "q56": {"class": "CompleteTableDraggableQuestion",
+      "csv": "$g$,$21+3g$,<div class='sm-font'>Solution or not a solution?</div>\n-1,[18],[Solution]\n0,[21],[Solution]\n1,[24],[Solution]\n2,[27],[Solution]\n3,[30],[Solution]\n4,[33],[Not a solution]\n10,[51],[Not a solution]\n",
+      "Question": "Complete the table to identify how many GB of data Joe can afford.",
+      "transpose_display": "True",
+      "blocks":["Solution","Not a solution"],
+      "render_blocks": 0,
+      "dropzone": [7,8,9,10,11,12,13],
+      "block_container": "inequalities_q56_block_container"
+  },
+  "q62": {
+      "class": "OpenEndedQuestion",
+      "Question": "Thomas saw a pair of cleats for $89 (including tax). Could he buy the soccer ball <i>and</i> these cleats? Explain why or why not."
+  },
+  "q63": {"class": "MultiPartQuestion",
+      "parts": [
+        {"class": "OpenEndedQuestion","Question": "For which values of $x$ is it true that $x - 3 = -2$?"},
+        {"class": "OpenEndedQuestion","Question": "For which values of $x$ is it true that $x - 3 > -2$?"}
+  ]},
+  "q64": {
+      "class": "CompleteTableDraggableQuestion",
+      "csv": "$c$,$c+19$,<div class='sm-font'>Solution or not a solution?</div>\n60,[69],[Solution]\n\n40,[59],[Solution]\n90,[109],[Not a solution]\n71,[90],[Solution]\n86,[105],[Not a solution]\n76,[95],[Solution]\n",
+      "Question": "In the table below, the values of the variable are not in order. What do you notice about the pattern of the solutions?",
+      "transpose_display": "True",
+      "blocks":["Solution","Not a solution"],
+      "render_blocks": 0,
+      "dropzone": [6,7,8,9,10,11],
+      "block_container": "inequalities_q55_block_container"
+  },
+  "q65": {
+      "class": "OpenEndedQuestion",
+      "Question": "How would you describe the pattern of solutions in the previous tables?"
+  }
 }

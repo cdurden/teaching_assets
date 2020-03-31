@@ -6,6 +6,7 @@ jQuery.fn.extend({
         return this.each(function() {
             var mark_container = $(this).next("div.mark_container");
             if (mark_container.length < 1) {
+                $(this).wrap("<div class='input_container'></div>");
                 $(this).after("<div class='mark_container'>");
                 mark_container = $(this).next("div.mark_container");
             }
@@ -41,7 +42,7 @@ function mark(data) {
     }
 }
 angular.module('slides')
-.directive('snowQmTask', ['Sockets', function (Sockets) {
+.directive('snowQmTask', ['Sockets','angularLoad', function (Sockets,angularLoad) {
   return {
     restrict: 'A',
     require: ['snowQmTask'],
