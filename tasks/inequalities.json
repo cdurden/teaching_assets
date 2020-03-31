@@ -55,7 +55,7 @@
   "q46": {"class": "OpenEndedQuestion","Question": "How can an inequality be used to check whether a quantity is too big or too small."},
   "q47": {
       "class": "MultipleChoiceQuestion",
-      "Question": "Thomas saw a pair of cleats for $89 (including tax). Could he buy both a soccer ball and these cleats?",
+      "Question": "Thomas saw a pair of cleats for $89 (including tax). Could he buy the soccer ball <i>and</i> these cleats?",
       "choices": ["Yes","No"],
       "answer":1
   },
