@@ -5,6 +5,10 @@
     top: 20px;
 }
 */
+.reveal section .center ul {
+    margin: 0px;
+    text-align: center;
+}
 .reveal section div.inline-image {
     display: inline-block;
     vertical-align: middle;
