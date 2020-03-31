@@ -4,9 +4,9 @@
 |================================================|========================================================================================|=============|
 | **Monday, March 30**<br/>[Distance Learning Expectations]<br/><br/>or <a href="https://app.schoology.com/assignment/2428336775" target="_parent">Use Notability</a> | <ul><li>I understand how I can meet the expectations for Algebra class during distance learning.</li></ul> | Watch a video and complte 4 tasks on the lesson slides.
 | **Tuesday, March 31**<br/>    [Solutions to Inequalities in One Variable] or <a href="https://app.schoology.com/assignment/2433707910" target="_parent">Use Notability</a> | <ul><li>I understand that the solution to an inequality is a range of values (such as x>7) that make the inequality true.</li><li>I can graph the solution to an inequality in one variable.</li></ul> | <a href="https://youtu.be/ls5dCqXRP6g">Watch the video</a>. Answer 7 questions on the lesson slides by following the video and then 10 questions independently.
-| **Wednesday, April 1**<br/>    [Efficiently Solving Inequalities] | <ul><li>I can solve inequalities by solving a related equation and then checking which values are solutions to the original inequality.</li></ul> | |
-| **Thursday, April 2**<br/>    [Properties of Inequalities] | <ul><li>I can solve inequalities using the addition and multiplication properties of inequalities.</li></ul> | |
-| **Friday, April 3**<br/>    [Reasoning about Inequalities]     | <ul><li>I can solve one-variable inequalities and interpret the solutions in terms of the situation.</li></ul>
+| **Wednesday, April 1**<br/>    Efficiently Solving Inequalities | <ul><li>I can solve inequalities by solving a related equation and then checking which values are solutions to the original inequality.</li></ul> | |
+| **Thursday, April 2**<br/>    Properties of Inequalities | <ul><li>I can solve inequalities using the addition and multiplication properties of inequalities.</li></ul> | |
+| **Friday, April 3**<br/>    Reasoning about Inequalities     | <ul><li>I can solve one-variable inequalities and interpret the solutions in terms of the situation.</li></ul>
 
 
 [Distance Learning Expectations]: ../slides/?update#DistanceLearningExpectations
