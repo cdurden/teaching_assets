@@ -128,8 +128,13 @@
       "dropzone": [6,7,8,9,10,11],
       "block_container": "inequalities_q56_block_container"
   },
-  "q57": {
+  "q62": {
       "class": "OpenEndedQuestion",
       "Question": "Thomas saw a pair of cleats for $89 (including tax). Could he buy the soccer ball <i>and</i> these cleats? Explain why or why not."
-  }
+  },
+  "q63": {"class": "MultiPartQuestion",
+      "parts": [
+        {"class": "OpenEndedQuestion","Question": "For which values of $x$ is it true that $x - 3 = -2$?"},
+        {"class": "OpenEndedQuestion","Question": "For which values of $x$ is it true that $x - 3 > -2$?"}
+  ]}
 }
