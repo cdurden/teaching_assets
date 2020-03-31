@@ -117,7 +117,8 @@
       "blocks":["True","False"],
       "render_blocks": 0,
       "dropzone": [6,7,8,9,10,11],
-      "block_container": "inequalities_q55_block_container"
+      "block_container": "inequalities_q55_block_container",
+      "library": "jquery-ui"
   },
   "q56": {"class": "CompleteTableDraggableQuestion",
       "csv": "$g$,$21+3g$,<div class='sm-font'>Solution or not a solution?</div>\n-1,[18],[True]\n0,[21],[True]\n1,[24],[True]\n2,[27],[True]\n3,[30],[True]\n4,[33],[False]\n10,[51],[False]\n",
@@ -127,6 +128,7 @@
       "render_blocks": 0,
       "dropzone": [6,7,8,9,10,11],
       "block_container": "inequalities_q56_block_container"
+      "library": "jquery-ui"
   },
   "q57": {
       "class": "OpenEndedQuestion",
