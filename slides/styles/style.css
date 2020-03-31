@@ -48,7 +48,8 @@ div.snow-qm-task {
 div.mark_container {
     display: inline-block;
     margin: 5px;
-    float: left;
+    position: absolute;
+    right: 0;
 }
 
 .reveal section table tbody td {
