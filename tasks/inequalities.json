@@ -136,5 +136,19 @@
       "parts": [
         {"class": "OpenEndedQuestion","Question": "For which values of $x$ is it true that $x - 3 = -2$?"},
         {"class": "OpenEndedQuestion","Question": "For which values of $x$ is it true that $x - 3 > -2$?"}
-  ]}
+  ]},
+  "q64": {
+      "class": "CompleteTableDraggableQuestion",
+      "csv": "$c$,$c+19$,<div class='sm-font'>Solution or not a solution?</div>\n60,[69],[Solution]\n\n40,[59],[Solution]\n90,[109],[Not a solution]\n71,[90],[Solution]\n86,[105],[Not a solution]\n76,[95],[Solution]\n",
+      "Question": "In the table below, the values of the variable are not in order. What do you notice about the pattern of the solutions?",
+      "transpose_display": "True",
+      "blocks":["Solution","Not a solution"],
+      "render_blocks": 0,
+      "dropzone": [6,7,8,9,10,11],
+      "block_container": "inequalities_q55_block_container"
+  },
+  "q65": {
+      "class": "OpenEndedQuestion",
+      "Question": "How would you describe the pattern of solutions in the previous tables?"
+  }
 }
