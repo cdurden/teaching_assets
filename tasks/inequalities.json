@@ -116,7 +116,7 @@
       "transpose_display": "True",
       "blocks":["True","False"],
       "render_blocks": 0,
-      "dropzone": [1,3,5,7,9,11],
+      "dropzone": [6,7,8,9,10,11],
       "block_container": "inequalities_q55_block_container"
   },
   "q56": {"class": "CompleteTableDraggableQuestion",
@@ -125,7 +125,7 @@
       "transpose_display": "True",
       "blocks":["True","False"],
       "render_blocks": 0,
-      "dropzone": [1,3,5,7,9,11],
+      "dropzone": [6,7,8,9,10,11],
       "block_container": "inequalities_q56_block_container"
   },
   "q57": {
