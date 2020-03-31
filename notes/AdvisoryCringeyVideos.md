@@ -1,0 +1,3 @@
+Dear advisory students,
+
+Now that we are getting back into some sort of school routine, I would like to find a way for us to simulate that experience of being together for 30 minutes out of the day. I am hoping that we might be able to find one or two times when we can all meet. Here's my (brilliant as ever) idea for how to bring back that sense of community. Everyone come up with one school-appropriate music video that is pretty catchy but that we would definitely not want to listen to all day. My inspiration for this is a Rick Astley video that Carter shared with me, and I am posting it below. Please make it school appropriate, and we will.
