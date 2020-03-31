@@ -127,7 +127,7 @@
       "blocks":["True","False"],
       "render_blocks": 0,
       "dropzone": [6,7,8,9,10,11],
-      "block_container": "inequalities_q56_block_container"
+      "block_container": "inequalities_q56_block_container",
       "library": "jquery-ui"
   },
   "q57": {
