@@ -55,7 +55,7 @@
   "q46": {"class": "OpenEndedQuestion","Question": "How can an inequality be used to check whether a quantity is too big or too small."},
   "q47": {
       "class": "MultipleChoiceQuestion",
-      "Question": "Thomas sees a pair of cleats for $89 (including tax). Can he buy both a soccer ball and the cleats?",
+      "Question": "Thomas sees a pair of cleats for $89 (including tax). Can he buy both a soccer ball and these cleats?",
       "choices": ["Yes","No"],
       "answer":1
   },
@@ -83,11 +83,12 @@
   "q54": {
       "class": "SolutionQuestion",
       "statement": "21+3x<=30",
-      "Question": "To figure out how much video he can stream, Joe wrote the inequality $21 + 3g \\le 30$. What is one solution to this inequality?",
+      "Question": "To figure out how much video he can stream, Joe wrote the inequality $21 + 3G \\le 30$. What is one solution to this inequality?",
       "choices": ["Yes","No"],
       "answer":0
   },
   "q55": {"class": "CompleteTableDraggableQuestion","csv": "$c$,$c+19$,True or false: $c+19 \\leq 100$\n40,[59],[True]\n60,[69],[True]\n71,[90],[True]\n76,[95],[True]\n86,[105],[False]\n90,[109],[False]\n","Question": "Complete the table to identify cleats that Thomas can afford","transpose_display": "True","blocks":["True","False"]},
   "q56": {"class": "CompleteTableDraggableQuestion","csv": "$g$,$21+3g$,True or false: $21+3g \\leq 30$\n-1,[18],[True]\n0,[21],[True]\n1,[24],[True]\n2,[27],[True]\n3,[30],[True]\n4,[33],[False]\n10,[51],[False]\n","Question": "Complete the table to identify how many GB of data Joe can afford.","transpose_display": "True","blocks":["True","False"]},
-  "q57": {"class": "OpenEndedQuestion","Question": "<u><b>Fill in the blank</b></u><br/>In algebra, $c$ is called a:","context": "After Thomas saw the soccer balls, he wrote an inequality on his notepad: $c+19 \\le 100$. He said that cc represents the cost of a pair of cleats that he could buy."}
+  "q57": {"class": "OpenEndedQuestion","Question": "<u><b>Fill in the blank</b></u><br/>In algebra, $c$ is called a:","context": "After Thomas saw the soccer balls, he wrote an inequality on his notepad: $c+19 \\le 100$. He said that cc represents the cost of a pair of cleats that he could buy."},
+  "q58": {"class": "OpenEndedQuestion","Question": "How many GB of data <i>could</i> Joe use?","context": "After Thomas saw the soccer balls, he wrote an inequality on his notepad: $c+19 \\le 100$. He said that cc represents the cost of a pair of cleats that he could buy."}
 }
