@@ -30,6 +30,17 @@ div.snow-qm-task {
     vertical-align: top;
     width: 95%;
 }
+.reveal section .snow-qm-task table {
+    background-color: eee
+    border: solid;
+}
+.reveal section .snow-qm-task table tbody tr th {
+    text-align: right;
+}
+.reveal section .snow-qm-task table tbody tr td, th {
+    padding: 10px;
+    vertical-align: middle;
+}
 .snow-qm-task textarea {
     display: block;
     width: 100%;
