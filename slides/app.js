@@ -331,7 +331,7 @@ app.directive('slideshow', ['$compile', 'Sockets', function($compile, Sockets) {
   };
 }]);
 
-app.controller("myctrl", ["$scope", "$location", "$http", "$routeParams","Sockets","angularLoad" function($scope, $location, $http, $routeParams, Sockets, angularLoad) {
+app.controller("myctrl", ["$scope", "$location", "$http", "$routeParams","Sockets","angularLoad", function($scope, $location, $http, $routeParams, Sockets, angularLoad) {
       Sockets.on('snow_qm_task_data', function (data) {
         console.log(data);
         Promise.all(scripts.map(function(script) { 
