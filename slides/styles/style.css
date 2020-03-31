@@ -39,6 +39,7 @@ div.snow-qm-task {
 }
 .reveal section div.snow-qm-task table tbody tr th {
     text-align: right;
+    border-right: solid;
 }
 .reveal section div.snow-qm-task table tbody tr td,
 .reveal section div.snow-qm-task table tbody tr th
