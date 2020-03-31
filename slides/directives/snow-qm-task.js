@@ -10,7 +10,7 @@ jQuery.fn.extend({
                 mark_container = $(this).next("div.mark_container");
             }
             mark_container.html(mark)
-        });
+        }).wrap("<div class='input_container'></div>");
     }
 });
 function mark(data) {
