@@ -30,14 +30,16 @@ div.snow-qm-task {
     vertical-align: top;
     width: 95%;
 }
-.reveal section .snow-qm-task table {
+.reveal section div.snow-qm-task table {
     background-color: eee
     border: solid;
 }
-.reveal section .snow-qm-task table tbody tr th {
+.reveal section div.snow-qm-task table tbody tr th {
     text-align: right;
 }
-.reveal section .snow-qm-task table tbody tr td, th {
+.reveal section div.snow-qm-task table tbody tr td,
+.reveal section div.snow-qm-task table tbody tr th
+   {
     padding: 10px;
     vertical-align: middle;
 }
