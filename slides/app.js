@@ -105,6 +105,7 @@ function init_reveal(deck) {
   });
 }
 var app = angular.module('slides', [
+    'angularLoad',
     'btford.socket-io',
     'services.sockets',
     'slides.services.chatdata',
@@ -324,19 +325,34 @@ app.directive('slideshow', ['$compile', 'Sockets', function($compile, Sockets) {
           } else {
             init_reveal(deck);
           }
+          function save_work () {
+              console.log('saving work');
+              socket.emit('save_work', data=JSON.stringify(RevealChalkboard.storage()));
+          }
+          Reveal.addEventListener( 'ready', function( event ) {
+              RevealChalkboard.loadData('/load_work');
+          });
+          setInterval(save_work,60000);
         }
       });
     }
   };
 }]);
 
-app.controller("myctrl", ["$scope", "$location", "$http", "$routeParams","Sockets", function($scope, $location, $http, $routeParams, Sockets) {
+app.controller("myctrl", ["$scope", "$location", "$http", "$routeParams","Sockets","angularLoad", function($scope, $location, $http, $routeParams, Sockets, angularLoad) {
       Sockets.on('snow_qm_task_data', function (data) {
         console.log(data);
-        $('#snow_qm_'+data['collection']+'_'+data['task']).html(data.html)
-        $('#snow_qm_'+data['collection']+'_'+data['task']).find('form').submit(function (e) {
-          Sockets.emit('form_submit', data=getFormData( $(this) ));   
-          e.preventDefault(); // block the traditional submission of the form.
+        Promise.all(data.question.scripts.map(function(script) { 
+            return angularLoad.loadScript(script).then(function(result) { 
+                return result;
+            });
+        })).then(function(results) {
+          // results is an array of names
+          $('#snow_qm_'+data['collection']+'_'+data['task']).html(data.html)
+          $('#snow_qm_'+data['collection']+'_'+data['task']).find('form').submit(function (e) {
+            Sockets.emit('form_submit', data=getFormData( $(this) ));   
+            e.preventDefault(); // block the traditional submission of the form.
+          });
         });
       });
       Sockets.on('output', function(data) {
