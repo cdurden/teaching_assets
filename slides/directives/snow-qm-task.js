@@ -41,7 +41,7 @@ function mark(data) {
     }
 }
 angular.module('slides')
-.directive('snowQmTask', ['Sockets', function (Sockets) {
+.directive('snowQmTask', ['Sockets','angularLoad', function (Sockets,angularLoad) {
   return {
     restrict: 'A',
     require: ['snowQmTask'],
