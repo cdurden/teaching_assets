@@ -104,11 +104,11 @@
     }
   ]},
   "q61": {"class": "MultiPartQuestion","context":"","parts": [
-      {   "class": "SolutionQuestion",
-          "statement": "x<=81",
-          "context":"When Thomas saw the soccer balls, he wrote the inequality $x+19 \\le 100$ on his notepad and then went to find a pair of cleats. He said that $x$ represents the cost of a pair of cleats that he could buy.",
-          "Question": "What is one solution to this inequality?"
-      },
-      {   "class": "OpenEndedQuestion","Question": "Interpret the solution in this context (Say what it means to Thomas).","context": "After Thomas saw the soccer balls, he wrote an inequality on his notepad: $c+19 \\le 100$. He said that cc represents the cost of a pair of cleats that he could buy."}
-  ]
+    {   "class": "SolutionQuestion",
+        "statement": "x<=81",
+        "context":"When Thomas saw the soccer balls, he wrote the inequality $x+19 \\le 100$ on his notepad and then went to find a pair of cleats. He said that $x$ represents the cost of a pair of cleats that he could buy.",
+        "Question": "What is one solution to this inequality?"
+    },
+    {   "class": "OpenEndedQuestion","Question": "Interpret the solution in this context (Say what it means to Thomas).","context": "After Thomas saw the soccer balls, he wrote an inequality on his notepad: $c+19 \\le 100$. He said that cc represents the cost of a pair of cleats that he could buy."}
+  ]}
 }
