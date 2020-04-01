@@ -43,7 +43,7 @@ for task in sorted(data.keys()):
     ineq = parse_expr(ex['ineq'],transformations=transformations)
     variable = 'x'
     lhs = ineq.lhs
-    img_src = "./images/NumberLineFromNegative10to9.png" if max(abs(ex['xs']))<=9 else "./images/NumberLineNoLabels.png"
+    img_src = "./images/NumberLineFromNegative10To9.png" if max(map(abs,ex['xs']))<=9 else "./images/NumberLineNoLabels.png"
     csv += "${:s}$,${:s}$,<div class='sm-font'>Solution or not a solution?</div>\n".format(variable, latex(lhs))
     for x0 in ex['xs']:
         solution = ineq.subs(x,parse_expr(str(x0)))
