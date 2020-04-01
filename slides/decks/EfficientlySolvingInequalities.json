@@ -1,8 +1,8 @@
 { "collection": "EfficientlySolvingInequalities",
   "slides": 
   [
-    ["KeyConceptSolutions.html"],
-    ["GraphTheInequalities.html"],
+    ["KeyConceptSolution.html"],
+    ["KeyConceptRay.html"],
     ["Example1.html"],
     ["Example2.html"],
     ["Exercise1.html"],
