@@ -10,10 +10,10 @@ loader = jinja2.FileSystemLoader(os.path.join(os.getcwd(),"templates"))
 jinja_env = jinja2.Environment(loader=loader,extensions=['jinja2.ext.with_'])
 template = jinja_env.get_template("EfficientlySolvingInequalities.html")
 
-def latex(s):
-    s = s.replace("<=",'\le')
-    s = s.replace(">=",'\ge')
-    return(s)
+#def latex(s):
+#    s = s.replace("<=",'\le')
+#    s = s.replace(">=",'\ge')
+#    return(s)
 
 def equality(s):
     s = s.replace("<=",'=')
@@ -39,15 +39,17 @@ no = 0
 for task,ex in data.items():
     no = no+1
     csv = ''
-    ineq = ex['ineq']
+    ineq = parse_expr(ex['ineq'])
+    variable = 'x'
+    lhs = ineq.lhs
+    csv += "${:s}$,${:s}$,<div class='sm-font'>Solution or not a solution?</div>\n".format(variable, latex(lhs))
     for x0 in ex['xs']:
-        lhs = parse_expr(ineq,transformations=transformations).lhs
         solution = parse_expr(ineq,transformations=transformations).subs(x,parse_expr(str(x0)))
         csv += "{:d},[{:s}],{:s}\n".format(x0,lhs.subs(x,parse_expr(str(x0))),"[Solution]" if solution else "[Not a solution]")
     ex['csv'] = csv
     ex.update({
       "class": "CompleteTableDraggableQuestion",
-      "Question": "Complete the table to identify solutions to {:s}".format(latex(ex['ineq'])),
+      "Question": "Complete the table to identify solutions to {:s}".format(latex(ineq)),
       "transpose_display": "True",
       "blocks":["Solution","Not a solution"],
       "render_blocks": 0,
@@ -55,12 +57,12 @@ for task,ex in data.items():
       "block_container": "inequalities_q{:d}_block_container"})
     ex0 = ex
     ex0.update({
-      "latex": latex(ex['ineq']),
+      "latex": latex(ineq),
       "collection": collection,
       "task": task,
       "no": no,
       "equality": equality(ex['ineq']),
-      "variable": 'x',
+      "variable": variable,
     })
     html = template.render(**ex0)
     with open(os.path.join("out","Exercise{:d}.html".format(no)),"w") as f:
