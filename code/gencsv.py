@@ -22,6 +22,7 @@ def equality(s):
     s = s.replace("<",'=')
     return(s)
 
+collection = "es1"
 data ={ 
         "q67": { 'ineq': "x+5>10", 'xs': [2,3,4,5,6,7,8] },
         "q68": { 'ineq': "-x+3>=5", 'xs': [-4,-3,-2,-1,0,1,2] },
@@ -36,7 +37,7 @@ data ={
 x = symbols("x")
 no = 0
 for task,ex in data.items():
-    no += 1
+    no = no+1
     csv = ''
     ineq = ex['ineq']
     for x0 in ex['xs']:
@@ -45,6 +46,7 @@ for task,ex in data.items():
         csv += "{:d},[{:s}],{:s}\n".format(x0,lhs.subs(x,parse_expr(str(x0))),"[Solution]" if solution else "[Not a solution]")
     ex['csv'] = csv
     ex.update({
+      "class": "CompleteTableDraggableQuestion",
       "Question": "Complete the table to identify solutions to {:s}".format(latex(ex['ineq'])),
       "transpose_display": "True",
       "blocks":["Solution","Not a solution"],
@@ -54,6 +56,7 @@ for task,ex in data.items():
     ex0 = ex
     ex0.update({
       "latex": latex(ex['ineq']),
+      "collection": collection,
       "task": task,
       "no": no,
       "equality": equality(ex['ineq']),
@@ -63,7 +66,7 @@ for task,ex in data.items():
     with open(os.path.join("out","Exercise{:d}.html".format(no)),"w") as f:
         f.write(html)
 
-with open(os.path.join("out","exercises.json"),"w") as f:
+with open(os.path.join("out","{:s}.json".format(collection)),"w") as f:
     f.write(json.dumps(data))
 
 
