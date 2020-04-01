@@ -36,15 +36,17 @@ data ={
         }
 x = symbols("x")
 no = 0
-for task,ex in data.items():
+for task in sorted(data.keys()):
+    ex = data[task]
     no = no+1
     csv = ''
-    ineq = parse_expr(ex['ineq'])
+    ineq = parse_expr(ex['ineq'],transformations=transformations)
     variable = 'x'
     lhs = ineq.lhs
+    img_src = "./images/NumberLineFromNegative10to9.png" if max(abs(ex['xs']))<=9 else "./images/NumberLineNoLabels.png"
     csv += "${:s}$,${:s}$,<div class='sm-font'>Solution or not a solution?</div>\n".format(variable, latex(lhs))
     for x0 in ex['xs']:
-        solution = parse_expr(ineq,transformations=transformations).subs(x,parse_expr(str(x0)))
+        solution = ineq.subs(x,parse_expr(str(x0)))
         csv += "{:d},[{:s}],{:s}\n".format(x0,lhs.subs(x,parse_expr(str(x0))),"[Solution]" if solution else "[Not a solution]")
     ex['csv'] = csv
     ex.update({
@@ -54,13 +56,14 @@ for task,ex in data.items():
       "blocks":["Solution","Not a solution"],
       "render_blocks": 0,
       "dropzone": range(len(ex['xs'])+1,2*len(ex['xs'])+1),
-      "block_container": "inequalities_q{:d}_block_container"})
+      "block_container": "{:s}_{:s}_block_container".format(collection,task)})
     ex0 = ex
     ex0.update({
       "latex": latex(ineq),
       "collection": collection,
       "task": task,
       "no": no,
+      "img_src": img_src,
       "equality": equality(ex['ineq']),
       "variable": variable,
     })
