@@ -150,5 +150,9 @@
   "q65": {
       "class": "OpenEndedQuestion",
       "Question": "How would you describe the pattern of solutions in the previous tables?"
+  },
+  "q66": {
+      "class": "OpenEndedQuestion",
+      "Question": "Which solution"
   }
 }

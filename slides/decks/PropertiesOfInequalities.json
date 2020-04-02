@@ -1,8 +1,10 @@
 {   "collection": "PropertiesOfInequalities",
     "slides": [
-        [
-            "InequalitiesInvestigation",
-            "InequalitiesInvestigationReflection"
-        ]
+        ["LearningGoals"],
+        ["AreTheSolutionsGreaterOrLess.html"],
+        ["WhichIsTheBetterDeal.html"],
+        ["QuittingGaming.html"],
+        ["InequalitiesInvestigation"],
+        ["InequalitiesInvestigationReflection"]
     ]
 }
