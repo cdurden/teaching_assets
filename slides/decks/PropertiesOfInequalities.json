@@ -1,6 +1,7 @@
 {   "collection": "PropertiesOfInequalities",
     "slides": [
         ["LearningGoals"],
+        ["Review"],
         ["AreTheSolutionsGreaterOrLess.html"],
         ["AreTheSolutionsGreaterOrLessB.html"],
         ["InequalitiesInvestigationReflection"]
