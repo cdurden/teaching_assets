@@ -2,7 +2,13 @@
     "collection": "ReasoningAboutInequalities",
     "slides":
     [
-        ["OffToAnOrchardPhoto.html", "OffToAnOrchard1.html","OffToAnOrchard2.html","OffToAnOrchard3.html"],
-        ["PartTimeWork1.html"]
+        ["LearningGoals"],
+        ["Example1"],
+        ["Example2"],
+        ["Example3"],
+        ["Example4"],
+        ["Exercise1"],
+        ["Exercise2"],
+        ["Exercise3"]
     ]
 }
