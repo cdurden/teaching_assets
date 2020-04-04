@@ -1,7 +1,7 @@
 # Distance Learning Dashboard
 ## Algebra 1.1 Durden/Ridpath Schedule
 
-<button type="button" class="collapsible">Open Collapsible</button>
+<button type="button" class="collapsible" onload="bindCollapsibleEvents()">Open Collapsible</button>
 <div class="content">
 
 | Date and Lesson Link                     | Learning Objectives                                                                    | Assigned Tasks |
@@ -38,7 +38,7 @@
  * [Modeling with Inequalities](https://curriculum.illustrativemathematics.org/MS/teachers/2/6/17/index.html)
 -->
 <script>
-$(window).load(function() {
+function bindCollapsibleEvents() {
     var coll = $(".collapsible");
     var i;
     console.log(coll);
@@ -52,5 +52,8 @@ $(window).load(function() {
         content.style.display = "block";
       }
     });
+}
+$(window).load(function() {
+    bindCollapsibleEvents();
 });
 </script>
