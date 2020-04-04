@@ -1,10 +1,8 @@
 # Distance Learning Dashboard
 ## Algebra 1.1 Durden/Ridpath Schedule
 
-<p>
 <button type="button" data-target="schedule_mar30" class="collapsible">Open Collapsible</button>
 <div id="schedule_mar30" class="content">
-Table:
 
 | Date and Lesson Link                     | Learning Objectives                                                                    | Assigned Tasks |
 |================================================|========================================================================================|=============|
@@ -15,7 +13,6 @@ Table:
 | **Friday, April 3**<br/>    <a href="https://app.schoology.com/assignment/2443434229">The Properties of Inequalities</a>     | <ul><li>I know when to flip the inequality sign when solving inequalities using the properties of inequalities.</li></ul> | <a href="https://youtu.be/y-a6b7eGe9A">From the video, watch as many examples as you neeed to get started</a>, then complete exercises 1-3.
 
 </div>
-</p>
 
 [Distance Learning Expectations]: ../slides/?update#DistanceLearningExpectations
 <!--
@@ -40,20 +37,3 @@ Table:
 # Enrichment
  * [Modeling with Inequalities](https://curriculum.illustrativemathematics.org/MS/teachers/2/6/17/index.html)
 -->
-<script type="text/javascript-lazy">
-    var coll = document.getElementsByClassName("collapsible");
-    var i;
-    console.log(coll);
-    
-    for (i = 0; i < coll.length; i++) {
-      coll[i].addEventListener("click", function() {
-        this.classList.toggle("active");
-        var content = this.nextElementSibling;
-        if (content.style.display === "block") {
-          content.style.display = "none";
-        } else {
-          content.style.display = "block";
-        }
-      });
-    }
-</script>
