@@ -51,7 +51,7 @@ app.config(['$provide', function($provide) {
             }, function error(response) {
             });
         }];
-        directive.link = function() {
+        directive.postLink = function() {
             var coll = document.getElementsByClassName("collapsible");
             var i;
             
