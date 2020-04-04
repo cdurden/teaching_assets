@@ -1,6 +1,7 @@
 # Distance Learning Dashboard
 ## Algebra 1.1 Durden/Ridpath Schedule
 
+<p>
 <button type="button" class="collapsible">Open Collapsible</button>
 <div class="content">
 
@@ -13,6 +14,7 @@
 | **Friday, April 3**<br/>    <a href="https://app.schoology.com/assignment/2443434229">The Properties of Inequalities</a>     | <ul><li>I know when to flip the inequality sign when solving inequalities using the properties of inequalities.</li></ul> | <a href="https://youtu.be/y-a6b7eGe9A">From the video, watch as many examples as you neeed to get started</a>, then complete exercises 1-3.
 
 </div>
+</p>
 
 [Distance Learning Expectations]: ../slides/?update#DistanceLearningExpectations
 <!--
