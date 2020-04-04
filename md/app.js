@@ -34,6 +34,28 @@ app.config([ '$locationProvider' , function ($locationProvider) {
         requireBase: false
     });
 }]);
+app.directive('ngBindHtml', function () {
+          return {
+            priority: 1,
+            link: function() {
+              var coll = document.getElementsByClassName("collapsible");
+              var i;
+              
+              for (i = 0; i < coll.length; i++) {
+                coll[i].addEventListener("click", function() {
+                  this.classList.toggle("active");
+                  var content = this.nextElementSibling;
+                  if (content.style.display === "block") {
+                    content.style.display = "none";
+                  } else {
+                    content.style.display = "block";
+                  }
+                });
+              }
+            }
+          };
+        });
+
 app.config(['$provide', function($provide) {
     $provide.decorator('markdownToHtmlDirective', function($delegate) {
         var directive = $delegate[0];
@@ -51,6 +73,7 @@ app.config(['$provide', function($provide) {
             }, function error(response) {
             });
         }];
+        /*
         directive.compile = function() {
           return function(scope) {
             directive.link.apply(this, arguments);
@@ -72,6 +95,7 @@ app.config(['$provide', function($provide) {
             });
           };
         };
+        */
         return $delegate;
     });
 }]);
