@@ -34,13 +34,12 @@ app.config([ '$locationProvider' , function ($locationProvider) {
         requireBase: false
     });
 }]);
-/*
 app.directive('ngBindHtml', function () {
   return {
-    priority: -1,
+    priority: 1,
     compile: function compile(tElement, tAttrs, transclude) {
       return {
-        post: function postLink(scope, iElement, iAttrs, controller) {
+        pre: function postLink(scope, iElement, iAttrs, controller) {
           var coll = document.getElementsByClassName("collapsible");
           var i;
           
@@ -60,7 +59,6 @@ app.directive('ngBindHtml', function () {
     },
   }
 });
-*/
 
 app.config(['$provide', function($provide) {
     $provide.decorator('markdownToHtmlDirective', function($delegate) {
