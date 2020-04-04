@@ -100,17 +100,21 @@ app.directive('ngBindHtml', function () {
 app.config(['$provide',function($provide) {
     $provide.decorator('ngBindHtmlDirective', ['$delegate', '$compile', function($delegate, $compile) {
         var directive = $delegate[0];
-        directive.compile = function(scope, element, attrs) {
-            //directive.link.apply(this, arguments);
-            scope.$watch(
-              function(scope) {
-                return scope.$eval(attrs.compile);
-              },
-              function(value) {
-                element.html(value);
-                $compile(element.contents())(scope);
-              }
-            );
+
+        directive.compile = function compile(tElement, tAttrs, transclude) {
+          return {
+            post: function postLink(scope, element, attrs, controller) {
+              scope.$watch(
+                function(scope) {
+                  return scope.$eval(attrs.compile);
+                },
+                function(value) {
+                  element.html(value);
+                  $compile(element.contents())(scope);
+                }
+              );
+            }
+          }
         };
     }]);
 }]);
