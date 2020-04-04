@@ -68,7 +68,6 @@ app.config(['$provide', function($provide) {
                   }
                 });
               }
-              directive.link();
           };
         };
         return $delegate;
