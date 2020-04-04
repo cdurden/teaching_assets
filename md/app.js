@@ -37,6 +37,20 @@ app.config([ '$locationProvider' , function ($locationProvider) {
 app.config(['$provide', function($provide) {
     $provide.decorator('markdownToHtmlDirective', function($delegate) {
         var directive = $delegate[0];
+        directive.controller = ["$scope", "$location", "$http", function($scope, $location, $http) {
+            $scope.markdown = "";
+            hash_parts = $location.hash().split("/");
+            md = hash_parts[0] ? hash_parts[0] : hash_parts[1];
+            $http({
+              //method: 'GET',
+              method: 'POST',
+              url: "./md/"+md+".md?update"
+            }).then(function success(response) {
+                console.log(response);
+                $scope.markdown = response.data;
+            }, function error(response) {
+            });
+        }];
         directive.link = function() {
             var coll = document.getElementsByClassName("collapsible");
             var i;
@@ -57,6 +71,7 @@ app.config(['$provide', function($provide) {
         return $delegate;
     });
 }]);
+/*
 app.controller("MyController", ["$scope", "$location", "$http", function($scope, $location, $http) {
   $scope.markdown = "";
   hash_parts = $location.hash().split("/");
@@ -72,3 +87,4 @@ app.controller("MyController", ["$scope", "$location", "$http", function($scope,
   });
 
 }]);
+*/
