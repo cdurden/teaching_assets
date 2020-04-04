@@ -1,7 +1,7 @@
 # Distance Learning Dashboard
 ## Algebra 1.1 Durden/Ridpath Schedule
 
-<button type="button" class="collapsible" onload="bindCollapsibleEvents()">Open Collapsible</button>
+<button type="button" class="collapsible" onload="bindCollapsibleEvents();">Open Collapsible</button>
 <div class="content">
 
 | Date and Lesson Link                     | Learning Objectives                                                                    | Assigned Tasks |
