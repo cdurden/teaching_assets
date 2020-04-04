@@ -38,7 +38,7 @@
  * [Modeling with Inequalities](https://curriculum.illustrativemathematics.org/MS/teachers/2/6/17/index.html)
 -->
 <script>
-$(document).ready(function() {
+$(window).load(function() {
     var coll = $(".collapsible");
     var i;
     console.log(coll);
