@@ -1,3 +1,21 @@
+function bindCollapsibleEvents() {
+              var coll = document.getElementsByClassName("collapsible");
+              var i;
+              
+              for (i = 0; i < coll.length; i++) {
+                coll[i].addEventListener("click", function() {
+                  this.classList.toggle("active");
+                  var content = this.nextElementSibling;
+                  if (content.style.display === "block") {
+                    content.style.display = "none";
+                  } else {
+                    content.style.display = "block";
+                  }
+                });
+              }
+              return(coll.length);
+}
+
 var app = angular.module('md', [
     'btford.socket-io',
     'ng-showdown',
@@ -148,24 +166,29 @@ app.config(['$provide', function($provide) {
             }).then(function success(response) {
                 console.log(response);
                 $scope.$parent.markdown = response.data;
-
-            }, function error(response) {
-            });
-            $scope.$apply(function() {
-              var coll = document.getElementsByClassName("collapsible");
-              var i;
-              
-              for (i = 0; i < coll.length; i++) {
-                coll[i].addEventListener("click", function() {
-                  this.classList.toggle("active");
-                  var content = this.nextElementSibling;
-                  if (content.style.display === "block") {
-                    content.style.display = "none";
-                  } else {
-                    content.style.display = "block";
+                var stop;
+                $scope.fight = function() {
+                  // Don't start a new fight if we are already fighting
+                  if ( angular.isDefined(stop) ) return;
+        
+                  stop = $interval(function() {
+                    if (bindCollapsibleEvents()) {
+                      $scope.stopFight();
+                    }
+                  }, 100);
+                };
+        
+                $scope.stopFight = function() {
+                  if (angular.isDefined(stop)) {
+                    $interval.cancel(stop);
+                    stop = undefined;
                   }
+                };
+                $scope.$on('$destroy', function() {
+                  // Make sure that the interval is destroyed too
+                  $scope.stopFight();
                 });
-              }
+            }, function error(response) {
             });
         }];
         directive.compile = function() {
