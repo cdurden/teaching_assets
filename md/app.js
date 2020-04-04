@@ -39,7 +39,8 @@ app.controller("MyController", ["$scope", "$location", "$http", function($scope,
   hash_parts = $location.hash().split("/");
   md = hash_parts[0] ? hash_parts[0] : hash_parts[1];
   $http({
-    method: 'GET',
+    //method: 'GET',
+    method: 'POST',
     url: "./md/"+md+".md?update"
   }).then(function success(response) {
       console.log(response);
