@@ -48,6 +48,7 @@ app.directive('script', function() {
     }
   };
 });
+        /*
 app.config(['$provide',function($provide) {
     $provide.decorator('markdownToHtmlDirective', ['$delegate', '$compile', function($delegate, $compile) {
         var directive = $delegate[0];
@@ -67,7 +68,6 @@ app.config(['$provide',function($provide) {
         };
     }]);
 }]);
-        /*
 app.directive('ngBindHtml', function () {
   return {
     priority: -1,
@@ -97,9 +97,30 @@ app.directive('ngBindHtml', function () {
 });
 */
 
+app.config(['$provide',function($provide) {
+    $provide.decorator('markdownToHtmlDirective', ['$delegate', '$compile', function($delegate, $compile) {
+        var directive = $delegate[0];
+        directive.compile = function() {
+          return function(scope, element, attrs) {
+            directive.link.apply(this, arguments);
+            scope.$watch(
+              function(scope) {
+                return scope.$eval(attrs.compile);
+              },
+              function(value) {
+                element.html(value);
+                $compile(element.contents())(scope);
+              }
+            );
+          };
+        };
+        /*
+    }]);
+}]);
 app.config(['$provide', function($provide) {
     $provide.decorator('markdownToHtmlDirective', ['$delegate', function($delegate) {
         var directive = $delegate[0];
+    */
         directive.controller = ["$scope", "$location", "$http", function($scope, $location, $http) {
             $scope.$parent.markdown = "";
             hash_parts = $location.hash().split("/");
