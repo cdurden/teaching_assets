@@ -38,7 +38,7 @@ app.config(['$provide', function($provide) {
     $provide.decorator('markdownToHtmlDirective', function($delegate) {
         var directive = $delegate[0];
         directive.controller = ["$scope", "$location", "$http", function($scope, $location, $http) {
-            $scope.markdown = "";
+            $scope.$parent.markdown = "";
             hash_parts = $location.hash().split("/");
             md = hash_parts[0] ? hash_parts[0] : hash_parts[1];
             $http({
@@ -54,7 +54,7 @@ app.config(['$provide', function($provide) {
         directive.compile = function() {
           return function(scope) {
             directive.link.apply(this, arguments);
-          //  scope.$parent.$watch('markdown', function() {
+            scope.$watch('trustedHtml', function() {
               var coll = document.getElementsByClassName("collapsible");
               var i;
               
