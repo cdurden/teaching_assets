@@ -100,8 +100,7 @@ app.directive('ngBindHtml', function () {
 app.config(['$provide',function($provide) {
     $provide.decorator('ngBindHtmlDirective', ['$delegate', '$compile', function($delegate, $compile) {
         var directive = $delegate[0];
-        directive.compile = function() {
-          return function(scope, element, attrs) {
+        directive.compile = function(scope, element, attrs) {
             //directive.link.apply(this, arguments);
             scope.$watch(
               function(scope) {
@@ -112,7 +111,6 @@ app.config(['$provide',function($provide) {
                 $compile(element.contents())(scope);
               }
             );
-          };
         };
     }]);
 }]);
