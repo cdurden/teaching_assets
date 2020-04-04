@@ -4,6 +4,7 @@
 <p>
 <button type="button" data-target="schedule_mar30" class="collapsible">Open Collapsible</button>
 <div id="schedule_mar30" class="content">
+Table:
 
 | Date and Lesson Link                     | Learning Objectives                                                                    | Assigned Tasks |
 |================================================|========================================================================================|=============|
