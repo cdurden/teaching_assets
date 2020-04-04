@@ -155,7 +155,7 @@ app.config(['$provide', function($provide) {
         directive.compile = function() {
           return function(scope, element, attrs) {
             directive.link.apply(this, arguments);
-                $scope.$apply(function() {
+                scope.$apply(function() {
                   var coll = document.getElementsByClassName("collapsible");
                   var i;
                   
