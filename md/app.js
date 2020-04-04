@@ -35,26 +35,30 @@ app.config([ '$locationProvider' , function ($locationProvider) {
     });
 }]);
 app.directive('ngBindHtml', function () {
-          return {
-            priority: -1,
-            link: function() {
-              var coll = document.getElementsByClassName("collapsible");
-              var i;
-              
-              for (i = 0; i < coll.length; i++) {
-                coll[i].addEventListener("click", function() {
-                  this.classList.toggle("active");
-                  var content = this.nextElementSibling;
-                  if (content.style.display === "block") {
-                    content.style.display = "none";
-                  } else {
-                    content.style.display = "block";
-                  }
-                });
+  return {
+    priority: -1,
+    compile: function compile(tElement, tAttrs, transclude) {
+      return {
+        post: function postLink(scope, iElement, iAttrs, controller) {
+          var coll = document.getElementsByClassName("collapsible");
+          var i;
+          
+          for (i = 0; i < coll.length; i++) {
+            coll[i].addEventListener("click", function() {
+              this.classList.toggle("active");
+              var content = this.nextElementSibling;
+              if (content.style.display === "block") {
+                content.style.display = "none";
+              } else {
+                content.style.display = "block";
               }
-            }
-          };
-        });
+            });
+          }
+        }
+      }
+    },
+  }
+});
 
 app.config(['$provide', function($provide) {
     $provide.decorator('markdownToHtmlDirective', function($delegate) {
