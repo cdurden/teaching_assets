@@ -98,7 +98,7 @@ app.directive('ngBindHtml', function () {
 */
 
 app.config(['$provide', function($provide) {
-    $provide.decorator('markdownToHtmlDirective', function($delegate) {
+    $provide.decorator('markdownToHtmlDirective', ['$delegate', function($delegate) {
         var directive = $delegate[0];
         directive.controller = ["$scope", "$location", "$http", function($scope, $location, $http) {
             $scope.$parent.markdown = "";
@@ -113,52 +113,9 @@ app.config(['$provide', function($provide) {
                 $scope.$parent.markdown = response.data;
             }, function error(response) {
             });
-            /*
-            this.$postLink = function() {
-              var coll = document.getElementsByClassName("collapsible");
-              var i;
-              
-              for (i = 0; i < coll.length; i++) {
-                coll[i].addEventListener("click", function() {
-                  this.classList.toggle("active");
-                  var content = this.nextElementSibling;
-                  if (content.style.display === "block") {
-                    content.style.display = "none";
-                  } else {
-                    content.style.display = "block";
-                  }
-                });
-              }
-            }
-            */
         }];
-        /*
-        directive.compile = function() {
-          return function(scope, element, attrs) {
-            directive.link.apply(this, arguments);
-            scope.$watch("trustedHtml", function() {
-              var timer = setInterval(function() {
-                var coll = document.getElementsByClassName("collapsible");
-                var i;
-                
-                for (i = 0; i < coll.length; i++) {
-                  coll[i].addEventListener("click", function() {
-                    this.classList.toggle("active");
-                    var content = this.nextElementSibling;
-                    if (content.style.display === "block") {
-                      content.style.display = "none";
-                    } else {
-                      content.style.display = "block";
-                    }
-                  });
-                }
-              }, 1000);
-            });
-          };
-        };
-        */
         return $delegate;
-    });
+    }]);
 }]);
 /*
 app.controller("MyController", ["$scope", "$location", "$http", function($scope, $location, $http) {
