@@ -34,7 +34,7 @@ app.config([ '$locationProvider' , function ($locationProvider) {
         requireBase: false
     });
 }]);
-app.config(function($provide) {
+app.config(['$provide', function($provide) {
     $provide.decorator('markdownToHtml', function($delegate) {
         var directive = $delegate[0];
         directive.link = function() {
@@ -56,7 +56,7 @@ app.config(function($provide) {
         }
         return $delegate;
     });
-});
+}]);
 app.controller("MyController", ["$scope", "$location", "$http", function($scope, $location, $http) {
   $scope.markdown = "";
   hash_parts = $location.hash().split("/");
