@@ -14,6 +14,7 @@
         </script>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
         <link rel="stylesheet" href="./styles/style.css">
+        <link rel="stylesheet" href="./styles/collapsible.css">
         <script>
         $(document).ready(function() {
             window.scrollTo(0, 100);
@@ -21,6 +22,20 @@
             //$("body").on('touchstart', function (e) { e.preventDefault(); });
             $("#fixed_box").on('touchstart', function (e) { e.preventDefault(); });
             $("#fixed_box").on('touchmove', function (e) { e.preventDefault(); });
+            var coll = document.getElementsByClassName("collapsible");
+            var i;
+            
+            for (i = 0; i < coll.length; i++) {
+              coll[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.display === "block") {
+                  content.style.display = "none";
+                } else {
+                  content.style.display = "block";
+                }
+              });
+            }
         });
         </script>
     </head>

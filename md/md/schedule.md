@@ -1,4 +1,6 @@
 # Algebra 1.1 Durden/Ridpath Schedule
+<button type="button" class="collapsible">Open Collapsible</button>
+<div class="content">
 
 | Date and Lesson Link                     | Learning Objectives                                                                    | Assigned Tasks |
 |================================================|========================================================================================|=============|
@@ -8,6 +10,7 @@
 | **Thursday, April 2**<br/>    <a href="https://app.schoology.com/assignment/2439429953">Properties of Inequalities Investigation</a> (<a href="../pdf/PropertiesOfInequalities.pdf">pdf</a>) <a href="https://app.schoology.com/assignment/2439429953">Open in Notability</a> | <ul><li>I can describe what happens when I add, subtract, multiply, or divide by the same number on both sides of an inequality.</li></ul> | <ol><li>Review one of your answers on the assignment from yesterday by watching one of the videos that is posted next to yesterday's assignment. Resubmit any revisions that you made.</li><li> <a href="https://youtu.be/oPew3isMDP4" target="_parent">Watch the video explaining the Inequalities Investigation</a>. Complete the investigation and write what you observed during your investigation. </li></ol>|
 | **Friday, April 3**<br/>    <a href="https://app.schoology.com/assignment/2443434229">The Properties of Inequalities</a>     | <ul><li>I know when to flip the inequality sign when solving inequalities using the properties of inequalities.</li></ul> | <a href="https://youtu.be/y-a6b7eGe9A">From the video, watch as many examples as you neeed to get started</a>, then complete exercises 1-3.
 
+</div>
 
 [Distance Learning Expectations]: ../slides/?update#DistanceLearningExpectations
 <!--
