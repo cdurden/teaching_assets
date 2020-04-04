@@ -54,7 +54,7 @@ app.config(['$provide', function($provide) {
         directive.compile = function() {
           return function(scope) {
             directive.link.apply(this, arguments);
-            scope.$watch('markdown', function() {
+            scope.$parent.$watch('markdown', function() {
               var coll = document.getElementsByClassName("collapsible");
               var i;
               
