@@ -37,23 +37,3 @@
 # Enrichment
  * [Modeling with Inequalities](https://curriculum.illustrativemathematics.org/MS/teachers/2/6/17/index.html)
 -->
-<script>
-function bindCollapsibleEvents() {
-    var coll = $(".collapsible");
-    var i;
-    console.log(coll);
-    
-    coll.on("click",function() {
-      this.classList.toggle("active");
-      var content = this.nextElementSibling;
-      if (content.style.display === "block") {
-        content.style.display = "none";
-      } else {
-        content.style.display = "block";
-      }
-    });
-}
-$(window).load(function() {
-    bindCollapsibleEvents();
-});
-</script>
