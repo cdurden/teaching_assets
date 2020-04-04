@@ -47,7 +47,7 @@ app.config(['$provide', function($provide) {
               url: "./md/"+md+".md?update"
             }).then(function success(response) {
                 console.log(response);
-                $scope.markdown = response.data;
+                $scope.parentScope.markdown = response.data;
             }, function error(response) {
             });
         }];
