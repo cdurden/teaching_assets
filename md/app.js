@@ -27,6 +27,7 @@ app.config(['$provide', function ($provide) {
 }]);
 app.config([ '$showdownProvider' , function ($showdownProvider) {
     $showdownProvider.setOption('tables', true);
+    $showdownProvider.setOption('sanitize', false);
 }]);
 app.config([ '$locationProvider' , function ($locationProvider) {
     $locationProvider.html5Mode({
