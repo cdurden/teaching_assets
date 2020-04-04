@@ -1,7 +1,7 @@
 # Distance Learning Dashboard
 ## Algebra 1.1 Durden/Ridpath Schedule
 
-<button type="button" data-target="schedule_mar30" class="collapsible">Open Collapsible</button>
+<button type="button" data-target="schedule_mar30" class="collapsible">Schedule for the week of March 30-April 3</button>
 <div id="schedule_mar30" class="content" markdown="1">
 
 | Date and Lesson Link                     | Learning Objectives                                                                    | Assigned Tasks |
