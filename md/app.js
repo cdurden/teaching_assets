@@ -155,7 +155,7 @@ app.config(['$provide',function($provide) {
 app.config(['$provide', function($provide) {
     $provide.decorator('markdownToHtmlDirective', ['$delegate', function($delegate) {
         var directive = $delegate[0];
-        directive.controller = ["$scope", "$location", "$http", function($scope, $location, $http) {
+        directive.controller = ["$scope", "$location", "$http", "$interval", function($scope, $location, $http, $interval) {
             $scope.$parent.markdown = "";
             hash_parts = $location.hash().split("/");
             md = hash_parts[0] ? hash_parts[0] : hash_parts[1];
