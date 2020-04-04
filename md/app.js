@@ -49,7 +49,7 @@ app.directive('script', function() {
   };
 });
 app.config(['$provide',function($provide) {
-    $provide.decorator('markdownToHtmlDirective', ['$compile', function($delegate, $compile) {
+    $provide.decorator('markdownToHtmlDirective', ['$delegate', '$compile', function($delegate, $compile) {
         var directive = $delegate[0];
         directive.compile = function() {
           return function(scope, element, attrs) {
