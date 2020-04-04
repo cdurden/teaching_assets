@@ -102,7 +102,7 @@ app.config(['$provide',function($provide) {
         var directive = $delegate[0];
         directive.compile = function() {
           return function(scope, element, attrs) {
-            directive.link.apply(this, arguments);
+            //directive.link.apply(this, arguments);
             scope.$watch(
               function(scope) {
                 return scope.$eval(attrs.compile);
