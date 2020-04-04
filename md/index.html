@@ -15,29 +15,12 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
         <link rel="stylesheet" href="./styles/style.css">
         <link rel="stylesheet" href="./styles/collapsible.css">
-        <script>
-            var coll = document.getElementsByClassName("collapsible");
-            var i;
-            console.log(coll);
-            
-            for (i = 0; i < coll.length; i++) {
-              coll[i].addEventListener("click", function() {
-                this.classList.toggle("active");
-                var content = this.nextElementSibling;
-                if (content.style.display === "block") {
-                  content.style.display = "none";
-                } else {
-                  content.style.display = "block";
-                }
-              });
-            }
-        </script>
     </head>
 <body>
 <script type='text/javascript' src='./app.js'></script>
 <script type='text/javascript' src='../services/sockets.js'></script>
 <div ng-app='md' class='content_container'>
-    <p markdown-to-html="markdown" onload="console.log('markdown loaded'); bindCollapsibleEvents();"></p>
+    <p markdown-to-html="markdown"></p>
 </div>
 </body>
 </html>
