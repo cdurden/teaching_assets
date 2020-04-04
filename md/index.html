@@ -17,11 +17,6 @@
         <link rel="stylesheet" href="./styles/collapsible.css">
         <script>
         $(document).ready(function() {
-            window.scrollTo(0, 100);
-            //window.scrollTo(0, 0);
-            //$("body").on('touchstart', function (e) { e.preventDefault(); });
-            $("#fixed_box").on('touchstart', function (e) { e.preventDefault(); });
-            $("#fixed_box").on('touchmove', function (e) { e.preventDefault(); });
             var coll = document.getElementsByClassName("collapsible");
             var i;
             
@@ -42,10 +37,8 @@
 <body>
 <script type='text/javascript' src='./app.js'></script>
 <script type='text/javascript' src='../services/sockets.js'></script>
-<div ng-app='md' class='contant_container' ng-controller='MyController'>
+<div ng-app='md' class='content_container' ng-controller='MyController'>
     <p markdown-to-html="markdown"></p>
-</div>
-<div id="fixed_box" style="width: 200px; background-color: #999; z-index: 10; position: fixed; right: 20px; top: 300px; height: 83px;">
 </div>
 </body>
 </html>

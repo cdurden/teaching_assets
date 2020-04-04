@@ -1,4 +1,6 @@
-# Algebra 1.1 Durden/Ridpath Schedule
+# Distance Learning Dashboard
+## Algebra 1.1 Durden/Ridpath Schedule
+
 <button type="button" class="collapsible">Open Collapsible</button>
 <div class="content">
 
