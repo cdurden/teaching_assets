@@ -48,8 +48,8 @@ app.directive('script', function() {
     }
   };
 });
-app.config(['$provide','$compile', function($provide, $compile) {
-    $provide.decorator('markdownToHtmlDirective', function($delegate) {
+app.config(['$provide',function($provide) {
+    $provide.decorator('markdownToHtmlDirective', ['$compile', function($delegate, $compile) {
         var directive = $delegate[0];
         directive.compile = function() {
           return function(scope, element, attrs) {
@@ -65,7 +65,7 @@ app.config(['$provide','$compile', function($provide, $compile) {
             );
           };
         };
-    });
+    }]);
 }]);
         /*
 app.directive('ngBindHtml', function () {
