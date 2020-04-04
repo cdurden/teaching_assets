@@ -52,7 +52,7 @@ app.config(['$provide', function($provide) {
             });
         }];
         directive.compile = function() {
-          return function(scope) {
+          return { postLink: function(scope) {
             directive.link.apply(this, arguments);
             scope.$parent.$watch('markdown', function() {
               var coll = document.getElementsByClassName("collapsible");
@@ -70,7 +70,7 @@ app.config(['$provide', function($provide) {
                 });
               }
             });
-          };
+          } };
         };
         return $delegate;
     });
