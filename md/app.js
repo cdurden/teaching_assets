@@ -35,7 +35,7 @@ app.config([ '$locationProvider' , function ($locationProvider) {
     });
 }]);
 app.config(['$provide', function($provide) {
-    $provide.decorator('markdownToHtml', function($delegate) {
+    $provide.decorator('markdownToHtmlDirective', function($delegate) {
         var directive = $delegate[0];
         directive.link = function() {
             var coll = document.getElementsByClassName("collapsible");
