@@ -148,6 +148,13 @@ app.config(['$provide', function($provide) {
             }).then(function success(response) {
                 console.log(response);
                 $scope.$parent.markdown = response.data;
+
+            }, function error(response) {
+            });
+        }];
+        directive.compile = function() {
+          return function(scope, element, attrs) {
+            directive.link.apply(this, arguments);
                 $scope.$apply(function() {
                   var coll = document.getElementsByClassName("collapsible");
                   var i;
@@ -164,10 +171,8 @@ app.config(['$provide', function($provide) {
                     });
                   }
                 });
-
-            }, function error(response) {
-            });
-        }];
+          };
+        };
         return $delegate;
     }]);
 }]);
