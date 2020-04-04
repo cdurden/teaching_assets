@@ -48,13 +48,12 @@ app.directive('script', function() {
     }
   };
 });
-/*
 app.directive('ngBindHtml', function () {
   return {
-    priority: 1,
+    priority: -1,
     compile: function compile(tElement, tAttrs, transclude) {
       return {
-        pre: function postLink(scope, iElement, iAttrs, controller) {
+        post: function postLink(scope, iElement, iAttrs, controller) {
           var coll = document.getElementsByClassName("collapsible");
           var i;
           
@@ -74,7 +73,6 @@ app.directive('ngBindHtml', function () {
     },
   }
 });
-*/
 
 app.config(['$provide', function($provide) {
     $provide.decorator('markdownToHtmlDirective', function($delegate) {
