@@ -41,6 +41,7 @@
 $(document).ready(function() {
     var coll = $(".collapsible");
     var i;
+    console.log(coll);
     
     coll.on("click",function() {
       this.classList.toggle("active");
