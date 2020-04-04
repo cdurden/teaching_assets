@@ -151,7 +151,7 @@ app.config(['$provide', function($provide) {
 
             }, function error(response) {
             });
-            scope.$apply(function() {
+            $scope.$apply(function() {
               var coll = document.getElementsByClassName("collapsible");
               var i;
               
