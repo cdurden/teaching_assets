@@ -34,6 +34,29 @@ app.config([ '$locationProvider' , function ($locationProvider) {
         requireBase: false
     });
 }]);
+app.config(function($provide) {
+    $provide.decorator('markdownToHtml', function($delegate) {
+        var directive = $delegate[0];
+        directive.link = function() {
+            var coll = document.getElementsByClassName("collapsible");
+            var i;
+            
+            for (i = 0; i < coll.length; i++) {
+              coll[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.display === "block") {
+                  content.style.display = "none";
+                } else {
+                  content.style.display = "block";
+                }
+              });
+            }
+            directive.link();
+        }
+        return $delegate;
+    });
+});
 app.controller("MyController", ["$scope", "$location", "$http", function($scope, $location, $http) {
   $scope.markdown = "";
   hash_parts = $location.hash().split("/");
@@ -47,6 +70,5 @@ app.controller("MyController", ["$scope", "$location", "$http", function($scope,
       $scope.markdown = response.data;
   }, function error(response) {
   });
-
 
 }]);
