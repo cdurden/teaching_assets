@@ -98,7 +98,7 @@ app.directive('ngBindHtml', function () {
 */
 
 app.config(['$provide',function($provide) {
-    $provide.decorator('markdownToHtmlDirective', ['$delegate', '$compile', function($delegate, $compile) {
+    $provide.decorator('ngBindHtmlDirective', ['$delegate', '$compile', function($delegate, $compile) {
         var directive = $delegate[0];
         directive.compile = function() {
           return function(scope, element, attrs) {
@@ -114,13 +114,11 @@ app.config(['$provide',function($provide) {
             );
           };
         };
-        /*
     }]);
 }]);
 app.config(['$provide', function($provide) {
     $provide.decorator('markdownToHtmlDirective', ['$delegate', function($delegate) {
         var directive = $delegate[0];
-    */
         directive.controller = ["$scope", "$location", "$http", function($scope, $location, $http) {
             $scope.$parent.markdown = "";
             hash_parts = $location.hash().split("/");
