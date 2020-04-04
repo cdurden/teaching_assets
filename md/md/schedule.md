@@ -2,8 +2,8 @@
 ## Algebra 1.1 Durden/Ridpath Schedule
 
 <p>
-<button type="button" class="collapsible">Open Collapsible</button>
-<div class="content">
+<button type="button" data-target="schedule_mar30" class="collapsible">Open Collapsible</button>
+<div id="schedule_mar30" class="content">
 
 | Date and Lesson Link                     | Learning Objectives                                                                    | Assigned Tasks |
 |================================================|========================================================================================|=============|
