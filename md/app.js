@@ -188,6 +188,7 @@ app.config(['$provide', function($provide) {
                   // Make sure that the interval is destroyed too
                   $scope.stopFight();
                 });
+                $scope.fight();
             }, function error(response) {
             });
         }];
