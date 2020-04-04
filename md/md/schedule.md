@@ -37,7 +37,7 @@
 # Enrichment
  * [Modeling with Inequalities](https://curriculum.illustrativemathematics.org/MS/teachers/2/6/17/index.html)
 -->
-<script type="text/javascript-lazy">
+<script>
     var coll = document.getElementsByClassName("collapsible");
     var i;
     console.log(coll);
