@@ -62,7 +62,7 @@ app.directive('ngBindHtml', function () {
             $compile(element.contents())(scope);
           }
        )};
-      }]
+      }
 /*
       return {
         post: function postLink(scope, iElement, iAttrs, controller) {
