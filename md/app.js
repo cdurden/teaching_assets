@@ -97,6 +97,7 @@ app.directive('ngBindHtml', function () {
 });
 */
 
+/*
 app.config(['$provide',function($provide) {
     $provide.decorator('ngBindHtmlDirective', ['$delegate', '$compile', function($delegate, $compile) {
         var directive = $delegate[0];
@@ -118,6 +119,7 @@ app.config(['$provide',function($provide) {
         };
     }]);
 }]);
+*/
 app.config(['$provide', function($provide) {
     $provide.decorator('markdownToHtmlDirective', ['$delegate', function($delegate) {
         var directive = $delegate[0];
