@@ -34,6 +34,7 @@ app.config([ '$locationProvider' , function ($locationProvider) {
         requireBase: false
     });
 }]);
+/*
 app.directive('ngBindHtml', function () {
   return {
     priority: 1,
@@ -59,6 +60,7 @@ app.directive('ngBindHtml', function () {
     },
   }
 });
+*/
 
 app.config(['$provide', function($provide) {
     $provide.decorator('markdownToHtmlDirective', function($delegate) {
@@ -76,6 +78,7 @@ app.config(['$provide', function($provide) {
                 $scope.$parent.markdown = response.data;
             }, function error(response) {
             });
+            /*
             this.$postLink = function() {
               var coll = document.getElementsByClassName("collapsible");
               var i;
@@ -92,26 +95,29 @@ app.config(['$provide', function($provide) {
                 });
               }
             }
+            */
         }];
         /*
         directive.compile = function() {
           return function(scope, element, attrs) {
             directive.link.apply(this, arguments);
-            scope.$watch(element, function() {
-              var coll = document.getElementsByClassName("collapsible");
-              var i;
-              
-              for (i = 0; i < coll.length; i++) {
-                coll[i].addEventListener("click", function() {
-                  this.classList.toggle("active");
-                  var content = this.nextElementSibling;
-                  if (content.style.display === "block") {
-                    content.style.display = "none";
-                  } else {
-                    content.style.display = "block";
-                  }
-                });
-              }
+            scope.$watch("trustedHtml", function() {
+              var timer = setInterval(function() {
+                var coll = document.getElementsByClassName("collapsible");
+                var i;
+                
+                for (i = 0; i < coll.length; i++) {
+                  coll[i].addEventListener("click", function() {
+                    this.classList.toggle("active");
+                    var content = this.nextElementSibling;
+                    if (content.style.display === "block") {
+                      content.style.display = "none";
+                    } else {
+                      content.style.display = "block";
+                    }
+                  });
+                }
+              }, 1000);
             });
           };
         };
