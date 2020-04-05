@@ -51,6 +51,9 @@ April 6-April 10: Solving compound inequalities
     <li> 
     I can solve linear inequalities in one variable and graph the solutions on a number line.
     </li>
+    <li>
+    I can check that my solution to an inequality makes sense by checking points in the solution set. <!-- TODO: revise -->
+    </li>
   </ul>
   </td>
   <td>
@@ -77,7 +80,7 @@ April 6-April 10: Solving compound inequalities
   <b>Tuesday, April 7</b>
   <br>
   <!-- Title -->
-  [Solutions to Inequalities in One Variable]
+  [Writing Inequalities]
   <br>
   <a href="" target="_parent">Open in Notability</a>
   </td>
@@ -87,28 +90,6 @@ April 6-April 10: Solving compound inequalities
     <li>
     I can solve one-variable inequalities and interpret the solutions in terms of the situation.  
     </li>
-    <li>
-    I can check that my solution to an inequality makes sense by checking points in the solution set. <!-- TODO: revise -->
-    </li>
-  </ul>
-  </td>
-  <td>
-    <!-- Assigned Tasks -->
-    <a href="" target="_parent">Watch the video</a>.
-  </td>
-</tr>
-<tr>
-  <td>
-    <b>Wednesday, April 8</b>
-    <br>
-    <!-- Title -->
-    <a href="" target="_parent">Efficiently Solving Inequalities</a>
-    <br>
-    <a href="" target="_parent">Open in Notability</a>
-  </td>
-  <td>
-  <ul>
-    <!-- Learning Goals -->
     <li>
     I can write inequalities that represent the constraints in a situation.
     </li>
@@ -124,10 +105,10 @@ April 6-April 10: Solving compound inequalities
 </tr>
 <tr>
   <td>
-    <b>Thursday, April 9</b>
+    <b>Wednesday, April 8</b>
     <br>
-     <!-- Title -->
-    <a href="">Properties of Inequalities Investigation</a>
+    <!-- Title -->
+    <a href="" target="_parent">Compound Inequalities</a>
     <br>
     <a href="" target="_parent">Open in Notability</a>
   </td>
@@ -136,6 +117,31 @@ April 6-April 10: Solving compound inequalities
     <!-- Learning Goals -->
     <li>
     I can graphs solutions to simple compound inequalities in context.
+    </li>
+    <li>
+    I can determine when a compound inequality has no solution.
+    </li>
+  </ul>
+  </td>
+  <td>
+    <!-- Assigned Tasks -->
+    <a href="" target="_parent">Watch the video</a>.
+  </td>
+</tr>
+<tr>
+  <td>
+    <b>Thursday, April 9</b>
+    <br>
+     <!-- Title -->
+    <a href="">Absolute Value Inequalities</a>
+    <br>
+    <a href="" target="_parent">Open in Notability</a>
+  </td>
+  <td>
+  <ul>
+    <!-- Learning Goals -->
+    <li>
+    I can graphs solutions to absolute value inequalities in context.
     </li>
   </ul>
   </td>
@@ -149,17 +155,11 @@ April 6-April 10: Solving compound inequalities
     <b>Friday, April 10</b>
     <br>
     <!-- Title -->
-    <a href="" target="_parent">The Properties of Inequalities</a>    
+    <a href="" target="_parent">Learning Check</a>    
   </td>
   <td>
   <ul>
     <!-- Learning Goals -->
-    <li>
-    I can graphs solutions to absolute value inequalities in context.
-    </li>
-    <li>
-    I can determine when an inequality has no solution.
-    </li>
   </ul>
   </td>
   <td>
