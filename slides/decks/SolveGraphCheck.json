@@ -3,7 +3,9 @@
     "slides": [
         [ "LearningGoals" ],
         [ "SolveGraphCheckProcedure" ],
-        [ "Example1" ]
+        [ "Example1" ],
+        [ "AreTheSolutionsGreaterOrLess" ]
+        [ "WhichSolutionContainsMistake" ]
     ]
 }
 
