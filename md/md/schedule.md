@@ -16,8 +16,8 @@
 </div>
 </div>
 <div>
-<button type="button" data-target="schedule_apr6" class="collapsible">April 6-April 10</button>
-<div id="schedule_apr6" class="content" markdown="1">
+<button type="button" data-target="schedule_apr6" class="collapsible active">April 6-April 10</button>
+<div id="schedule_apr6" class="content" markdown="1" style="display: block;">
 
 <table>
 <tbody>
