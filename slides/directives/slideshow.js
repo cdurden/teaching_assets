@@ -1,5 +1,5 @@
 angular.module('slides')
-.directive('slideshow', ['$compile', 'Sockets', 'Reveal', 'BoardData', function($compile, Sockets, Reveal, BoardData) {
+.directive('slideshow', ['$compile', 'Sockets', 'Reveal', function($compile, Sockets, Reveal) {
   return {
       controller: ["$scope", "$location", "$http", "$routeParams", function($scope, $location, $http, $routeParams) {
       $scope.slides = [];
