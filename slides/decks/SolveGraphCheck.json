@@ -4,7 +4,7 @@
         [ "LearningGoals" ],
         [ "SolveGraphCheckProcedure" ],
         [ "Example1" ],
-        [ "AreTheSolutionsGreaterOrLess" ]
+        [ "AreTheSolutionsGreaterOrLess" ],
         [ "WhichSolutionContainsMistake" ]
     ]
 }
