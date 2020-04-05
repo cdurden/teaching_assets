@@ -41,7 +41,7 @@ April 6-April 10: Solving compound inequalities
   <b>Monday, April 6</b>
   <br>
   <!-- Title -->
-  [Distance Learning Expectations]
+  [Solve, Graph, Check]
   <br>
   <a href="" target="_parent">Open in Notability</a>
   </td>
@@ -55,6 +55,21 @@ April 6-April 10: Solving compound inequalities
   </td>
   <td>
     <!-- Assigned Tasks -->
+    <ul>
+      <!-- Learning Goals -->
+      <li> 
+        Solve an inequality using the properties of inequality.
+      </li>
+      <li> 
+        Graph the solution set on a number line.
+      </li>
+      <li> 
+        Check that the solutions make sense.
+      </li>
+      <li> 
+        Examine the solutions to a compound inequality in context.
+      </li>
+    </ul>
   </td>
 </tr>
 <tr>
@@ -141,6 +156,9 @@ April 6-April 10: Solving compound inequalities
     <!-- Learning Goals -->
     <li>
     I can graphs solutions to absolute value inequalities in context.
+    </li>
+    <li>
+    I can determine when an inequality has no solution.
     </li>
   </ul>
   </td>
