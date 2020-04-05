@@ -22,7 +22,8 @@ body {
 table {
   border-radius: 10px;
   width: 100%;
-  margin: 3em;
+  margin-left: 3em;
+  margin-right: 3em;
 }
 tr:nth-child(even) {background-color: #f2f2f2;}
 th {
