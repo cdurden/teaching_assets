@@ -43,12 +43,12 @@
   <td>
   <ul>
     <li>
-    I understand how I can meet the expectations for Algebra class during distance learning.
+    <!-- Learning Goals -->
     </li>
   </ul>
   </td>
   <td>
-  Watch a video and complte 4 tasks on the lesson slides.
+    <!-- Assigned Tasks -->
   </td>
 </tr>
 <tr>
@@ -62,13 +62,13 @@
   <td>
   <ul>
     <li>
-    I understand that the solution to an inequality is a range of values (such as x>7) that make the inequality true.
+    <!-- Learning Goals -->
     </li>
   </ul>
   </td>
   <td>
-    <a href="https://youtu.be/ls5dCqXRP6g" target="_parent">Watch the video</a>.
-    Answer 7 questions on the lesson slides by following the video and then 10 questions independently.
+    <!-- Assigned Tasks -->
+    <a href="" target="_parent">Watch the video</a>.
   </td>
 </tr>
 <tr>
@@ -82,13 +82,13 @@
   <td>
   <ul>
     <li>
-    I can solve inequalities by solving a related equation and then checking which values are solutions to the original inequality.
+    <!-- Learning Goals -->
     </li>
   </ul>
   </td>
   <td>
-    Watch as many examples as you need from the videos below and then complete the remaining exercises independently
-    <ul> <li><a href="https://youtu.be/Ji8seaWf14M" target="_parent">Example 1</a></li><li><a href="https://www.youtube.com/watch?v=Kcl8DLvBMJU" target="_parent">Exercise 1</a></li><li><a href="https://www.youtube.com/watch?v=6Rrxu_QBU8o" target="_parent">Exercise 4</a></li><li><a href="https://youtu.be/fZ_wmjO94Hc" target="_parent">Exercise 7</a></li></ul>
+    <!-- Assigned Tasks -->
+    <a href="" target="_parent">Watch the video</a>.
   </td>
 </tr>
 <tr>
@@ -102,11 +102,13 @@
   <td>
   <ul>
     <li>
-    I can describe what happens when I add, subtract, multiply, or divide by the same number on both sides of an inequality.
-    </li></ul>
+    <!-- Learning Goals -->
+    </li>
+  </ul>
   </td>
   <td>
-  <ol><li>Review one of your answers on the assignment from yesterday by watching one of the videos that is posted next to yesterday's assignment. Resubmit any revisions that you made.</li><li> <a href="https://youtu.be/oPew3isMDP4" target="_parent">Watch the video explaining the Inequalities Investigation</a>. Complete the investigation and write what you observed during your investigation. </li></ol>|
+    <!-- Assigned Tasks -->
+    <a href="" target="_parent">Watch the video</a>.
   </td>
 </tr>
 <tr>
@@ -118,12 +120,13 @@
   <td>
   <ul>
     <li>
-    I know when to flip the inequality sign when solving inequalities using the properties of inequalities.
+    <!-- Learning Goals -->
     </li>
   </ul>
   </td>
   <td>
-  <a href="https://youtu.be/y-a6b7eGe9A">From the video, watch as many examples as you neeed to get started</a>, then complete exercises 1-3.
+    <!-- Assigned Tasks -->
+    <a href="" target="_parent">Watch the video</a>.
   </td>
 </tr>
 </tbody>
