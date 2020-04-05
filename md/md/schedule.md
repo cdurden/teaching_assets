@@ -2,7 +2,9 @@
 ## Algebra 1.1 Durden/Ridpath Schedule
 
 <div>
-<button type="button" data-target="schedule_mar30" class="collapsible">March 30-April 3</button>
+<button type="button" data-target="schedule_mar30" class="collapsible">
+March 30-April 3: Solving inequalities in one variable
+</button>
 <div id="schedule_mar30" class="content" markdown="1">
 
 | Date and Lesson Link                     | Learning Objectives                                                                    | Assigned Tasks |
@@ -16,7 +18,9 @@
 </div>
 </div>
 <div>
-<button type="button" data-target="schedule_apr6" class="collapsible active">April 6-April 10</button>
+<button type="button" data-target="schedule_apr6" class="collapsible active">
+April 6-April 10: Solving compound inequalities
+</button>
 <div id="schedule_apr6" class="content" markdown="1" style="display: block;">
 
 <table>
@@ -151,7 +155,9 @@
 </div>
 
 <div>
-<button type="button" data-target="schedule_apr13" class="collapsible">April 13-April 17</button>
+<button type="button" data-target="schedule_apr13" class="collapsible">
+April 13-April 17: Exponents and exponential functions
+</button>
 <div id="schedule_apr13" class="content" markdown="1">
 
 <table>
@@ -272,7 +278,9 @@
 </div>
 
 <div>
-<button type="button" data-target="schedule_apr20" class="collapsible">April 20-April 24</button>
+<button type="button" data-target="schedule_apr20" class="collapsible">
+April 20-April 24: The Pythagorean theorem
+</button>
 <div id="schedule_apr20" class="content" markdown="1">
 
 <table>
@@ -393,7 +401,9 @@
 </div>
 
 <div>
-<button type="button" data-target="schedule_apr27" class="collapsible">April 27-May 1</button>
+<button type="button" data-target="schedule_apr27" class="collapsible">
+April 27-May 1: The Pythagorean Theorem
+</button>
 <div id="schedule_apr27" class="content" markdown="1">
 
 <table>
@@ -514,7 +524,9 @@
 </div>
 
 <div>
-<button type="button" data-target="schedule_may4" class="collapsible">May 4-May 8</button>
+<button type="button" data-target="schedule_may4" class="collapsible">
+May 4-May 8: Systems of linear equations
+</button>
 <div id="schedule_may4" class="content" markdown="1">
 
 <table>
@@ -635,7 +647,9 @@
 </div>
 
 <div>
-<button type="button" data-target="schedule_may11" class="collapsible">May 11-May 15</button>
+<button type="button" data-target="schedule_may11" class="collapsible">
+May 11-May 15: Systems of linear equations
+</button>
 <div id="schedule_may11" class="content" markdown="1">
 
 <table>
