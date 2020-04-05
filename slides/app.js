@@ -31,6 +31,7 @@ var app = angular.module('slides', [
     'btford.socket-io',
     'services.sockets',
     'slides.services.chatdata',
+    'slides.services.reveal',
     'ngRoute',
 ]);
 app.config([ '$locationProvider' , function ($locationProvider) {
