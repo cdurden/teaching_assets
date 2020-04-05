@@ -66,6 +66,9 @@
   <ul>
     <!-- Learning Goals -->
     <li>
+    I can solve one-variable inequalities and interpret the solutions in terms of the situation.  
+    </li>
+    <li>
     I can check that my solution to an inequality makes sense by checking points in the solution set. <!-- TODO: revise -->
     </li>
   </ul>
@@ -88,7 +91,10 @@
   <ul>
     <!-- Learning Goals -->
     <li>
-    I can solve one-variable inequalities and interpret the solutions in terms of the situation.  
+    I can write inequalities that represent the constraints in a situation.
+    </li>
+    <li>
+    I can write and solve inequalities to answer questions about a situation.
     </li>
   </ul>
   </td>
@@ -110,7 +116,7 @@
   <ul>
     <!-- Learning Goals -->
     <li>
-    I can write and solve inequalities to answer questions about a situation.
+    I can graphs solutions to simple compound inequalities in context.
     </li>
   </ul>
   </td>
@@ -130,7 +136,7 @@
   <ul>
     <!-- Learning Goals -->
     <li>
-    I can write inequalities that represent the constraints in a situation.
+    I can graphs solutions to absolute value inequalities in context.
     </li>
   </ul>
   </td>
