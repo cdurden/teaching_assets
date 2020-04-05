@@ -42,7 +42,9 @@ April 6-April 10: Solving compound inequalities
   <br>
   <!-- Title -->
   <a href="../slides/#SolveGraphCheck">
+  <b>
   Solve, Graph, Check
+  </b>
   </a>
   <br>
   <a href="" target="_parent">Open in Notability</a>
