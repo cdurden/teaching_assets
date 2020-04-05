@@ -1,13 +1,17 @@
-app.directive('slideshow', ['$compile', 'Sockets', function($compile, Sockets) {
+angular.module('slides')
+.directive('slideshow', ['$compile', 'Sockets', 'Reveal', 'BoardData', function($compile, Sockets, Reveal, BoardData) {
   return {
-    controller: ["$scope", "$location", "$http", "$routeParams", function($scope, $location, $http, $routeParams) {
+      controller: ["$scope", "$location", "$http", "$routeParams", function($scope, $location, $http, $routeParams) {
       $scope.slides = [];
+      //hash_parts = $location.hash().split("/");
+      Reveal.setPrintingPdf( ( /print-pdf/gi ).test( window.location.search ) );
       hash_parts = window.location.hash.substr(1).split("%2F");
       deck = hash_parts[0] ? hash_parts[0] : hash_parts[1];
+      //deck = "EfficientlySolvingInequalities";
       console.log(deck);
       $http({
         method: 'GET',
-        url: "./decks/"+deck+".json?raw=true"
+        url: Reveal.getSlidesBaseHref()+"./decks/"+deck+".json"
       }).then(function success(response) {
           console.log(response);
           if (typeof(response.data.collection) !== 'undefined') {
@@ -51,8 +55,8 @@ app.directive('slideshow', ['$compile', 'Sockets', function($compile, Sockets) {
                 section.attr("data-markdown", '');
                 section.attr("data-separator", '^---$');
                 div = angular.element("<div>");
-                div.attr('my-include', "'./slides/"+steps[0]+"'");
-                div.html(slideLoadFailedHtml(steps[0]));
+                div.attr('my-include', "'/static/teaching_assets/slides/slides/"+steps[0]+"'");
+                //div.html(slideLoadFailedHtml(steps[0]));
                   /*
                 section.attr("id", steps[0]);
                 section.attr("data-markdown", '');
@@ -64,9 +68,9 @@ app.directive('slideshow', ['$compile', 'Sockets', function($compile, Sockets) {
                 */
                 section.append(div);
               } else {
-                section.attr('my-include', "'./slides/"+steps[0]+"'");
+                section.attr('my-include', "'/static/teaching_assets/slides/slides/"+steps[0]+"'");
                 section.attr("id", steps[0]);
-                section.html(slideLoadFailedHtml(steps[0]));
+                //section.html(slideLoadFailedHtml(steps[0]));
               }
                   /*
               section.attr('ng-include', "'./slides/"+steps[0]+".html?raw=true'");
@@ -91,8 +95,8 @@ app.directive('slideshow', ['$compile', 'Sockets', function($compile, Sockets) {
                   subSection.attr("data-markdown", '');
                   subSection.attr("data-separator", '^---$');
                   div = angular.element("<div>");
-                  div.attr('my-include', "'./slides/"+steps[j]+"'");
-                  div.html(slideLoadFailedHtml(steps[0]));
+                  div.attr('my-include', "'/static/teaching_assets/slides/slides/"+steps[j]+"'");
+                  //div.html(slideLoadFailedHtml(steps[0]));
                   /*
                   script = angular.element("<script>");
                   script.attr('type', 'text/template');
@@ -103,8 +107,8 @@ app.directive('slideshow', ['$compile', 'Sockets', function($compile, Sockets) {
                   subSection.append(div);
                 } else {
                   console.log("slide "+steps[j]+" has html");
-                  subSection.attr('my-include', "'./slides/"+steps[j]+"'");
-                  subSection.html(slideLoadFailedHtml(steps[0]));
+                  subSection.attr('my-include', "'/static/teaching_assets/slides/slides/"+steps[j]+"'");
+                  //subSection.html(slideLoadFailedHtml(steps[0]));
                   subSection.attr("id", steps[j]);
                 }
                 //if (j < steps.length - 1)
@@ -121,36 +125,9 @@ app.directive('slideshow', ['$compile', 'Sockets', function($compile, Sockets) {
             }
             elem.append(section);
           }
-          //$compile(elem)(scope);
-          if(Reveal.isReady()) {
-            Reveal.sync();
-          } else {
-            init_reveal(deck);
-          }
+          Reveal.load(Reveal.initialize);
         }
       });
     }
   };
-}]);
-
-app.controller("myctrl", ["$scope", "$location", "$http", "$routeParams","Sockets","angularLoad", function($scope, $location, $http, $routeParams, Sockets, angularLoad) {
-      Sockets.on('snow_qm_task_data', function (data) {
-        console.log(data);
-        Promise.all(data.question.scripts.map(function(script) { 
-            return angularLoad.loadScript(script).then(function(result) { 
-                return result;
-            });
-        })).then(function(results) {
-          // results is an array of names
-          $('#snow_qm_'+data['collection']+'_'+data['task']).html(data.html)
-          $('#snow_qm_'+data['collection']+'_'+data['task']).find('form').submit(function (e) {
-            Sockets.emit('form_submit', data=getFormData( $(this) ));   
-            e.preventDefault(); // block the traditional submission of the form.
-          });
-        });
-      });
-      Sockets.on('output', function(data) {
-          console.log("output received");
-          mark(data);
-      });
 }]);
