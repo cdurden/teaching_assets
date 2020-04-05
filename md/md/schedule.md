@@ -2,7 +2,7 @@
 ## Algebra 1.1 Durden/Ridpath Schedule
 
 <div>
-<button type="button" data-target="schedule_mar30" class="collapsible">Schedule for the week of March 30-April 3</button>
+<button type="button" data-target="schedule_mar30" class="collapsible">March 30-April 3</button>
 <div id="schedule_mar30" class="content" markdown="1">
 
 | Date and Lesson Link                     | Learning Objectives                                                                    | Assigned Tasks |
@@ -16,7 +16,7 @@
 </div>
 </div>
 <div>
-<button type="button" data-target="schedule_apr6" class="collapsible">Schedule for the week of April 6-April 10</button>
+<button type="button" data-target="schedule_apr6" class="collapsible">April 6-April 10</button>
 <div id="schedule_apr6" class="content" markdown="1">
 
 <table>
