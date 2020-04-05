@@ -5,7 +5,7 @@
         [ "SolveGraphCheckProcedure" ],
         [ "Example1" ],
         [ "AreTheSolutionsGreaterOrLess" ],
-        [ "FindTheMistakeA" ]
+        [ "FindTheMistakeA" ],
         [ "FindTheMistakeB" ]
     ]
 }
