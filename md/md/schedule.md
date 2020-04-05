@@ -147,7 +147,10 @@
 </tr>
 </tbody>
 </table>
+</div>
+</div>
 
+<div>
 <button type="button" data-target="schedule_apr13" class="collapsible">April 13-April 17</button>
 <div id="schedule_apr13" class="content" markdown="1">
 
@@ -265,7 +268,10 @@
 </tr>
 </tbody>
 </table>
+</div>
+</div>
 
+<div>
 <button type="button" data-target="schedule_apr20" class="collapsible">April 20-April 24</button>
 <div id="schedule_apr20" class="content" markdown="1">
 
@@ -383,7 +389,10 @@
 </tr>
 </tbody>
 </table>
+</div>
+</div>
 
+<div>
 <button type="button" data-target="schedule_apr27" class="collapsible">April 27-May 1</button>
 <div id="schedule_apr27" class="content" markdown="1">
 
@@ -501,7 +510,10 @@
 </tr>
 </tbody>
 </table>
+</div>
+</div>
 
+<div>
 <button type="button" data-target="schedule_may4" class="collapsible">May 4-May 8</button>
 <div id="schedule_may4" class="content" markdown="1">
 
@@ -619,7 +631,10 @@
 </tr>
 </tbody>
 </table>
+</div>
+</div>
 
+<div>
 <button type="button" data-target="schedule_may11" class="collapsible">May 11-May 15</button>
 <div id="schedule_may11" class="content" markdown="1">
 
@@ -737,6 +752,10 @@
 </tr>
 </tbody>
 </table>
+</div>
+</div>
+
+<div>
 <button type="button" data-target="schedule_may18" class="collapsible">May 18-May 22</button>
 <div id="schedule_may18" class="content" markdown="1">
 
@@ -854,6 +873,10 @@
 </tr>
 </tbody>
 </table>
+</div>
+</div>
+
+<div>
 <button type="button" data-target="schedule_may25" class="collapsible">May 25-May 29</button>
 <div id="schedule_may25" class="content" markdown="1">
 
