@@ -34,7 +34,7 @@
 </tr>
 <tr>
   <td>
-  **Monday, April 6**
+  <b>Monday, April 6</b>
   <br>
   [Distance Learning Expectations]
   <br>
@@ -53,7 +53,7 @@
 </tr>
 <tr>
   <td>
-  **Tuesday, April 7**
+  <b>Tuesday, April 7</b>
   <br>
   [Solutions to Inequalities in One Variable]
   <br>
@@ -73,7 +73,7 @@
 </tr>
 <tr>
   <td>
-   **Wednesday, April 8**
+   <b>Wednesday, April 8</b>
    <br>
    <a href="" target="_parent">Efficiently Solving Inequalities</a>
    <br>
@@ -93,7 +93,7 @@
 </tr>
 <tr>
   <td>
-   **Thursday, April 9**
+   <b>Thursday, April 9</b>
    <br>
    <a href="">Properties of Inequalities Investigation</a>
    <br>
@@ -111,7 +111,7 @@
 </tr>
 <tr>
   <td>
-   **Friday, April 10**
+   <b>Friday, April 10</b>
    <br>
    <a href="" target="_parent">The Properties of Inequalities</a>    
   </td>
