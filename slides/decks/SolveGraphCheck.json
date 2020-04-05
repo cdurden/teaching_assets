@@ -6,7 +6,8 @@
         [ "Example1" ],
         [ "AreTheSolutionsGreaterOrLess" ],
         [ "FindTheMistakeA" ],
-        [ "FindTheMistakeB" ]
+        [ "FindTheMistakeB" ],
+        [ "FindTheMistakeC" ]
     ]
 }
 
