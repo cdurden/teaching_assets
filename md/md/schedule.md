@@ -148,6 +148,829 @@
 </tbody>
 </table>
 
+<button type="button" data-target="schedule_apr13" class="collapsible active">April 13-April 17</button>
+<div id="schedule_apr13" class="content" markdown="1" style="display: block;">
+
+<table>
+<tbody>
+<tr>
+  <th>
+  Date and Lesson Link
+  </th>
+  <th>
+  Learning Objectives
+  </th>
+  <th>
+  Assigned Tasks
+  </th>
+</tr>
+<tr>
+  <td>
+  <b>Monday, April 13</b>
+  <br>
+  <!-- Title -->
+  <br>
+  <a href="" target="_parent">Open in Notability</a>
+  </td>
+  <td>
+  <ul>
+    <!-- Learning Goals -->
+    <li> 
+    </li>
+  </ul>
+  </td>
+  <td>
+    <!-- Assigned Tasks -->
+  </td>
+</tr>
+<tr>
+  <td>
+  <b>Tuesday, April 14</b>
+  <br>
+  <!-- Title -->
+  <br>
+  <a href="" target="_parent">Open in Notability</a>
+  </td>
+  <td>
+  <ul>
+    <!-- Learning Goals -->
+    <li>
+    </li>
+  </ul>
+  </td>
+  <td>
+    <!-- Assigned Tasks -->
+    <a href="" target="_parent">Watch the video</a>.
+  </td>
+</tr>
+<tr>
+  <td>
+    <b>Wednesday, April 15</b>
+    <br>
+    <!-- Title -->
+    <br>
+    <a href="" target="_parent">Open in Notability</a>
+  </td>
+  <td>
+  <ul>
+    <!-- Learning Goals -->
+    <li>
+    </li>
+  </ul>
+  </td>
+  <td>
+    <!-- Assigned Tasks -->
+    <a href="" target="_parent">Watch the video</a>.
+  </td>
+</tr>
+<tr>
+  <td>
+    <b>Thursday, April 16</b>
+    <br>
+     <!-- Title -->
+    <a href=""></a>
+    <br>
+    <a href="" target="_parent">Open in Notability</a>
+  </td>
+  <td>
+  <ul>
+    <!-- Learning Goals -->
+    <li>
+    </li>
+  </ul>
+  </td>
+  <td>
+    <!-- Assigned Tasks -->
+    <a href="" target="_parent">Watch the video</a>.
+  </td>
+</tr>
+<tr>
+  <td>
+    <b>Friday, April 17</b>
+    <br>
+    <!-- Title -->
+    <a href="" target="_parent"></a>    
+  </td>
+  <td>
+  <ul>
+    <!-- Learning Goals -->
+    <li>
+    </li>
+  </ul>
+  </td>
+  <td>
+    <!-- Assigned Tasks -->
+    <a href="" target="_parent">Watch the video</a>.
+  </td>
+</tr>
+</tbody>
+</table>
+
+<button type="button" data-target="schedule_apr20" class="collapsible active">April 20-April 24</button>
+<div id="schedule_apr20" class="content" markdown="1" style="display: block;">
+
+<table>
+<tbody>
+<tr>
+  <th>
+  Date and Lesson Link
+  </th>
+  <th>
+  Learning Objectives
+  </th>
+  <th>
+  Assigned Tasks
+  </th>
+</tr>
+<tr>
+  <td>
+  <b>Monday, April 20</b>
+  <br>
+  <!-- Title -->
+  <br>
+  <a href="" target="_parent">Open in Notability</a>
+  </td>
+  <td>
+  <ul>
+    <!-- Learning Goals -->
+    <li> 
+    </li>
+  </ul>
+  </td>
+  <td>
+    <!-- Assigned Tasks -->
+  </td>
+</tr>
+<tr>
+  <td>
+  <b>Tuesday, April 21</b>
+  <br>
+  <!-- Title -->
+  <br>
+  <a href="" target="_parent">Open in Notability</a>
+  </td>
+  <td>
+  <ul>
+    <!-- Learning Goals -->
+    <li>
+    </li>
+  </ul>
+  </td>
+  <td>
+    <!-- Assigned Tasks -->
+    <a href="" target="_parent">Watch the video</a>.
+  </td>
+</tr>
+<tr>
+  <td>
+    <b>Wednesday, April 22</b>
+    <br>
+    <!-- Title -->
+    <br>
+    <a href="" target="_parent">Open in Notability</a>
+  </td>
+  <td>
+  <ul>
+    <!-- Learning Goals -->
+    <li>
+    </li>
+  </ul>
+  </td>
+  <td>
+    <!-- Assigned Tasks -->
+    <a href="" target="_parent">Watch the video</a>.
+  </td>
+</tr>
+<tr>
+  <td>
+    <b>Thursday, April 23</b>
+    <br>
+     <!-- Title -->
+    <a href=""></a>
+    <br>
+    <a href="" target="_parent">Open in Notability</a>
+  </td>
+  <td>
+  <ul>
+    <!-- Learning Goals -->
+    <li>
+    </li>
+  </ul>
+  </td>
+  <td>
+    <!-- Assigned Tasks -->
+    <a href="" target="_parent">Watch the video</a>.
+  </td>
+</tr>
+<tr>
+  <td>
+    <b>Friday, April 24</b>
+    <br>
+    <!-- Title -->
+    <a href="" target="_parent"></a>    
+  </td>
+  <td>
+  <ul>
+    <!-- Learning Goals -->
+    <li>
+    </li>
+  </ul>
+  </td>
+  <td>
+    <!-- Assigned Tasks -->
+    <a href="" target="_parent">Watch the video</a>.
+  </td>
+</tr>
+</tbody>
+</table>
+
+<button type="button" data-target="schedule_apr27" class="collapsible active">April 27-May 1</button>
+<div id="schedule_apr27" class="content" markdown="1" style="display: block;">
+
+<table>
+<tbody>
+<tr>
+  <th>
+  Date and Lesson Link
+  </th>
+  <th>
+  Learning Objectives
+  </th>
+  <th>
+  Assigned Tasks
+  </th>
+</tr>
+<tr>
+  <td>
+  <b>Monday, April 27</b>
+  <br>
+  <!-- Title -->
+  <br>
+  <a href="" target="_parent">Open in Notability</a>
+  </td>
+  <td>
+  <ul>
+    <!-- Learning Goals -->
+    <li> 
+    </li>
+  </ul>
+  </td>
+  <td>
+    <!-- Assigned Tasks -->
+  </td>
+</tr>
+<tr>
+  <td>
+  <b>Tuesday, April 28</b>
+  <br>
+  <!-- Title -->
+  <br>
+  <a href="" target="_parent">Open in Notability</a>
+  </td>
+  <td>
+  <ul>
+    <!-- Learning Goals -->
+    <li>
+    </li>
+  </ul>
+  </td>
+  <td>
+    <!-- Assigned Tasks -->
+    <a href="" target="_parent">Watch the video</a>.
+  </td>
+</tr>
+<tr>
+  <td>
+    <b>Wednesday, April 29</b>
+    <br>
+    <!-- Title -->
+    <br>
+    <a href="" target="_parent">Open in Notability</a>
+  </td>
+  <td>
+  <ul>
+    <!-- Learning Goals -->
+    <li>
+    </li>
+  </ul>
+  </td>
+  <td>
+    <!-- Assigned Tasks -->
+    <a href="" target="_parent">Watch the video</a>.
+  </td>
+</tr>
+<tr>
+  <td>
+    <b>Thursday, April 30</b>
+    <br>
+     <!-- Title -->
+    <a href=""></a>
+    <br>
+    <a href="" target="_parent">Open in Notability</a>
+  </td>
+  <td>
+  <ul>
+    <!-- Learning Goals -->
+    <li>
+    </li>
+  </ul>
+  </td>
+  <td>
+    <!-- Assigned Tasks -->
+    <a href="" target="_parent">Watch the video</a>.
+  </td>
+</tr>
+<tr>
+  <td>
+    <b>Friday, May 1</b>
+    <br>
+    <!-- Title -->
+    <a href="" target="_parent"></a>    
+  </td>
+  <td>
+  <ul>
+    <!-- Learning Goals -->
+    <li>
+    </li>
+  </ul>
+  </td>
+  <td>
+    <!-- Assigned Tasks -->
+    <a href="" target="_parent">Watch the video</a>.
+  </td>
+</tr>
+</tbody>
+</table>
+
+<button type="button" data-target="schedule_may4" class="collapsible active">May 4-May 8</button>
+<div id="schedule_may4" class="content" markdown="1" style="display: block;">
+
+<table>
+<tbody>
+<tr>
+  <th>
+  Date and Lesson Link
+  </th>
+  <th>
+  Learning Objectives
+  </th>
+  <th>
+  Assigned Tasks
+  </th>
+</tr>
+<tr>
+  <td>
+  <b>Monday, May 4</b>
+  <br>
+  <!-- Title -->
+  <br>
+  <a href="" target="_parent">Open in Notability</a>
+  </td>
+  <td>
+  <ul>
+    <!-- Learning Goals -->
+    <li> 
+    </li>
+  </ul>
+  </td>
+  <td>
+    <!-- Assigned Tasks -->
+  </td>
+</tr>
+<tr>
+  <td>
+  <b>Tuesday, May 5</b>
+  <br>
+  <!-- Title -->
+  <br>
+  <a href="" target="_parent">Open in Notability</a>
+  </td>
+  <td>
+  <ul>
+    <!-- Learning Goals -->
+    <li>
+    </li>
+  </ul>
+  </td>
+  <td>
+    <!-- Assigned Tasks -->
+    <a href="" target="_parent">Watch the video</a>.
+  </td>
+</tr>
+<tr>
+  <td>
+    <b>Wednesday, May 6</b>
+    <br>
+    <!-- Title -->
+    <br>
+    <a href="" target="_parent">Open in Notability</a>
+  </td>
+  <td>
+  <ul>
+    <!-- Learning Goals -->
+    <li>
+    </li>
+  </ul>
+  </td>
+  <td>
+    <!-- Assigned Tasks -->
+    <a href="" target="_parent">Watch the video</a>.
+  </td>
+</tr>
+<tr>
+  <td>
+    <b>Thursday, May 7</b>
+    <br>
+     <!-- Title -->
+    <a href=""></a>
+    <br>
+    <a href="" target="_parent">Open in Notability</a>
+  </td>
+  <td>
+  <ul>
+    <!-- Learning Goals -->
+    <li>
+    </li>
+  </ul>
+  </td>
+  <td>
+    <!-- Assigned Tasks -->
+    <a href="" target="_parent">Watch the video</a>.
+  </td>
+</tr>
+<tr>
+  <td>
+    <b>Friday, May 8</b>
+    <br>
+    <!-- Title -->
+    <a href="" target="_parent"></a>    
+  </td>
+  <td>
+  <ul>
+    <!-- Learning Goals -->
+    <li>
+    </li>
+  </ul>
+  </td>
+  <td>
+    <!-- Assigned Tasks -->
+    <a href="" target="_parent">Watch the video</a>.
+  </td>
+</tr>
+</tbody>
+</table>
+
+<button type="button" data-target="schedule_may11" class="collapsible active">May 11-May 15</button>
+<div id="schedule_may11" class="content" markdown="1" style="display: block;">
+
+<table>
+<tbody>
+<tr>
+  <th>
+  Date and Lesson Link
+  </th>
+  <th>
+  Learning Objectives
+  </th>
+  <th>
+  Assigned Tasks
+  </th>
+</tr>
+<tr>
+  <td>
+  <b>Monday, May 11</b>
+  <br>
+  <!-- Title -->
+  <br>
+  <a href="" target="_parent">Open in Notability</a>
+  </td>
+  <td>
+  <ul>
+    <!-- Learning Goals -->
+    <li> 
+    </li>
+  </ul>
+  </td>
+  <td>
+    <!-- Assigned Tasks -->
+  </td>
+</tr>
+<tr>
+  <td>
+  <b>Tuesday, May 12</b>
+  <br>
+  <!-- Title -->
+  <br>
+  <a href="" target="_parent">Open in Notability</a>
+  </td>
+  <td>
+  <ul>
+    <!-- Learning Goals -->
+    <li>
+    </li>
+  </ul>
+  </td>
+  <td>
+    <!-- Assigned Tasks -->
+    <a href="" target="_parent">Watch the video</a>.
+  </td>
+</tr>
+<tr>
+  <td>
+    <b>Wednesday, May 13</b>
+    <br>
+    <!-- Title -->
+    <br>
+    <a href="" target="_parent">Open in Notability</a>
+  </td>
+  <td>
+  <ul>
+    <!-- Learning Goals -->
+    <li>
+    </li>
+  </ul>
+  </td>
+  <td>
+    <!-- Assigned Tasks -->
+    <a href="" target="_parent">Watch the video</a>.
+  </td>
+</tr>
+<tr>
+  <td>
+    <b>Thursday, May 14</b>
+    <br>
+     <!-- Title -->
+    <a href=""></a>
+    <br>
+    <a href="" target="_parent">Open in Notability</a>
+  </td>
+  <td>
+  <ul>
+    <!-- Learning Goals -->
+    <li>
+    </li>
+  </ul>
+  </td>
+  <td>
+    <!-- Assigned Tasks -->
+    <a href="" target="_parent">Watch the video</a>.
+  </td>
+</tr>
+<tr>
+  <td>
+    <b>Friday, May 15</b>
+    <br>
+    <!-- Title -->
+    <a href="" target="_parent"></a>    
+  </td>
+  <td>
+  <ul>
+    <!-- Learning Goals -->
+    <li>
+    </li>
+  </ul>
+  </td>
+  <td>
+    <!-- Assigned Tasks -->
+    <a href="" target="_parent">Watch the video</a>.
+  </td>
+</tr>
+</tbody>
+</table>
+<button type="button" data-target="schedule_may18" class="collapsible active">May 18-May 22</button>
+<div id="schedule_may18" class="content" markdown="1" style="display: block;">
+
+<table>
+<tbody>
+<tr>
+  <th>
+  Date and Lesson Link
+  </th>
+  <th>
+  Learning Objectives
+  </th>
+  <th>
+  Assigned Tasks
+  </th>
+</tr>
+<tr>
+  <td>
+  <b>Monday, May 18</b>
+  <br>
+  <!-- Title -->
+  <br>
+  <a href="" target="_parent">Open in Notability</a>
+  </td>
+  <td>
+  <ul>
+    <!-- Learning Goals -->
+    <li> 
+    </li>
+  </ul>
+  </td>
+  <td>
+    <!-- Assigned Tasks -->
+  </td>
+</tr>
+<tr>
+  <td>
+  <b>Tuesday, May 19</b>
+  <br>
+  <!-- Title -->
+  <br>
+  <a href="" target="_parent">Open in Notability</a>
+  </td>
+  <td>
+  <ul>
+    <!-- Learning Goals -->
+    <li>
+    </li>
+  </ul>
+  </td>
+  <td>
+    <!-- Assigned Tasks -->
+    <a href="" target="_parent">Watch the video</a>.
+  </td>
+</tr>
+<tr>
+  <td>
+    <b>Wednesday, May 20</b>
+    <br>
+    <!-- Title -->
+    <br>
+    <a href="" target="_parent">Open in Notability</a>
+  </td>
+  <td>
+  <ul>
+    <!-- Learning Goals -->
+    <li>
+    </li>
+  </ul>
+  </td>
+  <td>
+    <!-- Assigned Tasks -->
+    <a href="" target="_parent">Watch the video</a>.
+  </td>
+</tr>
+<tr>
+  <td>
+    <b>Thursday, May 21</b>
+    <br>
+     <!-- Title -->
+    <a href=""></a>
+    <br>
+    <a href="" target="_parent">Open in Notability</a>
+  </td>
+  <td>
+  <ul>
+    <!-- Learning Goals -->
+    <li>
+    </li>
+  </ul>
+  </td>
+  <td>
+    <!-- Assigned Tasks -->
+    <a href="" target="_parent">Watch the video</a>.
+  </td>
+</tr>
+<tr>
+  <td>
+    <b>Friday, May 22</b>
+    <br>
+    <!-- Title -->
+    <a href="" target="_parent"></a>    
+  </td>
+  <td>
+  <ul>
+    <!-- Learning Goals -->
+    <li>
+    </li>
+  </ul>
+  </td>
+  <td>
+    <!-- Assigned Tasks -->
+    <a href="" target="_parent">Watch the video</a>.
+  </td>
+</tr>
+</tbody>
+</table>
+<button type="button" data-target="schedule_may25" class="collapsible active">May 25-May 29</button>
+<div id="schedule_may25" class="content" markdown="1" style="display: block;">
+
+<table>
+<tbody>
+<tr>
+  <th>
+  Date and Lesson Link
+  </th>
+  <th>
+  Learning Objectives
+  </th>
+  <th>
+  Assigned Tasks
+  </th>
+</tr>
+<tr>
+  <td>
+  <b>Monday, May 25</b>
+  <br>
+  <!-- Title -->
+  <br>
+  <a href="" target="_parent">Open in Notability</a>
+  </td>
+  <td>
+  <ul>
+    <!-- Learning Goals -->
+    <li> 
+    </li>
+  </ul>
+  </td>
+  <td>
+    <!-- Assigned Tasks -->
+  </td>
+</tr>
+<tr>
+  <td>
+  <b>Tuesday, May 26</b>
+  <br>
+  <!-- Title -->
+  <br>
+  <a href="" target="_parent">Open in Notability</a>
+  </td>
+  <td>
+  <ul>
+    <!-- Learning Goals -->
+    <li>
+    </li>
+  </ul>
+  </td>
+  <td>
+    <!-- Assigned Tasks -->
+    <a href="" target="_parent">Watch the video</a>.
+  </td>
+</tr>
+<tr>
+  <td>
+    <b>Wednesday, May 27</b>
+    <br>
+    <!-- Title -->
+    <br>
+    <a href="" target="_parent">Open in Notability</a>
+  </td>
+  <td>
+  <ul>
+    <!-- Learning Goals -->
+    <li>
+    </li>
+  </ul>
+  </td>
+  <td>
+    <!-- Assigned Tasks -->
+    <a href="" target="_parent">Watch the video</a>.
+  </td>
+</tr>
+<tr>
+  <td>
+    <b>Thursday, May 28</b>
+    <br>
+     <!-- Title -->
+    <a href=""></a>
+    <br>
+    <a href="" target="_parent">Open in Notability</a>
+  </td>
+  <td>
+  <ul>
+    <!-- Learning Goals -->
+    <li>
+    </li>
+  </ul>
+  </td>
+  <td>
+    <!-- Assigned Tasks -->
+    <a href="" target="_parent">Watch the video</a>.
+  </td>
+</tr>
+<tr>
+  <td>
+    <b>Friday, May 29</b>
+    <br>
+    <!-- Title -->
+    <a href="" target="_parent"></a>    
+  </td>
+  <td>
+  <ul>
+    <!-- Learning Goals -->
+    <li>
+    </li>
+  </ul>
+  </td>
+  <td>
+    <!-- Assigned Tasks -->
+    <a href="" target="_parent">Watch the video</a>.
+  </td>
+</tr>
+</tbody>
+</table>
 </div>
 </div>
 
