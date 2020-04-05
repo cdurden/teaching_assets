@@ -36,14 +36,16 @@
   <td>
   <b>Monday, April 6</b>
   <br>
+  <!-- Title -->
   [Distance Learning Expectations]
   <br>
   <a href="" target="_parent">Open in Notability</a>
   </td>
   <td>
   <ul>
-    <li>
     <!-- Learning Goals -->
+    <li> 
+    I can solve linear inequalities in one variable and graph the solutions on a number line.
     </li>
   </ul>
   </td>
@@ -55,14 +57,16 @@
   <td>
   <b>Tuesday, April 7</b>
   <br>
+  <!-- Title -->
   [Solutions to Inequalities in One Variable]
   <br>
   <a href="" target="_parent">Open in Notability</a>
   </td>
   <td>
   <ul>
-    <li>
     <!-- Learning Goals -->
+    <li>
+    I can check that my solution to an inequality makes sense by checking points in the solution set. <!-- TODO: revise -->
     </li>
   </ul>
   </td>
@@ -73,16 +77,18 @@
 </tr>
 <tr>
   <td>
-   <b>Wednesday, April 8</b>
-   <br>
-   <a href="" target="_parent">Efficiently Solving Inequalities</a>
-   <br>
-   <a href="" target="_parent">Open in Notability</a>
+    <b>Wednesday, April 8</b>
+    <br>
+    <!-- Title -->
+    <a href="" target="_parent">Efficiently Solving Inequalities</a>
+    <br>
+    <a href="" target="_parent">Open in Notability</a>
   </td>
   <td>
   <ul>
-    <li>
     <!-- Learning Goals -->
+    <li>
+    I can solve one-variable inequalities and interpret the solutions in terms of the situation.  
     </li>
   </ul>
   </td>
@@ -93,16 +99,18 @@
 </tr>
 <tr>
   <td>
-   <b>Thursday, April 9</b>
-   <br>
-   <a href="">Properties of Inequalities Investigation</a>
-   <br>
-   <a href="" target="_parent">Open in Notability</a>
+    <b>Thursday, April 9</b>
+    <br>
+     <!-- Title -->
+    <a href="">Properties of Inequalities Investigation</a>
+    <br>
+    <a href="" target="_parent">Open in Notability</a>
   </td>
   <td>
   <ul>
-    <li>
     <!-- Learning Goals -->
+    <li>
+    I can write and solve inequalities to answer questions about a situation.
     </li>
   </ul>
   </td>
@@ -113,14 +121,16 @@
 </tr>
 <tr>
   <td>
-   <b>Friday, April 10</b>
-   <br>
-   <a href="" target="_parent">The Properties of Inequalities</a>    
+    <b>Friday, April 10</b>
+    <br>
+    <!-- Title -->
+    <a href="" target="_parent">The Properties of Inequalities</a>    
   </td>
   <td>
   <ul>
-    <li>
     <!-- Learning Goals -->
+    <li>
+    I can write inequalities that represent the constraints in a situation.
     </li>
   </ul>
   </td>
