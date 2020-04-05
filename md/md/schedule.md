@@ -41,7 +41,9 @@ April 6-April 10: Solving compound inequalities
   <b>Monday, April 6</b>
   <br>
   <!-- Title -->
-  [Solve, Graph, Check]
+  <a href="../slides/#SolveGraphCheck">
+  Solve, Graph, Check
+  </a>
   <br>
   <a href="" target="_parent">Open in Notability</a>
   </td>
@@ -49,7 +51,7 @@ April 6-April 10: Solving compound inequalities
   <ul>
     <!-- Learning Goals -->
     <li> 
-    I can solve linear inequalities in one variable and graph the solutions on a number line.
+    I can solve linear inequalities in one variable, graph the solutions, and check that the solutions make sense.
     </li>
     <li>
     I can check that my solution to an inequality makes sense by checking points in the solution set. <!-- TODO: revise -->
