@@ -22,8 +22,6 @@ body {
 table {
   border-radius: 10px;
   width: 100%;
-  margin-left: 3em;
-  margin-right: 3em;
 }
 tr:nth-child(even) {background-color: #f2f2f2;}
 th {
@@ -42,4 +40,5 @@ td ul, td ol {
 div.content_container {
     overflow-x: auto;
     padding: 4px;
+    margin: 2em;
 }
