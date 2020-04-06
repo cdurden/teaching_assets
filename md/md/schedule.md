@@ -115,7 +115,7 @@ April 6-April 10: Solving compound inequalities
   <b>Tuesday, April 7</b>
   <br>
   <!-- Title -->
-  <a href="/static/teaching_assets/slides/#Writing Inequalities" target="_parent">Writing Inequalities</a>
+  <a href="/static/teaching_assets/slides/#WritingInequalities" target="_parent">Writing Inequalities</a>
   <br>
   <a href="" target="_parent">Open in Notability</a>
   </td>
