@@ -67,7 +67,7 @@ April 6-April 10: Solving compound inequalities
         3 guided problems
       </li>
       <li> 
-        8 independent practice problems (<a href="https://app.schoology.com/course/2233201491/materials/gp/2450616316" target="_parent">Check selected solutions</a>)
+        6 independent practice problems (<a href="https://app.schoology.com/course/2233201491/materials/gp/2450616316" target="_parent">Check selected solutions</a>)
       </li>
     </ul>
   </td>
