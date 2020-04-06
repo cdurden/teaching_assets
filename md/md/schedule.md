@@ -41,40 +41,33 @@ April 6-April 10: Solving compound inequalities
   <b>Monday, April 6</b>
   <br>
   <!-- Title -->
-  <a href="../slides/#SolveGraphCheck">
+  <a href="https://app.schoology.com/assignment/2450486770">
   <b>
-  Solve, Graph, Check
+ Distribute to Solve Inequalities 
   </b>
   </a>
   <br>
-  <a href="" target="_parent">Open in Notability</a>
+  <a href="https://app.schoology.com/assignment/2450486770" target="_parent">Open in Notability</a>
   </td>
   <td>
   <ul>
     <!-- Learning Goals -->
     <li> 
-    I can solve linear inequalities in one variable, graph the solutions, and check that the solutions make sense.
-    </li>
-    <li>
-    I can check that my solution to an inequality makes sense by checking points in the solution set. <!-- TODO: revise -->
+    I can apply the distributive law to solve linear inequalities in one variable.
     </li>
   </ul>
   </td>
   <td>
     <!-- Assigned Tasks -->
     <ul>
-      <!-- Learning Goals -->
       <li> 
-        Solve an inequality using the properties of inequality.
+        <a href="https://youtu.be/Sow5L6fqHRE" target="_parent">Watch the video</a>.
       </li>
       <li> 
-        Graph the solution set on a number line.
+        3 guided problems
       </li>
       <li> 
-        Check that the solutions make sense.
-      </li>
-      <li> 
-        Examine the solutions to a compound inequality in context.
+        8 independent practice problems
       </li>
     </ul>
   </td>
@@ -104,7 +97,6 @@ April 6-April 10: Solving compound inequalities
   </td>
   <td>
     <!-- Assigned Tasks -->
-    <a href="" target="_parent">Watch the video</a>.
   </td>
 </tr>
 <tr>
@@ -114,7 +106,6 @@ April 6-April 10: Solving compound inequalities
     <!-- Title -->
     <a href="" target="_parent">Compound Inequalities</a>
     <br>
-    <a href="" target="_parent">Open in Notability</a>
   </td>
   <td>
   <ul>
@@ -129,7 +120,7 @@ April 6-April 10: Solving compound inequalities
   </td>
   <td>
     <!-- Assigned Tasks -->
-    <a href="" target="_parent">Watch the video</a>.
+    <!--<a href="" target="_parent">Watch the video</a>.-->
   </td>
 </tr>
 <tr>
@@ -151,7 +142,6 @@ April 6-April 10: Solving compound inequalities
   </td>
   <td>
     <!-- Assigned Tasks -->
-    <a href="" target="_parent">Watch the video</a>.
   </td>
 </tr>
 <tr>
@@ -159,7 +149,7 @@ April 6-April 10: Solving compound inequalities
     <b>Friday, April 10</b>
     <br>
     <!-- Title -->
-    <a href="" target="_parent">Learning Check</a>    
+    No school
   </td>
   <td>
   <ul>
@@ -168,7 +158,6 @@ April 6-April 10: Solving compound inequalities
   </td>
   <td>
     <!-- Assigned Tasks -->
-    <a href="" target="_parent">Watch the video</a>.
   </td>
 </tr>
 </tbody>
