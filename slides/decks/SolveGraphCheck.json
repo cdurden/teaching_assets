@@ -3,15 +3,16 @@
     "slides": [
         [ "LearningGoals" ],
         [ "SolveGraphCheckProcedure" ],
-        [ "RationingPeanutButter" ],
+        [ "MakingTheGrade" ],
         [ "Example1" ],
         [ "FindTheMistakeA" ],
         [ "Exercise1" ],
         [ "Exercise2" ],
         [ "FindTheMistakeB" ],
-        [ "GreaterOrLess" ],
+        [ "DistributeToSolveA" ],
+        [ "DistributeToSolveB" ],
+        [ "FindTheMistakeD" ],
         [ "FindingTheAverage" ],
-        [ "DistributeToSolve" ],
         [ "IsItCorrect" ]
     ]
 }
