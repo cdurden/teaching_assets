@@ -84,12 +84,14 @@ April 6-April 10: Solving compound inequalities
   <td>
   <ul>
     <!-- Learning Goals -->
+<!--
     <li>
     I can solve one-variable inequalities and interpret the solutions in terms of the situation.  
     </li>
     <li>
     I can write inequalities that represent the constraints in a situation.
     </li>
+-->
     <li>
     I can write and solve inequalities to answer questions about a situation.
     </li>
