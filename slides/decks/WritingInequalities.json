@@ -2,24 +2,12 @@
     "collection": "WritingInequalities",
     "slides": [ 
         [ "LearningGoals" ],
-        [ "Keywords" ],
         [ "SolveSomeInequalities" ],
-        [ "FindingTheAverage" ],
-        [ "MakingTheGrade" ],
-        [ "TheFifthEvent" ],
-        [ "Translate1" ],
-        [ "Translate1B" ],
-        [ "Translate2" ],
-        [ "Translate2B" ],
-        [ "Translate3" ],
-        [ "Problem1" ],
-        [ "Problem2" ],
-        [ "Problem3" ],
-        [ "Problem4" ],
-        [ "Problem5" ],
-        [ "ClubActivitiesMatching1" ],
         [ "ClubActivitiesMatching2" ],
+        [ "ClubActivitiesMatching1" ],
         [ "ClubActivitiesMatching3" ],
-        [ "ClubActivitiesMatching4" ]
+        [ "ClubActivitiesMatching4" ],
+        [ "Keywords" ],
+        [ "Task" ]
     ]
 }
