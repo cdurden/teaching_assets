@@ -140,7 +140,7 @@ I can match an inequality to a situation it represents, solve it, and then expla
   </td>
   <td>
     <!-- Assigned Tasks -->
-You will match each of the three situations with an inequality and explain your answer. Then you will choose one of the three situations and complete the assigned tasks at the end of the slides. <a href="https://youtu.be/7zdY4WMju-I">Watch the video to see an example.</a>
+You will match each of the three situations with an inequality and explain your answer. Then you will choose one of the three situations and complete the assigned tasks at the end of the slides. <a href="https://youtu.be/Bkz6T0Q_s54">Watch the video to see an example.</a>
   </td>
 </tr>
 <tr>
