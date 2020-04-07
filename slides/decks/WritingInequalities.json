@@ -3,17 +3,20 @@
     "slides": [ 
         [ "LearningGoals" ],
         [ "Keywords" ],
+        [ "SolveSomeInequalities" ],
         [ "FindingTheAverage" ],
         [ "MakingTheGrade" ],
         [ "TheFifthEvent" ],
-        [ "ClubActivitiesMatching" ],
         [ "Translate1" ],
+        [ "Translate1B" ],
         [ "Translate2" ],
+        [ "Translate2B" ],
         [ "Translate3" ],
         [ "Problem1" ],
         [ "Problem2" ],
         [ "Problem3" ],
         [ "Problem4" ],
-        [ "Problem5" ]
+        [ "Problem5" ],
+        [ "ClubActivitiesMatching1" ]
     ]
 }

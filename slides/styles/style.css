@@ -6,7 +6,7 @@
 */
 /*
 */
-ol [type=a] {
+ol.a {
     list-style-type: lower-alpha;
 }
 .container {
