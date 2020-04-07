@@ -115,7 +115,7 @@ April 6-April 10: Solving compound inequalities
   <b>Tuesday, April 7</b>
   <br>
   <!-- Title -->
-  <a href="https://app.schoology.com/assignment/2453797997" target="_parent">Interpreting Inequalities</a>
+  <a href="https://app.schoology.com/assignment/2453797997" target="_parent"><b>Interpreting Inequalities</b></a>
   <br>
   <a href="https://app.schoology.com/assignment/2453797997" target="_parent">Open in Notability</a>
   </td>
