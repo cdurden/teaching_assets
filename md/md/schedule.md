@@ -115,9 +115,9 @@ April 6-April 10: Solving compound inequalities
   <b>Tuesday, April 7</b>
   <br>
   <!-- Title -->
-  <a href="/static/teaching_assets/slides/#WritingInequalities" target="_parent">Writing Inequalities</a>
+  <a href="https://app.schoology.com/assignment/2453797997" target="_parent">Interpreting Inequalities</a>
   <br>
-  <a href="" target="_parent">Open in Notability</a>
+  <a href="https://app.schoology.com/assignment/2453797997" target="_parent">Open in Notability</a>
   </td>
   <td>
   <ul>
@@ -129,14 +129,18 @@ April 6-April 10: Solving compound inequalities
     <li>
     I can write inequalities that represent the constraints in a situation.
     </li>
--->
     <li>
     I can write and solve inequalities to answer questions about a situation.
     </li>
+-->
+<li>
+I can match an inequality to a situation it represents, solve it, and then explain what the solution means in the situation.
+</li>
   </ul>
   </td>
   <td>
     <!-- Assigned Tasks -->
+You will match each of the three situations with an inequality and explain your answer. Then you will choose one of the three situations and complete the assigned tasks at the end of the slides. <a href="https://youtu.be/7zdY4WMju-I">Watch the video to see an example.</a>
   </td>
 </tr>
 <tr>
