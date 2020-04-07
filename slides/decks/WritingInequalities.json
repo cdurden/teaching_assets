@@ -8,6 +8,10 @@
         [ "ClubActivitiesMatching1" ],
         [ "ClubActivitiesMatching3" ],
         [ "ClubActivitiesMatching4" ],
-        [ "Task" ]
+        [ "Assignment" ],
+        [ "Task1" ],
+        [ "Task2" ],
+        [ "Task3" ],
+        [ "Task4" ]
     ]
 }
