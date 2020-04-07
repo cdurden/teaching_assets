@@ -6,6 +6,9 @@
 */
 /*
 */
+ol [type=a] {
+    list-style-type: lower-alpha;
+}
 .container {
     width: fit-content;
     touch-actions: none;
