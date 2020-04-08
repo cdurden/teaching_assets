@@ -148,7 +148,7 @@ You will match each of the three situations with an inequality and explain your 
     <b>Wednesday, April 8</b>
     <br>
     <!-- Title -->
-    <a href="" target="_parent">Compound Inequalities</a>
+    <a href="https://app.schoology.com/assignment/2456580900" target="_parent">Compound Inequalities</a>
     <br>
   </td>
   <td>
@@ -157,14 +157,11 @@ You will match each of the three situations with an inequality and explain your 
     <li>
     I can graphs solutions to simple compound inequalities in context.
     </li>
-    <li>
-    I can determine when a compound inequality has no solution.
-    </li>
   </ul>
   </td>
   <td>
     <!-- Assigned Tasks -->
-    <!--<a href="" target="_parent">Watch the video</a>.-->
+    <!--<a href="https://youtu.be/QZP-pMYdvmA" target="_parent">Watch the video</a> to complete the first few pages of notes and the first exercise. Then complete the remaining two exercises and the problem "Height Requirements."
   </td>
 </tr>
 <tr>
