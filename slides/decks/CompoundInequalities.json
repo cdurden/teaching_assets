@@ -3,6 +3,7 @@
     "slides":
     [
         ["LearningGoals"],
+        ["CompoundMeaning"]
         ["AndVsOrNotes"],
         ["PeppyKirbyLillyFrit1"],
         ["HeightRequirements"],
@@ -22,6 +23,5 @@
         ["TryGraphingCompoundInequality"],
         ["AbsoluteValueInequality"],
         ["Animation"],
-        ["CompoundMeaning"]
     ]
 }
