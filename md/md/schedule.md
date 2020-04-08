@@ -148,7 +148,8 @@ You will match each of the three situations with an inequality and explain your 
     <b>Wednesday, April 8</b>
     <br>
     <!-- Title -->
-    <a href="https://app.schoology.com/assignment/2456580900" target="_parent"><b>Compound Inequalities</b></a>
+    <a href="https://app.schoology.com/assignment/2456580900" target="_parent"><b>Compound Inequalities</b></a><br/>
+    <a href="https://app.schoology.com/assignment/2456580900" target="_parent">Open in Notability</a>
     <br>
   </td>
   <td>
