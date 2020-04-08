@@ -3,9 +3,8 @@
     "slides":
     [
         ["LearningGoals"],
-        ["CompoundMeaning"],
-        ["PeppyKirbyLillyFrit1"],
         ["AndVsOrNotes"],
+        ["PeppyKirbyLillyFrit1"],
         ["HeightRequirements"],
         ["HeightRequirementsNumberLine"],
         ["HeightRequirementsIntersection"],
@@ -22,6 +21,7 @@
         ["TheIntersectionOfTwoSets"],
         ["TryGraphingCompoundInequality"],
         ["AbsoluteValueInequality"],
-        ["Animation"]
+        ["Animation"],
+        ["CompoundMeaning"]
     ]
 }
