@@ -148,7 +148,7 @@ You will match each of the three situations with an inequality and explain your 
     <b>Wednesday, April 8</b>
     <br>
     <!-- Title -->
-    <a href="https://app.schoology.com/assignment/2456580900" target="_parent">Compound Inequalities</a>
+    <a href="https://app.schoology.com/assignment/2456580900" target="_parent"><b>Compound Inequalities</b></a>
     <br>
   </td>
   <td>
@@ -161,7 +161,7 @@ You will match each of the three situations with an inequality and explain your 
   </td>
   <td>
     <!-- Assigned Tasks -->
-    <!--<a href="https://youtu.be/QZP-pMYdvmA" target="_parent">Watch the video</a> to complete the first few pages of notes and the first exercise. Then complete the remaining two exercises and the problem "Height Requirements."
+    <a href="https://youtu.be/QZP-pMYdvmA" target="_parent">Watch the video</a> to complete the first few pages of notes and the first exercise. Then complete the remaining two exercises and the problem "Height Requirements."
   </td>
 </tr>
 <tr>
