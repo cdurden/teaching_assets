@@ -1,0 +1,26 @@
+{
+    "collection": "CompoundInequalities",
+    "slides":
+    [
+        ["LearningGoals"],
+        ["CompoundMeaning"],
+        ["AndVsOrNotes"],
+        ["HeightRequirements"],
+        ["HeightRequirementsNumberLine"],
+        ["HeightRequirementsIntersection"],
+        ["SnakesExample"],
+        ["CompoundInequalityExamples"],
+        ["NoSolution"],
+        ["CanYouWriteTheTwoInequalities"],
+        ["Compound Inequalities Card Match Activity"],
+        ["WhenAreTheyUsed"],
+        ["AndVsOr"],
+        ["PickyVersusFlexibleChoice"],
+        ["MoviesWithTheRockAndDramas-VennDiagrams"],
+        ["WhoCanRideBoth"],
+        ["TheIntersectionOfTwoSets"],
+        ["TryGraphingCompoundInequality"],
+        ["AbsoluteValueInequality"],
+        ["Animation"]
+    ]
+}
