@@ -187,7 +187,7 @@ You will match each of the three situations with an inequality and explain your 
   </td>
   <td>
     <!-- Assigned Tasks -->
-    <a href="https://youtu.be/QZP-pMYdvmA" target="_parent">Watch the video</a> to complete the three examples. Then complete the four exercises.
+    <a href="https://youtu.be/EE2Y_fyYZc0" target="_parent">Watch the video</a> to complete the three examples. Then complete the four exercises.
   </td>
 </tr>
 <tr>
