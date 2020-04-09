@@ -170,9 +170,9 @@ You will match each of the three situations with an inequality and explain your 
     <b>Thursday, April 9</b>
     <br>
      <!-- Title -->
-    <a href="">Absolute Value Inequalities</a>
+    <a href="https://app.schoology.com/assignment/2458782249"><b>How Many Solutions?</b></a>
     <br>
-    <a href="" target="_parent">Open in Notability</a>
+    <a href="https://app.schoology.com/assignment/2458782249" target="_parent">Open in Notability</a>
   </td>
   <td>
   <ul>
@@ -187,6 +187,7 @@ You will match each of the three situations with an inequality and explain your 
   </td>
   <td>
     <!-- Assigned Tasks -->
+    <a href="https://youtu.be/QZP-pMYdvmA" target="_parent">Watch the video</a> to complete the three examples. Then complete the four exercises.
   </td>
 </tr>
 <tr>
