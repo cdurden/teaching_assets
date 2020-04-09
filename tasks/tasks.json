@@ -1,6 +1,9 @@
 {
     "task1": { 
         "title": "Absolute value inequality",
-        "directions": "Solve $|x| < 5$ and graph your solution"
+        "directions": "Solve $|x| < 5$ and graph your solution",
+        "template": "drawOnImage.html",
+        "top": "200px",
+        "left": "200px"
     }
 }
