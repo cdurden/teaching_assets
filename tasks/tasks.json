@@ -4,6 +4,7 @@
         "directions": "Solve $|x| < 5$ and graph your solution",
         "template": "drawOnImage.html",
         "top": "200px",
-        "left": "200px"
+        "left": "200px",
+        "img_src": "/static/teaching_assets/slides/images/NumberLineFromNegative10To9.png"
     }
 }
