@@ -178,7 +178,10 @@ You will match each of the three situations with an inequality and explain your 
   <ul>
     <!-- Learning Goals -->
     <li>
+    <!--
     I can graphs solutions to absolute value inequalities in context.
+    -->
+    I can tell when a compound inequality has no solution, one solution, or many solutions.
     </li>
   </ul>
   </td>
