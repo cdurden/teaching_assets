@@ -1,8 +1,7 @@
 {
-    "collection": "SolutionsToCompoundInequalities",
+    "collection": "HowManySolutions",
     "slides": [
         [ "LearningGoals" ],
-        [ "Review" ],
         [ "Possibilities" ],
         [ "Example1" ],
         [ "Example2" ],
