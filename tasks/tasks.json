@@ -8,7 +8,7 @@
         "img_src": "/static/teaching_assets/slides/images/NumberLineFromNegative10To9.png"
     },
     "task2": { 
-        "title": "Absolute value inequality",
+        "title": "Absolute value inequality multiple choice",
         "directions": "Solve $|x| < 5$ and graph your solution",
         "template": "multipleChoice.html",
         "choices": ["$-5 < x < 5$", "$0 < x < 5$", "$x < -5$ or $x > 5$"],
