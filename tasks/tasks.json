@@ -10,8 +10,9 @@
     "task2": { 
         "title": "Absolute value inequality multiple choice",
         "directions": "Solve $|x| < 5$ and graph your solution",
-        "template": "multipleChoice.html",
         "choices": ["$-5 < x < 5$", "$0 < x < 5$", "$x < -5$ or $x > 5$"],
-        "answer": 0
+        "answer": 0,
+        "template": "multipleChoice.html",
+        "fields": {"answer": "text"}
     }
 }
