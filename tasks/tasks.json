@@ -13,6 +13,7 @@
         "choices": ["$-5 < x < 5$", "$0 < x < 5$", "$x < -5$ or $x > 5$"],
         "answer": 0,
         "template": "multipleChoice.html",
-        "fields": {"answer": "text"}
+        "fields": {"answer": "text"},
+        "scripts": ["https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js"]
     }
 }
