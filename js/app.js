@@ -216,8 +216,10 @@ function() {
             var n;
             e && (n = t.insert("path", ".foreground").datum({
                 type: "Point",
+                latitude: a.invert(d3.mouse(this)),
+                longitude: a.invert(d3.mouse(this)),
                 coordinates: a.invert(d3.mouse(this))
-            }).attr("class", "point").attr("d", o));
+            }).attr("class", "point").attr("d", o).on('click', tip.show););
             var o = d3.select(this).classed("zooming", !0)
               , r = d3.select(window).on("mouseup", function() {
                 o.classed("zooming", !1),
@@ -337,5 +339,15 @@ function() {
         d3.selectAll("svg").insert("path", ".foreground").datum(topojson.feature(n, n.objects.land)).attr("class", "land"),
         d3.selectAll("svg").insert("path", ".foreground").datum(topojson.mesh(n, n.objects.countries)).attr("class", "mesh"),
         r.world()
+					var tip = d3.tip()
+							.attr('class', 'd3-tip')
+							.offset([-5, 0])
+							.style("left", "300px")
+							.style("top", "400px")
+							.html(function(d) {
+								return ("("+d.latitude+","+d.longitude +")");
+							})
+							
+						svg.call(tip);
     })
 }();
