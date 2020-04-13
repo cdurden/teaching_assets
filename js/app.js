@@ -248,7 +248,7 @@ function() {
     d3.selectAll("#map").data([n(a, o).scale(245).translate([a / 2, .56 * o]), d3.geo.eisenlohr().precision(.1).clipExtent([[-1, -1], [a + 1, o + 1]]).translate([a / 2, o / 2]).scale(75).rotate([0, -30])]).append("svg").attr("width", a).attr("height", o).each(function(n) {
         var e = d3.geo.path().projection(n)
           , a = d3.select(this).call(t, e, !0);
-        this.call(tip);
+        d3.select(this).call(tip);
         a.selectAll(".foreground").call(d3.geo.zoom().projection(n).scaleExtent([.7 * n.scale(), 10 * n.scale()]).on("zoom.redraw", function() {
             d3.event.sourceEvent.preventDefault && d3.event.sourceEvent.preventDefault(),
             a.selectAll("path").attr("d", e)
