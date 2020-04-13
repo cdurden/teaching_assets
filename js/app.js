@@ -210,8 +210,14 @@ function() {
               , r = d3.select(window).on("mouseup.grab", function() {
                 o.classed("zooming", !1),
                 r.on("mouseup.grab", null),
-                e //&& n.remove()
+                e && n.remove()
             })
+        }).attr("class", "foreground").attr("d", n).on("click", function() {
+            var n;
+            e && (n = t.insert("path", ".foreground").datum({
+                type: "Point",
+                coordinates: a.invert(d3.mouse(this))
+            }).attr("class", "point").attr("d", o));
         })
     }
     function n(t, n) {
