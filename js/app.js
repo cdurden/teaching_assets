@@ -223,7 +223,7 @@ function() {
             var o = d3.select(this).classed("zooming", !0)
               , p = d3.selectAll(".point").on("mouseover", function(d,i) {
                 tip.show(d,i);
-            }),
+            })
               , r = d3.select(window).on("mouseup", function() {
                 o.classed("zooming", !1),
                 r.on("mouseup", null),
