@@ -219,7 +219,7 @@ function() {
                 latitude: a.invert(d3.mouse(this)),
                 longitude: a.invert(d3.mouse(this)),
                 coordinates: a.invert(d3.mouse(this))
-            }).attr("class", "point").attr("d", o).on('click', tip.show););
+            }).attr("class", "point").attr("d", o).on('click', tip.show));
             var o = d3.select(this).classed("zooming", !0)
               , r = d3.select(window).on("mouseup", function() {
                 o.classed("zooming", !1),
@@ -231,6 +231,15 @@ function() {
     function n(t, n) {
         return d3.geo.orthographic().precision(.5).clipAngle(90).clipExtent([[-1, -1], [t + 1, n + 1]]).translate([t / 2, n / 2]).scale(t / 2 - 10).rotate([0, -30])
     }
+					var tip = d3.tip()
+							.attr('class', 'd3-tip')
+							.offset([-5, 0])
+							.style("left", "300px")
+							.style("top", "400px")
+							.html(function(d) {
+								return ("("+d.latitude+","+d.longitude +")");
+							})
+							
     var e = 180 / Math.PI
       , a = 1e3
       , o = 600
@@ -239,6 +248,7 @@ function() {
     d3.selectAll("#map, #eisenlohr").data([n(a, o).scale(245).translate([a / 2, .56 * o]), d3.geo.eisenlohr().precision(.1).clipExtent([[-1, -1], [a + 1, o + 1]]).translate([a / 2, o / 2]).scale(75).rotate([0, -30])]).append("svg").attr("width", a).attr("height", o).each(function(n) {
         var e = d3.geo.path().projection(n)
           , a = d3.select(this).call(t, e, !0);
+        n.call(tip);
         a.selectAll(".foreground").call(d3.geo.zoom().projection(n).scaleExtent([.7 * n.scale(), 10 * n.scale()]).on("zoom.redraw", function() {
             d3.event.sourceEvent.preventDefault && d3.event.sourceEvent.preventDefault(),
             a.selectAll("path").attr("d", e)
@@ -339,15 +349,5 @@ function() {
         d3.selectAll("svg").insert("path", ".foreground").datum(topojson.feature(n, n.objects.land)).attr("class", "land"),
         d3.selectAll("svg").insert("path", ".foreground").datum(topojson.mesh(n, n.objects.countries)).attr("class", "mesh"),
         r.world()
-					var tip = d3.tip()
-							.attr('class', 'd3-tip')
-							.offset([-5, 0])
-							.style("left", "300px")
-							.style("top", "400px")
-							.html(function(d) {
-								return ("("+d.latitude+","+d.longitude +")");
-							})
-							
-						svg.call(tip);
     })
 }();
