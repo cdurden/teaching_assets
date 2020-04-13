@@ -210,7 +210,7 @@ function() {
               , r = d3.select(window).on("mouseup.grab", function() {
                 o.classed("zooming", !1),
                 r.on("mouseup.grab", null),
-                e && n.remove()
+                e //&& n.remove()
             })
         })
     }
