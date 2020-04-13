@@ -23,5 +23,8 @@ We will use inequalities to describe where this species lives.
 <img src="/static/teaching_assets/md/images/BoundingBox.png"><br>
 
 **Step 2**: Using a map, we find the $x$ coordinates (longitude) of our vertical boundary lines and the $y$ coordinates (latitude) of our horizontal boundary lines.
+<img src="/static/teaching_assets/md/images/LabeledBoundingBox.png"><br>
+
 **Step 3**: We compare the coordinates of our boundaries to the coordinates inside the boundaries, and write inequalities to express our comparison.
+<img src="/static/teaching_assets/md/images/BoundingBoxWithInequalities.png"><br>
 
