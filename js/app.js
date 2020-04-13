@@ -219,7 +219,7 @@ function() {
                 latitude: a.invert(d3.mouse(this)),
                 longitude: a.invert(d3.mouse(this)),
                 coordinates: a.invert(d3.mouse(this))
-            }).attr("class", "point").attr("d", o));
+            }).attr("class", "point");//.attr("d", o));
             n.on("click", function() {
                 tip.show();
             });
