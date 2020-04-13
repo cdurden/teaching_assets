@@ -219,7 +219,10 @@ function() {
                 latitude: a.invert(d3.mouse(this)),
                 longitude: a.invert(d3.mouse(this)),
                 coordinates: a.invert(d3.mouse(this))
-            }).attr("class", "point").attr("d", o).on("click", tip.show));
+            }).attr("class", "point").attr("d", o));
+            n.on("click", function() {
+                tip.show();
+            });
             var o = d3.select(this).classed("zooming", !0)
               , r = d3.select(window).on("mouseup", function() {
                 o.classed("zooming", !1),
