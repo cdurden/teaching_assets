@@ -8,7 +8,7 @@ An ecologist is a scientist who studies how living things interact with each oth
 
 Let's look at an example. The African forest elephant is one of the three living species of elephants. It lives in humid forests in African, and it is considered by the International Union for Conservation of Nature to be a vulnerable species, which means it is likely to become endangered unless conditions change.
 
-<img src="/static/teaching_assets/md/images/ForestElephantOccurrences.png">
+<img src="/static/teaching_assets/md/images/ForestElephantOccurrences.png" width="100%">
 
 ## Developing a model
 
