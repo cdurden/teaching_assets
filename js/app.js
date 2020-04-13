@@ -220,8 +220,8 @@ function() {
                 longitude: a.invert(d3.mouse(this)),
                 coordinates: a.invert(d3.mouse(this))
             }).attr("class", "point"));//.attr("d", o));
-            n.on("click", function() {
-                tip.show();
+            n.on("mouseover", function(d,i) {
+                tip.show(d,i);
             });
             var o = d3.select(this).classed("zooming", !0)
               , r = d3.select(window).on("mouseup", function() {
