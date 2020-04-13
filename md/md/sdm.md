@@ -19,12 +19,9 @@ The image above is called an **occurrence map**. It shows several locations wher
 We will use inequalities to describe where this species lives. 
 
 ## How to build our inequality model
-**Step 1**: We draw a box using horizontal and vertical lines, enclosing all of the points on the occurrence map. The sides of the box are called **boundaries**.
+**Step 1**: We draw a box using horizontal and vertical lines, enclosing all of the points on the occurrence map. The sides of the box are called **boundaries**.<br>
+<img src="/static/teaching_assets/md/images/BoundingBox.png"><br>
+
 **Step 2**: Using a map, we find the $x$ coordinates (longitude) of our vertical boundary lines and the $y$ coordinates (latitude) of our horizontal boundary lines.
 **Step 3**: We compare the coordinates of our boundaries to the coordinates inside the boundaries, and write inequalities to express our comparison.
 
-<div id="eisenlohr"></div>
-<script src="../js/d3.min.js"></script>
-<script src="../js/d3.geo.projection.min.js"></script>
-<script src="../js/topojson.min.js"></script>
-<script src="../js/app.min.js"></script>
