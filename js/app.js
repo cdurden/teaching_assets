@@ -218,6 +218,7 @@ function() {
                 type: "Point",
                 coordinates: a.invert(d3.mouse(this))
             }).attr("class", "point").attr("d", o));
+            var o = d3.select(this).classed("zooming", !0);
         })
     }
     function n(t, n) {
