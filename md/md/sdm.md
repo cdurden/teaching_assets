@@ -20,17 +20,17 @@ We will use inequalities to describe where this species lives.
 
 ## How to build our inequality model
 <p>
-**Step 1**: We draw a box using horizontal and vertical lines, enclosing all of the points on the occurrence map. The sides of the box are called **boundaries**.
+<b>Step 1</b>: We draw a box using horizontal and vertical lines, enclosing all of the points on the occurrence map. The sides of the box are called **boundaries**.
 </p>
 <img src="/static/teaching_assets/md/images/BoundingBox.png" style="max-width: 100%;"><br>
 
 <p>
-**Step 2**: Using a map, we find the $x$ coordinates (longitude) of our left and right boundaries and the $y$ coordinates (latitude) of our top and bottom boundaries.
+<b>Step 2</b>: Using a map, we find the $x$ coordinates (longitude) of our left and right boundaries and the $y$ coordinates (latitude) of our top and bottom boundaries.
 </p>
 <img src="/static/teaching_assets/md/images/LabeledBoundingBox.png" style="max-width: 100%;"><br>
 
 <p>
-**Step 3**: We compare the coordinates of our boundaries to the coordinates inside the boundaries, and write inequalities to express our comparison.
+<b>Step 3</b>: We compare the coordinates of our boundaries to the coordinates inside the boundaries, and write inequalities to express our comparison.
 </p>
 <img src="/static/teaching_assets/md/images/BoundingBoxWithInequalities.png" style="max-width: 100%;"><br>
 
