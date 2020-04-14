@@ -250,7 +250,7 @@ April 13-April 17: Absolute Value Inequalities
   <br>
   <!-- Title -->
   <br>
-  <a href="https://app.schoology.com/assignment/2468246976" target="_parent"><b>Where Does it Live?</b></a>
+  <a href="https://app.schoology.com/assignment/2468246976" target="_parent"><b>Where Does it Live?</b></a><br>
   <a href="https://app.schoology.com/assignment/2468246976" target="_parent">Open in Notability</a>
   </td>
   <td>
