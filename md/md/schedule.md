@@ -305,7 +305,6 @@ I can solve inequalities involving absolute value.
   </td>
   <td>
     <!-- Assigned Tasks -->
-    <a href="" target="_parent">Watch the video</a>.
   </td>
 </tr>
 <tr>
