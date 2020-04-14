@@ -2,13 +2,13 @@
 
 **Learning goal**: I can use inequalities to describe where a species lives.
 
-All types, or **species**, of living things require a specific kind of environment for survival. For example, we all need to live in a place that is not too hot or too cold. Some ecologists use mathematics to study where species can live. A mathematical representation of where a species can live is called a **species distribution model**.
+All types, or **species**, of living things require a specific kind of environment for survival. For example, we all need to live in a place that is not too hot or too cold. Some ecologists use mathematics to study where species can live. Let's look at an example. 
 
 ## African forest elephant
 
 <img src="/static/teaching_assets/md/images/ForestElephant.jpg">
 
-Let's look at an example. The African forest elephant is one of the three living species of elephants. It lives in humid forests in African, and it is considered by the International Union for Conservation of Nature to be a vulnerable species, which means it is likely to become endangered unless conditions change.
+The African forest elephant is one of the three living species of elephants. It lives in humid forests in African, and conservation organizations classify it as a vulnerable species, which means it is likely to become endangered unless conditions change.
 
 ## Modeling where a species can live
 
@@ -34,5 +34,13 @@ We will use inequalities to describe where this species lives.
 </p>
 <img src="/static/teaching_assets/md/images/BoundingBoxWithInequalities.png"><br>
 
+## What is home like? 
+The home, or **range**, of our species is represented by the region that we drew on the map. What is this environment like, and how is it different from regions where this species does not live? Answering this question could help us understand what this animal needs from its environment in order to survive.
 
+Here are some maps that show some of the environmental conditions across the globe. Can you make a hypothesis about which factors are most important for the African forest elephant?
+
+<img src="/static/teaching_assets/md/images/world-rainfall-map.png"><br>
+<img src="/static/teaching_assets/md/images/Annual_Average_Temperature_Map.jpg"><br>
+<!--
 <img src="/static/teaching_assets/md/images/wss-cycle-precipitation-world-map.gif">
+-->
