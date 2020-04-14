@@ -20,20 +20,24 @@ The map below is called an **occurrence map**. Every red mark represents a locat
 
 <img src="/static/teaching_assets/md/images/ForestElephantSearch.png" style="max-width: 100%;">
 
+<b>Step 2</b>: Draw the points onto a map with a latitude and longitude grid. 
+
+<img src="/static/teaching_assets/md/images/OccurrencesWithCoordinateGrid.png" style="max-width: 100%;">
+
 
 ## How to build our inequality model
 <p>
-<b>Step 2</b>: We draw a box using horizontal and vertical lines, enclosing all of the points on the occurrence map. The sides of the box are called **boundaries**.
+<b>Step 3</b>: We draw a box using horizontal and vertical lines, enclosing all of the points on the occurrence map. The sides of the box are called **boundaries**.
 </p>
 <img src="/static/teaching_assets/md/images/BoundingBox.png" style="max-width: 100%;"><br>
 
 <p>
-<b>Step 3</b>: Using a map, we find the $x$ coordinates (longitude) of our left and right boundaries and the $y$ coordinates (latitude) of our top and bottom boundaries.
+<b>Step 4</b>: Using a map, we find the $x$ coordinates (longitude) of our left and right boundaries and the $y$ coordinates (latitude) of our top and bottom boundaries.
 </p>
 <img src="/static/teaching_assets/md/images/LabeledBoundingBox.png" style="max-width: 100%;"><br>
 
 <p>
-<b>Step 4</b>: We compare the coordinates of our boundaries to the coordinates inside the boundaries, and write inequalities to express our comparison.
+<b>Step 5</b>: We compare the coordinates of our boundaries to the coordinates inside the boundaries, and write inequalities to express our comparison.
 </p>
 <img src="/static/teaching_assets/md/images/BoundingBoxWithInequalities.png" style="max-width: 100%;"><br>
 
