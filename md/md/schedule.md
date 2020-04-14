@@ -273,7 +273,7 @@ lives.
     <br>
     <!-- Title -->
     <br>
-    <b>Where Does It Live? (Part 2)
+    <b>Where Does It Live? Part 2</b>
   </td>
   <td>
   <ul>
