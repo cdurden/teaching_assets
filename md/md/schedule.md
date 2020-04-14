@@ -56,7 +56,7 @@ March 30-April 3: Solving inequalities in one variable
 </div>
 </div>
 <div>
-<button type="button" data-target="schedule_apr6" class="collapsible active">
+<button type="button" data-target="schedule_apr6" class="collapsible">
 April 6-April 10: Solving compound inequalities
 </button>
 <div id="schedule_apr6" class="content" markdown="1" style="display: block;">
@@ -212,7 +212,7 @@ You will match each of the three situations with an inequality and explain your 
 </div>
 
 <div>
-<button type="button" data-target="schedule_apr13" class="collapsible">
+<button type="button" data-target="schedule_apr13" class="collapsible active">
 April 13-April 17: Exponents and exponential functions
 </button>
 <div id="schedule_apr13" class="content" markdown="1">
