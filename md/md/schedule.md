@@ -236,7 +236,7 @@ April 13-April 17: Exponents and exponential functions
   <br>
   <!-- Title -->
   <br>
-  <a href="" target="_parent">Open in Notability</a>
+  No school
   </td>
   <td>
   <ul>
@@ -255,18 +255,21 @@ April 13-April 17: Exponents and exponential functions
   <br>
   <!-- Title -->
   <br>
-  <a href="" target="_parent">Open in Notability</a>
+  <a href="https://app.schoology.com/assignment/2468246976" target="_parent"><b>Where Does it Live?</a>
+  <a href="https://app.schoology.com/assignment/2468246976" target="_parent">Open in Notability</a>
   </td>
   <td>
   <ul>
     <!-- Learning Goals -->
     <li>
+      I can use inequalities to describe where a species
+lives.
     </li>
   </ul>
   </td>
   <td>
     <!-- Assigned Tasks -->
-    <a href="" target="_parent">Watch the video</a>.
+    <a href="https://youtu.be/m0bXQv4dfXk" target="_parent">Watch the video</a> and complete the 3 tasks on the slides
   </td>
 </tr>
 <tr>
@@ -275,18 +278,19 @@ April 13-April 17: Exponents and exponential functions
     <br>
     <!-- Title -->
     <br>
-    <a href="" target="_parent">Open in Notability</a>
+    <b>Where Does It Live? (Part 2)
   </td>
   <td>
   <ul>
     <!-- Learning Goals -->
     <li>
+      I can use inequalities to describe where a species
+lives.
     </li>
   </ul>
   </td>
   <td>
     <!-- Assigned Tasks -->
-    <a href="" target="_parent">Watch the video</a>.
   </td>
 </tr>
 <tr>
@@ -294,14 +298,13 @@ April 13-April 17: Exponents and exponential functions
     <b>Thursday, April 16</b>
     <br>
      <!-- Title -->
-    <a href=""></a>
-    <br>
-    <a href="" target="_parent">Open in Notability</a>
+     <b>Absolute Value Inequalities</b>
   </td>
   <td>
   <ul>
     <!-- Learning Goals -->
     <li>
+I can solve inequalities involving absolute value.
     </li>
   </ul>
   </td>
@@ -315,18 +318,18 @@ April 13-April 17: Exponents and exponential functions
     <b>Friday, April 17</b>
     <br>
     <!-- Title -->
-    <a href="" target="_parent"></a>    
+     <b>Absolute Value Inequalities</b>
   </td>
   <td>
   <ul>
     <!-- Learning Goals -->
     <li>
+I can solve inequalities involving absolute value.
     </li>
   </ul>
   </td>
   <td>
     <!-- Assigned Tasks -->
-    <a href="" target="_parent">Watch the video</a>.
   </td>
 </tr>
 </tbody>
