@@ -35,4 +35,4 @@ We will use inequalities to describe where this species lives.
 <img src="/static/teaching_assets/md/images/BoundingBoxWithInequalities.png"><br>
 
 
-<img src="wss-cycle-precipitation-world-map.gif">
+<img src="/static/teaching_assets/md/images/wss-cycle-precipitation-world-map.gif">
