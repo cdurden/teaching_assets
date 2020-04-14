@@ -292,6 +292,7 @@ lives.
   <td>
     <b>Thursday, April 16</b>
     <br>
+    <br>
      <!-- Title -->
      <b>Absolute Value Inequalities</b>
   </td>
@@ -310,6 +311,7 @@ I can solve inequalities involving absolute value.
 <tr>
   <td>
     <b>Friday, April 17</b>
+    <br>
     <br>
     <!-- Title -->
      <b>Absolute Value Inequalities</b>
