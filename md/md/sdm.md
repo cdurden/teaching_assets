@@ -12,25 +12,28 @@ The African forest elephant is one of the three living species of elephants. It 
 
 ## Modeling where a species can live
 
+The map below is called an **occurrence map**. Every red mark represents a location where the African forest elephant has been observed. 
+
 <img src="/static/teaching_assets/md/images/ForestElephantOccurrences.png" style="width: 100%;">
 
-The image above is called an **occurrence map**. It shows several locations where the African forest elephant has been observed. The map is a screenshot from the website inaturalist.org. Each point represents a location where this species of elephant was observed by a contributor to that website's database.
+<b>Step 1</b>: Choose a species to investigate and use a biodiversity website to produce an occurrence map for your species. 
 
-We will use inequalities to describe where this species lives. 
+<img src="/static/teaching_assets/md/images/ForestElephantSearch.png" style="max-width: 100%;">
+
 
 ## How to build our inequality model
 <p>
-<b>Step 1</b>: We draw a box using horizontal and vertical lines, enclosing all of the points on the occurrence map. The sides of the box are called **boundaries**.
+<b>Step 2</b>: We draw a box using horizontal and vertical lines, enclosing all of the points on the occurrence map. The sides of the box are called **boundaries**.
 </p>
 <img src="/static/teaching_assets/md/images/BoundingBox.png" style="max-width: 100%;"><br>
 
 <p>
-<b>Step 2</b>: Using a map, we find the $x$ coordinates (longitude) of our left and right boundaries and the $y$ coordinates (latitude) of our top and bottom boundaries.
+<b>Step 3</b>: Using a map, we find the $x$ coordinates (longitude) of our left and right boundaries and the $y$ coordinates (latitude) of our top and bottom boundaries.
 </p>
 <img src="/static/teaching_assets/md/images/LabeledBoundingBox.png" style="max-width: 100%;"><br>
 
 <p>
-<b>Step 3</b>: We compare the coordinates of our boundaries to the coordinates inside the boundaries, and write inequalities to express our comparison.
+<b>Step 4</b>: We compare the coordinates of our boundaries to the coordinates inside the boundaries, and write inequalities to express our comparison.
 </p>
 <img src="/static/teaching_assets/md/images/BoundingBoxWithInequalities.png" style="max-width: 100%;"><br>
 
