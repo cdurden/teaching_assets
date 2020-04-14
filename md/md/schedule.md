@@ -239,11 +239,6 @@ April 13-April 17: Absolute Value Inequalities
   No school
   </td>
   <td>
-  <ul>
-    <!-- Learning Goals -->
-    <li> 
-    </li>
-  </ul>
   </td>
   <td>
     <!-- Assigned Tasks -->
