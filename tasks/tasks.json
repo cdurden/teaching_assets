@@ -24,6 +24,6 @@
         "title": "Draw boundaries around your species range",
         "directions": "Draw boundaries around your species range",
         "template": "task.html",
-        "background_html": "<img src='/static/teaching_assets/slides/images/NumberLineFromNegative10To9.png' style='position: absolute; left: 10px; top: 10px; width: 300px;'>"
+        "background_html": "<div style='vertical-align: middle; width: 100%; height: 100%;'><center><img src='/static/teaching_assets/slides/images/NumberLineFromNegative10To9.png' style='width: 90%;'></center></div>"
     }
 }
