@@ -273,7 +273,8 @@ lives.
     <br>
     <!-- Title -->
     <br>
-    <b>Where Does It Live? Part 2</b>
+    <a href="https://app.schoology.com/assignment/2470814935" target="_parent"><b>Where Does It Live? Part 2</b></a><br>
+    <a href="https://app.schoology.com/assignment/2470814935" target="_parent">Open in Notability</a>
   </td>
   <td>
   <ul>
@@ -286,6 +287,7 @@ lives.
   </td>
   <td>
     <!-- Assigned Tasks -->
+    <a href="https://youtu.be/-MnobF7Phjo">Watch the video</a> and complete the 5 assigned tasks.
   </td>
 </tr>
 <tr>
