@@ -3,6 +3,7 @@
     "slides":
     [
         [ "LearningGoals" ],
+        [ "ReviewExercise" ]
         [ "AnimalChoices" ],
         [ "Elephants" ],
         [ "AnimalDrawings" ],
@@ -14,7 +15,9 @@
         [ "Task2Example" ],
         [ "Task2" ],
         [ "Task3Example" ],
+        [ "Task3Remember" ],
         [ "Task3" ],
+        [ "Task4Example" ],
         [ "Task4" ],
         [ "LearningCheck" ]
     ]
