@@ -19,5 +19,11 @@
             "https://cdn.jsdelivr.net/npm/mathjax@3.0.0/es5/tex-mml-chtml.js"
         ],
         "onload": "MathJax.typeset()"
+    },
+    "task3": { 
+        "title": "Draw boundaries around your species range",
+        "directions": "Draw boundaries around your species range",
+        "template": "task.html",
+        "background_html": "<img src='/static/teaching_assets/slides/images/NumberLineFromNegative10To9.png' style='position: absolute; left: 10px; top: 10px; width: 300px;'>"
     }
 }
