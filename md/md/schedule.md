@@ -310,7 +310,7 @@ lives.
   </td>
   <td>
     <!-- Assigned Tasks -->
-    <a href="https://youtu.be/mPlnGFCCT5c">Watch the video</a> and complete the 5 assigned tasks.
+    <a href="https://youtu.be/mPlnGFCCT5c">Watch the video</a> and complete the 3 assigned tasks.
   </td>
 </tr>
 <tr>
