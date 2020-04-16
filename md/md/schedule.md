@@ -293,6 +293,8 @@ lives.
 <tr>
   <td>
     <b>Thursday, April 16</b>
+  <a href="https://app.schoology.com/assignment/2473209984" target="_parent"><b>Where Does it Live? Part 3</b></a><br>
+  <a href="https://app.schoology.com/assignment/2473209984" target="_parent">Open in Notability</a>
     <br>
     <br>
      <!-- Title -->
@@ -302,12 +304,13 @@ lives.
   <ul>
     <!-- Learning Goals -->
     <li>
-I can solve inequalities involving absolute value.
+      I can use <b>absolute value</b> inequalities to describe where a species
     </li>
   </ul>
   </td>
   <td>
     <!-- Assigned Tasks -->
+    <a href="https://youtu.be/mPlnGFCCT5c">Watch the video</a> and complete the 5 assigned tasks.
   </td>
 </tr>
 <tr>
