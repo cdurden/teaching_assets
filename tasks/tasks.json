@@ -25,6 +25,6 @@
         "directions": "Draw boundaries around your species range",
         "template": "task.html",
         "background_style": "",
-        "background_html": "<div><img src='/static/teaching_assets/slides/images/NumberLineFromNegative10To9.png' style='width: 90%;'></div>"
+        "background_html": "<div class='background-image' style='background-image: url(\"/static/teaching_assets/slides/images/NumberLineFromNegative10To9.png\");'></div>"
     }
 }
