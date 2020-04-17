@@ -1,0 +1,7 @@
+digraph decisionTree {
+  speciesRangeBoundingBox -> scaffoldedSpeciesRangeBoundingBox [outcome="failure"]
+  speciesRangeBoundingBox -> speciesRangeBoundaryCoordinates [outcome="success"]
+  speciesRangeBoundaryCoordinates -> equationsOfHorizontalAndVerticalLinesReview [outcome="failure"]
+  speciesRangeBoundaryCoordinates -> speciesRangeInequalities [outcome="success"]
+  speciesRangeInequalities -> locateSpeciesRange [outcome="success"]
+}

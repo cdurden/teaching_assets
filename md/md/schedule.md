@@ -319,18 +319,16 @@ lives.
     <br>
     <br>
     <!-- Title -->
-     <b>Absolute Value Inequalities</b>
+     <b>ALEKS and incomplete work</b>
   </td>
   <td>
   <ul>
     <!-- Learning Goals -->
-    <li>
-I can solve inequalities involving absolute value.
-    </li>
   </ul>
   </td>
   <td>
     <!-- Assigned Tasks -->
+    Complete 3 topics in ALEKS and catch up on any incomplete work. Send me a message in Schoology if you need help logging into ALEKS.
   </td>
 </tr>
 </tbody>
