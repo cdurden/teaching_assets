@@ -338,7 +338,7 @@ lives.
 
 <div>
 <button type="button" data-target="schedule_apr20" class="collapsible active">
-April 20-April 24: The Pythagorean theorem
+April 20-April 24: Exponents 
 </button>
 <div id="schedule_apr20" class="content" markdown="1"  style="display: block;">
 
@@ -458,7 +458,7 @@ April 20-April 24: The Pythagorean theorem
   </td>
   <td>
     <!-- Assigned Tasks -->
-    <a href="" target="_parent">Watch the video</a>.
+    <a href="" target="_parent"></a>.
   </td>
 </tr>
 </tbody>
