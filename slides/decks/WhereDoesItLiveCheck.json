@@ -3,9 +3,15 @@
     "slides":
     [
         [ "LearningGoals" ],
+        [ "Part1Task3" ],
+        [ "Task1IdentifyCoordinatesExample" ],
+        [ "Task1IdentifyCoordinates" ],
         [ "Part2Task3" ],
-        [ "Part2Task4" ],
-        [ "Part3Task3" ]
+        [ "Task2CheckInequalities" ],
+        [ "Task2CheckInequalitiesExample" ],
+        [ "Part3Task3" ],
+        [ "Task3CheckAbsoluteValueInequalities" ],
+        [ "Task3CheckAbsoluteValueInequalitiesExample" ],
         [ "Revise" ]
     ]
 }
