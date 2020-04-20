@@ -212,10 +212,10 @@ You will match each of the three situations with an inequality and explain your 
 </div>
 
 <div>
-<button type="button" data-target="schedule_apr13" class="collapsible active">
+<button type="button" data-target="schedule_apr13" class="collapsible">
 April 13-April 17: Absolute Value Inequalities 
 </button>
-<div id="schedule_apr13" class="content" markdown="1" style="display: block;">
+<div id="schedule_apr13" class="content" markdown="1">
 
 <table>
 <tbody>
@@ -337,10 +337,10 @@ lives.
 </div>
 
 <div>
-<button type="button" data-target="schedule_apr20" class="collapsible">
+<button type="button" data-target="schedule_apr20" class="collapsible active">
 April 20-April 24: The Pythagorean theorem
 </button>
-<div id="schedule_apr20" class="content" markdown="1">
+<div id="schedule_apr20" class="content" markdown="1"  style="display: block;">
 
 <table>
 <tbody>
