@@ -361,17 +361,20 @@ April 20-April 24: The Pythagorean theorem
   <br>
   <!-- Title -->
   <br>
-  <a href="" target="_parent">Open in Notability</a>
+  <a href="https://app.schoology.com/assignment/2481357627" target="_parent"><b>Where Does It Live: Checking Your Work</b></a>
+  <a href="https://app.schoology.com/assignment/2481357627" target="_parent">Open in Notability</a>
   </td>
   <td>
   <ul>
     <!-- Learning Goals -->
     <li> 
+       I can test my model by checking whether a test point is a solution to my inequalities
     </li>
   </ul>
   </td>
   <td>
     <!-- Assigned Tasks -->
+  <a href="https://youtu.be/xbngbErCco0" target="_parent">Watch the video</a> and complete the 4 assigned tasks. You will choose a point where your species lives and use it as a test point to check your inequalities.
   </td>
 </tr>
 <tr>
@@ -380,18 +383,19 @@ April 20-April 24: The Pythagorean theorem
   <br>
   <!-- Title -->
   <br>
-  <a href="" target="_parent">Open in Notability</a>
+  <a href="" target="_parent"></a>
   </td>
   <td>
   <ul>
     <!-- Learning Goals -->
     <li>
+        I can use inequalities to locate the range of a species on a map.
     </li>
   </ul>
   </td>
   <td>
     <!-- Assigned Tasks -->
-    <a href="" target="_parent">Watch the video</a>.
+    <a href="" target="_parent"></a>.
   </td>
 </tr>
 <tr>
@@ -400,18 +404,19 @@ April 20-April 24: The Pythagorean theorem
     <br>
     <!-- Title -->
     <br>
-    <a href="" target="_parent">Open in Notability</a>
+    <a href="" target="_parent"></a>
   </td>
   <td>
   <ul>
     <!-- Learning Goals -->
     <li>
+       I know how to evaluate expressions with exponents
     </li>
   </ul>
   </td>
   <td>
     <!-- Assigned Tasks -->
-    <a href="" target="_parent">Watch the video</a>.
+    <a href="" target="_parent"></a>.
   </td>
 </tr>
 <tr>
@@ -421,18 +426,19 @@ April 20-April 24: The Pythagorean theorem
      <!-- Title -->
     <a href=""></a>
     <br>
-    <a href="" target="_parent">Open in Notability</a>
+    <a href="" target="_parent"></a>
   </td>
   <td>
   <ul>
     <!-- Learning Goals -->
     <li>
+       I can multiply expressions with exponents.
     </li>
   </ul>
   </td>
   <td>
     <!-- Assigned Tasks -->
-    <a href="" target="_parent">Watch the video</a>.
+    <a href="" target="_parent"></a>.
   </td>
 </tr>
 <tr>
@@ -446,6 +452,7 @@ April 20-April 24: The Pythagorean theorem
   <ul>
     <!-- Learning Goals -->
     <li>
+      I can divide expressions with exponents.
     </li>
   </ul>
   </td>
