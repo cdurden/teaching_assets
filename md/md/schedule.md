@@ -374,7 +374,8 @@ April 20-April 24: Exponents
   </td>
   <td>
     <!-- Assigned Tasks -->
-  <a href="https://youtu.be/xbngbErCco0" target="_parent">Watch the video</a> and complete the 4 assigned tasks. You will choose a point where your species lives and use it as a test point to check your inequalities.
+  <a href="https://youtu.be/xbngbErCco0" target="_parent">Watch the video</a> and complete the 4 assigned tasks. You will choose a point where your species lives and use it as a test point to check your inequalities.<br>
+  <a href="https://youtu.be/O1IK1dW619k" target="_parent">Here is another example video showing how to correct a mistake.</a>
   </td>
 </tr>
 <tr>
