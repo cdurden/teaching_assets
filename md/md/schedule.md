@@ -384,8 +384,8 @@ April 20-April 24: Exponents
   <br>
   <!-- Title -->
   <br>
-  <a href="https://app.schoology.com/page/2484537347" target="_parent"><b>Solving Inequalities Practice</b></a>
-  <a href="https://app.schoology.com/page/2484537347" target="_parent">Open in Notability</a>
+  <a href="https://app.schoology.com/assignment/2484782720" target="_parent"><b>Solving Inequalities Practice</b></a><br>
+  <a href="https://app.schoology.com/assignment/2484782720" target="_parent">Open in Notability</a>
   </td>
   <td>
   <ul>
