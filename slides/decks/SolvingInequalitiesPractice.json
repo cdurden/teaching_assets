@@ -1,15 +1,18 @@
-[
-    [ "LearningGoal" ],
-    [ "HowToDeal" ],
-    [ "Solutions" ],
-    [ "Example1" ],
-    [ "Example2" ],
-    [ "Example3" ],
-    [ "Exercise1" ],
-    [ "Exercise2" ],
-    [ "Exercise3" ],
-    [ "Exercise4" ],
-    [ "Exercise5" ],
-    [ "Exercise6" ],
-    [ "Exercise7" ]
-]
+{
+    "collection": "SolvingInequalitiesPractice",
+    "slides": [
+        [ "LearningGoal" ],
+        [ "HowToDeal" ],
+        [ "Solutions" ],
+        [ "Example1" ],
+        [ "Example2" ],
+        [ "Example3" ],
+        [ "Exercise1" ],
+        [ "Exercise2" ],
+        [ "Exercise3" ],
+        [ "Exercise4" ],
+        [ "Exercise5" ],
+        [ "Exercise6" ],
+        [ "Exercise7" ]
+    ]
+}
