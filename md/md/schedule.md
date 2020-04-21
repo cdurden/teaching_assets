@@ -384,19 +384,20 @@ April 20-April 24: Exponents
   <br>
   <!-- Title -->
   <br>
-  <a href="" target="_parent"></a>
+  <a href="https://app.schoology.com/page/2484537347" target="_parent"><b>Solving Inequalities Practice</b></a>
+  <a href="https://app.schoology.com/page/2484537347" target="_parent">Open in Notability</a>
   </td>
   <td>
   <ul>
     <!-- Learning Goals -->
     <li>
-        I can use inequalities to locate the range of a species on a map.
+    I can solve inequalities where the variable appears in more than one place 
     </li>
   </ul>
   </td>
   <td>
     <!-- Assigned Tasks -->
-    <a href="" target="_parent"></a>.
+    <a href="https://youtu.be/aHinBjTRgpk" target="_parent">Watch the video</a> and complete the 6 exercises.
   </td>
 </tr>
 <tr>
