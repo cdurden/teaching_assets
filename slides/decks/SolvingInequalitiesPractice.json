@@ -2,9 +2,9 @@
     "collection": "SolvingInequalitiesPractice",
     "slides": [
         [ "LearningGoals" ],
-        [ "HowToDeal" ],
-        [ "Solutions" ],
         [ "Example1" ],
+        [ "Strategies" ],
+        [ "Solutions" ],
         [ "Example2" ],
         [ "Example3" ],
         [ "Exercise1" ],
