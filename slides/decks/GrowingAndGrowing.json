@@ -1,7 +1,11 @@
-[
-    ["BacteriaScenario"],
-    ["GrowingAndGrowingLearningGoals"],
-    ["BacterialGrowthDiagram"],
-    ["FindingLamp"],
-    ["PurseQuestions"]
-]
+{
+    "collection": "GrowingAndGrowing",
+    "slides":
+    [
+        ["BacteriaScenario"],
+        ["GrowingAndGrowingLearningGoals"],
+        ["BacterialGrowthDiagram"],
+        ["FindingLamp"],
+        ["PurseQuestions"]
+    ]
+}
