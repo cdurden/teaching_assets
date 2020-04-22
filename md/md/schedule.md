@@ -406,19 +406,20 @@ April 20-April 24: Exponents
     <br>
     <!-- Title -->
     <br>
-    <a href="" target="_parent"></a>
+    <a href="https://app.schoology.com/assignment/2487080496" target="_parent"><b>Exponents: The Product Rule</b></a><br>
+    <a href="https://app.schoology.com/assignment/2487080496" target="_parent">Open in Notability</a>
   </td>
   <td>
   <ul>
     <!-- Learning Goals -->
     <li>
-       I know how to evaluate expressions with exponents
+       I can multiply exponential expressions using the product rule. 
     </li>
   </ul>
   </td>
   <td>
     <!-- Assigned Tasks -->
-    <a href="" target="_parent"></a>.
+    <a href="https://youtu.be/ewPJsluBhTE" target="_parent">Watch the video</a> and complete the worksheet at the end..
   </td>
 </tr>
 <tr>
