@@ -429,19 +429,20 @@ April 20-April 24: Exponents
      <!-- Title -->
     <a href=""></a>
     <br>
-    <a href="" target="_parent"></a>
+    <a href="https://app.schoology.com/assignment/2489372452" target="_parent"><b>Exponents: The Quotient Rule</b></a><br>
+    <a href="https://app.schoology.com/assignment/2489372452" target="_parent">Open in Notability</a>
   </td>
   <td>
   <ul>
     <!-- Learning Goals -->
     <li>
-       I can multiply expressions with exponents.
+       I can divide expressions with exponents.
     </li>
   </ul>
   </td>
   <td>
     <!-- Assigned Tasks -->
-    <a href="" target="_parent"></a>.
+    <a href="https://youtu.be/-gxs8FyaAOg" target="_parent">Watch the video</a> and complete the worksheet at the end.
   </td>
 </tr>
 <tr>
