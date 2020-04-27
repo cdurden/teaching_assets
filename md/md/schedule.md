@@ -495,7 +495,7 @@ April 27-May 1: Exponents and Scientific Notation
   <br>
   <!-- Title -->
   <br>
-  <a href="https://app.schoology.com/assignment/2497572719" target="_parent"><b>Negative Exponents</b></a>
+  <a href="https://app.schoology.com/assignment/2497572719" target="_parent"><b>Negative Exponents</b></a><br>
   <a href="https://app.schoology.com/assignment/2497572719" target="_parent">Open in Notability</a>
   </td>
   <td>
@@ -528,7 +528,6 @@ April 27-May 1: Exponents and Scientific Notation
   </td>
   <td>
     <!-- Assigned Tasks -->
-    <a href="" target="_parent">Watch the video</a>.
   </td>
 </tr>
 <tr>
@@ -586,7 +585,6 @@ April 27-May 1: Exponents and Scientific Notation
   </td>
   <td>
     <!-- Assigned Tasks -->
-    <a href="" target="_parent">Watch the video</a>.
   </td>
 </tr>
 </tbody>
