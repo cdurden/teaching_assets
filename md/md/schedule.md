@@ -340,7 +340,7 @@ lives.
 <button type="button" data-target="schedule_apr20" class="collapsible active">
 April 20-April 24: Exponents 
 </button>
-<div id="schedule_apr20" class="content" markdown="1"  style="display: block;">
+<div id="schedule_apr20" class="content" markdown="1"  style="display: none;">
 
 <table>
 <tbody>
@@ -472,9 +472,9 @@ April 20-April 24: Exponents
 
 <div>
 <button type="button" data-target="schedule_apr27" class="collapsible">
-April 27-May 1: The Pythagorean Theorem
+April 27-May 1: Exponents and Scientific Notation
 </button>
-<div id="schedule_apr27" class="content" markdown="1">
+<div id="schedule_apr27" class="content" markdown="1" style="display: block;">
 
 <table>
 <tbody>
@@ -495,17 +495,20 @@ April 27-May 1: The Pythagorean Theorem
   <br>
   <!-- Title -->
   <br>
-  <a href="" target="_parent">Open in Notability</a>
+  <a href="https://app.schoology.com/assignment/2497572719" target="_parent"><b>Negative Exponents</b></a>
+  <a href="https://app.schoology.com/assignment/2497572719" target="_parent">Open in Notability</a>
   </td>
   <td>
   <ul>
     <!-- Learning Goals -->
     <li> 
+      I can evaluated expressions with exponents that are negative or zero.
     </li>
   </ul>
   </td>
   <td>
     <!-- Assigned Tasks -->
+    <a href="https://youtu.be/L9BAhbAsZyg" target="_parent">Watch the video</a> and complete the exercises on the final two pages.
   </td>
 </tr>
 <tr>
@@ -514,7 +517,7 @@ April 27-May 1: The Pythagorean Theorem
   <br>
   <!-- Title -->
   <br>
-  <a href="" target="_parent">Open in Notability</a>
+  <b>Converting to and from Scientific Notation</b>
   </td>
   <td>
   <ul>
@@ -533,8 +536,8 @@ April 27-May 1: The Pythagorean Theorem
     <b>Wednesday, April 29</b>
     <br>
     <!-- Title -->
+  <b>Multiplying Numbers in Scientific Notation</b>
     <br>
-    <a href="" target="_parent">Open in Notability</a>
   </td>
   <td>
   <ul>
@@ -545,7 +548,6 @@ April 27-May 1: The Pythagorean Theorem
   </td>
   <td>
     <!-- Assigned Tasks -->
-    <a href="" target="_parent">Watch the video</a>.
   </td>
 </tr>
 <tr>
@@ -555,7 +557,7 @@ April 27-May 1: The Pythagorean Theorem
      <!-- Title -->
     <a href=""></a>
     <br>
-    <a href="" target="_parent">Open in Notability</a>
+  <b>Dividing Numbers in Scientific Notation</b>
   </td>
   <td>
   <ul>
@@ -566,7 +568,6 @@ April 27-May 1: The Pythagorean Theorem
   </td>
   <td>
     <!-- Assigned Tasks -->
-    <a href="" target="_parent">Watch the video</a>.
   </td>
 </tr>
 <tr>
@@ -574,7 +575,7 @@ April 27-May 1: The Pythagorean Theorem
     <b>Friday, May 1</b>
     <br>
     <!-- Title -->
-    <a href="" target="_parent"></a>    
+    <b>No school</b>
   </td>
   <td>
   <ul>
