@@ -508,7 +508,7 @@ April 27-May 1: Exponents and Scientific Notation
   </td>
   <td>
     <!-- Assigned Tasks -->
-    <a href="https://youtu.be/BvKPWznc5I0" target="_parent">Watch the video</a> and complete the exercises on the final two pages. <a href="https://youtu.be/747Efk7_nUY" target="_parent">Here is another video explaining how this relates to social distancing during an epidemic.</a>
+    <a href="https://youtu.be/BvKPWznc5I0" target="_parent">Watch the video</a> and complete the exercises on the final two pages. If you get stuck, see the <a href="https://app.schoology.com/course/2233201491/materials/gp/2498449977">solutions to selected problems</a>. <a href="https://youtu.be/747Efk7_nUY" target="_parent">Here is another video explaining how this relates to social distancing during an epidemic.</a>
   </td>
 </tr>
 <tr>
