@@ -456,13 +456,13 @@ April 20-April 24: Exponents
   <ul>
     <!-- Learning Goals -->
     <li>
-      I can divide expressions with exponents.
+      I can multiply and divide expressions with exponents.
     </li>
   </ul>
   </td>
   <td>
     <!-- Assigned Tasks -->
-    <a href="" target="_parent"></a>.
+    Check your work from Wednesday and Thursday using the solutions posted in the assignment link. <a href="https://youtu.be/hqoyVFjrtkc" target="_parent">Watch the video</a> to see an explanation of common mistakes. Then complete 3 topics in ALEKS.
   </td>
 </tr>
 </tbody>
