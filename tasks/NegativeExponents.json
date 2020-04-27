@@ -1,0 +1,30 @@
+{
+    "q1": { 
+        "title": "Negative Exponents Question #1",
+        "directions": "Simplify. Express your answers in fraction form using only positive exponents.",
+        "template": "task.html",
+        "background_style": "",
+        "background_html": "$2^{-4}$"
+    },
+    "q2": { 
+        "title": "Negative Exponents Question #2",
+        "directions": "Simplify. Express your answers in fraction form using only positive exponents.",
+        "template": "task.html",
+        "background_style": "",
+        "background_html": "$4^{-2}$"
+    },
+    "q3": { 
+        "title": "Negative Exponents Question #3",
+        "directions": "Simplify. Express your answers in fraction form using only positive exponents.",
+        "template": "task.html",
+        "background_style": "",
+        "background_html": "$x^{-6}$"
+    },
+    "q4": { 
+        "title": "Negative Exponents Question #4",
+        "directions": "Simplify. Express your answers in fraction form using only positive exponents.",
+        "template": "task.html",
+        "background_style": "",
+        "background_html": "$3z^{-2}$"
+    }
+}
