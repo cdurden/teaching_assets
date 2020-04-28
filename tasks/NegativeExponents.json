@@ -5,7 +5,7 @@
         "template": "task.html",
         "onload": "MathJax.typeset();",
         "background_style": "",
-        "background_html": "$2^{-4}$"
+        "background_html": "$2^{-4}$ <div wb-task-view></div>"
     },
     "q2": { 
         "title": "Negative Exponents Question #2",
