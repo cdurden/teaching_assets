@@ -517,7 +517,6 @@ April 27-May 1: Exponents and Scientific Notation
   <br>
   <!-- Title -->
   <br>
-  <b>Converting to and from Scientific Notation</b>
   </td>
   <td>
   <ul>
@@ -535,7 +534,7 @@ April 27-May 1: Exponents and Scientific Notation
     <b>Wednesday, April 29</b>
     <br>
     <!-- Title -->
-  <b>Multiplying Numbers in Scientific Notation</b>
+  <b>Converting to and from Scientific Notation</b>
     <br>
   </td>
   <td>
@@ -556,7 +555,7 @@ April 27-May 1: Exponents and Scientific Notation
      <!-- Title -->
     <a href=""></a>
     <br>
-  <b>Dividing Numbers in Scientific Notation</b>
+  <b>Multiplying Numbers in Scientific Notation</b>
   </td>
   <td>
   <ul>
@@ -635,6 +634,7 @@ May 4-May 8: Systems of linear equations
   <b>Tuesday, May 5</b>
   <br>
   <!-- Title -->
+  <b>Dividing Numbers in Scientific Notation</b>
   <br>
   <a href="" target="_parent">Open in Notability</a>
   </td>
