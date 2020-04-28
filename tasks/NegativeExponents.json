@@ -13,7 +13,7 @@
         "template": "task.html",
         "onload": "MathJax.typeset();",
         "background_style": "",
-        "background_html": "$4^{-2}$"
+        "background_html": "<p>Simplify. Express your answers in fraction form using only positive exponents.</p><p>$4^{-2}$</p>"
     },
     "q3": { 
         "title": "Negative Exponents Question #3",
@@ -21,7 +21,7 @@
         "template": "task.html",
         "onload": "MathJax.typeset();",
         "background_style": "",
-        "background_html": "$x^{-6}$"
+        "background_html": "<p>Simplify. Express your answers in fraction form using only positive exponents.</p><p>$x^{-6}$</p>"
     },
     "q4": { 
         "title": "Negative Exponents Question #4",
@@ -29,6 +29,70 @@
         "template": "task.html",
         "onload": "MathJax.typeset();",
         "background_style": "",
-        "background_html": "$3z^{-2}$"
+        "background_html": "<p>Simplify. Express your answers in fraction form using only positive exponents.</p><p>$3z^{-2}$</p>"
+    },
+    "q5": { 
+        "title": "Negative Exponents Question #5",
+        "directions": "Simplify. Express your answers in fraction form using only positive exponents.",
+        "template": "task.html",
+        "onload": "MathJax.typeset();",
+        "background_style": "",
+        "background_html": "<p>Simplify. Express your answers in fraction form using only positive exponents.</p><p>$$</p>"
+    },
+    "q6": { 
+        "title": "Negative Exponents Question #6",
+        "directions": "Simplify. Express your answers in fraction form using only positive exponents.",
+        "template": "task.html",
+        "onload": "MathJax.typeset();",
+        "background_style": "",
+        "background_html": "<p>Simplify. Express your answers in fraction form using only positive exponents.</p><p>$5^0$</p>"
+    },
+    "q7": { 
+        "title": "Negative Exponents Question #7",
+        "directions": "Simplify. Express your answers in fraction form using only positive exponents.",
+        "template": "task.html",
+        "onload": "MathJax.typeset();",
+        "background_style": "",
+        "background_html": "<p>Simplify. Express your answers in fraction form using only positive exponents.</p><p>$2^{-5}\cdot 2^3$</p>"
+    },
+    "q8": { 
+        "title": "Negative Exponents Question #8",
+        "directions": "Simplify. Express your answers in fraction form using only positive exponents.",
+        "template": "task.html",
+        "onload": "MathJax.typeset();",
+        "background_style": "",
+        "background_html": "<p>Simplify. Express your answers in fraction form using only positive exponents.</p><p>$x^3\cdot x^{-7}$</p>"
+    },
+    "q9": { 
+        "title": "Negative Exponents Question #9",
+        "directions": "Simplify. Express your answers in fraction form using only positive exponents.",
+        "template": "task.html",
+        "onload": "MathJax.typeset();",
+        "background_style": "",
+        "background_html": "<p>Simplify. Express your answers in fraction form using only positive exponents.</p><p>$\frac{3^3}{3^5}$</p>"
+    },
+    "q10": { 
+        "title": "Negative Exponents Question #10",
+        "directions": "Simplify. Express your answers in fraction form using only positive exponents.",
+        "template": "task.html",
+        "onload": "MathJax.typeset();",
+        "background_style": "",
+        "background_html": "<p>Simplify. Express your answers in fraction form using only positive exponents.</p><p>$\frac{x^4}{x^{-6}}$</p>"
+    },
+    "q11": { 
+        "title": "Negative Exponents Question #11",
+        "directions": "Simplify. Express your answers in fraction form using only positive exponents.",
+        "template": "task.html",
+        "onload": "MathJax.typeset();",
+        "background_style": "",
+        "background_html": "<p>Simplify. Express your answers in fraction form using only positive exponents.</p><p>$x^0$</p>"
+    },
+    "q12": { 
+        "title": "Negative Exponents Question #12",
+        "directions": "Simplify. Express your answers in fraction form using only positive exponents.",
+        "template": "task.html",
+        "onload": "MathJax.typeset();",
+        "background_style": "",
+        "background_html": "<p>Simplify. Express your answers in fraction form using only positive exponents.</p><p>$1001^{-1}$</p>"
     }
 }
