@@ -5,7 +5,7 @@
         "template": "task.html",
         "onload": "MathJax.typeset();",
         "background_style": "",
-        "background_html": "$2^{-4}$"
+        "background_html": "<p>Simplify. Express your answers in fraction form using only positive exponents.</p><p>$2^{-4}$</p>"
     },
     "q2": { 
         "title": "Negative Exponents Question #2",
