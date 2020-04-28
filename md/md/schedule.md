@@ -515,6 +515,9 @@ April 27-May 1: Exponents and Scientific Notation
   <td>
   <b>Tuesday, April 28</b>
   <br>
+  <a href="https://app.schoology.com/assignment/2500816748" target="_parent"><b>Scientific Notation</b></a><br>
+  <a href="https://app.schoology.com/assignment/2500816748" target="_parent">Open in Notability</a>
+  
   <!-- Title -->
   <br>
   </td>
@@ -522,11 +525,13 @@ April 27-May 1: Exponents and Scientific Notation
   <ul>
     <!-- Learning Goals -->
     <li>
+      I can write a number using scientific notation.
     </li>
   </ul>
   </td>
   <td>
     <!-- Assigned Tasks -->
+    <a href="https://youtu.be/bY9rFxG3d68" target="_parent">Watch the video</a> and complete the notes on the attached document. Then complete the two exercises at the end.
   </td>
 </tr>
 <tr>
