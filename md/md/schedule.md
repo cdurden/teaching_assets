@@ -539,18 +539,21 @@ April 27-May 1: Exponents and Scientific Notation
     <b>Wednesday, April 29</b>
     <br>
     <!-- Title -->
-  <b>Converting to and from Scientific Notation</b>
+  <a href="" target="_parent"><b>Multiplying Numbers in Scientific Notation</b></a><br>
+  <a href="" target="_parent">Open in Notability</a>
     <br>
   </td>
   <td>
   <ul>
     <!-- Learning Goals -->
     <li>
+      I can multiply numbers in scientific notation.
     </li>
   </ul>
   </td>
   <td>
     <!-- Assigned Tasks -->
+    <a href="https://youtu.be/uFyfvTQXu9M" target="_parent">Watch the video</a> and complete the notes on the attached document. Then complete the three exercises at the end.
   </td>
 </tr>
 <tr>
