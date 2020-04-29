@@ -1,11 +1,14 @@
 {
+    "video": {
+        "background_html": "<iframe width='560' height='315' src='https://www.youtube.com/embed/BvKPWznc5I0' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+    },
     "q1": { 
         "title": "Negative Exponents Question #1",
         "directions": "Simplify. Express your answers in fraction form using only positive exponents.",
         "template": "task.html",
         "onload": "MathJax.typeset();",
         "background_style": "",
-        "background_html": "<p><b>1.</b> Simplify. Express your answers in fraction form using only positive exponents.</p><p>$2^{-4}$</p><iframe width='560' height='315' src='https://www.youtube.com/embed/BvKPWznc5I0' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+        "background_html": "<p><b>1.</b> Simplify. Express your answers in fraction form using only positive exponents.</p><p>$2^{-4}$</p>"
     },
     "q2": { 
         "title": "Negative Exponents Question #2",
