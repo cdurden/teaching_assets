@@ -539,8 +539,8 @@ April 27-May 1: Exponents and Scientific Notation
     <b>Wednesday, April 29</b>
     <br>
     <!-- Title -->
-  <a href="" target="_parent"><b>Multiplying Numbers in Scientific Notation</b></a><br>
-  <a href="" target="_parent">Open in Notability</a>
+  <a href="https://app.schoology.com/assignment/2502781895" target="_parent"><b>Multiplying Numbers in Scientific Notation</b></a><br>
+  <a href="https://app.schoology.com/assignment/2502781895" target="_parent">Open in Notability</a>
     <br>
   </td>
   <td>
