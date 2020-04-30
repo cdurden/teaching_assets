@@ -6,10 +6,13 @@
         ["Assignment"],
         ["Example1"],
         ["Example2"],
+        ["CommonMistake"],
+        ["PositivePowersOfTen"],
+        ["NegativePowersOfTen"],
         ["SFA1"],
         ["SFA2"],
-        ["Exercise3"],
         ["Exercise4"],
-        ["Exercise5"]
+        ["Exercise5"],
+        ["Exercise6"]
     ]
 }
