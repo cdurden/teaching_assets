@@ -5,6 +5,6 @@
         "template": "task.html",
         "onload": "MathJax.typeset();",
         "background_style": "",
-        "background_html": "<div><p>Fill in the table</p></div><pinch-zoom><div class='background-image'><img src='/static/teaching_assets/slides/images/ProductRuleTable1a.png'></div></pinch-zoom>"
+        "background_html": "<div><p>Fill in the table</p></div><div class='background-image'><img src='/static/teaching_assets/slides/images/ProductRuleTable1a.png'></div>"
     }
 }
