@@ -1,4 +1,7 @@
 {
+    "blank": {
+        "title": "Blank board"
+    },
     "task1": { 
         "title": "Absolute value inequality",
         "directions": "Solve $|x| < 5$ and graph your solution",
