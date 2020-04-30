@@ -561,19 +561,24 @@ April 27-May 1: Exponents and Scientific Notation
     <b>Thursday, April 30</b>
     <br>
      <!-- Title -->
-    <a href=""></a>
-    <br>
-  <b>Multiplying Numbers in Scientific Notation</b>
+    <a href="https://app.schoology.com/assignment/2504807834" target="_parent">
+     <b>Dividing Numbers in Scientific Notation</b>
+    </a><br>
+    <a href="https://app.schoology.com/assignment/2504807834" target="_parent">
+     Open in Notability
+    </a>
   </td>
   <td>
   <ul>
     <!-- Learning Goals -->
     <li>
+      I can divide numbers in scientific notation.
     </li>
   </ul>
   </td>
   <td>
     <!-- Assigned Tasks -->
+    <a href="https://youtu.be/2aSWu1kXvzg" target="_parent">Watch the video</a> and complete the six exercises.
   </td>
 </tr>
 <tr>
@@ -584,11 +589,6 @@ April 27-May 1: Exponents and Scientific Notation
     <b>No school</b>
   </td>
   <td>
-  <ul>
-    <!-- Learning Goals -->
-    <li>
-    </li>
-  </ul>
   </td>
   <td>
     <!-- Assigned Tasks -->
