@@ -4,11 +4,12 @@
     [
         ["LearningGoals"],
         ["Assignment"],
-        ["SFA1"],
         ["Example1"],
         ["Example2"],
-        ["Exercise1"],
-        ["Exercise2"],
-        ["Exercise3"]
+        ["SFA1"],
+        ["SFA2"],
+        ["Exercise3"],
+        ["Exercise4"],
+        ["Exercise5"]
     ]
 }
