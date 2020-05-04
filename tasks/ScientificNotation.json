@@ -1,0 +1,11 @@
+{
+    "table1": { 
+        "title": "Table with conversions between decimal and scientific notation",
+        "directions": "Fill in the table.",
+        "template": "task.html",
+        "onload": "MathJax.typeset();",
+        "background_style": "",
+        "background_html": "<div><p>Fill in the table</p></div><div class='background-image'><img src='/static/teaching_assets/slides/images/ConvertingScientificNotation.png'></div>",
+        "resources": ""
+    }
+}
