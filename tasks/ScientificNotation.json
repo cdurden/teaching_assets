@@ -14,7 +14,7 @@
         "template": "task.html",
         "onload": "MathJax.typeset();",
         "background_style": "",
-        "background_html": "<div ng-include=\"resources.slide\"></div>",
+        "background_html": "<h3>Exercise 1</h3> <div ng-include=\"resources.slide\"></div>",
         "resources": { "slide": "slides/ScientificNotation/Exercise1.html" }
     },
     "exercise2": { 
@@ -23,7 +23,7 @@
         "template": "task.html",
         "onload": "MathJax.typeset();",
         "background_style": "",
-        "background_html": "<div ng-include=\"resources.slide\"></div>",
+        "background_html": "<h3>Exercise 2</h3><div ng-include=\"resources.slide\"></div>",
         "resources": { "slide": "slides/ScientificNotation/Exercise2.html" }
     }
 }
