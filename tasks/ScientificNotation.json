@@ -7,5 +7,23 @@
         "background_style": "",
         "background_html": "<div><p>Fill in the table</p></div><div class='background-image'><img src='/static/teaching_assets/slides/images/ConvertingScientificNotation.png'></div>",
         "resources": ""
+    },
+    "exercise1": { 
+        "title": "Convert two numbers from decimal into scientific notation",
+        "directions": "Follow the directions on the slide.",
+        "template": "task.html",
+        "onload": "MathJax.typeset();",
+        "background_style": "",
+        "background_html": "<div ng-include=\"resources.slide\"></div>",
+        "resources": { "slide": "slides/ScientificNotation/Exercise1.html" }
+    },
+    "exercise2": { 
+        "title": "Convert two numbers from scientific into decimal notation",
+        "directions": "Follow the directions on the slide.",
+        "template": "task.html",
+        "onload": "MathJax.typeset();",
+        "background_style": "",
+        "background_html": "<div ng-include=\"resources.slide\"></div>",
+        "resources": { "slide": "slides/ScientificNotation/Exercise2.html" }
     }
 }
