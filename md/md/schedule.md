@@ -690,12 +690,13 @@ I can compare measurements using scientific notation.
   <ul>
     <!-- Learning Goals -->
     <li>
+      I can apply exponent rules to simplify an expression that contains exponents.
     </li>
   </ul>
   </td>
   <td>
     <!-- Assigned Tasks -->
-    <a href="" target="_parent">Watch the video</a>.
+    Complete any tasks the teacher has assigned (check your Schoology messages) to prepare for the assessment.
   </td>
 </tr>
 <tr>
@@ -710,12 +711,13 @@ I can compare measurements using scientific notation.
   <ul>
     <!-- Learning Goals -->
     <li>
+      I can apply exponent rules to simplify an expression that contains exponents.
     </li>
   </ul>
   </td>
   <td>
     <!-- Assigned Tasks -->
-    <a href="" target="_parent">Watch the video</a>.
+    Complete the exponents assessment on Schoology.
   </td>
 </tr>
 </tbody>
