@@ -601,7 +601,7 @@ April 27-May 1: Exponents and Scientific Notation
 
 <div>
 <button type="button" data-target="schedule_may4" class="collapsible">
-May 4-May 8: Systems of linear equations
+May 4-May 8: Exponents and Scientific Notation
 </button>
 <div id="schedule_may4" class="content" markdown="1">
 
@@ -624,13 +624,9 @@ May 4-May 8: Systems of linear equations
   <br>
   <!-- Title -->
   <br>
-  <a href="" target="_parent">Open in Notability</a>
   </td>
   <td>
   <ul>
-    <!-- Learning Goals -->
-    <li> 
-    </li>
   </ul>
   </td>
   <td>
@@ -642,20 +638,23 @@ May 4-May 8: Systems of linear equations
   <b>Tuesday, May 5</b>
   <br>
   <!-- Title -->
-  <b>Dividing Numbers in Scientific Notation</b>
+  <a href="https://app.schoology.com/assignment/2515229444" target="_parent">
+  <b>Comparing Measurements using Scientific Notation</b>
   <br>
-  <a href="" target="_parent">Open in Notability</a>
+  </a>
+  <a href="https://app.schoology.com/assignment/2515229444" target="_parent">Open in Notability</a>
   </td>
   <td>
   <ul>
     <!-- Learning Goals -->
     <li>
+I can compare measurements using scientific notation.
     </li>
   </ul>
   </td>
   <td>
     <!-- Assigned Tasks -->
-    <a href="" target="_parent">Watch the video</a>.
+    <a href="" target="_parent">Watch the video</a> and complete the assigned task.
   </td>
 </tr>
 <tr>
@@ -663,8 +662,8 @@ May 4-May 8: Systems of linear equations
     <b>Wednesday, May 6</b>
     <br>
     <!-- Title -->
+    WIN (What I Need) day
     <br>
-    <a href="" target="_parent">Open in Notability</a>
   </td>
   <td>
   <ul>
@@ -675,7 +674,7 @@ May 4-May 8: Systems of linear equations
   </td>
   <td>
     <!-- Assigned Tasks -->
-    <a href="" target="_parent">Watch the video</a>.
+    To be announced
   </td>
 </tr>
 <tr>
@@ -683,7 +682,7 @@ May 4-May 8: Systems of linear equations
     <b>Thursday, May 7</b>
     <br>
      <!-- Title -->
-    <a href=""></a>
+     <b>Exponents Practice</b>
     <br>
     <a href="" target="_parent">Open in Notability</a>
   </td>
@@ -704,6 +703,7 @@ May 4-May 8: Systems of linear equations
     <b>Friday, May 8</b>
     <br>
     <!-- Title -->
+     <b>Exponents Assessment</b>
     <a href="" target="_parent"></a>    
   </td>
   <td>
@@ -725,7 +725,7 @@ May 4-May 8: Systems of linear equations
 
 <div>
 <button type="button" data-target="schedule_may11" class="collapsible">
-May 11-May 15: Systems of linear equations
+May 11-May 15: The Pythagorean Theorem
 </button>
 <div id="schedule_may11" class="content" markdown="1">
 
@@ -847,7 +847,7 @@ May 11-May 15: Systems of linear equations
 </div>
 
 <div>
-<button type="button" data-target="schedule_may18" class="collapsible">May 18-May 22</button>
+<button type="button" data-target="schedule_may18" class="collapsible">May 18-May 22: Systems of linear equations</button>
 <div id="schedule_may18" class="content" markdown="1">
 
 <table>
@@ -968,7 +968,7 @@ May 11-May 15: Systems of linear equations
 </div>
 
 <div>
-<button type="button" data-target="schedule_may25" class="collapsible">May 25-May 29</button>
+<button type="button" data-target="schedule_may25" class="collapsible">May 25-May 29: Systems of Linear Equations</button>
 <div id="schedule_may25" class="content" markdown="1">
 
 <table>
