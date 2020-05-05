@@ -1,12 +1,12 @@
 {
-    "collection": "ComparingNumbersUsingScientificNotation",
+    "collection": "ComparingMeasurementsUsingScientificNotation",
     "slides": 
     [
         ["LearningGoals"],
         ["Assignment"],
         ["Scale"],
         ["SIPrefixes"],
-        ["Task"]
+        ["Task"],
         ["SIPractice"]
     ]
 }
