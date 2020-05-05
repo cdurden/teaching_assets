@@ -1,5 +1,5 @@
 {
-    "collection": "MultiplyingNumbersInScientificNotation",
+    "collection": "ComparingNumbersUsingScientificNotation",
     "slides": 
     [
         ["LearningGoals"],
@@ -7,5 +7,6 @@
         ["Scale"],
         ["SIPrefixes"],
         ["Task"]
+        ["SIPractice"]
     ]
 }
