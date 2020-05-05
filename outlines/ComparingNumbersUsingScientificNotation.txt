@@ -1,0 +1,38 @@
+Learning goal: I can compare two quantities using scientific notation.
+Assignment: Choose something very large and something very small, and compare the two sizes using scientific notation. 
+Example: How much bigger is a blue whale than a Paedophryne ... frog?
+ Metric system
+  Scale for measuring lengths
+  Units are meters
+  Meters abbreviated m
+  Numbers of meters are written in SN, using powers of ten
+  Exponents tell us how many times we multiply by ten 
+  10^0 = 1
+  positive exponents are used to represent numbers greater than 1
+  Sizes larger than 1 meter
+  every step we multiply by another factor of 10
+  10^1 = 10, 10^2 = 100
+  negative exponents used to represent numbers less than 1
+  Sizes smaller than 1 meter
+  every step we divide by another factor of 10
+  10^-1 = 1/10, 10^-2 = 1/100, 10^-3 = 1/10^3 = 1/1000
+  Draw about where they are on the diagram on your slides
+  Human: 1.76 m
+  greater than 1, less than 10
+  Blue whale: 24.9 m
+  between 10 and 100
+  Frog: 7.7 mm
+  Need to remember mm
+  7.7 * 10^{-3} m
+  Replace mm by 10^{-3} m
+ Ratio 
+  Write as fraction
+  Divide leading factors
+  Divide powers of 10
+  Quotient rule
+  What does it mean?
+  How many frogs would you have to line up, snout to tail, to form a line as long as a blue whale?
+  Two ways to form ratio.
+  Other way
+  How many pieces would you have to divide the whale into so that each piece is the size of a frog?
+ Help with using the metric system

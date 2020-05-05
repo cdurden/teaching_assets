@@ -1,0 +1,53 @@
+{
+    "GeneralExplanation": { 
+        "description": "The leading factor in scientific notation between 1 and 10.",
+        "template": "When we write a number in scientific notation, remember that we move the decimal point until that we get a number between 1 and 10. That number between 1 and 10 becomes the factor (or leading factor) that we write in front of the power of ten $\\cdot 10^{x}$. The power of $10$ that we need to write depends on how large our number is, or how many decimal places we had to move when we figured out the leading factor. You did a great job of finding the correct power of 10, based on the leading factor that you wrote."
+    },
+    "Incomplete": { 
+        "description": "Assignment incomplete",
+        "template": "Raphael, your assignment was incomplete."
+    },
+    "MakingSenseOfPlaceValue": { 
+        "description": "Making sense of place value of rational numbers",
+        "template": "Nadia, look at the notes that I made about the place values of the numbers with decimal points. Look at the largest place value of each one, which I have circled in green, and write the place value as a power of 10 (you can use this table if you need help). Then draw a picture of something that you might see at that scale.",
+        "resources": ["http://www.mc3cb.com/images/relative_size_v2.jpg",
+            "https://www.geogebra.org/m/wQdkXRaM"]
+    },
+    "MakeSenseOfDecimalsAndScientificNotation": { 
+        "description": "Make sense of decimals and scientific notation",
+        "template": "Samla, please watch the video about the length scales of the universe, and try to match each item with its length scale.",
+        "resources": [
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcIGAcfIK2mqy8aLgs2ONqZdFR1MOKFuSSC58neDPK0-AL37fp&s",
+            "https://pbs.twimg.com/media/D0nki2pV4AAtEAs?format=jpg&name=large",
+            "https://www.map.mathshell.org/download.php?fileid=1664"]
+    },
+    "FindingThePowerOfTenCounting": { 
+        "description": "Finding the power of 10: Counting carefully",
+        "template": "Rensie, please look over the attached solutions, and identify any mistakes you may have made on the exercises that are circled. Then please write 2-5 sentences explaining how you can avoid those mistakes in the future."
+    },
+    "FindingThePowerOfTen": { 
+        "description": "Finding the power of 10: ",
+        "template": "Jordan, "
+    },
+    "FindingThePowerOfTen": { 
+        "description": "Finding the power of 10: ",
+        "template": "Logan, "
+    },
+    "DigitPatternMultiplyingByPowersOfTen": { 
+        "description": "Recognizing patterns of digits when multiplying by powers of ten",
+        "template": "Julyan, practice multiplying a few numbers by powers of $10$ and answer the questions that follow."
+    },
+    "WellDone": { 
+        "description": "Well done",
+        "template": "Gavin, you were able to convert between decimal notation and scientific notation successfully."
+    },
+    "DecimalPointPatternMultiplyingByPowersOfTen": { 
+        "description": "Recognizing patterns of decimal points when multiplying by powers of ten",
+        "template": "Logan, practice multiplying a few numbers by powers of $10$ and answer the questions that follow about how the decimal points moves. Then find the power of ten needed in the example situation.",
+        "questions": ["{{ first_student_name }} converted a decimal number scientific notation into scientific notation by moving the decimal point to the left 3 places. Was the original number greater than or less than 1?", "What power of ten did {{first_student_name}} write?", "{{ second_student_name }} converted {{ first_student_name }}'s number back into a decimal by moving the decimal point to the left 3 places. {{ third_student_name }} converted {{ first_student_name }}'s number back into a decimal by moving the decimal point to the right 3 places. Who is correct? How do you know?", "Which of the following could have been {{ first_student_name}}'s number: $2.75 \\cdot 10^{-3}$ or $2.75 \\cdot 10^{-3}$?", "Convert $0.000035$ into scientific notation. Then convert your answer back into a decimal to check whether or not it is correct."]
+    },
+    "FactorBetween1and10": { 
+        "description": "The leading factor in scientific notation between 1 and 10.",
+        "template": "Hawo, Nice job moving the decimal point and finding the correct powers of 10 (the $x$ values in your $\\cdot 10^{x}$ expressions)! There's one detail that I think you missed about scientific notation: When we write a number in scientific notation, remember that we move the decimal point until that we get a number <b>between 1 and 10</b>. That number between 1 and 10 becomes the factor (or leading factor) that we write in front of the power of ten. Look at your leading factors. Are they between $1$ and $10$? If not, your numbers are not in scientific notation. Can you change them so that they <i>are</i> in scientific notation?"
+    }
+}
