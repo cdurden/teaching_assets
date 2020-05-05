@@ -1,3 +1,6 @@
+table.malign td {
+    text-align: center;
+}
 /*
 .learning-goal {
     position: absolute;
