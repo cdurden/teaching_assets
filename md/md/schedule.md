@@ -654,7 +654,7 @@ I can compare measurements using scientific notation.
   </td>
   <td>
     <!-- Assigned Tasks -->
-    <a href="" target="_parent">Watch the video</a> and complete the assigned task.
+    <a href="https://youtu.be/de-3OgnaWTA" target="_parent">Watch the video</a> and complete the assigned task.
   </td>
 </tr>
 <tr>
