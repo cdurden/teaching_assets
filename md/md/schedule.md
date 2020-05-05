@@ -474,7 +474,7 @@ April 20-April 24: Exponents
 <button type="button" data-target="schedule_apr27" class="collapsible">
 April 27-May 1: Exponents and Scientific Notation
 </button>
-<div id="schedule_apr27" class="content" markdown="1" style="display: block;">
+<div id="schedule_apr27" class="content" markdown="1">
 
 <table>
 <tbody>
@@ -603,7 +603,7 @@ April 27-May 1: Exponents and Scientific Notation
 <button type="button" data-target="schedule_may4" class="collapsible">
 May 4-May 8: Exponents and Scientific Notation
 </button>
-<div id="schedule_may4" class="content" markdown="1">
+<div id="schedule_may4" class="content" markdown="1" style="display: block;">
 
 <table>
 <tbody>
