@@ -1,0 +1,38 @@
+{
+    "Exercises": {
+        "title": "Exponent rules exercises for coloring sheet",
+        "background_html": "<div class='background-image'><img src='/static/teaching_assets/images/copyrighted/PropertiesofExponentsColorByNumberExercises.png'></div>"
+    },
+    "ColoringSheet1": {
+        "title": "Exponent rules coloring sheet (copy #1)",
+        "background_html": "<div class='background-image'><img src='/static/teaching_assets/images/copyrighted/ExponentRulesColorByNumber.png'></div>"
+    },
+    "ColoringSheet2": {
+        "title": "Exponent rules coloring sheet (copy #2)",
+        "background_html": "<div class='background-image'><img src='/static/teaching_assets/images/copyrighted/ExponentRulesColorByNumber.png'></div>"
+    },
+    "ColoringSheet3": {
+        "title": "Exponent rules coloring sheet (copy #3)",
+        "background_html": "<div class='background-image'><img src='/static/teaching_assets/images/copyrighted/ExponentRulesColorByNumber.png'></div>"
+    },
+    "ColoringSheet4": {
+        "title": "Exponent rules coloring sheet (copy #3)",
+        "background_html": "<div class='background-image'><img src='/static/teaching_assets/images/copyrighted/ExponentRulesColorByNumber.png'></div>"
+    },
+    "ColoringSheet5": {
+        "title": "Exponent rules coloring sheet (copy #3)",
+        "background_html": "<div class='background-image'><img src='/static/teaching_assets/images/copyrighted/ExponentRulesColorByNumber.png'></div>"
+    },
+    "ColoringSheet6": {
+        "title": "Exponent rules coloring sheet (copy #3)",
+        "background_html": "<div class='background-image'><img src='/static/teaching_assets/images/copyrighted/ExponentRulesColorByNumber.png'></div>"
+    },
+    "ColoringSheet7": {
+        "title": "Exponent rules coloring sheet (copy #3)",
+        "background_html": "<div class='background-image'><img src='/static/teaching_assets/images/copyrighted/ExponentRulesColorByNumber.png'></div>"
+    },
+    "ColoringSheet8": {
+        "title": "Exponent rules coloring sheet (copy #3)",
+        "background_html": "<div class='background-image'><img src='/static/teaching_assets/images/copyrighted/ExponentRulesColorByNumber.png'></div>"
+    }
+}
