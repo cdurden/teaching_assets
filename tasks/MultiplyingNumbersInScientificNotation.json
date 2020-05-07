@@ -1,13 +1,4 @@
 {
-    "table1": { 
-        "title": "Table with conversions between decimal and scientific notation",
-        "directions": "Fill in the table.",
-        "template": "task.html",
-        "onload": "MathJax.typeset();",
-        "background_style": "",
-        "background_html": "<div><p>Fill in the table</p></div><div class='background-image'><img src='/static/teaching_assets/slides/images/ConvertingScientificNotation.png'></div>",
-        "resources": ""
-    },
     "exercise1": { 
         "title": "Convert two numbers from decimal into scientific notation",
         "directions": "Follow the directions on the slide.",
@@ -15,7 +6,7 @@
         "onload": "MathJax.typeset();",
         "background_style": "",
         "background_html": "<h3>Exercise 1</h3> <div ng-include=\"resources.slide\"></div>",
-        "resources": { "slide": "slides/ScientificNotation/Exercise1.html" }
+        "resources": { "slide": "slides/MultiplyingNumbersInScientificNotation/Exercise1.html" }
     },
     "exercise2": { 
         "title": "Convert two numbers from scientific into decimal notation",
@@ -24,6 +15,15 @@
         "onload": "MathJax.typeset();",
         "background_style": "",
         "background_html": "<h3>Exercise 2</h3><div ng-include=\"resources.slide\"></div>",
-        "resources": { "slide": "slides/ScientificNotation/Exercise2.html" }
+        "resources": { "slide": "slides/MultiplyingNumbersInScientificNotation/Exercise2.html" }
+    },
+    "exercise3": { 
+        "title": "Convert two numbers from scientific into decimal notation",
+        "directions": "Follow the directions on the slide.",
+        "template": "task.html",
+        "onload": "MathJax.typeset();",
+        "background_style": "",
+        "background_html": "<h3>Exercise 2</h3><div ng-include=\"resources.slide\"></div>",
+        "resources": { "slide": "slides/MultiplyingNumbersInScientificNotation/Exercise3.html" }
     }
 }

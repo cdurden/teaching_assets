@@ -684,7 +684,7 @@ I can compare measurements using scientific notation.
      <!-- Title -->
      <b>Exponents Practice</b>
     <br>
-    <a href="" target="_parent">Open in Notability</a>
+    <a href="" target="_parent">Practice Quiz</a>
   </td>
   <td>
   <ul>
@@ -696,7 +696,7 @@ I can compare measurements using scientific notation.
   </td>
   <td>
     <!-- Assigned Tasks -->
-    Complete any tasks the teacher has assigned (check your Schoology messages) to prepare for the assessment.
+    Complete the Exponent Rules Practice Quiz.
   </td>
 </tr>
 <tr>
