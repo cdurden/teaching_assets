@@ -6,6 +6,7 @@ body {
     overflow: hidden;
     width: 100%;
     position: fixed;
+    display: none;
 }
 #fixed_box {
     width: 200px;
