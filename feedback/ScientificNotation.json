@@ -5,17 +5,17 @@
     },
     "Incomplete": { 
         "description": "Assignment incomplete",
-        "template": "Raphael, your assignment was incomplete."
+        "template": "{{ student.firstname }}, your assignment was incomplete."
     },
     "MakingSenseOfPlaceValue": { 
         "description": "Making sense of place value of rational numbers",
-        "template": "Nadia, look at the notes that I made about the place values of the numbers with decimal points. Look at the largest place value of each one, which I have circled in green, and write the place value as a power of 10 (you can use this table if you need help). Then draw a picture of something that you might see at that scale.",
+        "template": "{{ student.firstname }}, look at the notes that I made about the place values of the numbers with decimal points. Look at the largest place value of each one, which I have circled in green, and write the place value as a power of 10 (you can use this table if you need help). Then draw a picture of something that you might see at that scale.",
         "resources": ["http://www.mc3cb.com/images/relative_size_v2.jpg",
             "https://www.geogebra.org/m/wQdkXRaM"]
     },
     "MakeSenseOfDecimalsAndScientificNotation": { 
         "description": "Make sense of decimals and scientific notation",
-        "template": "Samla, please watch the video about the length scales of the universe, and try to match each item with its length scale.",
+        "template": "{{ student.firstname }}, please watch the video about the length scales of the universe, and try to match each item with its length scale.",
         "resources": [
             "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcIGAcfIK2mqy8aLgs2ONqZdFR1MOKFuSSC58neDPK0-AL37fp&s",
             "https://pbs.twimg.com/media/D0nki2pV4AAtEAs?format=jpg&name=large",
@@ -23,27 +23,23 @@
     },
     "FindingThePowerOfTenCounting": { 
         "description": "Finding the power of 10: Counting carefully",
-        "template": "Rensie, please look over the attached solutions, and identify any mistakes you may have made on the exercises that are circled. Then please write 2-5 sentences explaining how you can avoid those mistakes in the future."
+        "template": "{{ student.firstname }}, please look over the attached solutions, and identify any mistakes you may have made on the exercises that are circled. Then please write 2-5 sentences explaining how you can avoid those mistakes in the future."
     },
     "FindingThePowerOfTen": { 
         "description": "Finding the power of 10: ",
-        "template": "Jordan, "
-    },
-    "FindingThePowerOfTen": { 
-        "description": "Finding the power of 10: ",
-        "template": "Logan, "
+        "template": ""
     },
     "DigitPatternMultiplyingByPowersOfTen": { 
         "description": "Recognizing patterns of digits when multiplying by powers of ten",
-        "template": "Julyan, practice multiplying a few numbers by powers of $10$ and answer the questions that follow."
+        "template": "{{ student.firstname }}, practice multiplying a few numbers by powers of $10$ and answer the questions that follow."
     },
     "WellDone": { 
         "description": "Well done",
-        "template": "Gavin, you were able to convert between decimal notation and scientific notation successfully."
+        "template": "{{ student.firstname }}, you were able to convert between decimal notation and scientific notation successfully."
     },
     "DecimalPointPatternMultiplyingByPowersOfTen": { 
         "description": "Recognizing patterns of decimal points when multiplying by powers of ten",
-        "template": "Logan, practice multiplying a few numbers by powers of $10$ and answer the questions that follow about how the decimal points moves. Then find the power of ten needed in the example situation.",
+        "template": "{{ student.firstname }}, practice multiplying a few numbers by powers of $10$ and answer the questions that follow about how the decimal points moves. Then find the power of ten needed in the example situation.",
         "questions": ["{{ first_student_name }} converted a decimal number scientific notation into scientific notation by moving the decimal point to the left 3 places. Was the original number greater than or less than 1?", "What power of ten did {{first_student_name}} write?", "{{ second_student_name }} converted {{ first_student_name }}'s number back into a decimal by moving the decimal point to the left 3 places. {{ third_student_name }} converted {{ first_student_name }}'s number back into a decimal by moving the decimal point to the right 3 places. Who is correct? How do you know?", "Which of the following could have been {{ first_student_name}}'s number: $2.75 \\cdot 10^{-3}$ or $2.75 \\cdot 10^{-3}$?", "Convert $0.000035$ into scientific notation. Then convert your answer back into a decimal to check whether or not it is correct."]
     },
     "FactorBetween1and10": { 
