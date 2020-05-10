@@ -4,6 +4,9 @@
         "background_html": null,
         "resources": {
             "slide": "slides/DividingNumbersInScientificNotation/LearningGoals.html"
+        },
+        "data": {
+            "title": "Dividing Numbers in Scientific Notation"
         }
     },
     "snow-qm:DividingNumbersInScientificNotation:Assignment": {
@@ -11,6 +14,9 @@
         "background_html": null,
         "resources": {
             "slide": "slides/DividingNumbersInScientificNotation/Assignment.html"
+        },
+        "data": {
+            "title": "Dividing Numbers in Scientific Notation"
         }
     },
     "snow-qm:DividingNumbersInScientificNotation:Example1": {
@@ -18,6 +24,9 @@
         "background_html": null,
         "resources": {
             "slide": "slides/DividingNumbersInScientificNotation/Example1.html"
+        },
+        "data": {
+            "title": "Dividing Numbers in Scientific Notation"
         }
     },
     "snow-qm:DividingNumbersInScientificNotation:Example2": {
@@ -25,6 +34,9 @@
         "background_html": null,
         "resources": {
             "slide": "slides/DividingNumbersInScientificNotation/Example2.html"
+        },
+        "data": {
+            "title": "Dividing Numbers in Scientific Notation"
         }
     },
     "snow-qm:DividingNumbersInScientificNotation:CommonMistake": {
@@ -32,6 +44,9 @@
         "background_html": null,
         "resources": {
             "slide": "slides/DividingNumbersInScientificNotation/CommonMistake.html"
+        },
+        "data": {
+            "title": "Dividing Numbers in Scientific Notation"
         }
     },
     "snow-qm:DividingNumbersInScientificNotation:PowersOfTen": {
@@ -39,6 +54,9 @@
         "background_html": null,
         "resources": {
             "slide": "slides/DividingNumbersInScientificNotation/PowersOfTen.html"
+        },
+        "data": {
+            "title": "Dividing Numbers in Scientific Notation"
         }
     },
     "snow-qm:DividingNumbersInScientificNotation:SFA1": {
@@ -46,6 +64,9 @@
         "background_html": null,
         "resources": {
             "slide": "slides/DividingNumbersInScientificNotation/SFA1.html"
+        },
+        "data": {
+            "title": "Dividing Numbers in Scientific Notation"
         }
     },
     "snow-qm:DividingNumbersInScientificNotation:SFA2": {
@@ -53,6 +74,9 @@
         "background_html": null,
         "resources": {
             "slide": "slides/DividingNumbersInScientificNotation/SFA2.html"
+        },
+        "data": {
+            "title": "Dividing Numbers in Scientific Notation"
         }
     },
     "snow-qm:DividingNumbersInScientificNotation:Exercise4": {
@@ -60,6 +84,9 @@
         "background_html": null,
         "resources": {
             "slide": "slides/DividingNumbersInScientificNotation/Exercise4.html"
+        },
+        "data": {
+            "title": "Dividing Numbers in Scientific Notation"
         }
     },
     "snow-qm:DividingNumbersInScientificNotation:Exercise5": {
@@ -67,6 +94,9 @@
         "background_html": null,
         "resources": {
             "slide": "slides/DividingNumbersInScientificNotation/Exercise5.html"
+        },
+        "data": {
+            "title": "Dividing Numbers in Scientific Notation"
         }
     },
     "snow-qm:DividingNumbersInScientificNotation:Exercise6": {
@@ -74,6 +104,9 @@
         "background_html": null,
         "resources": {
             "slide": "slides/DividingNumbersInScientificNotation/Exercise6.html"
+        },
+        "data": {
+            "title": "Dividing Numbers in Scientific Notation"
         }
     }
 }

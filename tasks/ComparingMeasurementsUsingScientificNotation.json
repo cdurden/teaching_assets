@@ -4,6 +4,9 @@
         "background_html": null,
         "resources": {
             "slide": "slides/ComparingMeasurementsUsingScientificNotation/LearningGoals.html"
+        },
+        "data": {
+            "title": "Comparing Measurements using Scientific Notation"
         }
     },
     "snow-qm:ComparingMeasurementsUsingScientificNotation:Assignment": {
@@ -11,6 +14,9 @@
         "background_html": null,
         "resources": {
             "slide": "slides/ComparingMeasurementsUsingScientificNotation/Assignment.html"
+        },
+        "data": {
+            "title": "Comparing Measurements using Scientific Notation"
         }
     },
     "snow-qm:ComparingMeasurementsUsingScientificNotation:Scale": {
@@ -18,6 +24,9 @@
         "background_html": null,
         "resources": {
             "slide": "slides/ComparingMeasurementsUsingScientificNotation/Scale.html"
+        },
+        "data": {
+            "title": "Comparing Measurements using Scientific Notation"
         }
     },
     "snow-qm:ComparingMeasurementsUsingScientificNotation:ScaleB": {
@@ -25,6 +34,9 @@
         "background_html": null,
         "resources": {
             "slide": "slides/ComparingMeasurementsUsingScientificNotation/ScaleB.html"
+        },
+        "data": {
+            "title": "Comparing Measurements using Scientific Notation"
         }
     },
     "snow-qm:ComparingMeasurementsUsingScientificNotation:SIPrefixes": {
@@ -32,6 +44,9 @@
         "background_html": null,
         "resources": {
             "slide": "slides/ComparingMeasurementsUsingScientificNotation/SIPrefixes.html"
+        },
+        "data": {
+            "title": "Comparing Measurements using Scientific Notation"
         }
     },
     "snow-qm:ComparingMeasurementsUsingScientificNotation:Task": {
@@ -39,6 +54,9 @@
         "background_html": null,
         "resources": {
             "slide": "slides/ComparingMeasurementsUsingScientificNotation/Task.html"
+        },
+        "data": {
+            "title": "Comparing Measurements using Scientific Notation"
         }
     },
     "snow-qm:ComparingMeasurementsUsingScientificNotation:SIPractice": {
@@ -46,6 +64,9 @@
         "background_html": null,
         "resources": {
             "slide": "slides/ComparingMeasurementsUsingScientificNotation/SIPractice.html"
+        },
+        "data": {
+            "title": "Comparing Measurements using Scientific Notation"
         }
     }
 }
