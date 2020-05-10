@@ -1,0 +1,51 @@
+{
+    "snow-qm:ComparingMeasurementsUsingScientificNotation:LearningGoals": {
+        "onload": "MathJax.typeset();",
+        "background_html": null,
+        "resources": {
+            "slide": "slides/ComparingMeasurementsUsingScientificNotation/LearningGoals.html"
+        }
+    },
+    "snow-qm:ComparingMeasurementsUsingScientificNotation:Assignment": {
+        "onload": "MathJax.typeset();",
+        "background_html": null,
+        "resources": {
+            "slide": "slides/ComparingMeasurementsUsingScientificNotation/Assignment.html"
+        }
+    },
+    "snow-qm:ComparingMeasurementsUsingScientificNotation:Scale": {
+        "onload": "MathJax.typeset();",
+        "background_html": null,
+        "resources": {
+            "slide": "slides/ComparingMeasurementsUsingScientificNotation/Scale.html"
+        }
+    },
+    "snow-qm:ComparingMeasurementsUsingScientificNotation:ScaleB": {
+        "onload": "MathJax.typeset();",
+        "background_html": null,
+        "resources": {
+            "slide": "slides/ComparingMeasurementsUsingScientificNotation/ScaleB.html"
+        }
+    },
+    "snow-qm:ComparingMeasurementsUsingScientificNotation:SIPrefixes": {
+        "onload": "MathJax.typeset();",
+        "background_html": null,
+        "resources": {
+            "slide": "slides/ComparingMeasurementsUsingScientificNotation/SIPrefixes.html"
+        }
+    },
+    "snow-qm:ComparingMeasurementsUsingScientificNotation:Task": {
+        "onload": "MathJax.typeset();",
+        "background_html": null,
+        "resources": {
+            "slide": "slides/ComparingMeasurementsUsingScientificNotation/Task.html"
+        }
+    },
+    "snow-qm:ComparingMeasurementsUsingScientificNotation:SIPractice": {
+        "onload": "MathJax.typeset();",
+        "background_html": null,
+        "resources": {
+            "slide": "slides/ComparingMeasurementsUsingScientificNotation/SIPractice.html"
+        }
+    }
+}

@@ -1,0 +1,79 @@
+{
+    "snow-qm:DividingNumbersInScientificNotation:LearningGoals": {
+        "onload": "MathJax.typeset();",
+        "background_html": null,
+        "resources": {
+            "slide": "slides/DividingNumbersInScientificNotation/LearningGoals.html"
+        }
+    },
+    "snow-qm:DividingNumbersInScientificNotation:Assignment": {
+        "onload": "MathJax.typeset();",
+        "background_html": null,
+        "resources": {
+            "slide": "slides/DividingNumbersInScientificNotation/Assignment.html"
+        }
+    },
+    "snow-qm:DividingNumbersInScientificNotation:Example1": {
+        "onload": "MathJax.typeset();",
+        "background_html": null,
+        "resources": {
+            "slide": "slides/DividingNumbersInScientificNotation/Example1.html"
+        }
+    },
+    "snow-qm:DividingNumbersInScientificNotation:Example2": {
+        "onload": "MathJax.typeset();",
+        "background_html": null,
+        "resources": {
+            "slide": "slides/DividingNumbersInScientificNotation/Example2.html"
+        }
+    },
+    "snow-qm:DividingNumbersInScientificNotation:CommonMistake": {
+        "onload": "MathJax.typeset();",
+        "background_html": null,
+        "resources": {
+            "slide": "slides/DividingNumbersInScientificNotation/CommonMistake.html"
+        }
+    },
+    "snow-qm:DividingNumbersInScientificNotation:PowersOfTen": {
+        "onload": "MathJax.typeset();",
+        "background_html": null,
+        "resources": {
+            "slide": "slides/DividingNumbersInScientificNotation/PowersOfTen.html"
+        }
+    },
+    "snow-qm:DividingNumbersInScientificNotation:SFA1": {
+        "onload": "MathJax.typeset();",
+        "background_html": null,
+        "resources": {
+            "slide": "slides/DividingNumbersInScientificNotation/SFA1.html"
+        }
+    },
+    "snow-qm:DividingNumbersInScientificNotation:SFA2": {
+        "onload": "MathJax.typeset();",
+        "background_html": null,
+        "resources": {
+            "slide": "slides/DividingNumbersInScientificNotation/SFA2.html"
+        }
+    },
+    "snow-qm:DividingNumbersInScientificNotation:Exercise4": {
+        "onload": "MathJax.typeset();",
+        "background_html": null,
+        "resources": {
+            "slide": "slides/DividingNumbersInScientificNotation/Exercise4.html"
+        }
+    },
+    "snow-qm:DividingNumbersInScientificNotation:Exercise5": {
+        "onload": "MathJax.typeset();",
+        "background_html": null,
+        "resources": {
+            "slide": "slides/DividingNumbersInScientificNotation/Exercise5.html"
+        }
+    },
+    "snow-qm:DividingNumbersInScientificNotation:Exercise6": {
+        "onload": "MathJax.typeset();",
+        "background_html": null,
+        "resources": {
+            "slide": "slides/DividingNumbersInScientificNotation/Exercise6.html"
+        }
+    }
+}

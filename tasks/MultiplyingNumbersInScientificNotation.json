@@ -1,29 +1,51 @@
 {
-    "exercise1": { 
-        "title": "Convert two numbers from decimal into scientific notation",
-        "directions": "Follow the directions on the slide.",
-        "template": "task.html",
+    "snow-qm:MultiplyingNumbersInScientificNotation:LearningGoals": {
         "onload": "MathJax.typeset();",
-        "background_style": "",
-        "background_html": "<h3>Exercise 1</h3> <div ng-include=\"resources.slide\"></div>",
-        "resources": { "slide": "slides/MultiplyingNumbersInScientificNotation/Exercise1.html" }
+        "background_html": null,
+        "resources": {
+            "slide": "slides/MultiplyingNumbersInScientificNotation/LearningGoals.html"
+        }
     },
-    "exercise2": { 
-        "title": "Convert two numbers from scientific into decimal notation",
-        "directions": "Follow the directions on the slide.",
-        "template": "task.html",
+    "snow-qm:MultiplyingNumbersInScientificNotation:Assignment": {
         "onload": "MathJax.typeset();",
-        "background_style": "",
-        "background_html": "<h3>Exercise 2</h3><div ng-include=\"resources.slide\"></div>",
-        "resources": { "slide": "slides/MultiplyingNumbersInScientificNotation/Exercise2.html" }
+        "background_html": null,
+        "resources": {
+            "slide": "slides/MultiplyingNumbersInScientificNotation/Assignment.html"
+        }
     },
-    "exercise3": { 
-        "title": "Convert two numbers from scientific into decimal notation",
-        "directions": "Follow the directions on the slide.",
-        "template": "task.html",
+    "snow-qm:MultiplyingNumbersInScientificNotation:Example1": {
         "onload": "MathJax.typeset();",
-        "background_style": "",
-        "background_html": "<h3>Exercise 2</h3><div ng-include=\"resources.slide\"></div>",
-        "resources": { "slide": "slides/MultiplyingNumbersInScientificNotation/Exercise3.html" }
+        "background_html": null,
+        "resources": {
+            "slide": "slides/MultiplyingNumbersInScientificNotation/Example1.html"
+        }
+    },
+    "snow-qm:MultiplyingNumbersInScientificNotation:Example2": {
+        "onload": "MathJax.typeset();",
+        "background_html": null,
+        "resources": {
+            "slide": "slides/MultiplyingNumbersInScientificNotation/Example2.html"
+        }
+    },
+    "snow-qm:MultiplyingNumbersInScientificNotation:Exercise1": {
+        "onload": "MathJax.typeset();",
+        "background_html": null,
+        "resources": {
+            "slide": "slides/MultiplyingNumbersInScientificNotation/Exercise1.html"
+        }
+    },
+    "snow-qm:MultiplyingNumbersInScientificNotation:Exercise2": {
+        "onload": "MathJax.typeset();",
+        "background_html": null,
+        "resources": {
+            "slide": "slides/MultiplyingNumbersInScientificNotation/Exercise2.html"
+        }
+    },
+    "snow-qm:MultiplyingNumbersInScientificNotation:Exercise3": {
+        "onload": "MathJax.typeset();",
+        "background_html": null,
+        "resources": {
+            "slide": "slides/MultiplyingNumbersInScientificNotation/Exercise3.html"
+        }
     }
 }
