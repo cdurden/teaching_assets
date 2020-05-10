@@ -1,5 +1,5 @@
 {
-    "snow-qm:DividingNumbersInScientificNotation:LearningGoals": {
+    "LearningGoals": {
         "onload": "MathJax.typeset();",
         "background_html": null,
         "resources": {
@@ -9,7 +9,7 @@
             "title": "Dividing Numbers in Scientific Notation"
         }
     },
-    "snow-qm:DividingNumbersInScientificNotation:Assignment": {
+    "Assignment": {
         "onload": "MathJax.typeset();",
         "background_html": null,
         "resources": {
@@ -19,7 +19,7 @@
             "title": "Dividing Numbers in Scientific Notation"
         }
     },
-    "snow-qm:DividingNumbersInScientificNotation:Example1": {
+    "Example1": {
         "onload": "MathJax.typeset();",
         "background_html": null,
         "resources": {
@@ -29,7 +29,7 @@
             "title": "Dividing Numbers in Scientific Notation"
         }
     },
-    "snow-qm:DividingNumbersInScientificNotation:Example2": {
+    "Example2": {
         "onload": "MathJax.typeset();",
         "background_html": null,
         "resources": {
@@ -39,7 +39,7 @@
             "title": "Dividing Numbers in Scientific Notation"
         }
     },
-    "snow-qm:DividingNumbersInScientificNotation:CommonMistake": {
+    "CommonMistake": {
         "onload": "MathJax.typeset();",
         "background_html": null,
         "resources": {
@@ -49,7 +49,7 @@
             "title": "Dividing Numbers in Scientific Notation"
         }
     },
-    "snow-qm:DividingNumbersInScientificNotation:PowersOfTen": {
+    "PowersOfTen": {
         "onload": "MathJax.typeset();",
         "background_html": null,
         "resources": {
@@ -59,7 +59,7 @@
             "title": "Dividing Numbers in Scientific Notation"
         }
     },
-    "snow-qm:DividingNumbersInScientificNotation:SFA1": {
+    "SFA1": {
         "onload": "MathJax.typeset();",
         "background_html": null,
         "resources": {
@@ -69,7 +69,7 @@
             "title": "Dividing Numbers in Scientific Notation"
         }
     },
-    "snow-qm:DividingNumbersInScientificNotation:SFA2": {
+    "SFA2": {
         "onload": "MathJax.typeset();",
         "background_html": null,
         "resources": {
@@ -79,7 +79,7 @@
             "title": "Dividing Numbers in Scientific Notation"
         }
     },
-    "snow-qm:DividingNumbersInScientificNotation:Exercise4": {
+    "Exercise4": {
         "onload": "MathJax.typeset();",
         "background_html": null,
         "resources": {
@@ -89,7 +89,7 @@
             "title": "Dividing Numbers in Scientific Notation"
         }
     },
-    "snow-qm:DividingNumbersInScientificNotation:Exercise5": {
+    "Exercise5": {
         "onload": "MathJax.typeset();",
         "background_html": null,
         "resources": {
@@ -99,7 +99,7 @@
             "title": "Dividing Numbers in Scientific Notation"
         }
     },
-    "snow-qm:DividingNumbersInScientificNotation:Exercise6": {
+    "Exercise6": {
         "onload": "MathJax.typeset();",
         "background_html": null,
         "resources": {
