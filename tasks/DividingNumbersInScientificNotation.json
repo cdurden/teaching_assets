@@ -5,9 +5,7 @@
         "resources": {
             "slide": "slides/DividingNumbersInScientificNotation/LearningGoals.html"
         },
-        "data": {
-            "title": "Dividing Numbers in Scientific Notation"
-        }
+        "title": "Dividing Numbers in Scientific Notation"
     },
     "Assignment": {
         "onload": "MathJax.typeset();",
@@ -15,9 +13,7 @@
         "resources": {
             "slide": "slides/DividingNumbersInScientificNotation/Assignment.html"
         },
-        "data": {
-            "title": "Dividing Numbers in Scientific Notation"
-        }
+        "title": "Dividing Numbers in Scientific Notation"
     },
     "Example1": {
         "onload": "MathJax.typeset();",
@@ -25,9 +21,7 @@
         "resources": {
             "slide": "slides/DividingNumbersInScientificNotation/Example1.html"
         },
-        "data": {
-            "title": "Dividing Numbers in Scientific Notation"
-        }
+        "title": "Dividing Numbers in Scientific Notation"
     },
     "Example2": {
         "onload": "MathJax.typeset();",
@@ -35,9 +29,7 @@
         "resources": {
             "slide": "slides/DividingNumbersInScientificNotation/Example2.html"
         },
-        "data": {
-            "title": "Dividing Numbers in Scientific Notation"
-        }
+        "title": "Dividing Numbers in Scientific Notation"
     },
     "CommonMistake": {
         "onload": "MathJax.typeset();",
@@ -45,9 +37,7 @@
         "resources": {
             "slide": "slides/DividingNumbersInScientificNotation/CommonMistake.html"
         },
-        "data": {
-            "title": "Dividing Numbers in Scientific Notation"
-        }
+        "title": "Dividing Numbers in Scientific Notation"
     },
     "PowersOfTen": {
         "onload": "MathJax.typeset();",
@@ -55,9 +45,7 @@
         "resources": {
             "slide": "slides/DividingNumbersInScientificNotation/PowersOfTen.html"
         },
-        "data": {
-            "title": "Dividing Numbers in Scientific Notation"
-        }
+        "title": "Dividing Numbers in Scientific Notation"
     },
     "SFA1": {
         "onload": "MathJax.typeset();",
@@ -65,9 +53,7 @@
         "resources": {
             "slide": "slides/DividingNumbersInScientificNotation/SFA1.html"
         },
-        "data": {
-            "title": "Dividing Numbers in Scientific Notation"
-        }
+        "title": "Dividing Numbers in Scientific Notation"
     },
     "SFA2": {
         "onload": "MathJax.typeset();",
@@ -75,9 +61,7 @@
         "resources": {
             "slide": "slides/DividingNumbersInScientificNotation/SFA2.html"
         },
-        "data": {
-            "title": "Dividing Numbers in Scientific Notation"
-        }
+        "title": "Dividing Numbers in Scientific Notation"
     },
     "Exercise4": {
         "onload": "MathJax.typeset();",
@@ -85,9 +69,7 @@
         "resources": {
             "slide": "slides/DividingNumbersInScientificNotation/Exercise4.html"
         },
-        "data": {
-            "title": "Dividing Numbers in Scientific Notation"
-        }
+        "title": "Dividing Numbers in Scientific Notation"
     },
     "Exercise5": {
         "onload": "MathJax.typeset();",
@@ -95,9 +77,7 @@
         "resources": {
             "slide": "slides/DividingNumbersInScientificNotation/Exercise5.html"
         },
-        "data": {
-            "title": "Dividing Numbers in Scientific Notation"
-        }
+        "title": "Dividing Numbers in Scientific Notation"
     },
     "Exercise6": {
         "onload": "MathJax.typeset();",
@@ -105,8 +85,6 @@
         "resources": {
             "slide": "slides/DividingNumbersInScientificNotation/Exercise6.html"
         },
-        "data": {
-            "title": "Dividing Numbers in Scientific Notation"
-        }
+        "title": "Dividing Numbers in Scientific Notation"
     }
 }

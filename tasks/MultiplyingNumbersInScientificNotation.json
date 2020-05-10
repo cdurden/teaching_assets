@@ -5,9 +5,7 @@
         "resources": {
             "slide": "slides/MultiplyingNumbersInScientificNotation/LearningGoals.html"
         },
-        "data": {
-            "title": "Multiplying Numbers in Scientific Notation"
-        }
+        "title": "Multiplying Numbers in Scientific Notation"
     },
     "Assignment": {
         "onload": "MathJax.typeset();",
@@ -15,9 +13,7 @@
         "resources": {
             "slide": "slides/MultiplyingNumbersInScientificNotation/Assignment.html"
         },
-        "data": {
-            "title": "Multiplying Numbers in Scientific Notation"
-        }
+        "title": "Multiplying Numbers in Scientific Notation"
     },
     "Example1": {
         "onload": "MathJax.typeset();",
@@ -25,9 +21,7 @@
         "resources": {
             "slide": "slides/MultiplyingNumbersInScientificNotation/Example1.html"
         },
-        "data": {
-            "title": "Multiplying Numbers in Scientific Notation"
-        }
+        "title": "Multiplying Numbers in Scientific Notation"
     },
     "Example2": {
         "onload": "MathJax.typeset();",
@@ -35,9 +29,7 @@
         "resources": {
             "slide": "slides/MultiplyingNumbersInScientificNotation/Example2.html"
         },
-        "data": {
-            "title": "Multiplying Numbers in Scientific Notation"
-        }
+        "title": "Multiplying Numbers in Scientific Notation"
     },
     "Exercise1": {
         "onload": "MathJax.typeset();",
@@ -45,9 +37,7 @@
         "resources": {
             "slide": "slides/MultiplyingNumbersInScientificNotation/Exercise1.html"
         },
-        "data": {
-            "title": "Multiplying Numbers in Scientific Notation"
-        }
+        "title": "Multiplying Numbers in Scientific Notation"
     },
     "Exercise2": {
         "onload": "MathJax.typeset();",
@@ -55,9 +45,7 @@
         "resources": {
             "slide": "slides/MultiplyingNumbersInScientificNotation/Exercise2.html"
         },
-        "data": {
-            "title": "Multiplying Numbers in Scientific Notation"
-        }
+        "title": "Multiplying Numbers in Scientific Notation"
     },
     "Exercise3": {
         "onload": "MathJax.typeset();",
@@ -65,8 +53,6 @@
         "resources": {
             "slide": "slides/MultiplyingNumbersInScientificNotation/Exercise3.html"
         },
-        "data": {
-            "title": "Multiplying Numbers in Scientific Notation"
-        }
+        "title": "Multiplying Numbers in Scientific Notation"
     }
 }

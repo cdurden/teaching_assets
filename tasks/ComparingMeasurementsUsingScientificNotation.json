@@ -5,9 +5,7 @@
         "resources": {
             "slide": "slides/ComparingMeasurementsUsingScientificNotation/LearningGoals.html"
         },
-        "data": {
-            "title": "Comparing Measurements using Scientific Notation"
-        }
+        "title": "Comparing Measurements using Scientific Notation"
     },
     "Assignment": {
         "onload": "MathJax.typeset();",
@@ -15,9 +13,7 @@
         "resources": {
             "slide": "slides/ComparingMeasurementsUsingScientificNotation/Assignment.html"
         },
-        "data": {
-            "title": "Comparing Measurements using Scientific Notation"
-        }
+        "title": "Comparing Measurements using Scientific Notation"
     },
     "Scale": {
         "onload": "MathJax.typeset();",
@@ -25,9 +21,7 @@
         "resources": {
             "slide": "slides/ComparingMeasurementsUsingScientificNotation/Scale.html"
         },
-        "data": {
-            "title": "Comparing Measurements using Scientific Notation"
-        }
+        "title": "Comparing Measurements using Scientific Notation"
     },
     "ScaleB": {
         "onload": "MathJax.typeset();",
@@ -35,9 +29,7 @@
         "resources": {
             "slide": "slides/ComparingMeasurementsUsingScientificNotation/ScaleB.html"
         },
-        "data": {
-            "title": "Comparing Measurements using Scientific Notation"
-        }
+        "title": "Comparing Measurements using Scientific Notation"
     },
     "SIPrefixes": {
         "onload": "MathJax.typeset();",
@@ -45,9 +37,7 @@
         "resources": {
             "slide": "slides/ComparingMeasurementsUsingScientificNotation/SIPrefixes.html"
         },
-        "data": {
-            "title": "Comparing Measurements using Scientific Notation"
-        }
+        "title": "Comparing Measurements using Scientific Notation"
     },
     "Task": {
         "onload": "MathJax.typeset();",
@@ -55,9 +45,7 @@
         "resources": {
             "slide": "slides/ComparingMeasurementsUsingScientificNotation/Task.html"
         },
-        "data": {
-            "title": "Comparing Measurements using Scientific Notation"
-        }
+        "title": "Comparing Measurements using Scientific Notation"
     },
     "SIPractice": {
         "onload": "MathJax.typeset();",
@@ -65,8 +53,6 @@
         "resources": {
             "slide": "slides/ComparingMeasurementsUsingScientificNotation/SIPractice.html"
         },
-        "data": {
-            "title": "Comparing Measurements using Scientific Notation"
-        }
+        "title": "Comparing Measurements using Scientific Notation"
     }
 }
