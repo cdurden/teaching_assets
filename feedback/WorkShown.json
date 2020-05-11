@@ -1,0 +1,10 @@
+{
+    "NiceWork": { 
+        "description": "Nice work!",
+        "template": "Nice work!"
+    },
+    "AnswerPartMissing": { 
+        "description": "A part of your answer is missing",
+        "template": "It seems like a part of your answer is missing."
+    }
+}
