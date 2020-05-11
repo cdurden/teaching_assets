@@ -1,7 +1,15 @@
 {
-    "GeneralExplanation": { 
+    "LeadingFactorBetween1and10Brief": { 
+        "description": "Leading factor between 1 and 10.",
+        "template": "Leading factor must be between 1 and 10 (Scientific notation)."
+    },
+    "LeadingFactorBetween1and10": { 
         "description": "The leading factor in scientific notation between 1 and 10.",
         "template": "When we write a number in scientific notation, remember that we move the decimal point until we get a number between 1 and 10."
+    },
+    "GeneralExplanation": { 
+        "description": "The leading factor in scientific notation between 1 and 10.",
+        "template": "{{ student.firstname }}, Nice job moving the decimal point and finding the correct powers of 10 (the $x$ values in your $\\cdot 10^{x}$ expressions)! There's one detail that I think you missed about scientific notation: When we write a number in scientific notation, remember that we move the decimal point until that we get a number <b>between 1 and 10</b>. That number between 1 and 10 becomes the factor (or leading factor) that we write in front of the power of ten. Look at your leading factors. Are they between $1$ and $10$? If not, your numbers are not in scientific notation. Can you change them so that they <i>are</i> in scientific notation?"
     },
     "Incomplete": { 
         "description": "Assignment incomplete",
@@ -42,8 +50,4 @@
         "template": "{{ student.firstname }}, practice multiplying a few numbers by powers of $10$ and answer the questions that follow about how the decimal points moves. Then find the power of ten needed in the example situation.",
         "questions": ["{{ first_student_name }} converted a decimal number scientific notation into scientific notation by moving the decimal point to the left 3 places. Was the original number greater than or less than 1?", "What power of ten did {{first_student_name}} write?", "{{ second_student_name }} converted {{ first_student_name }}'s number back into a decimal by moving the decimal point to the left 3 places. {{ third_student_name }} converted {{ first_student_name }}'s number back into a decimal by moving the decimal point to the right 3 places. Who is correct? How do you know?", "Which of the following could have been {{ first_student_name}}'s number: $2.75 \\cdot 10^{-3}$ or $2.75 \\cdot 10^{-3}$?", "Convert $0.000035$ into scientific notation. Then convert your answer back into a decimal to check whether or not it is correct."]
     },
-    "FactorBetween1and10": { 
-        "description": "The leading factor in scientific notation between 1 and 10.",
-        "template": "{{ student.firstname }}, Nice job moving the decimal point and finding the correct powers of 10 (the $x$ values in your $\\cdot 10^{x}$ expressions)! There's one detail that I think you missed about scientific notation: When we write a number in scientific notation, remember that we move the decimal point until that we get a number <b>between 1 and 10</b>. That number between 1 and 10 becomes the factor (or leading factor) that we write in front of the power of ten. Look at your leading factors. Are they between $1$ and $10$? If not, your numbers are not in scientific notation. Can you change them so that they <i>are</i> in scientific notation?"
-    }
 }
