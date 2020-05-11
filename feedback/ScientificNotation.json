@@ -39,7 +39,7 @@
     },
     "DigitPatternMultiplyingByPowersOfTen": { 
         "description": "Recognizing patterns of digits when multiplying by powers of ten",
-        "template": "{{ student.firstname }}, practice multiplying a few decimal numbers by powers of 10 and answer the questions that follow.",
+        "template": "{{ student.firstname }}, practice multiplying a few decimal numbers by powers of 10 by answering the attached questions.",
         "file_attachments": [
             "images/MultiplicationOfDecimalsByPowersOfTen.png"
         ]
