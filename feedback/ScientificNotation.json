@@ -41,9 +41,13 @@
         "description": "Recognizing patterns of digits when multiplying by powers of ten",
         "template": "{{ student.firstname }}, practice multiplying a few numbers by powers of $10$ and answer the questions that follow."
     },
-    "WellDone": { 
+    "CorrectDecimalToScientificNotation": { 
         "description": "Well done",
-        "template": "{{ student.firstname }}, you were able to convert between decimal notation and scientific notation successfully."
+        "template": "{{ student.firstname }}, you were able to convert between decimal notation and scientific notation."
+    },
+    "CorrectScientificNotationToDecimal": { 
+        "description": "Well done",
+        "template": "{{ student.firstname }}, you were able to convert from scientific notation to decimal notation."
     },
     "DecimalPointPatternMultiplyingByPowersOfTen": { 
         "description": "Recognizing patterns of decimal points when multiplying by powers of ten",
