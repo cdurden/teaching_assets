@@ -11,8 +11,8 @@
         [ "WhichAreaIsLarger" ],
         [ "SquareSideLengthsAndAreas1" ],
         [ "SquareSideLengthsAndAreas2" ],
-        [ "EstimateLengthOfLineSegment" ],
-        [ "FibJigSaw" ],
-        [ "FindThePositiveSolution" ]
+        [ "FindArea1" ],
+        [ "FindArea2" ],
+        [ "EstimateLengthOfLineSegment" ]
     ]
 }
