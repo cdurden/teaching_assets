@@ -750,17 +750,20 @@ May 11-May 15: The Pythagorean Theorem
   <br>
   <!-- Title -->
   <br>
-  <a href="" target="_parent">Open in Notability</a>
+  <a href="https://app.schoology.com/assignment/2525869115" target="_parent"><b>Areas of Squares</b></a>
+  <a href="https://app.schoology.com/assignment/2525869115" target="_parent">Open in Notability</a>
   </td>
   <td>
   <ul>
     <!-- Learning Goals -->
     <li> 
+       I can reason about squares and their side length using a unit grid.
     </li>
   </ul>
   </td>
   <td>
     <!-- Assigned Tasks -->
+    <a href="https://youtu.be/iRpj5hFek38">Watch the video</a> and complete the 5 assigned tasks.
   </td>
 </tr>
 <tr>
