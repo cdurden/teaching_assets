@@ -49,5 +49,5 @@
         "description": "Recognizing patterns of decimal points when multiplying by powers of ten",
         "template": "{{ student.firstname }}, practice multiplying a few numbers by powers of $10$ and answer the questions that follow about how the decimal points moves. Then find the power of ten needed in the example situation.",
         "questions": ["{{ first_student_name }} converted a decimal number scientific notation into scientific notation by moving the decimal point to the left 3 places. Was the original number greater than or less than 1?", "What power of ten did {{first_student_name}} write?", "{{ second_student_name }} converted {{ first_student_name }}'s number back into a decimal by moving the decimal point to the left 3 places. {{ third_student_name }} converted {{ first_student_name }}'s number back into a decimal by moving the decimal point to the right 3 places. Who is correct? How do you know?", "Which of the following could have been {{ first_student_name}}'s number: $2.75 \\cdot 10^{-3}$ or $2.75 \\cdot 10^{-3}$?", "Convert $0.000035$ into scientific notation. Then convert your answer back into a decimal to check whether or not it is correct."]
-    },
+    }
 }
