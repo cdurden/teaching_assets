@@ -1,4 +1,8 @@
 {
+    "WriteMultiplicationByNegativeExponentialUsingDivision": {
+        "description": "Multiplying by negative powers of 10: rewrite using division",
+        "template": "{{ student.firstname }}, look at the answers that are circled. How can you write these numbers with division by a power of 10 instead of multiplication?"
+    },
     "ExtendingAPattern": {
         "description": "Multiplying by powers of 10: extending a pattern",
         "template": "What is 2.34 times 10? What is 2.34 times 100? Can you extend the pattern so that you can multiply by 10,000,000?"
