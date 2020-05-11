@@ -1,4 +1,8 @@
 {
+    "ExplainHowToCheckYourAnswers": { 
+        "description": "Check your answers",
+        "template": "Explain how you would convert the circled answer back into decimal form in order to check if it is correct. If you did this, would it match the original number?"
+    },
     "WriteMultiplicationByNegativeExponentialUsingDivision": {
         "description": "Multiplying by negative powers of 10: rewrite using division",
         "template": "{{ student.firstname }}, look at the answers that are circled. How can you write these numbers with division by a power of 10 instead of multiplication?"
