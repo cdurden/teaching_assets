@@ -33,9 +33,9 @@
         "description": "Finding the power of 10: Counting carefully",
         "template": "{{ student.firstname }}, please look over the attached solutions, and identify any mistakes you may have made on the exercises that are circled. Then please write 2-5 sentences explaining how you can avoid those mistakes in the future."
     },
-    "FindingThePowerOfTen": { 
+    "FindingThePowerOfTenQuestions": { 
         "description": "Finding the power of 10: ",
-        "template": ""
+        "template": "It looks like you counted the number of zeros and used that to find your exponent. Does that always work? What is 3.5 times 10? How many zeros does it have? What is the correct pattern?"
     },
     "DigitPatternMultiplyingByPowersOfTen": { 
         "description": "Recognizing patterns of digits when multiplying by powers of ten",
