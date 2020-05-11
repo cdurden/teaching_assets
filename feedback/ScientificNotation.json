@@ -1,4 +1,8 @@
 {
+    "CheckYourAnswers": { 
+        "description": "Check your answers",
+        "template": "Check the answers that are circled by converting them back into decimal form. Do your decimal forms match the original number?"
+    },
     "LeadingFactorBetween1and10Brief": { 
         "description": "Leading factor between 1 and 10. (brief explanation)",
         "template": "Leading factor must be between 1 and 10 (Scientific notation)."
