@@ -2,5 +2,13 @@
     "WellDone": { 
         "description": "Well done!",
         "template": "Well done!"
+    },
+    "Incomplete": { 
+        "description": "Assignment incomplete",
+        "template": "{{ student.firstname }}, your assignment was incomplete."
+    },
+    "ReflectOnWork": { 
+        "description": "Reflect on your work",
+        "template": "{{ student.firstname }}, please write a paragraph (3-5 sentences), reflecting on your work on this assignment. You may also mention how you can improve your work on future assignments."
     }
 }
