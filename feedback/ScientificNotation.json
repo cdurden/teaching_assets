@@ -1,7 +1,7 @@
 {
     "GeneralExplanation": { 
         "description": "The leading factor in scientific notation between 1 and 10.",
-        "template": "When we write a number in scientific notation, remember that we move the decimal point until that we get a number between 1 and 10. That number between 1 and 10 becomes the factor (or leading factor) that we write in front of the power of ten $\\cdot 10^{x}$. The power of $10$ that we need to write depends on how large our number is, or how many decimal places we had to move when we figured out the leading factor. You did a great job of finding the correct power of 10, based on the leading factor that you wrote."
+        "template": "When we write a number in scientific notation, remember that we move the decimal point until we get a number between 1 and 10."
     },
     "Incomplete": { 
         "description": "Assignment incomplete",
