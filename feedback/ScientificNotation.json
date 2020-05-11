@@ -44,6 +44,6 @@
     },
     "FactorBetween1and10": { 
         "description": "The leading factor in scientific notation between 1 and 10.",
-        "template": "Hawo, Nice job moving the decimal point and finding the correct powers of 10 (the $x$ values in your $\\cdot 10^{x}$ expressions)! There's one detail that I think you missed about scientific notation: When we write a number in scientific notation, remember that we move the decimal point until that we get a number <b>between 1 and 10</b>. That number between 1 and 10 becomes the factor (or leading factor) that we write in front of the power of ten. Look at your leading factors. Are they between $1$ and $10$? If not, your numbers are not in scientific notation. Can you change them so that they <i>are</i> in scientific notation?"
+        "template": "{{ student.firstname }}, Nice job moving the decimal point and finding the correct powers of 10 (the $x$ values in your $\\cdot 10^{x}$ expressions)! There's one detail that I think you missed about scientific notation: When we write a number in scientific notation, remember that we move the decimal point until that we get a number <b>between 1 and 10</b>. That number between 1 and 10 becomes the factor (or leading factor) that we write in front of the power of ten. Look at your leading factors. Are they between $1$ and $10$? If not, your numbers are not in scientific notation. Can you change them so that they <i>are</i> in scientific notation?"
     }
 }
