@@ -1,14 +1,18 @@
 {
     "LeadingFactorBetween1and10Brief": { 
-        "description": "Leading factor between 1 and 10.",
+        "description": "Leading factor between 1 and 10. (brief explanation)",
         "template": "Leading factor must be between 1 and 10 (Scientific notation)."
     },
-    "LeadingFactorBetween1and10": { 
-        "description": "The leading factor in scientific notation between 1 and 10.",
+    "LeadingFactorBetween1and10Short": { 
+        "description": "The leading factor in scientific notation between 1 and 10. (shorter explanation)",
         "template": "When we write a number in scientific notation, remember that we move the decimal point until we get a number between 1 and 10."
     },
+    "LeadingFactorBetween1and10Medium": { 
+        "description": "The leading factor in scientific notation between 1 and 10. (medium-length explanation)",
+        "template": "You moved the decimal point 7 places to the left, so your exponent is correct, but you did not move the decimal point far enough. Remember: When we write a number in scientific notation, we move the decimal point until we get a number between 1 and 10."
+    },
     "GeneralExplanation": { 
-        "description": "The leading factor in scientific notation between 1 and 10.",
+        "description": "The leading factor in scientific notation between 1 and 10. (long explanation)",
         "template": "{{ student.firstname }}, Nice job moving the decimal point and finding the correct powers of 10 (the $x$ values in your $\\cdot 10^{x}$ expressions)! There's one detail that I think you missed about scientific notation: When we write a number in scientific notation, remember that we move the decimal point until that we get a number <b>between 1 and 10</b>. That number between 1 and 10 becomes the factor (or leading factor) that we write in front of the power of ten. Look at your leading factors. Are they between $1$ and $10$? If not, your numbers are not in scientific notation. Can you change them so that they <i>are</i> in scientific notation?"
     },
     "Incomplete": { 
