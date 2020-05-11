@@ -42,11 +42,11 @@
         "template": "{{ student.firstname }}, practice multiplying a few numbers by powers of $10$ and answer the questions that follow."
     },
     "CorrectDecimalToScientificNotation": { 
-        "description": "Well done",
+        "description": "Correct decimal to scientific notation",
         "template": "{{ student.firstname }}, you were able to convert between decimal notation and scientific notation."
     },
     "CorrectScientificNotationToDecimal": { 
-        "description": "Well done",
+        "description": "Correct scientific notation to decimal",
         "template": "{{ student.firstname }}, you were able to convert from scientific notation to decimal notation."
     },
     "DecimalPointPatternMultiplyingByPowersOfTen": { 
