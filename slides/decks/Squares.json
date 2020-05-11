@@ -1,0 +1,20 @@
+{
+    "collection": "Squares",
+    "slides": [
+        [ "LearningGoals" ],
+        [ "Assignment" ],
+        [ "ResponseToFeedback1" ],
+        [ "ResponseToFeedback2" ],
+        [ "SelfAssessmentPrompts" ],
+        [ "WINDayPreferences" ],
+        [ "WINDayGroups" ],
+        [ "DrawSquaresOnGrid" ],
+        [ "WhichIsLarger" ],
+        [ "SquareSideLengthsAndAreas1" ],
+        [ "SquareSideLengthsAndAreas2" ],
+        [ "NoticeAndWonderOneOneVectorOnUnitCircle" ],
+        [ "EstimateLengthOfLineSegment" ],
+        [ "FibJigSaw" ],
+        [ "FindThePositiveSolution" ]
+    ]
+}
