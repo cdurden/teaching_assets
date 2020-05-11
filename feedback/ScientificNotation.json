@@ -31,7 +31,10 @@
     },
     "MakeSenseOfDecimalsAndScientificNotation": { 
         "description": "Make sense of decimals and scientific notation",
-        "template": "{{ student.firstname }}, please watch the video about the length scales of the universe, and try to match each item with its length scale.",
+        "template": "{{ student.firstname }}, suppose each of the numbers represents a length (in meters). Look at the attached table, which shows possible lengths of some objects in scientific notation. What object could each of the numbers describe?",
+        "file_attachments": [
+            "images/MultiplicationOfDecimalsByPowersOfTen.png"
+        ],
         "resources": [
             "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcIGAcfIK2mqy8aLgs2ONqZdFR1MOKFuSSC58neDPK0-AL37fp&s",
             "https://pbs.twimg.com/media/D0nki2pV4AAtEAs?format=jpg&name=large",
