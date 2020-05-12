@@ -33,7 +33,11 @@
     },
     "MakingSenseOfPlaceValue": { 
         "description": "Making sense of place value of rational numbers",
-        "template": "{{ student.firstname }}, look at the notes that I made about the place values of the numbers with decimal points. Look at the largest place value of each one, which I have circled in green, and write the place value as a power of 10 (you can use this table if you need help). Then draw a picture of something that you might see at that scale.",
+        "template": "{{ student.firstname }}, look at the charts that show some examples of different-sized objects, and how large they are in meters. If the numbers from this question where lengths in meters, would they be larger or smaller than 1 meter (around the size of a human)? Choose one large and one small object from the chart and draw a picture of each. Label each picture with the length written as a 'Power of Ten' meters to show how big or small it is.",
+        "file_attachments": [
+            "images/LengthsGreaterThanOneMeter.png",
+            "images/LengthsLessThanOneMeter.jpg"
+        ],
         "resources": ["http://www.mc3cb.com/images/relative_size_v2.jpg",
             "https://www.geogebra.org/m/wQdkXRaM"]
     },
