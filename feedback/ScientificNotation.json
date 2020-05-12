@@ -45,7 +45,9 @@
         "description": "Make sense of decimals and scientific notation",
         "template": "{{ student.firstname }}, suppose each of the numbers represents a length (in meters). Look at the attached table, which shows possible lengths of some objects in scientific notation. What object could each of the numbers describe?",
         "file_attachments": [
-            "images/MultiplicationOfDecimalsByPowersOfTen.png"
+            "images/LengthScaleOfObjects.png",
+            "images/LengthsGreaterThanOneMeter.png",
+            "images/LengthsLessThanOneMeter.jpg"
         ],
         "resources": [
             "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcIGAcfIK2mqy8aLgs2ONqZdFR1MOKFuSSC58neDPK0-AL37fp&s",
