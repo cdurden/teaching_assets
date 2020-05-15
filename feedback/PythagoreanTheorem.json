@@ -1,7 +1,11 @@
 {
     "WatchVideosAndRetryIncompleteFindingC": { 
-        "description": "Watch example videos and retry",
+        "description": "Watch example videos and complete assignment",
         "template": "{{ student.firstname }}, please watch the example videos at the link below, and retry the problems that you did not answer. https://app.schoology.com/page/2532368081"
+    },
+    "WatchVideosAndCorrectFindingC": { 
+        "description": "Watch example videos and correct assignment",
+        "template": "{{ student.firstname }}, please watch the example videos at the link below, and correct the problems that are circled. https://app.schoology.com/page/2532368081"
     },
     "WellDoneDesmosActivity": { 
         "description": "Well done!",
