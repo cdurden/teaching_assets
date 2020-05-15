@@ -9,7 +9,7 @@
     },
     "WellDoneDesmosActivity": { 
         "description": "Well done!",
-        "template": "{{ student.firstname }}, nice work on your pythagorean theorem assignment from Tuesday! For today, please watch the attached video and complete the desmos activity using the code on the attached screenshot.",
+        "template": "{{ student.firstname }}, nice work on your pythagorean theorem assignment from Tuesday! For today, please watch the attached video and complete the desmos activity using the code on the attached screenshot. (If the attached video does not work, try using this link instead: https://youtu.be/lUscXG3eiEw)",
         "attachments": [
             {
                 "embed": "<iframe width='560' height='315' src='https://www.youtube.com/embed/lUscXG3eiEw' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
