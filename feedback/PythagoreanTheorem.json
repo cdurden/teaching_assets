@@ -1,4 +1,11 @@
 {
+    "FindSideLengthsAndAreasOfSquares": { 
+        "description": "Find the side lengths and areas of squares",
+        "template": "Look at the table I have attached. In the first row are some side lengths of squares. In the second row is the area of the same square. Can you fill in the missing values in both rows? For example, if a square has an area of 9 square units, what is the side length?",
+        "file_attachments": [
+            "images/PythagoreanTheorem/SideLengthsAndAreasOfSquaresTable.png"
+        ]
+    },
     "WatchVideosAndRetryIncompleteFindingC": { 
         "description": "Watch example videos and complete assignment",
         "template": "{{ student.firstname }}, please watch the example videos at the link below, and retry the problems that you did not answer. https://app.schoology.com/page/2532368081"
