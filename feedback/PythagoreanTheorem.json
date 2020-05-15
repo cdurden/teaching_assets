@@ -2,13 +2,15 @@
     "WatchVideosAndRetryIncompleteFindingC": { 
         "description": "Watch example videos and retry",
         "template": "{{ student.firstname }}, please watch the example videos at the link below, and retry the problems that you did not answer. https://app.schoology.com/page/2532368081",
-        "file_attachments": [
-            "images/PythagoreanTheorem/PythagoreanTheoremConverseDesmos.png"
-        ]
     },
     "WellDoneDesmosActivity": { 
         "description": "Well done!",
         "template": "{{ student.firstname }}, nice work on your pythagorean theorem assignment from Tuesday! For today, please watch the video and complete the",
+        "attachments": [
+            {
+                "embed": "<iframe width='560' height='315' src='https://www.youtube.com/embed/lUscXG3eiEw' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+            }
+        ],
         "file_attachments": [
             "images/PythagoreanTheorem/PythagoreanTheoremConverseDesmos.png"
         ]
