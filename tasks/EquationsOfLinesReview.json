@@ -1,0 +1,74 @@
+{
+    "LearningGoals": {
+        "onload": "MathJax.typeset();",
+        "background_html": "<h2>Linear Equations Review</h2>\n<h3>Learning Goal</h3>\n<ol>\n    <li>\n        I can graph linear equations by identifying the <b>slope</b> and <b>y-intercept</b>\n    </li>\n</ol>\n",
+        "resources": {
+            "slide": "slides/EquationsOfLinesReview/LearningGoals.html"
+        },
+        "title": "Equations Of Lines Review"
+    },
+    "FormsOfEquations": {
+        "onload": "MathJax.typeset();",
+        "background_html": "<div class=\"row\" style=\"margin-top: 0em;\">\n<div class=\"col-4\">\n    <h5>Slope-intercept form</h5>\n<br/>\n    $$y=mx+b$$<br/><br/><br/>\n\n    $m: $ slope $\\frac{\\text{rise}}{\\text{run}}$\n    $b: y$-intercept\n</div>\n<div class=\"col-4\">\n    <h5>Standard form</h5>\n    <br/><br/>\n    $$Ax + By = C$$\n</div>\n<div class=\"col-4\">\n    <h5>Point-slope form</h5>\n<br/>\n    $$y - y_1 = m(x-x_1)$$<br/><br/><br/>\n    $m: $ slope\n    $(x_1,y_1): $ a point on the line\n</div>\n</div>\n",
+        "resources": {
+            "slide": "slides/EquationsOfLinesReview/FormsOfEquations.html"
+        },
+        "title": "Equations Of Lines Review"
+    },
+    "StackOf5OnTable": {
+        "onload": "MathJax.typeset();",
+        "background_html": "<div class=\"row\" style=\"margin-top: 0em;\">\n<div class=\"col-6\">\n    <h5>What question might we ask?</h5>\n         <p style=\"font-size: 16pt\"><b>Directions:</b>\n         Look at the image and think about what question you might ask.\n         <!--\n         <a href=\"https://youtu.be/KnX8oTi8v-s\">Watch this video</a> for a demonstration.\n         -->\n         </p>\n</div>\n<div class=\"col-6\">\n<img src=\"/static/teaching_assets/images/SystemsOfEquations/StackOf5OnTable.png\">\n</div>\n<div class=\"col-2\">\n</div>\n</div>\n",
+        "resources": {
+            "slide": "slides/EquationsOfLinesReview/StackOf5OnTable.html"
+        },
+        "title": "Equations Of Lines Review"
+    },
+    "Information": {
+        "onload": "MathJax.typeset();",
+        "background_html": "<div class=\"row\" style=\"margin-top: 0em;\">\n<div class=\"col-6\">\n    <p style=\"font-size: 24pt\">\n    Here is some more information about this situation.\n    </p>\n<img src=\"/static/teaching_assets/images/SystemsOfEquations/SinglePackOfPaper4-95cm.png\">\n</div>\n<div class=\"col-6\">\n<img src=\"/static/teaching_assets/images/SystemsOfEquations/StackOf5OnTableTotalHeight130-75cm.png\">\n</div>\n</div>\n",
+        "resources": {
+            "slide": "slides/EquationsOfLinesReview/Information.html"
+        },
+        "title": "Equations Of Lines Review"
+    },
+    "HowTallIsTheTable": {
+        "onload": "MathJax.typeset();",
+        "background_html": "<div class=\"row\" style=\"margin-top: 0em;\">\n<div class=\"col-12\">\n<img class=\"noborder\" src=\"/static/teaching_assets/images/SystemsOfEquations/HowTallIsTheTable.png\">\n</div>\n</div>\n",
+        "resources": {
+            "slide": "slides/EquationsOfLinesReview/HowTallIsTheTable.html"
+        },
+        "title": "Equations Of Lines Review"
+    },
+    "Representations": {
+        "onload": "MathJax.typeset();",
+        "background_html": "<div class=\"row\" style=\"margin-top: 0em;\">\n<div class=\"col-12\">\n<img class=\"noborder\" src=\"/static/teaching_assets/images/SystemsOfEquations/Representations.png\">\n</div>\n</div>\n",
+        "resources": {
+            "slide": "slides/EquationsOfLinesReview/Representations.html"
+        },
+        "title": "Equations Of Lines Review"
+    },
+    "GraphingPractice": {
+        "onload": "MathJax.typeset();",
+        "background_html": "<div class=\"row\" style=\"margin-top: 0em;\">\n<div class=\"col-12\">\n    <h5>Graphing Linear Equations Examples</h5>\n<img class=\"noborder\" src=\"/static/teaching_assets/images/SystemsOfEquations/GraphingExamples.png\">\n</div>\n</div>\n",
+        "resources": {
+            "slide": "slides/EquationsOfLinesReview/GraphingPractice.html"
+        },
+        "title": "Equations Of Lines Review"
+    },
+    "ExercisesA": {
+        "onload": "MathJax.typeset();",
+        "background_html": "<div class=\"row\" style=\"margin-top: 0em;\">\n<div class=\"col-12\">\n    <h5>Exercises</h5>\n<img class=\"noborder\" src=\"/static/teaching_assets/images/SystemsOfEquations/GraphingExercises.png\">\n</div>\n</div>\n",
+        "resources": {
+            "slide": "slides/EquationsOfLinesReview/ExercisesA.html"
+        },
+        "title": "Equations Of Lines Review"
+    },
+    "ExercisesB": {
+        "onload": "MathJax.typeset();",
+        "background_html": "<div class=\"row\" style=\"margin-top: 0em;\">\n<div class=\"col-12\">\n    <h5>Exercises</h5>\n<img class=\"noborder\" src=\"/static/teaching_assets/images/SystemsOfEquations/GraphingExercises2.png\">\n</div>\n</div>\n",
+        "resources": {
+            "slide": "slides/EquationsOfLinesReview/ExercisesB.html"
+        },
+        "title": "Equations Of Lines Review"
+    }
+}
