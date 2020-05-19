@@ -1,8 +1,7 @@
 {
     "collection": "SolvingEquationsReview",
     "slides": [
-        [ "LearningGoals" ],
-        [ "Goal" ],
+        [ "Goals" ],
         [ "SectionA" ],
         [ "Exercise1" ],
         [ "Exercise2" ],
@@ -26,6 +25,7 @@
         [ "SectionF" ],
         [ "Exercise16" ],
         [ "Exercise17" ],
-        [ "Exercise18" ]
+        [ "Exercise18" ],
+        [ "Desmos" ]
     ]
 }
