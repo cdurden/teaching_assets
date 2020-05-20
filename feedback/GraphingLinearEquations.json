@@ -1,0 +1,32 @@
+{
+    "ExercisesWatchVideoAndRetry": { 
+        "description": "Retry exercises",
+        "template": "{{ student.firstname }}, please watch the videos and retry the exercises that are circled. (If the attached videos do not work, try using this link instead: https://www.youtube.com/watch?v=6Ckq1QV_cJ4&list=PL3Bvhsk4Ak1iSVDOgCpdBi-WaOJiSSOSi)",
+        "attachments": [
+            {
+                "embed": "<iframe width='560' height='315' src='https://www.youtube.com/embed/6Ckq1QV_cJ4' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+            },
+            {
+                "embed": "<iframe width='560' height='315' src='https://www.youtube.com/embed/3gpzjncoHxE' frameborder='0' allow='accelerometer;  2020 05 20 13 41 39autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+            },
+            {
+                "embed": "<iframe width='560' height='315' src='https://www.youtube.com/embed/IGo_XwD9US8' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+            },
+            {
+                "embed": "<iframe width='560' height='315' src='https://www.youtube.com/embed/O5LuLik_6Dc' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+            }
+        ]
+    },
+    "WellDoneDesmosActivity": { 
+        "description": "Well done!",
+        "template": "{{ student.firstname }}, nice work on your pythagorean theorem assignment from Tuesday! For today, please watch the attached video and complete the desmos activity using the code on the attached screenshot. (If the attached video does not work, try using this link instead: https://youtu.be/lUscXG3eiEw)",
+        "attachments": [
+            {
+                "embed": "<iframe width='560' height='315' src='https://www.youtube.com/embed/lUscXG3eiEw' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+            }
+        ],
+        "file_attachments": [
+            "images/PythagoreanTheorem/PythagoreanTheoremConverseDesmos.png"
+        ]
+    }
+}
