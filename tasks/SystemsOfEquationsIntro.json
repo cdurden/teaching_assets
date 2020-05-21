@@ -1,0 +1,130 @@
+{
+    "ResponseToFeedback": {
+        "onload": "MathJax.typeset();",
+        "background_html": "<div class=\"row\">\n     <div class=\"col-12\" style=\"text-align: left; margin-top: -7em;\">\n         <h5>Respond to feedback on your work</h5>\n         <p style=\"font-size: 16pt\"><b>Directions:</b>\n                 If you have a Schoology message from Mr. Durden about Tuesday's assignment, respond to that message in the space below.\n         </p>\n     </div>\n</div>\n\n",
+        "resources": {
+            "slide": "slides/SystemsOfEquationsIntro/ResponseToFeedback.html"
+        },
+        "title": "Systems Of Equations Intro"
+    },
+    "Choice": {
+        "onload": "MathJax.typeset();",
+        "background_html": "<div class=\"row\">\n     <div class=\"col-12\" style=\"text-align: left; line-spacing: 3em;\">\n         <h3>Choice</h3>\n             <p style=\"font-size: 18pt;\">\n             Choose one of the following options for completing the rest of your work in Algebra 1.1.\n             </p>\n         <ul style=\"font-size: 24pt;\">\n             <li>\n                 Learn about systems of linear equations through lessons today (Thursday) and Friday.\n             </li>\n             <li>\n                 Complete a project to review linear equations (due on Tuesday).\n             </li>\n         </ul>\n             <p style=\"font-size: 18pt;\">\n             <b>\n                 Suggestions:\n             </b>\n             If you missed one or fewer questions from Tuesday's work, I encourage you to learn about systems of linear equations (they are wonderful). If you missed two or more questions from yesterday's work, I encourage you to complete the project.\n             </p>\n     </div>\n</div>\n\n",
+        "resources": {
+            "slide": "slides/SystemsOfEquationsIntro/Choice.html"
+        },
+        "title": "Systems Of Equations Intro"
+    },
+    "BrilliantLesson": {
+        "onload": "MathJax.typeset();",
+        "background_html": "<div class=\"row\">\n     <div class=\"col-12\" style=\"text-align: left; line-spacing: 3em;\">\n         <h3>Systems of equations lesson</h3>\n             <p style=\"font-size: 24pt;\">\n             <b>Directions: </b>For this lesson, you will <b>answer the questions on the following slides</b>. On each slide, please <b>indicate whether you worked out the answer independently or received help</b>*.\n             </p>\n             <p style=\"font-size: 24pt;\">\n             * I ask that you try to answer the questions independently, but I will be including links to videos that you can watch if you need help. \n             </p>\n             <p style=\"font-size: 18pt;\">\n             The questions for this lesson are from brilliant.com. \n             </p>\n     </div>\n</div>\n\n",
+        "resources": {
+            "slide": "slides/SystemsOfEquationsIntro/BrilliantLesson.html"
+        },
+        "title": "Systems Of Equations Intro"
+    },
+    "LearningGoals": {
+        "onload": "MathJax.typeset();",
+        "background_html": "<h2>Introduction to Systems of Equations</h2>\n<h3>Learning Goal</h3>\n<ol>\n    <li>\n        I can describe what it means to find a <b>solution</b> to a <b>system of equations</b>.\n    </li>\n    <li>\n        I can solve systems of linear equations by graphing each equation and finding points where the lines intersect.\n    </li>\n</ol>\n",
+        "resources": {
+            "slide": "slides/SystemsOfEquationsIntro/LearningGoals.html"
+        },
+        "title": "Systems Of Equations Intro"
+    },
+    "WeightOfCat1": {
+        "onload": "MathJax.typeset();",
+        "background_html": "<div class=\"row\" style=\"margin-top: 0em;\">\n<div class=\"col-4\">\n    Can you tell how much the cat weighs?\n</div>\n<div class=\"col-8\">\n</div>\n</div>\n<div class=\"row\" style=\"margin-top: 0em;\">\n<div class=\"col-4\">\n</div>\n<div class=\"col-4 md-font\">\n    $x = $ weight of the cat<br/>\n</div>\n<div class=\"col-4 md-font\">\n    $y = $ weight the rabbit\n</div>\n</div>\n<div class=\"row\" style=\"margin-top: 0em;\">\n<div class=\"col-4\">\n</div>\n<div class=\"col-4\">\n<img class=\"noborder\" src=\"/static/teaching_assets/images/SystemsOfEquations/CatAndRabbit.png\">\n</div>\n<div class=\"col-4\">\n</div>\n</div>\n<div class=\"row\" style=\"margin-top: 0em;\">\n<div class=\"col-4\">\n</div>\n<div class=\"col-4\">\n    $x+y=10$\n</div>\n<div class=\"col-4\">\n</div>\n</div>\n",
+        "resources": {
+            "slide": "slides/SystemsOfEquationsIntro/WeightOfCat1.html"
+        },
+        "title": "Systems Of Equations Intro"
+    },
+    "WeightOfCat2": {
+        "onload": "MathJax.typeset();",
+        "background_html": "<div class=\"row\" style=\"margin-top: 0em;\">\n<div class=\"col-4\">\n    Can you tell how much the cat weighs?\n</div>\n<div class=\"col-8\">\n</div>\n</div>\n<div class=\"row\" style=\"margin-top: 0em;\">\n<div class=\"col-4\">\n</div>\n<div class=\"col-4 md-font\">\n    $x = $ weight of the cat<br/>\n</div>\n<div class=\"col-4 md-font\">\n    $y = $ weight the rabbit\n</div>\n</div>\n<div class=\"row\" style=\"margin-top: 0em;\">\n<div class=\"col-4\">\n</div>\n<div class=\"col-4\">\n<img class=\"noborder\" src=\"/static/teaching_assets/images/SystemsOfEquations/CatAndRabbit.png\">\n</div>\n<div class=\"col-4\">\n<img class=\"noborder\" src=\"/static/teaching_assets/images/SystemsOfEquations/Rabbit.png\">\n</div>\n</div>\n<div class=\"row\" style=\"margin-top: 0em;\">\n<div class=\"col-4\">\n</div>\n<div class=\"col-4\">\n    $x+y=10$\n</div>\n<div class=\"col-4\">\n    $y=4$\n</div>\n</div>\n",
+        "resources": {
+            "slide": "slides/SystemsOfEquationsIntro/WeightOfCat2.html"
+        },
+        "title": "Systems Of Equations Intro"
+    },
+    "WeightOfCat3": {
+        "onload": "MathJax.typeset();",
+        "background_html": "<div class=\"row\" style=\"margin-top: 0em;\">\n<div class=\"col-4\">\n    <p>\n    Read the slide to understand the key concepts (in bold). \n    </p>\n    <p style=\"font-size: 24pt;\">\n        This is called a <b>system of two equations</b>.\n    </p>\n    <p style=\"font-size: 24pt;\">\n    The <b>solutions</b> to a system are the values of the variables that make <i>all of the equations</i> true.\n    </p>\n    <p style=\"font-size: 24pt;\">\n    A solution to a system can be written using an <b>ordered pair</b>.\n    </p>\n</div>\n<div class=\"col-8\">\n    <div class=\"row\" style=\"margin-top: 0em;\">\n    <div class=\"col-6 md-font\">\n        $x = $ weight of the cat<br/>\n    </div>\n    <div class=\"col-6 md-font\">\n        $y = $ weight the rabbit\n    </div>\n    </div>\n    <div class=\"row\" style=\"margin-top: 0em;\">\n    <div class=\"col-6\">\n        $x+y = 10$\n    </div>\n    <div class=\"col-6\">\n        $y = 4$\n    </div>\n    </div>\n    <div class=\"row\" style=\"margin-top: 0em;\">\n    <div class=\"col-6\">\n    <img class=\"noborder\" src=\"/static/teaching_assets/images/SystemsOfEquations/CatAndRabbit.png\">\n    </div>\n    <div class=\"col-6\">\n    <img class=\"noborder\" src=\"/static/teaching_assets/images/SystemsOfEquations/Rabbit.png\">\n    </div>\n    </div>\n    <div class=\"row\" style=\"margin-top: 0em;\">\n    <div class=\"col-6\">\n        <p style=\"font-size: 18pt;\">\n        The cat weighs $6$ units.\n        </p>\n    </div>\n    <div class=\"col-6\">\n        <p style=\"font-size: 18pt;\">\n        The rabbit weighs $4$ units.\n        </p>\n    </div>\n    </div>\n    <div class=\"row\" style=\"margin-top: 0em;\">\n    <div class=\"col-12\">\n        <p style=\"font-size: 24pt;\">\n        The <b>solution</b> to this system of equations is: $$x=6,y=4$$\n        </p>\n    </div>\n    </div>\n    <div class=\"row\" style=\"margin-top: 0em;\">\n    <div class=\"col-12\">\n        <p style=\"font-size: 24pt;\">\n        As an <b>ordered pair</b> the solution is: $$(x,y) = (6,4)$$\n        </p>\n    </div>\n    </div>\n</div>\n</div>\n",
+        "resources": {
+            "slide": "slides/SystemsOfEquationsIntro/WeightOfCat3.html"
+        },
+        "title": "Systems Of Equations Intro"
+    },
+    "ThreeWeightsEasy": {
+        "onload": "MathJax.typeset();",
+        "background_html": "<div class=\"row\" style=\"margin-top: 0em;\">\n<div class=\"col-4\">\n        Can you tell the weight of each animal?\n</div>\n<div class=\"col-8\">\n    <div class=\"row\" style=\"margin-top: 0em;\">\n    <div class=\"col-12\">\n    <img class=\"noborder\" src=\"/static/teaching_assets/images/SystemsOfEquations/ThreeWeightsEasy.png\">\n    </div>\n    </div>\n    <div class=\"row\" style=\"margin-top: 0em;\">\n    <div class=\"col-4\">\n        Weight of cat:<br/>\n        $x=$\n    </div>\n    <div class=\"col-4\">\n        Weight of rabbit:<br/>\n        $y=$\n    </div>\n    <div class=\"col-4\">\n        Weight of dog:<br/>\n        $z=$\n    </div>\n    </div>\n</div>\n</div>\n",
+        "resources": {
+            "slide": "slides/SystemsOfEquationsIntro/ThreeWeightsEasy.html"
+        },
+        "title": "Systems Of Equations Intro"
+    },
+    "ThreeWeightsHard": {
+        "onload": "MathJax.typeset();",
+        "background_html": "<div class=\"row\" style=\"margin-top: 0em;\">\n<div class=\"col-4\">\n    <p>\n    <b>Challenge (Optional):</b> Can you tell the weight of each animal?\n    </p>\n</div>\n<div class=\"col-8\">\n    <div class=\"row\" style=\"margin-top: 0em;\">\n    <div class=\"col-12\">\n    <img class=\"noborder\" src=\"/static/teaching_assets/images/SystemsOfEquations/ThreeWeightsHard.png\">\n    </div>\n    </div>\n    <div class=\"row\" style=\"margin-top: 0em;\">\n    <div class=\"col-4\">\n        Weight of cat:<br/>\n        $x=$\n    </div>\n    <div class=\"col-4\">\n        Weight of rabbit:<br/>\n        $y=$\n    </div>\n    <div class=\"col-4\">\n        Weight of dog:<br/>\n        $z=$\n    </div>\n    </div>\n</div>\n</div>\n",
+        "resources": {
+            "slide": "slides/SystemsOfEquationsIntro/ThreeWeightsHard.html"
+        },
+        "title": "Systems Of Equations Intro"
+    },
+    "GraphToFindWeightOfCat": {
+        "onload": "MathJax.typeset();",
+        "background_html": "<div class=\"row\" style=\"margin-top: 0em;\">\n    <div class=\"col-4\" style=\"font-size: 16pt;\">\n        <div class=\"row\" style=\"margin-top: 0em;\">\n            <div class=\"col-12\">\n                <p>\n                Graph the equation\n            $$x+y = 10$$\n                </p>\n\n                <p>\n                Then graph the equation\n            $$y = 4$$\n                </p>\n\n                <p>\n                You should have two lines. Where do they cross?\n                <span style=\"font-size: 24pt;\">$$(\\hspace{1em}, \\hspace{1em})$$</span>\n                </p>\n                <p>\n                What is the solution to this system of equations?\n                <span style=\"font-size: 24pt;\">$$(\\hspace{1em}, \\hspace{1em})$$</span>\n                </p>\n            </div>\n        </div>\n        <div class=\"row\" style=\"margin-top: 0em;\">\n            <div class=\"col-6\">\n            $x = $ weight of the cat<br/>\n            </div>\n            <div class=\"col-6\">\n            $y = $ weight the rabbit\n            </div>\n        </div>\n        <div class=\"row\" style=\"margin-top: 0em;\">\n            <div class=\"col-6\">\n            <img class=\"noborder\" src=\"/static/teaching_assets/images/SystemsOfEquations/CatAndRabbit.png\">\n            </div>\n            <div class=\"col-6\">\n            <img class=\"noborder\" src=\"/static/teaching_assets/images/SystemsOfEquations/Rabbit.png\">\n            </div>\n        </div>\n        <div class=\"row\" style=\"margin-top: 0em;\">\n            <div class=\"col-6\">\n                $x+y = 10$\n            </div>\n            <div class=\"col-6\">\n                $y = 4$\n            </div>\n        </div>\n    </div>\n    <div class=\"col-8\">\n        <div class=\"row\" style=\"margin-top: 0em;\">\n            <div class=\"col-12\" style=\"font-size: 24pt;\">\n            <img class=\"noborder\" src=\"/static/teaching_assets/images/SystemsOfEquations/CartesianPlane10x10.png\" style=\"max-height: 70%;\">\n            <p style=\"font-size: 24pt;\">\n                A point where all graphs meet is called a <b>solution</b> to a system of equations.\n            </p>\n            </div>\n        </div>\n    </div>\n</div>\n",
+        "resources": {
+            "slide": "slides/SystemsOfEquationsIntro/GraphToFindWeightOfCat.html"
+        },
+        "title": "Systems Of Equations Intro"
+    },
+    "WhatIsTheSolution": {
+        "onload": "MathJax.typeset();",
+        "background_html": "<div class=\"row\" style=\"margin-top: 0em;\">\n<div class=\"col-12\" style=\"text-align: right;\">\n    <a href=\"\">Help videos</a>\n</div>\n</div>\n<div class=\"row\" style=\"margin-top: 0em;\">\n<div class=\"col-12\">\n<img class=\"noborder\" src=\"/static/teaching_assets/images/SystemsOfEquations/WhatIsTheSolution.png\">\n</div>\n</div>\n<div class=\"row\" style=\"margin-top: 0em;\">\n<div class=\"col-12 sm-font\">\n    <input type=\"checkbox\">I answered this independently &nbsp; &nbsp;\n    <input type=\"checkbox\">I received help on this \n</div>\n</div>\n",
+        "resources": {
+            "slide": "slides/SystemsOfEquationsIntro/WhatIsTheSolution.html"
+        },
+        "title": "Systems Of Equations Intro"
+    },
+    "SolveSystemEasy": {
+        "onload": "MathJax.typeset();",
+        "background_html": "<div class=\"row\" style=\"margin-top: 0em;\">\n<div class=\"col-12\" style=\"text-align: right;\">\n    <a href=\"\">Help videos</a>\n</div>\n</div>\n<div class=\"row\" style=\"margin-top: 0em;\">\n<div class=\"col-6\">\n<img class=\"noborder\" src=\"/static/teaching_assets/images/SystemsOfEquations/SolveSystemEasyA.png\">\n</div>\n<div class=\"col-6\">\n<img class=\"noborder\" src=\"/static/teaching_assets/images/SystemsOfEquations/CartesianPlane10x10.png\">\n</div>\n</div>\n<div class=\"row\" style=\"margin-top: 0em;\">\n<div class=\"col-12 sm-font\">\n    <input type=\"checkbox\">I answered this independently &nbsp; &nbsp;\n    <input type=\"checkbox\">I received help on this \n</div>\n</div>\n",
+        "resources": {
+            "slide": "slides/SystemsOfEquationsIntro/SolveSystemEasy.html"
+        },
+        "title": "Systems Of Equations Intro"
+    },
+    "HowManySolutions": {
+        "onload": "MathJax.typeset();",
+        "background_html": "<div class=\"row\" style=\"margin-top: 0em;\">\n<div class=\"col-12\" style=\"text-align: left; font-size: 18pt;\">\n        Watch the video \"How many solutions\" for background information before completing this question.\n</div>\n</div>\n<div class=\"row\" style=\"margin-top: 0em;\">\n<div class=\"col-6\">\n<img class=\"noborder\" src=\"/static/teaching_assets/images/SystemsOfEquations/HowManySolutions.png\">\n</div>\n<div class=\"col-6\">\n<img class=\"noborder\" src=\"/static/teaching_assets/images/SystemsOfEquations/CartesianPlane10x10.png\">\n</div>\n</div>\n<div class=\"row\" style=\"margin-top: 0em;\">\n<div class=\"col-12 sm-font\">\n    <input type=\"checkbox\">I answered this independently &nbsp; &nbsp;\n    <input type=\"checkbox\">I received help on this \n</div>\n</div>\n",
+        "resources": {
+            "slide": "slides/SystemsOfEquationsIntro/HowManySolutions.html"
+        },
+        "title": "Systems Of Equations Intro"
+    },
+    "SolveSystemHard": {
+        "onload": "MathJax.typeset();",
+        "background_html": "<div class=\"row\" style=\"margin-top: 0em;\">\n<div class=\"col-12\" style=\"text-align: right;\">\n    <a href=\"\">Help videos</a>\n</div>\n</div>\n<div class=\"row\" style=\"margin-top: 0em;\">\n<div class=\"col-6\">\n<img class=\"noborder\" src=\"/static/teaching_assets/images/SystemsOfEquations/SolveSystemHard.png\">\n</div>\n<div class=\"col-6\">\n<img class=\"noborder\" src=\"/static/teaching_assets/images/SystemsOfEquations/CartesianPlane10x10.png\">\n</div>\n</div>\n<div class=\"row\" style=\"margin-top: 0em;\">\n<div class=\"col-12 sm-font\">\n    <input type=\"checkbox\">I answered this independently &nbsp; &nbsp;\n    <input type=\"checkbox\">I received help on this \n</div>\n</div>\n",
+        "resources": {
+            "slide": "slides/SystemsOfEquationsIntro/SolveSystemHard.html"
+        },
+        "title": "Systems Of Equations Intro"
+    },
+    "HowManySolutionsHard": {
+        "onload": "MathJax.typeset();",
+        "background_html": "<div class=\"row\" style=\"margin-top: 0em;\">\n<div class=\"col-12\" style=\"text-align: left;\">\n    <a href=\"\">Help videos</a>\n</div>\n</div>\n<div class=\"row\" style=\"margin-top: 0em;\">\n<div class=\"col-6\">\n<img class=\"noborder\" src=\"/static/teaching_assets/images/SystemsOfEquations/HowManySolutionsHard.png\">\n</div>\n<div class=\"col-6\">\n<img class=\"noborder\" src=\"/static/teaching_assets/images/SystemsOfEquations/CartesianPlane10x10.png\">\n</div>\n</div>\n<div class=\"row\" style=\"margin-top: 0em;\">\n<div class=\"col-12 sm-font\">\n    <input type=\"checkbox\">I answered this independently &nbsp; &nbsp;\n    <input type=\"checkbox\">I received help on this \n</div>\n</div>\n",
+        "resources": {
+            "slide": "slides/SystemsOfEquationsIntro/HowManySolutionsHard.html"
+        },
+        "title": "Systems Of Equations Intro"
+    },
+    "EvaluateExpressionBasedOnSystem": {
+        "onload": "MathJax.typeset();",
+        "background_html": "<div class=\"row\" style=\"margin-top: 0em;\">\n<div class=\"col-12\" style=\"text-align: right;\">\n    <a href=\"\">Help videos</a>\n</div>\n</div>\n<div class=\"row\" style=\"margin-top: 0em;\">\n<div class=\"col-6\">\n<img class=\"noborder\" src=\"/static/teaching_assets/images/SystemsOfEquations/EvaluateExpressionBasedOnSystem.png\">\n</div>\n<div class=\"col-6\">\n<img class=\"noborder\" src=\"/static/teaching_assets/images/SystemsOfEquations/CartesianPlane10x10.png\">\n</div>\n</div>\n<div class=\"row\" style=\"margin-top: 0em;\">\n<div class=\"col-12 sm-font\">\n    <input type=\"checkbox\">I answered this independently &nbsp; &nbsp;\n    <input type=\"checkbox\">I received help on this \n</div>\n</div>\n",
+        "resources": {
+            "slide": "slides/SystemsOfEquationsIntro/EvaluateExpressionBasedOnSystem.html"
+        },
+        "title": "Systems Of Equations Intro"
+    }
+}

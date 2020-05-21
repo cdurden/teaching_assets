@@ -4,7 +4,8 @@ var decks = [
 //    'DividingNumbersInScientificNotation',
 //    'ComparingMeasurementsUsingScientificNotation',
 //      'PythagoreanTheorem',
-    'EquationsOfLinesReview'
+//    'EquationsOfLinesReview',
+    'SystemsOfEquationsIntro',
 ];
 
 Promise.all(decks.map(async function(deck) {
