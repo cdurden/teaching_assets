@@ -17,6 +17,10 @@
             }
         ]
     },
+    "SignOfSlopeInExercise6": { 
+        "description": "Sign of slope in exercise 6",
+        "template": "{{ student.firstname }}, what is the sign of the slope in number 6, and what does this imply about the graph?"
+    },
     "WellDoneDesmosActivity": { 
         "description": "Well done!",
         "template": "{{ student.firstname }}, nice work on your pythagorean theorem assignment from Tuesday! For today, please watch the attached video and complete the desmos activity using the code on the attached screenshot. (If the attached video does not work, try using this link instead: https://youtu.be/lUscXG3eiEw)",
