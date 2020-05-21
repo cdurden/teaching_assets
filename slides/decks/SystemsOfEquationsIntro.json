@@ -2,6 +2,9 @@
     "collection": "SystemsOfEquationsIntro",
     "slides": [
         [ "LearningGoals" ],
+        [ "ResponseToFeedback" ],
+        [ "Choice" ],
+        [ "BrilliantLesson" ],
         [ "WeightOfCat1" ],
         [ "WeightOfCat2" ],
         [ "WeightOfCat3" ],
