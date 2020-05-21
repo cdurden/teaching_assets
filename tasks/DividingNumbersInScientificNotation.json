@@ -1,90 +1,90 @@
 {
     "LearningGoals": {
         "onload": "MathJax.typeset();",
-        "background_html": null,
+        "background_html": "<h2>Dividing Numbers in Scientific Notation</h2>\n<h3>Learning Goal</h3>\n<ol>\n    <li>\n        I can divide numbers that are in scientific notation.\n    </li>\n</ol>\n",
         "resources": {
             "slide": "slides/DividingNumbersInScientificNotation/LearningGoals.html"
         },
-        "title": "Dividing Numbers in Scientific Notation"
+        "title": "Dividing Numbers In Scientific Notation"
     },
     "Assignment": {
         "onload": "MathJax.typeset();",
-        "background_html": null,
+        "background_html": "<div class=\"row\">\n     <div class=\"col-12\" style=\"text-align: left; line-spacing: 3em;\">\n         <h3>Assignment</h3>\n         Complete exercises 1-3 to help you avoid common mistakes when using scientific notation. Then find each quotient using scientific notation for exercises 4-6.\n         <b>Show all of the steps to receive credit!</b>\n     </div>\n</div>\n\n",
         "resources": {
             "slide": "slides/DividingNumbersInScientificNotation/Assignment.html"
         },
-        "title": "Dividing Numbers in Scientific Notation"
+        "title": "Dividing Numbers In Scientific Notation"
     },
     "Example1": {
         "onload": "MathJax.typeset();",
-        "background_html": null,
+        "background_html": "<div class=\"row\">\n     <div class=\"col-12\" style=\"text-align: left; line-spacing: 3em;\">\n         <h3>Example 1</h3>\n         Find the quotient using scientific notation:<br><br>\n\n         $(8 \\cdot 10^5) \\div (2 \\cdot 10^3)$\n     </div>\n</div>\n\n",
         "resources": {
             "slide": "slides/DividingNumbersInScientificNotation/Example1.html"
         },
-        "title": "Dividing Numbers in Scientific Notation"
+        "title": "Dividing Numbers In Scientific Notation"
     },
     "Example2": {
         "onload": "MathJax.typeset();",
-        "background_html": null,
+        "background_html": "<div class=\"row\">\n     <div class=\"col-12\" style=\"text-align: left; line-spacing: 3em;\">\n         <h3>Example 2</h3>\n         Find the quotient using scientific notation:<br><br>\n\n         $\\frac{0.002}{50}$\n     </div>\n</div>\n\n",
         "resources": {
             "slide": "slides/DividingNumbersInScientificNotation/Example2.html"
         },
-        "title": "Dividing Numbers in Scientific Notation"
+        "title": "Dividing Numbers In Scientific Notation"
     },
     "CommonMistake": {
         "onload": "MathJax.typeset();",
-        "background_html": null,
+        "background_html": "<div class=\"row\">\n     <div class=\"col-12\" style=\"text-align: left; line-spacing: 3em;\">\n         <h3>Common Mistake</h3>\n         A common mistake is writing an incorrect sign for the exponent in scientific notation. You need to remember the following facts.\n         <ol>\n             <li>\n                 A <b style=\"font-color: blue;\">positive exponent</b> is used to represent a number <b style=\"font-color: blue;\">greater than 1</b>.\n             </li>\n             <li>\n                 A <b style=\"font-color: red;\">negative exponent</b> is used to represent a number <b style=\"font-color: red;\">greater than 1</b>.\n             </li>\n         </ol>\n     </div>\n</div>\n\n",
         "resources": {
             "slide": "slides/DividingNumbersInScientificNotation/CommonMistake.html"
         },
-        "title": "Dividing Numbers in Scientific Notation"
+        "title": "Dividing Numbers In Scientific Notation"
     },
     "PowersOfTen": {
         "onload": "MathJax.typeset();",
-        "background_html": null,
+        "background_html": "<div class=\"row\">\n     <div class=\"col-12 md-font\" style=\"text-align: left; line-spacing: 3em;\">\n         <h3>Exercise 1</h3>\n         Fill in the table with the different representations of the powers of $10$.\n         <table class=\"md-font\">\n             <tr>\n                 <th>\n                     Exponent form \n                 </th>\n                 <th class=\"sm-font\" style=\"font-size: 18pt;\">\n                     Rewrite with positive exponents\n                 </th>\n                 <th>\n                     Expanded form\n                 </th>\n                 <th>\n                     Fraction form\n                 </th>\n                 <th>\n                     Decimal form\n                 </th>\n                 <th class=\"sm-font\" style=\"font-size: 18pt;\">\n                     $> 1$ or $< 1$?\n                 </th>\n             </tr>\n             <tr>\n                 <td>\n                     $10^5$\n                 </td>\n                 <td style=\"background-color: #000;\">\n                 </td>\n                 <td>\n                 </td>\n                 <td style=\"background-color: #000;\">\n                 </td>\n                 <td>\n                 </td>\n                 <td>\n                 </td>\n             </tr>\n             <tr>\n                 <td>\n                     $10^4$\n                 </td>\n                 <td style=\"background-color: #000;\">\n                 </td>\n                 <td>\n                 </td>\n                 <td style=\"background-color: #000;\">\n                 </td>\n                 <td>\n                 </td>\n                 <td>\n                 </td>\n             </tr>\n             <tr>\n                 <td>\n                     $10^3$\n                 </td>\n                 <td style=\"background-color: #000;\">\n                 </td>\n                 <td>\n                 </td>\n                 <td style=\"background-color: #000;\">\n                 </td>\n                 <td>\n                 </td>\n                 <td>\n                 </td>\n             </tr>\n             <tr>\n                 <td>\n                     $10^2$\n                 </td>\n                 <td style=\"background-color: #000;\">\n                 </td>\n                 <td>\n                 </td>\n                 <td style=\"background-color: #000;\">\n                 </td>\n                 <td>\n                 </td>\n                 <td>\n                 </td>\n             </tr>\n             <tr>\n                 <td>\n                     $10^1$\n                 </td>\n                 <td style=\"background-color: #000;\">\n                 </td>\n                 <td>\n                 </td>\n                 <td style=\"background-color: #000;\">\n                 </td>\n                 <td>\n                 </td>\n                 <td>\n                 </td>\n             </tr>\n             <tr>\n                 <td>\n                     $10^0$\n                 </td>\n                 <td style=\"background-color: #000;\">\n                 </td>\n                 <td>\n                 </td>\n                 <td style=\"background-color: #000;\">\n                 </td>\n                 <td>\n                 </td>\n                 <td>\n                 </td>\n             </tr>\n             <tr>\n                 <td>\n                     $10^{-1}$\n                 </td>\n                 <td>\n                 </td>\n                 <td>\n                 </td>\n                 <td>\n                 </td>\n                 <td>\n                 </td>\n                 <td>\n                 </td>\n             </tr>\n             <tr>\n                 <td>\n                     $10^{-2}$\n                 </td>\n                 <td>\n                 </td>\n                 <td>\n                 </td>\n                 <td>\n                 </td>\n                 <td>\n                 </td>\n                 <td>\n                 </td>\n             </tr>\n             <tr>\n                 <td>\n                     $10^{-3}$\n                 </td>\n                 <td>\n                 </td>\n                 <td>\n                 </td>\n                 <td>\n                 </td>\n                 <td>\n                 </td>\n                 <td>\n                 </td>\n             </tr>\n             <tr>\n                 <td>\n                     $10^{-4}$\n                 </td>\n                 <td>\n                 </td>\n                 <td>\n                 </td>\n                 <td>\n                 </td>\n                 <td>\n                 </td>\n             </tr>\n         </table>\n     </div>\n</div>\n\n",
         "resources": {
             "slide": "slides/DividingNumbersInScientificNotation/PowersOfTen.html"
         },
-        "title": "Dividing Numbers in Scientific Notation"
+        "title": "Dividing Numbers In Scientific Notation"
     },
     "SFA1": {
         "onload": "MathJax.typeset();",
-        "background_html": null,
+        "background_html": "<div class=\"row\">\n     <div class=\"col-12 md-font\" style=\"text-align: left; line-spacing: 3em;\">\n         <h3>Exercise 2</h3>\n         Fill in the table to predict the sign of the exponent when each number is written in scientific notation (SN).\n         <table class=\"md-font\">\n             <tr>\n                 <th>\n                     Standard form\n                 </th>\n                 <th>\n                     Is the number greater than or less than 1?\n                 </th>\n                 <th>\n                     Sign of the exponent in SN\n                 </th>\n             </tr>\n             <tr>\n                 <td>\n                     21,000\n                 </td>\n                 <td>\n                 </td>\n                 <td>\n                 </td>\n             </tr>\n             <tr>\n                 <td>\n                     0.008\n                 </td>\n                 <td>\n                 </td>\n                 <td>\n                 </td>\n             </tr>\n             <tr>\n                 <td>\n                     30\n                 </td>\n                 <td>\n                 </td>\n                 <td>\n                 </td>\n             </tr>\n         </table>\n     </div>\n</div>\n\n",
         "resources": {
             "slide": "slides/DividingNumbersInScientificNotation/SFA1.html"
         },
-        "title": "Dividing Numbers in Scientific Notation"
+        "title": "Dividing Numbers In Scientific Notation"
     },
     "SFA2": {
         "onload": "MathJax.typeset();",
-        "background_html": null,
+        "background_html": "<div class=\"row\">\n     <div class=\"col-12 md-font\" style=\"text-align: left; line-spacing: 3em;\">\n         <h3>Exercise 3</h3>\n         Fill in the table to predict the whether the number in scientific notation is greater than or less than 1.\n         <table class=\"md-font\">\n             <tr>\n                 <th>\n                     Scientific notation (SN)\n                 </th>\n                 <th>\n                     Sign of the exponent in SN\n                 </th>\n                 <th>\n                     Is the number greater than or less than 1?\n                 </th>\n             </tr>\n             <tr>\n                 <td>\n                     $5.2 \\cdot 10^{24}$\n                 </td>\n                 <td>\n                 </td>\n                 <td>\n                 </td>\n             </tr>\n             <tr>\n                 <td>\n                     $1.8 \\cdot 10^{-31}$ \n                 </td>\n                 <td>\n                 </td>\n                 <td>\n                 </td>\n             </tr>\n             <tr>\n                 <td>\n                     $6.23 \\cdot 10^{23}$\n                 </td>\n                 <td>\n                 </td>\n                 <td>\n                 </td>\n             </tr>\n         </table>\n     </div>\n</div>\n\n",
         "resources": {
             "slide": "slides/DividingNumbersInScientificNotation/SFA2.html"
         },
-        "title": "Dividing Numbers in Scientific Notation"
+        "title": "Dividing Numbers In Scientific Notation"
     },
     "Exercise4": {
         "onload": "MathJax.typeset();",
-        "background_html": null,
+        "background_html": "<div class=\"row\">\n     <div class=\"col-12\" style=\"text-align: left; line-spacing: 3em;\">\n         <h3>Exercise 4</h3>\n         Find the quotient using scientific notation:<br><br>\n\n         $(9 \\cdot 10^5) \\div (3 \\cdot 10^3)$\n     </div>\n</div>\n\n",
         "resources": {
             "slide": "slides/DividingNumbersInScientificNotation/Exercise4.html"
         },
-        "title": "Dividing Numbers in Scientific Notation"
+        "title": "Dividing Numbers In Scientific Notation"
     },
     "Exercise5": {
         "onload": "MathJax.typeset();",
-        "background_html": null,
+        "background_html": "<div class=\"row\">\n     <div class=\"col-12\" style=\"text-align: left; line-spacing: 3em;\">\n         <h3>Exercise 5</h3>\n         Find the quotient using scientific notation:<br><br>\n\n         $\\frac{6 \\cdot 10^5}{5 \\cdot 10^{-3}}$\n     </div>\n</div>\n\n",
         "resources": {
             "slide": "slides/DividingNumbersInScientificNotation/Exercise5.html"
         },
-        "title": "Dividing Numbers in Scientific Notation"
+        "title": "Dividing Numbers In Scientific Notation"
     },
     "Exercise6": {
         "onload": "MathJax.typeset();",
-        "background_html": null,
+        "background_html": "<div class=\"row\">\n     <div class=\"col-12\" style=\"text-align: left; line-spacing: 3em;\">\n         <h3>Exercise 6</h3>\n         Find the quotient using scientific notation:<br><br>\n\n         $\\frac{320}{0.0005}$\n     </div>\n</div>\n\n",
         "resources": {
             "slide": "slides/DividingNumbersInScientificNotation/Exercise6.html"
         },
-        "title": "Dividing Numbers in Scientific Notation"
+        "title": "Dividing Numbers In Scientific Notation"
     }
 }

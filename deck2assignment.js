@@ -1,11 +1,11 @@
 const fs = require('fs');
 var decks = [
 //    'MultiplyingNumbersInScientificNotation',
-//    'DividingNumbersInScientificNotation',
+    'DividingNumbersInScientificNotation',
 //    'ComparingMeasurementsUsingScientificNotation',
 //      'PythagoreanTheorem',
 //    'EquationsOfLinesReview',
-    'SystemsOfEquationsIntro',
+//    'SystemsOfEquationsIntro',
 ];
 
 Promise.all(decks.map(async function(deck) {
