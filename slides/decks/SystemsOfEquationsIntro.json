@@ -6,6 +6,7 @@
         [ "WeightOfCat2" ],
         [ "WeightOfCat3" ],
         [ "ThreeWeightsEasy" ],
-        [ "ThreeWeightsHard" ]
+        [ "ThreeWeightsHard" ],
+        [ "GraphToFindWeightOfCat" ]
     ]
 }
