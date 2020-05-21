@@ -2,13 +2,10 @@
     "collection": "SystemsOfEquationIntro",
     "slides": [
         [ "LearningGoals" ],
-        [ "FormsOfEquations" ],
-        [ "StackOf5OnTable" ],
-        [ "Information" ],
-        [ "HowTallIsTheTable" ],
-        [ "Representations" ],
-        [ "GraphingPractice" ],
-        [ "ExercisesA" ],
-        [ "ExercisesB" ]
+        [ "WeightOfCat1" ],
+        [ "WeightOfCat2" ],
+        [ "WeightOfCat3" ],
+        [ "ThreeWeightsEasy" ],
+        [ "ThreeWeightsHard" ]
     ]
 }
