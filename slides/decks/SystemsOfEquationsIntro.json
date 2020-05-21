@@ -1,10 +1,10 @@
 {
     "collection": "SystemsOfEquationsIntro",
     "slides": [
-        [ "LearningGoals" ],
         [ "ResponseToFeedback" ],
         [ "Choice" ],
         [ "BrilliantLesson" ],
+        [ "LearningGoals" ],
         [ "WeightOfCat1" ],
         [ "WeightOfCat2" ],
         [ "WeightOfCat3" ],
