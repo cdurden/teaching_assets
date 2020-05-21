@@ -1,7 +1,7 @@
 {
     "ExercisesWatchVideoAndRetry": { 
         "description": "Retry exercises",
-        "template": "{{ student.firstname }}, please watch the videos and retry the exercises that are circled. (If the attached videos do not work, try using this link instead: https://www.youtube.com/watch?v=6Ckq1QV_cJ4&list=PL3Bvhsk4Ak1iSVDOgCpdBi-WaOJiSSOSi)",
+        "template": "{{ student.firstname }}, I am attaching videos that show how to work out exercises 4-7 from Tuesday's assignment. Please retry the exercises and use the videos if you need help. (If the attached videos do not work, you can also open the playlist by clicking this link: https://www.youtube.com/watch?v=6Ckq1QV_cJ4&list=PL3Bvhsk4Ak1iSVDOgCpdBi-WaOJiSSOSi)",
         "attachments": [
             {
                 "embed": "<iframe width='560' height='315' src='https://www.youtube.com/embed/6Ckq1QV_cJ4' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
