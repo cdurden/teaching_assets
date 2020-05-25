@@ -1,7 +1,10 @@
 const fs = require('fs');
 var decks = [
 //    'MultiplyingNumbersInScientificNotation',
-    'DividingNumbersInScientificNotation',
+//    'DividingNumbersInScientificNotation',
+    'SolvingEquationsReview',
+//    'SystemsOfEquationsIntro',
+//    'SystemsOfEquationsSubstitution'
 //    'ComparingMeasurementsUsingScientificNotation',
 //      'PythagoreanTheorem',
 //    'EquationsOfLinesReview',

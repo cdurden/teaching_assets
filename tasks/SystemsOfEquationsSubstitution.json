@@ -1,0 +1,66 @@
+{
+    "LearningGoals": {
+        "onload": "MathJax.typeset();",
+        "background_html": "<h2>Introduction to Systems of Equations</h2>\n<h3>Learning Goal</h3>\n<ol>\n    <li>\n        I can solve systems of linear equations using the <b>substitution</b> method.\n    </li>\n</ol>\n",
+        "resources": {
+            "slide": "slides/SystemsOfEquationsSubstitution/LearningGoals.html"
+        },
+        "title": "Systems Of Equations Substitution"
+    },
+    "Example1": {
+        "onload": "MathJax.typeset();",
+        "background_html": "<div class=\"row\" style=\"margin-top: 0em;\">\n<div class=\"col-6\">\n<p style=\"font-size: 24pt;\">\n<b>Example 1</b>\n</p>\n<img class=\"noborder\" src=\"/static/teaching_assets/images/SystemsOfEquations/SolveSystemHard.png\">\n</div>\n<div class=\"col-6\">\n<img class=\"noborder\" src=\"/static/teaching_assets/images/SystemsOfEquations/CartesianPlane10x10.png\">\n</div>\n</div>\n<div class=\"row\" style=\"margin-top: 0em;\">\n<div class=\"col-12 sm-font\">\n    <input type=\"checkbox\">I answered this independently &nbsp; &nbsp;\n    <input type=\"checkbox\">I received help on this \n</div>\n</div>\n",
+        "resources": {
+            "slide": "slides/SystemsOfEquationsSubstitution/Example1.html"
+        },
+        "title": "Systems Of Equations Substitution"
+    },
+    "Method": {
+        "onload": "MathJax.typeset();",
+        "background_html": "<div class=\"row\" style=\"margin-top: 0em;\">\n    <h3>Substitution method</h3>\n<div class=\"col-12\">\n    <ol>\n        <li>\n        solve one of the equations by isolating one of the variables\n        </li>\n        <li>\n            <b>substitute</b> the solution from step one into the other equation(s) to reduce the number of variables by 1;\n        </li>\n        <li>\n        repeat until we are left with a single variable, and solve for it;\n        </li>\n        <li>\n        substitute the solved values back into the equations;\n        </li>\n        <li>\n        state the complete solution.\n        </li>\n    </ol>\n</div>\n</div>\n",
+        "resources": {
+            "slide": "slides/SystemsOfEquationsSubstitution/Method.html"
+        },
+        "title": "Systems Of Equations Substitution"
+    },
+    "Example2": {
+        "onload": "MathJax.typeset();",
+        "background_html": "<div class=\"row\" style=\"margin-top: 0em;\">\n<div class=\"col-12\" style=\"text-align: left; padding-bottom: 10em;\">\n<p style=\"font-size: 24pt;\">\n<b>Example 2:</b> Solve the system of equations</p>\n<p style=\"font-size: 24pt;\">\n$$2x+y=4$$\n$$3x+2y=7$$\n</p>\n</div>\n</div>\n<div class=\"row\" style=\"margin-top: 0em;\">\n<div class=\"col-12 sm-font\">\n    <input type=\"checkbox\">I answered this independently &nbsp; &nbsp;\n    <input type=\"checkbox\">I received help on this \n</div>\n</div>\n",
+        "resources": {
+            "slide": "slides/SystemsOfEquationsSubstitution/Example2.html"
+        },
+        "title": "Systems Of Equations Substitution"
+    },
+    "Example3": {
+        "onload": "MathJax.typeset();",
+        "background_html": "<div class=\"row\" style=\"margin-top: 0em;\">\n<div class=\"col-8\">\n<p style=\"font-size: 24pt;\">\n<b>Example 3</b>\n</p>\n    <img class=\"noborder\" src=\"/static/teaching_assets/images/SystemsOfEquations/FacebookAndTwitterStockProblem.jpg\">\n    <p style=\"font-size: 18pt;\">\n    Alice has 1 Facebook stock and 3 Twitter stocks, and her portfolio is worth \\$150.<br/>\n    Brenda has 2 Facebook stocks and 1 Twitter stock, and her portfolio is worth \\$250.<br/>\n    Candice has 3 Facebook stocks and 1 Twitter stock. How much is her portfolio worth?<br/>\n    </p>\n</div>\n<div class=\"col-4\">\n    <img class=\"noborder\" src=\"/static/teaching_assets/images/SystemsOfEquations/FacebookAndTwitterStockProblemAnswerChoices.png\">\n</div>\n</div>\n<div class=\"row\" style=\"margin-top: 0em;\">\n<div class=\"col-12 sm-font\">\n    <input type=\"checkbox\">I answered this independently &nbsp; &nbsp;\n    <input type=\"checkbox\">I received help on this \n</div>\n</div>\n",
+        "resources": {
+            "slide": "slides/SystemsOfEquationsSubstitution/Example3.html"
+        },
+        "title": "Systems Of Equations Substitution"
+    },
+    "Exercise1": {
+        "onload": "MathJax.typeset();",
+        "background_html": "<div class=\"row\" style=\"margin-top: 0em;\">\n<div class=\"col-12\">\n<p style=\"font-size: 24pt;\">\n<b>Exercise 1</b>\n</p>\n    <img class=\"noborder\" src=\"/static/teaching_assets/images/SystemsOfEquations/SubstitutionExercise1.png\">\n</div>\n</div>\n<div class=\"row\" style=\"margin-top: 0em;\">\n<div class=\"col-12 sm-font\">\n    <input type=\"checkbox\">I answered this independently &nbsp; &nbsp;\n    <input type=\"checkbox\">I received help on this \n</div>\n</div>\n",
+        "resources": {
+            "slide": "slides/SystemsOfEquationsSubstitution/Exercise1.html"
+        },
+        "title": "Systems Of Equations Substitution"
+    },
+    "Exercise2": {
+        "onload": "MathJax.typeset();",
+        "background_html": "<div class=\"row\" style=\"margin-top: 0em;\">\n<div class=\"col-12\">\n<p style=\"font-size: 24pt;\">\n<b>Exercise 2</b>\n</p>\n    <img class=\"noborder\" src=\"/static/teaching_assets/images/SystemsOfEquations/SubstitutionExercise2.png\">\n</div>\n</div>\n<div class=\"row\" style=\"margin-top: 0em;\">\n<div class=\"col-12 sm-font\">\n    <input type=\"checkbox\">I answered this independently &nbsp; &nbsp;\n    <input type=\"checkbox\">I received help on this \n</div>\n</div>\n",
+        "resources": {
+            "slide": "slides/SystemsOfEquationsSubstitution/Exercise2.html"
+        },
+        "title": "Systems Of Equations Substitution"
+    },
+    "Exercise3": {
+        "onload": "MathJax.typeset();",
+        "background_html": "<div class=\"row\" style=\"margin-top: 0em;\">\n<div class=\"col-8\">\n<p style=\"font-size: 24pt;\">\n<b>Exercise 3</b>\n</p>\n    <img class=\"noborder\" src=\"/static/teaching_assets/images/SystemsOfEquations/XBoxAndiPhoneProblem.jpg\">\n    <p style=\"font-size: 18pt;\">\n    On Black Friday,\n    Joel bought 1 phone and 1 PS4 for \\$500, and\n    Kelvin bought 2 phones and 2 PS4's for \\$1000.\n    Linus bought 2 phones and 1 PS4.<br/>\n\n    Can we determine how much Linus paid?\n    </p>\n</div>\n<div class=\"col-4\">\n    <img class=\"noborder\" src=\"/static/teaching_assets/images/SystemsOfEquations/XBoxAndiPhoneProblemAnswerChoices.png\">\n</div>\n</div>\n<div class=\"row\" style=\"margin-top: 0em;\">\n<div class=\"col-12 sm-font\">\n    <input type=\"checkbox\">I answered this independently &nbsp; &nbsp;\n    <input type=\"checkbox\">I received help on this \n</div>\n</div>\n",
+        "resources": {
+            "slide": "slides/SystemsOfEquationsSubstitution/Exercise3.html"
+        },
+        "title": "Systems Of Equations Substitution"
+    }
+}
